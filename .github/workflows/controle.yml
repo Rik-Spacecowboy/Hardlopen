@@ -1,0 +1,19 @@
+name: Controle
+
+# data/wedstrijden.js wordt gebouwd uit data/wedstrijden.json; deze controle faalt als de data
+# fouten bevat (verkeerde provincie, afstand, status, datum) of als iemand de .js niet opnieuw bouwde.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Wedstrijddata klopt en data/wedstrijden.js is actueel
+        run: python3 scripts/bouw_data.py --check

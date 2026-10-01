@@ -1,0 +1,3009 @@
+// Gegenereerd door scripts/bouw_data.py uit data/wedstrijden.json. Niet met de hand bewerken.
+const WEDSTRIJDEN = [
+ {
+  "id": "isoniq-urk-marathon-halve-marathon-2026-10-03",
+  "naam": "Isoniq Urk Marathon (halve marathon)",
+  "datum": "2026-10-03",
+  "starttijd": "11:15",
+  "plaats": "Urk",
+  "gemeente": "Urk",
+  "provincie": "Flevoland",
+  "lat": 52.6608,
+  "lon": 5.596,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "vol",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026100351597-nl"
+  },
+  "website": "https://www.urkmarathon.nl/",
+  "maxDeelnemers": 325,
+  "organisator": "Loopgroep Urk",
+  "bronnen": [
+   "https://www.urkmarathon.nl/",
+   "https://www.urkmarathon.nl/informatie/",
+   "https://inschrijven.nl/form/2026100351597-nl"
+  ],
+  "notitie": "Maximum (325 halve-marathonplekken) bereikt; wachtlijst mogelijk. Start/finish bij restaurant de Kaap, boulevard Urk. Ook een marathon (niet opgenomen). Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "molens-mooiste-2026-10-03",
+  "naam": "Molens Mooiste",
+  "datum": "2026-10-03",
+  "starttijd": "09:30",
+  "plaats": "Kinderdijk",
+  "gemeente": "Molenlanden",
+  "provincie": "Zuid-Holland",
+  "lat": 51.8846,
+  "lon": 4.637,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 16.1,
+    "label": "10 Engelse mijl",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026100306201"
+  },
+  "website": "https://molensmooiste.nl",
+  "maxDeelnemers": 1500,
+  "organisator": "AAA Atletiekvereniging Alblasserdam",
+  "bronnen": [
+   "https://molensmooiste.nl",
+   "https://inschrijven.nl/form/2026100306201"
+  ],
+  "notitie": "Site: 'nog maar heel weinig startbewijzen'; prijs niet vermeld",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "rottemerenloop-2026-10-03",
+  "naam": "Rottemerenloop",
+  "datum": "2026-10-03",
+  "starttijd": "10:00",
+  "plaats": "Bleiswijk",
+  "gemeente": "Lansingerland",
+  "provincie": "Zuid-Holland",
+  "lat": 52.0107,
+  "lon": 4.532,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10.55,
+    "label": "Kwart marathon",
+    "prijs": 15.0,
+    "prijsNotitie": null
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": 20.0,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "vol",
+   "opent": null,
+   "sluit": "2026-10-02",
+   "platform": "inschrijven.nl",
+   "url": "https://dekieviten.nl/index.php?page=Rottemerenloop&sid=4"
+  },
+  "website": "https://dekieviten.nl/index.php?page=Rottemerenloop&sid=4",
+  "maxDeelnemers": null,
+  "organisator": "AV De Kieviten",
+  "bronnen": [
+   "https://dekieviten.nl/index.php?page=Rottemerenloop&sid=4"
+  ],
+  "notitie": "Start/finish De Sneeuwbal, Lange Vaart 17a; halve marathon start 10:15; geen na-inschrijving",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "280ste-wintercup-lelystad-2026-10-04",
+  "naam": "280ste Wintercup Lelystad",
+  "datum": "2026-10-04",
+  "starttijd": "10:45",
+  "plaats": "Lelystad",
+  "gemeente": "Lelystad",
+  "provincie": "Flevoland",
+  "lat": 52.512,
+  "lon": 5.456,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10.11,
+    "label": "10 km (10,11 km exact)",
+    "prijs": 5.0,
+    "prijsNotitie": "Online voorinschrijving € 5; op de dag zelf € 7 (vanaf 09:30); seizoenskaart € 25"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-10-02",
+   "platform": "inschrijven.nl",
+   "url": "https://avspiritlelystad.nl/wintercup/"
+  },
+  "website": "https://avspiritlelystad.nl/wintercup/",
+  "maxDeelnemers": null,
+  "organisator": "AV Spirit Lelystad",
+  "bronnen": [
+   "https://avspiritlelystad.nl/wintercup/",
+   "https://avspiritlelystad.nl/2026/09/14/wintercup-seizoen-2026-2027-gaat-van-start/"
+  ],
+  "notitie": "Maandelijkse wintercompetitie (okt-mrt). Start/finish Sportpark Langezand, Sportparkweg 2. Online inschrijving 'tot vrijdag voor elke editie' (sluit = die vrijdag). Coordinaten benaderd.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "halve-marathon-oostland-2026-10-04",
+  "naam": "Halve Marathon Oostland",
+  "datum": "2026-10-04",
+  "starttijd": null,
+  "plaats": "Pijnacker",
+  "gemeente": "Pijnacker-Nootdorp",
+  "provincie": "Zuid-Holland",
+  "lat": 52.019,
+  "lon": 4.429,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-10-04",
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026100451058-nl"
+  },
+  "website": "https://halvemarathonoostland.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Halve Marathon Oostland",
+  "bronnen": [
+   "https://halvemarathonoostland.nl/",
+   "https://inschrijven.nl/form/2026100451058-nl"
+  ],
+  "notitie": "Start Raadhuisplein; prijzen en starttijden niet gevonden",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "langs-de-gouweloop-2026-10-04",
+  "naam": "Langs de Gouweloop",
+  "datum": "2026-10-04",
+  "starttijd": "14:00",
+  "plaats": "Waddinxveen",
+  "gemeente": "Waddinxveen",
+  "provincie": "Zuid-Holland",
+  "lat": 52.043,
+  "lon": 4.651,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 8.0,
+    "prijsNotitie": "€ 9 bij inschrijving op de dag"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026100410243-nl"
+  },
+  "website": "https://langsdegouweloop.nl",
+  "maxDeelnemers": null,
+  "organisator": "Sportclub Antilope",
+  "bronnen": [
+   "https://langsdegouweloop.nl",
+   "https://langsdegouweloop.nl/index.php/kosten"
+  ],
+  "notitie": "Start/finish Gouweplein",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "msv-spijkenisse-family-run-2026-10-04",
+  "naam": "MSV Spijkenisse Family Run",
+  "datum": "2026-10-04",
+  "starttijd": null,
+  "plaats": "Spijkenisse",
+  "gemeente": "Nissewaard",
+  "provincie": "Zuid-Holland",
+  "lat": 51.845,
+  "lon": 4.329,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10.5,
+    "label": "Kwart marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026100451406-nl"
+  },
+  "website": "https://www.msvspijkenisse.nl/wordpress/wegwedstrijd/",
+  "maxDeelnemers": null,
+  "organisator": "MSV Spijkenisse",
+  "bronnen": [
+   "https://www.msvspijkenisse.nl/wordpress/wegwedstrijd/",
+   "https://www.msvspijkenisse.nl/wordpress/inschrijven/"
+  ],
+  "notitie": "Start Sporthal Den Oert; datum 4 okt staat op inschrijfformulier-ID en running.life, niet op clubpagina; kwart marathon 'ca. 10,5 km'",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "rondje-bergen-2026-10-04",
+  "naam": "Rondje Bergen",
+  "datum": "2026-10-04",
+  "starttijd": null,
+  "plaats": "Bergen",
+  "gemeente": "Bergen (NH)",
+  "provincie": "Noord-Holland",
+  "lat": 52.6694,
+  "lon": 4.7042,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 16.0,
+    "prijsNotitie": "Early bird t/m 23 mei € 16; regulier 24 mei-20 sep € 18,50; late bird 21-30 sep € 21"
+   }
+  ],
+  "inschrijving": {
+   "status": "gesloten",
+   "opent": null,
+   "sluit": "2026-09-30",
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026100400759"
+  },
+  "website": "https://www.rondjebergen.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Rondje Bergen",
+  "bronnen": [
+   "https://www.rondjebergen.nl/index.php/inschrijven/inschrijven-algemeen",
+   "https://inschrijven.nl/form/2026100400759"
+  ],
+  "notitie": "Inschrijving gesloten, geen na-inschrijving. Start Oude Brandweerkazerne, Karel de Grotelaan 21; coördinaten = centrum Bergen.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "tata-steel-marquetteloop-2026-10-04",
+  "naam": "Tata Steel Marquetteloop",
+  "datum": "2026-10-04",
+  "starttijd": "11:45",
+  "plaats": "Heemskerk",
+  "gemeente": "Heemskerk",
+  "provincie": "Noord-Holland",
+  "lat": 52.5106,
+  "lon": 4.6703,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 14,
+    "label": "14 km",
+    "prijs": 17.5,
+    "prijsNotitie": "Voorinschrijving; € 2,50 duurder bij na-inschrijving op de dag (8:50-11:30)"
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": 20.0,
+    "prijsNotitie": "Voorinschrijving; € 2,50 duurder bij na-inschrijving op de dag (8:50-11:30)"
+   }
+  ],
+  "inschrijving": {
+   "status": "gesloten",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://www.inschrijven.nl/form/2026100403112-nl"
+  },
+  "website": "https://www.avdem.nl/wedstrijden/tata-steel-marquetteloop",
+  "maxDeelnemers": null,
+  "organisator": "AV DEM",
+  "bronnen": [
+   "https://www.avdem.nl/wedstrijden/tata-steel-marquetteloop",
+   "https://www.inschrijven.nl/form/2026100403112-nl"
+  ],
+  "notitie": "Voorinschrijving online gesloten; na-inschrijving op de wedstrijddag mogelijk. Start Jonkheer Geverslaan; coördinaten = centrum Heemskerk.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "twiskemolenloop-oktober-2026-10-04",
+  "naam": "Twiskemolenloop (oktober)",
+  "datum": "2026-10-04",
+  "starttijd": "11:00",
+  "plaats": "Landsmeer",
+  "gemeente": "Landsmeer",
+  "provincie": "Noord-Holland",
+  "lat": 52.43,
+  "lon": 4.9,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 14.0,
+    "prijsNotitie": "Eén tarief voor 13+; geen na-inschrijving"
+   },
+   {
+    "km": 16.1,
+    "label": "10 Engelse mijl",
+    "prijs": 14.0,
+    "prijsNotitie": "Eén tarief voor 13+; geen na-inschrijving"
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": 14.0,
+    "prijsNotitie": "Eén tarief voor 13+; geen na-inschrijving"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-10-02",
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026100401136-nl"
+  },
+  "website": "https://www.acwaterland.nl/twiskemolenloop/",
+  "maxDeelnemers": 650,
+  "organisator": "AC Waterland",
+  "bronnen": [
+   "https://inschrijven.nl/form/2026100401136-nl"
+  ],
+  "notitie": "Sluit vr 2 okt 20:00 of bij 650 deelnemers. Loop 5x per seizoen. Coördinaten = Twiske/Landsmeer (benadering).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "dordtse-biesbosch-trailrun-2026-10-10",
+  "naam": "Dordtse Biesbosch Trailrun",
+  "datum": "2026-10-10",
+  "starttijd": null,
+  "plaats": "Dordrecht",
+  "gemeente": "Dordrecht",
+  "provincie": "Zuid-Holland",
+  "lat": 51.79,
+  "lon": 4.73,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 16.1,
+    "label": "10 Engelse mijl",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "vol",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.dordtsebiesboschtrailrun.nl/",
+  "maxDeelnemers": null,
+  "organisator": "De Dordtse Biesbosch Trail Run",
+  "bronnen": [
+   "https://www.dordtsebiesboschtrailrun.nl/"
+  ],
+  "notitie": "Start Schenkeldijk; 'Tickets zijn uitverkocht'",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "duinloopcircuit-katwijk-noordduinloop-najaar-2026-10-10",
+  "naam": "Duinloopcircuit Katwijk – Noordduinloop (najaar)",
+  "datum": "2026-10-10",
+  "starttijd": "10:00",
+  "plaats": "Katwijk aan Zee",
+  "gemeente": "Katwijk",
+  "provincie": "Zuid-Holland",
+  "lat": 52.203,
+  "lon": 4.399,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 11.0,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026101051239-nl"
+  },
+  "website": "https://duinloopcircuit.nl",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Halve van Katwijk i.s.m. AV Rijnsoever",
+  "bronnen": [
+   "https://duinloopcircuit.nl",
+   "https://duinloopcircuit.nl/starttijden"
+  ],
+  "notitie": "Deel van Duinloopcircuit Katwijk; prijs/starttijd van algemene starttijdenpagina; type duinloop (weg/duin) niet expliciet vermeld",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "jan-louter-loop-2026-10-10",
+  "naam": "Jan Louter Loop",
+  "datum": "2026-10-10",
+  "starttijd": null,
+  "plaats": "Vlaardingen",
+  "gemeente": "Vlaardingen",
+  "provincie": "Zuid-Holland",
+  "lat": 51.9125,
+  "lon": 4.3419,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026101009211-nl"
+  },
+  "website": "https://janlouterloop.nl",
+  "maxDeelnemers": null,
+  "organisator": "AV Fortuna",
+  "bronnen": [
+   "https://janlouterloop.nl"
+  ],
+  "notitie": "Vlaardingse Broekpolder; opbrengst voor Support Casper",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "bodyresults-vestingloop-edam-2026-10-11",
+  "naam": "BodyResults Vestingloop Edam",
+  "datum": "2026-10-11",
+  "starttijd": "11:00",
+  "plaats": "Edam",
+  "gemeente": "Edam-Volendam",
+  "provincie": "Noord-Holland",
+  "lat": 52.5136,
+  "lon": 5.048,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 8.0,
+    "prijsNotitie": "Geen na-inschrijving"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-10-01",
+   "platform": "inschrijven.nl",
+   "url": "https://www.avedam.nl/onze-club/vestingloop.php"
+  },
+  "website": "https://www.avedam.nl/onze-club/vestingloop.php",
+  "maxDeelnemers": null,
+  "organisator": "AV Edam",
+  "bronnen": [
+   "https://www.avedam.nl/onze-club/vestingloop.php",
+   "https://runphy.nl/events/bodyresults-vestingloop"
+  ],
+  "notitie": "Datum 11-10-2026 uit runphy; clubpagina noemt geen jaartal maar 'inschrijven t/m 1 oktober'. Start Noordervesting.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "de-15-van-wassenaar-2026-10-11",
+  "naam": "De 15 van Wassenaar",
+  "datum": "2026-10-11",
+  "starttijd": "14:30",
+  "plaats": "Wassenaar",
+  "gemeente": "Wassenaar",
+  "provincie": "Zuid-Holland",
+  "lat": 52.142,
+  "lon": 4.402,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://de15vanwassenaar.nl",
+  "maxDeelnemers": null,
+  "organisator": "Stichting De 15 van Wassenaar",
+  "bronnen": [
+   "https://wassenaarders.nl/2026/09/20/11-oktober-de-15-van-wassenaar"
+  ],
+  "notitie": "Organisatorsite niet bereikbaar voor fetch; datum/starttijd uit lokaal nieuws (Wassenaarders.nl). Start sportpark Blauw-Zwart. 1100-1200 deelnemers verwacht",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "napoleon-mijlenloop-2026-10-11",
+  "naam": "Napoleon-Mijlenloop",
+  "datum": "2026-10-11",
+  "starttijd": "11:00",
+  "plaats": "Den Helder",
+  "gemeente": "Den Helder",
+  "provincie": "Noord-Holland",
+  "lat": 52.96,
+  "lon": 4.76,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 16.1,
+    "label": "10 Engelse mijl",
+    "prijs": 10.0,
+    "prijsNotitie": "Voorinschrijving; € 2,50 duurder op de dag zelf"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://www.noordkopatletiek.nl/napoleon-mijlenloop/"
+  },
+  "website": "https://www.noordkopatletiek.nl/napoleon-mijlenloop/",
+  "maxDeelnemers": null,
+  "organisator": "Noordkop Atletiek",
+  "bronnen": [
+   "https://www.noordkopatletiek.nl/napoleon-mijlenloop/"
+  ],
+  "notitie": "Start Hotel Den Helder, Marsdiepstraat 2. Site noemt deadline '9 oktober 2025 23:59' (vermoedelijk verouderd/tikfout), daarom sluit=null.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "oostvaardersrun-2026-10-11",
+  "naam": "Oostvaardersrun",
+  "datum": "2026-10-11",
+  "starttijd": "10:00",
+  "plaats": "Lelystad",
+  "gemeente": "Lelystad",
+  "provincie": "Flevoland",
+  "lat": 52.5185,
+  "lon": 5.4714,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 16,
+    "label": "16 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": "2026-10-10",
+   "platform": null,
+   "url": "https://oostvaardersrun.nl/"
+  },
+  "website": "https://oostvaardersrun.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Sportservice Flevoland",
+  "bronnen": [
+   "https://sportflevo.nl/evenementen/oostvaardersrun-2026-lelystad/",
+   "https://inschrijven.nl/form/2026101150686-nl"
+  ],
+  "notitie": "Natuurloop, start Kitsweg Lelystad (coordinaten = plaatscentrum). Sportflevo: 'Aanmelden kan tot en met 10 oktober 2026'; inschrijven.nl-formulier meldt echter 'voorinschrijven niet meer mogelijk'. Organisatorsite oostvaardersrun.nl niet bereikbaar; prijzen onbekend.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "sloterplasloop-90e-2026-10-11",
+  "naam": "Sloterplasloop (90e)",
+  "datum": "2026-10-11",
+  "starttijd": null,
+  "plaats": "Amsterdam",
+  "gemeente": "Amsterdam",
+  "provincie": "Noord-Holland",
+  "lat": 52.365,
+  "lon": 4.81,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 13.5,
+    "prijsNotitie": "€ 12,50 voor leden AU"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-10-10",
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026101101101-nl"
+  },
+  "website": "https://sloterplasloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://inschrijven.nl/form/2026101101101-nl"
+  ],
+  "notitie": "Organisator niet expliciet genoemd (korting voor 'AU-leden'). Coördinaten = Sloterplas (benadering).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "jan-koudstaal-dijkloop-2026-10-17",
+  "naam": "Jan Koudstaal Dijkloop",
+  "datum": "2026-10-17",
+  "starttijd": "11:00",
+  "plaats": "Schoonhoven",
+  "gemeente": "Krimpenerwaard",
+  "provincie": "Zuid-Holland",
+  "lat": 51.947,
+  "lon": 4.849,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 15.0,
+    "prijsNotitie": "start 12:00; Avantri-leden 50% korting"
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": 20.0,
+    "prijsNotitie": "start 11:00"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-10-17",
+   "platform": "inschrijven.nl",
+   "url": null
+  },
+  "website": "https://www.avantri.nl/wedstrijden/wedstrijden-avantri/dijkloop/",
+  "maxDeelnemers": null,
+  "organisator": "Avantri",
+  "bronnen": [
+   "https://www.avantri.nl/wedstrijden/wedstrijden-avantri/dijkloop/"
+  ],
+  "notitie": "50e editie; start Avantri Stormbaan, Nieuwe Singel 25a; inschrijving sluit 30 min voor start",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "goudasfaltloop-2026-10-18",
+  "naam": "GOUDasfaltloop",
+  "datum": "2026-10-18",
+  "starttijd": "11:00",
+  "plaats": "Gouda",
+  "gemeente": "Gouda",
+  "provincie": "Zuid-Holland",
+  "lat": 52.0115,
+  "lon": 4.7104,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 13.0,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-10-16",
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.goudasfalt.nl/",
+  "maxDeelnemers": null,
+  "organisator": "GOUDasfalt",
+  "bronnen": [
+   "https://www.goudasfalt.nl/"
+  ],
+  "notitie": "Start GOUDasfalt-terrein bij Gouderaksedijk",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "tcs-amsterdam-marathon-mizuno-halve-marathon-2026-10-18",
+  "naam": "TCS Amsterdam Marathon - Mizuno Halve Marathon",
+  "datum": "2026-10-18",
+  "starttijd": "13:20",
+  "plaats": "Amsterdam",
+  "gemeente": "Amsterdam",
+  "provincie": "Noord-Holland",
+  "lat": 52.3434,
+  "lon": 4.8545,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": 43.5,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "vol",
+   "opent": null,
+   "sluit": null,
+   "platform": "eigen site",
+   "url": "https://www.tcsamsterdammarathon.nl/inschrijven"
+  },
+  "website": "https://www.tcsamsterdammarathon.nl/mizuno-halve-marathon",
+  "maxDeelnemers": 15000,
+  "organisator": "Golazo / TCS Amsterdam Marathon",
+  "bronnen": [
+   "https://www.tcsamsterdammarathon.nl/mizuno-halve-marathon",
+   "https://www.tcsamsterdammarathon.nl/inschrijven"
+  ],
+  "notitie": "Inschrijfpagina noemt € 43,50 en '15.000 (UITVERKOCHT)' zonder expliciet jaartal. Golfstarts 13:20-13:50, start Stadionweg, finish Olympisch Stadion.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "zeezichtloop-petten-2026-10-18",
+  "naam": "Zeezichtloop Petten",
+  "datum": "2026-10-18",
+  "starttijd": "11:05",
+  "plaats": "Petten",
+  "gemeente": "Schagen",
+  "provincie": "Noord-Holland",
+  "lat": 52.7667,
+  "lon": 4.6611,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 10.0,
+    "prijsNotitie": "Na-inschrijving op de dag duurder (bedrag niet vermeld)"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-10-17",
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026101851659-nl"
+  },
+  "website": "https://zeezichtlooppetten.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Zeezichtloop Petten",
+  "bronnen": [
+   "https://zeezichtlooppetten.nl/",
+   "https://inschrijven.nl/form/2026101851659-nl"
+  ],
+  "notitie": "52e editie. Online sluit za 17 okt 17:00. Start Plein 1945.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "lrrc-bockenloop-2026-10-24",
+  "naam": "LRRC Bockenloop",
+  "datum": "2026-10-24",
+  "starttijd": null,
+  "plaats": "Leiden",
+  "gemeente": "Leiden",
+  "provincie": "Zuid-Holland",
+  "lat": 52.1601,
+  "lon": 4.497,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026102407256-nl"
+  },
+  "website": null,
+  "maxDeelnemers": null,
+  "organisator": "Leiden Road Runners Club",
+  "bronnen": [
+   "https://inschrijven.nl/form/2026102407256-nl"
+  ],
+  "notitie": "Clubsite niet bereikbaar; inschrijfformulier noemt 24 okt 2026 (deadline-tekst op formulier verwijst nog naar 2025)",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "vijfhoekparkloop-2026-10-24",
+  "naam": "Vijfhoekparkloop",
+  "datum": "2026-10-24",
+  "starttijd": null,
+  "plaats": "Zaandam",
+  "gemeente": "Zaanstad",
+  "provincie": "Noord-Holland",
+  "lat": 52.45,
+  "lon": 4.83,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.avzaanland.nl/index.php?page=996&sid=1",
+  "maxDeelnemers": null,
+  "organisator": "AV Zaanland",
+  "bronnen": [
+   "https://www.avzaanland.nl/index.php?page=996&sid=1"
+  ],
+  "notitie": "Serie van 3 lopen in Vijfhoekpark; tijd, prijs en inschrijving niet gevonden (nextrace niet bereikbaar). Coördinaten = Vijfhoekpark (benadering).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "1e-oosterbaan-strand-en-duinloop-2026-10-25",
+  "naam": "1e Oosterbaan Strand- en Duinloop",
+  "datum": "2026-10-25",
+  "starttijd": null,
+  "plaats": "Castricum",
+  "gemeente": "Castricum",
+  "provincie": "Noord-Holland",
+  "lat": 52.553,
+  "lon": 4.638,
+  "type": "cross",
+  "afstanden": [
+   {
+    "km": 10.1,
+    "label": "10,1 km",
+    "prijs": null,
+    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-10-23",
+   "platform": "inschrijven.nl",
+   "url": "https://www.avcastricum.nl/inschrijving-prijzen"
+  },
+  "website": "https://www.avcastricum.nl/agenda-activiteiten",
+  "maxDeelnemers": null,
+  "organisator": "AV Castricum",
+  "bronnen": [
+   "https://www.avcastricum.nl/agenda-activiteiten",
+   "https://www.avcastricum.nl/inschrijving-prijzen",
+   "https://avcastricum.nl/nieuws/63/?nid=1022&np="
+  ],
+  "notitie": "Strand-/duincross vanaf Sportpark De Duinloper, Zeeweg 4. Programma 10:15-12:30. Voorinschrijving t/m vrijdag vóór de loop; na-inschrijving vanaf zaterdagmiddag.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "droomtijdloop-2026-10-25",
+  "naam": "Droomtijdloop",
+  "datum": "2026-10-25",
+  "starttijd": null,
+  "plaats": "Delft",
+  "gemeente": "Delft",
+  "provincie": "Zuid-Holland",
+  "lat": 52.0116,
+  "lon": 4.3571,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://droomtijdloop.nl",
+  "maxDeelnemers": null,
+  "organisator": "AV De Koplopers",
+  "bronnen": [
+   "https://runphy.nl/events/droomtijdloop/2026-10-25"
+  ],
+  "notitie": "Organisatorsite niet bereikbaar voor controle; naam/datum/afstanden alleen via aggregators (runphy.nl, running.life)",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "heemstedeloop-2026-10-25",
+  "naam": "Heemstedeloop",
+  "datum": "2026-10-25",
+  "starttijd": null,
+  "plaats": "Heemstede",
+  "gemeente": "Heemstede",
+  "provincie": "Noord-Holland",
+  "lat": 52.35,
+  "lon": 4.62,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl (TotalTiming)",
+   "url": "https://totaltiming.inschrijven.nl/form/2026102503902-nl"
+  },
+  "website": "https://www.heemstedeloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "SportSupport Kennemerland",
+  "bronnen": [
+   "https://www.heemstedeloop.nl/info/inschrijven/",
+   "https://totaltiming.inschrijven.nl/form/2026102503902-nl"
+  ],
+  "notitie": "15e editie. Prijs niet zichtbaar.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "lidl-wolfskamerloop-2026-10-25",
+  "naam": "Lidl Wolfskamerloop",
+  "datum": "2026-10-25",
+  "starttijd": null,
+  "plaats": "Huizen",
+  "gemeente": "Huizen",
+  "provincie": "Noord-Holland",
+  "lat": 52.301,
+  "lon": 5.241,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": "Voorinschrijving (korting) sloot 15/16 sep; na-inschrijving tot 30 min voor start"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://wolfskamerloop.nl/inschrijven/"
+  },
+  "website": "https://wolfskamerloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "AV Zuidwal",
+  "bronnen": [
+   "https://wolfskamerloop.nl/inschrijven/",
+   "https://wolfskamerloop.nl/algemeen/"
+  ],
+  "notitie": "Start/finish IJsselmeerstraat bij Oude Haven; coördinaten = Huizen haven (benadering). Ook 20 km wandelen (niet opgenomen).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "westvliet-hartekindloop-2026-10-25",
+  "naam": "Westvliet Hartekindloop",
+  "datum": "2026-10-25",
+  "starttijd": null,
+  "plaats": "Den Haag",
+  "gemeente": "Den Haag",
+  "provincie": "Zuid-Holland",
+  "lat": 52.08,
+  "lon": 4.38,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-10-24",
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026102551586-nl"
+  },
+  "website": null,
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://inschrijven.nl/form/2026102551586-nl"
+  ],
+  "notitie": "Voorinschrijving t/m 24 okt; locatie Westvliet niet exact bevestigd, coördinaten centrum Den Haag/Westvliet benaderd",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "typhoonloop-2026-10-31",
+  "naam": "Typhoonloop",
+  "datum": "2026-10-31",
+  "starttijd": null,
+  "plaats": "Gorinchem",
+  "gemeente": "Gorinchem",
+  "provincie": "Zuid-Holland",
+  "lat": 51.833,
+  "lon": 4.961,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026103106240-nl"
+  },
+  "website": "https://avtyphoon.nl/typhoonloop-gorinchem/",
+  "maxDeelnemers": null,
+  "organisator": "AV Typhoon",
+  "bronnen": [
+   "https://avtyphoon.nl/typhoonloop-gorinchem/"
+  ],
+  "notitie": "Start AV Typhoon, Grote Schelluinsekade 22",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "281ste-wintercup-lelystad-2026-11-01",
+  "naam": "281ste Wintercup Lelystad",
+  "datum": "2026-11-01",
+  "starttijd": "10:45",
+  "plaats": "Lelystad",
+  "gemeente": "Lelystad",
+  "provincie": "Flevoland",
+  "lat": 52.512,
+  "lon": 5.456,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10.11,
+    "label": "10 km (10,11 km exact)",
+    "prijs": 5.0,
+    "prijsNotitie": "Online voorinschrijving € 5; op de dag zelf € 7 (vanaf 09:30); seizoenskaart € 25"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-10-30",
+   "platform": "inschrijven.nl",
+   "url": "https://avspiritlelystad.nl/wintercup/"
+  },
+  "website": "https://avspiritlelystad.nl/wintercup/",
+  "maxDeelnemers": null,
+  "organisator": "AV Spirit Lelystad",
+  "bronnen": [
+   "https://avspiritlelystad.nl/wintercup/",
+   "https://avspiritlelystad.nl/2026/09/14/wintercup-seizoen-2026-2027-gaat-van-start/"
+  ],
+  "notitie": "Maandelijkse wintercompetitie (okt-mrt). Start/finish Sportpark Langezand, Sportparkweg 2. Online inschrijving 'tot vrijdag voor elke editie' (sluit = die vrijdag). Coordinaten benaderd.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "boerenkoolloop-warmenhuizen-2026-11-01",
+  "naam": "Boerenkoolloop Warmenhuizen",
+  "datum": "2026-11-01",
+  "starttijd": null,
+  "plaats": "Warmenhuizen",
+  "gemeente": "Schagen",
+  "provincie": "Noord-Holland",
+  "lat": 52.724,
+  "lon": 4.74,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 16.0,
+    "prijsNotitie": "Early bird € 14 (tot 1 okt); vanaf 1 okt € 16; geen inschrijving op de dag"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-10-25",
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026110104127-nl"
+  },
+  "website": "https://boerenkoolloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Vezet Boerenkoolloop",
+  "bronnen": [
+   "https://boerenkoolloop.nl/inschrijven-2/"
+  ],
+  "notitie": "Sluit 25 okt 21:59.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "drechtstadloop-2026-11-01",
+  "naam": "DrechtStadLoop",
+  "datum": "2026-11-01",
+  "starttijd": null,
+  "plaats": "Dordrecht",
+  "gemeente": "Dordrecht",
+  "provincie": "Zuid-Holland",
+  "lat": 51.8133,
+  "lon": 4.6901,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://drechtstadloop.nl",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://runphy.nl/events/drechtstadloop/2026-11-01",
+   "https://running.life/en/event/drechtstadloop"
+  ],
+  "notitie": "Organisatorsite niet bereikbaar voor controle; naam/datum/afstanden alleen via aggregators (runphy.nl, running.life); start Statenplein",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "egboetsloop-53e-2026-11-01",
+  "naam": "Egboetsloop (53e)",
+  "datum": "2026-11-01",
+  "starttijd": "11:00",
+  "plaats": "Hauwert",
+  "gemeente": "Medemblik",
+  "provincie": "Noord-Holland",
+  "lat": 52.718,
+  "lon": 5.088,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 16.4,
+    "label": "16,4 km",
+    "prijs": 8.0,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "MYLAPS EventKit",
+   "url": "https://eventkit.mylaps.com/nl/event/1980"
+  },
+  "website": "https://eventkit.mylaps.com/nl/event/1980",
+  "maxDeelnemers": null,
+  "organisator": "IJsclub Hauwert",
+  "bronnen": [
+   "https://eventkit.mylaps.com/nl/event/1980",
+   "https://www.westfrieswegcircuit.nl/"
+  ],
+  "notitie": "Deel van Westfries Wegcircuit. Start Dorpshuis De Werf, Heemraadwitweg 2. Ook 8,2 km. Geen deadline vermeld.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "halve-van-het-gooi-2026-11-01",
+  "naam": "Halve van het Gooi",
+  "datum": "2026-11-01",
+  "starttijd": null,
+  "plaats": "Naarden",
+  "gemeente": "Gooise Meren",
+  "provincie": "Noord-Holland",
+  "lat": 52.296,
+  "lon": 5.16,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10.55,
+    "label": "Kwart marathon (10,55 km)",
+    "prijs": null,
+    "prijsNotitie": "Uitverkocht (wachtlijst)"
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": "Uitverkocht (wachtlijst)"
+   }
+  ],
+  "inschrijving": {
+   "status": "vol",
+   "opent": null,
+   "sluit": "2026-10-31",
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026110100294-nl"
+  },
+  "website": "https://halvevanhetgooi.nl/",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://inschrijven.nl/form/2026110100294-nl"
+  ],
+  "notitie": "Start/finish Het Arsenaal, Naarden. Wachtlijst beschikbaar.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "nn-the-hague-10k-nn-marathon-the-hague-2026-11-01",
+  "naam": "NN The Hague 10K (NN Marathon The Hague)",
+  "datum": "2026-11-01",
+  "starttijd": null,
+  "plaats": "Den Haag",
+  "gemeente": "Den Haag",
+  "provincie": "Zuid-Holland",
+  "lat": 52.083,
+  "lon": 4.317,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "vol",
+   "opent": null,
+   "sluit": null,
+   "platform": "njuko",
+   "url": "https://nnmarathonthehague.nl/inschrijven/"
+  },
+  "website": "https://nnmarathonthehague.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Golazo",
+  "bronnen": [
+   "https://nnmarathonthehague.nl/"
+  ],
+  "notitie": "Eerste editie; 10K 'Uitverkocht!'; start Malieveld (volgens runphy)",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "twiskemolenloop-november-2026-11-01",
+  "naam": "Twiskemolenloop (november)",
+  "datum": "2026-11-01",
+  "starttijd": null,
+  "plaats": "Landsmeer",
+  "gemeente": "Landsmeer",
+  "provincie": "Noord-Holland",
+  "lat": 52.43,
+  "lon": 4.9,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 16.1,
+    "label": "10 Engelse mijl",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "nog niet open",
+   "opent": "2026-10-04",
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026110101136-nl"
+  },
+  "website": "https://www.acwaterland.nl/twiskemolenloop/",
+  "maxDeelnemers": null,
+  "organisator": "AC Waterland",
+  "bronnen": [
+   "https://inschrijven.nl/form/2026110101136-nl"
+  ],
+  "notitie": "Inschrijving opent 4 okt 2026 12:00. Afstanden niet op formulier vermeld; overgenomen van oktober-editie (onzeker).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "batavia-night-run-2026-11-06",
+  "naam": "Batavia Night Run",
+  "datum": "2026-11-06",
+  "starttijd": "20:15",
+  "plaats": "Lelystad",
+  "gemeente": "Lelystad",
+  "provincie": "Flevoland",
+  "lat": 52.5179,
+  "lon": 5.4383,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 25.0,
+    "prijsNotitie": "Excl. € 1 platformkosten; 25% studentenkorting, 10% groepskorting vanaf 10 tickets"
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": 27.5,
+    "prijsNotitie": "Excl. € 1 platformkosten; 25% studentenkorting, 10% groepskorting vanaf 10 tickets"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "atleta.cc",
+   "url": "https://www.batavianightrun.nl/inschrijven"
+  },
+  "website": "https://www.batavianightrun.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Sport Evenementen Nederland / Central Events",
+  "bronnen": [
+   "https://www.batavianightrun.nl/",
+   "https://www.batavianightrun.nl/inschrijven",
+   "https://www.batavianightrun.nl/programma"
+  ],
+  "notitie": "Eerste editie. Avondloop op ronde van 5 km; start/finish Museum Batavialand.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "duifpoldertrainingsloop-2026-11-07",
+  "naam": "Duifpoldertrainingsloop",
+  "datum": "2026-11-07",
+  "starttijd": "14:00",
+  "plaats": "Schipluiden",
+  "gemeente": "Midden-Delfland",
+  "provincie": "Zuid-Holland",
+  "lat": 51.976,
+  "lon": 4.313,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 11.7,
+    "label": "11,7 km",
+    "prijs": 2.0,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "ter plaatse",
+   "url": null
+  },
+  "website": "https://www.dehardloper.nl/duifpoldertrainingsloop/",
+  "maxDeelnemers": null,
+  "organisator": "De Hardloper Schipluiden",
+  "bronnen": [
+   "https://www.dehardloper.nl/duifpoldertrainingsloop/"
+  ],
+  "notitie": "Trainingsloop; inschrijven ter plaatse vanaf 12:45 in kantine IJsclub Vlietland; start Trambrug",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "duinloopcircuit-katwijk-zuidduinloop-2026-11-07",
+  "naam": "Duinloopcircuit Katwijk – Zuidduinloop",
+  "datum": "2026-11-07",
+  "starttijd": "10:00",
+  "plaats": "Katwijk aan Zee",
+  "gemeente": "Katwijk",
+  "provincie": "Zuid-Holland",
+  "lat": 52.203,
+  "lon": 4.399,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 11.0,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": null
+  },
+  "website": "https://duinloopcircuit.nl",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Halve van Katwijk i.s.m. AV Rijnsoever",
+  "bronnen": [
+   "https://duinloopcircuit.nl",
+   "https://duinloopcircuit.nl/starttijden"
+  ],
+  "notitie": "Deel van Duinloopcircuit Katwijk; prijs/starttijd van algemene starttijdenpagina; type duinloop (weg/duin) niet expliciet vermeld",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "schipholloop-halve-marathon-2026-11-07",
+  "naam": "Schipholloop - Halve Marathon",
+  "datum": "2026-11-07",
+  "starttijd": "10:30",
+  "plaats": "Schiphol-Oost",
+  "gemeente": "Haarlemmermeer",
+  "provincie": "Noord-Holland",
+  "lat": 52.299,
+  "lon": 4.79,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026110750236-nl"
+  },
+  "website": "https://www.schipholloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Schipholloop",
+  "bronnen": [
+   "https://inschrijven.nl/form/2026110750236-nl"
+  ],
+  "notitie": "Ronde om de Haarlemmermeer (ook marathon en 60 km). Niet verkeersvrij, semi-zelfvoorzienend. Prijs niet zichtbaar.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "waalbosrun-2026-11-07",
+  "naam": "Waalbosrun",
+  "datum": "2026-11-07",
+  "starttijd": "13:00",
+  "plaats": "Rijsoord",
+  "gemeente": "Ridderkerk",
+  "provincie": "Zuid-Holland",
+  "lat": 51.856,
+  "lon": 4.595,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "totaltiming.inschrijven.nl",
+   "url": "https://totaltiming.inschrijven.nl/form/2026110751663-nl"
+  },
+  "website": "https://ijsclubrijsoord.nl/activiteit/waalbosrun-7-november/",
+  "maxDeelnemers": null,
+  "organisator": "IJsclub Rijsoord i.s.m. Bezoekerscentrum De IJsvogel",
+  "bronnen": [
+   "https://ijsclubrijsoord.nl/activiteit/waalbosrun-7-november/"
+  ],
+  "notitie": "Bosloop door Waalbos; start Bezoekerscentrum De IJsvogel",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "flevo-fun-run-ronde-1-2026-11-08",
+  "naam": "Flevo Fun Run (ronde 1)",
+  "datum": "2026-11-08",
+  "starttijd": null,
+  "plaats": "Zeewolde",
+  "gemeente": "Zeewolde",
+  "provincie": "Flevoland",
+  "lat": 52.3304,
+  "lon": 5.5413,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": "Vorig seizoen (2025-26): € 6,50 voorinschrijving, € 8 op de dag; nieuw tarief niet gepubliceerd"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://www.tvz-zeewolde.nl/"
+  },
+  "website": "https://www.tvz-zeewolde.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Triathlon Vereniging Zeewolde (TVZ)",
+  "bronnen": [
+   "https://finishlijn.nl/hardloopwedstrijden/flevo-fun-run",
+   "https://runphy.nl/events/flevo-fun-run/2026-11-08",
+   "https://www.tvz-zeewolde.nl/index.php?page=7336&sid=2"
+  ],
+  "notitie": "ONZEKER: datum alleen bij aggregators (runphy, running.life/finishlijn), nog niet op organisatorsite bevestigd. Start bij RCN camping Zeewolde (coordinaten = plaatscentrum). Vorig seizoen start 5/10 km 10:30. Finishlijn: inschrijving sluit 5 nov 2026.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "halve-marathon-gouda-2026-11-08",
+  "naam": "Halve Marathon Gouda",
+  "datum": "2026-11-08",
+  "starttijd": null,
+  "plaats": "Gouda",
+  "gemeente": "Gouda",
+  "provincie": "Zuid-Holland",
+  "lat": 52.0115,
+  "lon": 4.7104,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": "2026-04-01",
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026110850972-nl"
+  },
+  "website": "https://halvemarathongouda.nl",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://halvemarathongouda.nl",
+   "https://runphy.nl/events/halve-marathon-gouda/2026-11-08"
+  ],
+  "notitie": "Start Markt (volgens runphy); inschrijving opende 1 april 2026 12:00",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "inofec-maastunnelloop-2026-11-08",
+  "naam": "Inofec Maastunnelloop",
+  "datum": "2026-11-08",
+  "starttijd": "10:30",
+  "plaats": "Rotterdam",
+  "gemeente": "Rotterdam",
+  "provincie": "Zuid-Holland",
+  "lat": 51.905,
+  "lon": 4.469,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026110851345-nl"
+  },
+  "website": "https://epicruns.nl/maastunnelloop/",
+  "maxDeelnemers": null,
+  "organisator": "EPIC Runs",
+  "bronnen": [
+   "https://epicruns.nl/maastunnelloop/"
+  ],
+  "notitie": "Start Parkkade; 10 km in waves 10:30-12:40; naam op startnummer t/m 28 sep",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "klaverbladloop-2026-11-08",
+  "naam": "Klaverbladloop",
+  "datum": "2026-11-08",
+  "starttijd": null,
+  "plaats": "Zoetermeer",
+  "gemeente": "Zoetermeer",
+  "provincie": "Zuid-Holland",
+  "lat": 52.0575,
+  "lon": 4.4931,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026110810218-nl"
+  },
+  "website": "https://www.ilion.nl/index.php?page=Klaverbladloop",
+  "maxDeelnemers": null,
+  "organisator": "ARV Ilion",
+  "bronnen": [
+   "https://www.ilion.nl/index.php?page=Klaverbladloop"
+  ],
+  "notitie": "49e editie; start Van der Hagenstraat 36",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "nsl-nederzandtcross-2026-11-08",
+  "naam": "NSL NederZandtCross",
+  "datum": "2026-11-08",
+  "starttijd": "11:00",
+  "plaats": "Noordwijkerhout",
+  "gemeente": "Noordwijkerhout",
+  "provincie": "Zuid-Holland",
+  "lat": 52.285,
+  "lon": 4.49,
+  "type": "cross",
+  "afstanden": [
+   {
+    "km": 10.2,
+    "label": "10,2 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 16.6,
+    "label": "16,6 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026110807249-nl"
+  },
+  "website": "https://www.av-nsl.nl/events-1/1e-editie-nsl-nederzandtcross",
+  "maxDeelnemers": null,
+  "organisator": "AV NSL i.s.m. Vrijstaat Nederzandt",
+  "bronnen": [
+   "https://www.av-nsl.nl/events-1/1e-editie-nsl-nederzandtcross"
+  ],
+  "notitie": "1e editie; duinen, zand, bos en strand; start Nederzandt, Langevelderslag",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "vijfhoekparkloop-2026-11-14",
+  "naam": "Vijfhoekparkloop",
+  "datum": "2026-11-14",
+  "starttijd": null,
+  "plaats": "Zaandam",
+  "gemeente": "Zaanstad",
+  "provincie": "Noord-Holland",
+  "lat": 52.45,
+  "lon": 4.83,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.avzaanland.nl/index.php?page=996&sid=1",
+  "maxDeelnemers": null,
+  "organisator": "AV Zaanland",
+  "bronnen": [
+   "https://www.avzaanland.nl/index.php?page=996&sid=1"
+  ],
+  "notitie": "Serie van 3 lopen in Vijfhoekpark; tijd, prijs en inschrijving niet gevonden (nextrace niet bereikbaar). Coördinaten = Vijfhoekpark (benadering).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "de-knikker-zegerplasloop-2026-11-15",
+  "naam": "De Knikker Zegerplasloop",
+  "datum": "2026-11-15",
+  "starttijd": null,
+  "plaats": "Alphen aan den Rijn",
+  "gemeente": "Alphen aan den Rijn",
+  "provincie": "Zuid-Holland",
+  "lat": 52.129,
+  "lon": 4.656,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 20,
+    "label": "20 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.aav36.nl/zegerplasloop",
+  "maxDeelnemers": null,
+  "organisator": "AAV'36",
+  "bronnen": [
+   "https://runphy.nl/events/de-knikker-zegerplasloop/2026-11-15"
+  ],
+  "notitie": "Organisatorsite blokkeert fetch (robots.txt); datum/afstanden alleen via runphy.nl/running.life; winterserie Zegerplas",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "sterke-start-loop-2026-11-15",
+  "naam": "Sterke Start Loop",
+  "datum": "2026-11-15",
+  "starttijd": null,
+  "plaats": "Zevenhuizen",
+  "gemeente": "Zuidplas",
+  "provincie": "Zuid-Holland",
+  "lat": 52.015,
+  "lon": 4.577,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "atleta",
+   "url": "https://atleta.cc/e/Vh33zZXNi8Lp"
+  },
+  "website": "https://strongbabies.nl/help-mee/evenementen/sterkestartloop",
+  "maxDeelnemers": null,
+  "organisator": "Strong Babies",
+  "bronnen": [
+   "https://strongbabies.nl/help-mee/evenementen/sterkestartloop"
+  ],
+  "notitie": "Willem-Alexander Baan; site noemt '21 km'",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "halve-van-monster-2026-11-21",
+  "naam": "Halve van Monster",
+  "datum": "2026-11-21",
+  "starttijd": null,
+  "plaats": "Monster",
+  "gemeente": "Westland",
+  "provincie": "Zuid-Holland",
+  "lat": 52.025,
+  "lon": 4.175,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10.3,
+    "label": "10,3 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": "2026-08-15",
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": null
+  },
+  "website": "https://halvevanmonster.nl/",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://halvevanmonster.nl/"
+  ],
+  "notitie": "51e editie; parcours door duinen en over strand; start Sporthal De Wielepet; 300-400 deelnemers per editie",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "vijfhoekparkloop-2026-11-28",
+  "naam": "Vijfhoekparkloop",
+  "datum": "2026-11-28",
+  "starttijd": null,
+  "plaats": "Zaandam",
+  "gemeente": "Zaanstad",
+  "provincie": "Noord-Holland",
+  "lat": 52.45,
+  "lon": 4.83,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.avzaanland.nl/index.php?page=996&sid=1",
+  "maxDeelnemers": null,
+  "organisator": "AV Zaanland",
+  "bronnen": [
+   "https://www.avzaanland.nl/index.php?page=996&sid=1"
+  ],
+  "notitie": "Serie van 3 lopen in Vijfhoekpark; tijd, prijs en inschrijving niet gevonden (nextrace niet bereikbaar). Coördinaten = Vijfhoekpark (benadering).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "2e-oosterbaan-strand-en-duinloop-2026-11-29",
+  "naam": "2e Oosterbaan Strand- en Duinloop",
+  "datum": "2026-11-29",
+  "starttijd": null,
+  "plaats": "Castricum",
+  "gemeente": "Castricum",
+  "provincie": "Noord-Holland",
+  "lat": 52.553,
+  "lon": 4.638,
+  "type": "cross",
+  "afstanden": [
+   {
+    "km": 10.1,
+    "label": "10,1 km",
+    "prijs": null,
+    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": "2026-11-27",
+   "platform": "inschrijven.nl",
+   "url": "https://www.avcastricum.nl/inschrijving-prijzen"
+  },
+  "website": "https://www.avcastricum.nl/agenda-activiteiten",
+  "maxDeelnemers": null,
+  "organisator": "AV Castricum",
+  "bronnen": [
+   "https://www.avcastricum.nl/agenda-activiteiten",
+   "https://www.avcastricum.nl/inschrijving-prijzen",
+   "https://avcastricum.nl/nieuws/63/?nid=1022&np="
+  ],
+  "notitie": "Strand-/duincross vanaf Sportpark De Duinloper, Zeeweg 4. Programma 10:15-12:30. Voorinschrijving t/m vrijdag vóór de loop; na-inschrijving vanaf zaterdagmiddag.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "spijkenisse-marathon-2026-11-29",
+  "naam": "Spijkenisse Marathon",
+  "datum": "2026-11-29",
+  "starttijd": null,
+  "plaats": "Spijkenisse",
+  "gemeente": "Nissewaard",
+  "provincie": "Zuid-Holland",
+  "lat": 51.845,
+  "lon": 4.329,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.spijkenissemarathon.nl/",
+  "maxDeelnemers": null,
+  "organisator": "AV Spark",
+  "bronnen": [
+   "https://runphy.nl/events/spijkenisse-marathon/2026-11-29"
+  ],
+  "notitie": "Organisatorsite toont alleen frames (niet uitleesbaar); details via runphy.nl",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "duinloopcircuit-katwijk-sinterklaasloop-2026-12-05",
+  "naam": "Duinloopcircuit Katwijk – Sinterklaasloop",
+  "datum": "2026-12-05",
+  "starttijd": "10:00",
+  "plaats": "Katwijk aan Zee",
+  "gemeente": "Katwijk",
+  "provincie": "Zuid-Holland",
+  "lat": 52.203,
+  "lon": 4.399,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 11.0,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": null
+  },
+  "website": "https://duinloopcircuit.nl",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Halve van Katwijk i.s.m. AV Rijnsoever",
+  "bronnen": [
+   "https://duinloopcircuit.nl",
+   "https://duinloopcircuit.nl/starttijden"
+  ],
+  "notitie": "Deel van Duinloopcircuit Katwijk; prijs/starttijd van algemene starttijdenpagina; type duinloop (weg/duin) niet expliciet vermeld",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "282ste-wintercup-lelystad-2026-12-06",
+  "naam": "282ste Wintercup Lelystad",
+  "datum": "2026-12-06",
+  "starttijd": "10:45",
+  "plaats": "Lelystad",
+  "gemeente": "Lelystad",
+  "provincie": "Flevoland",
+  "lat": 52.512,
+  "lon": 5.456,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10.11,
+    "label": "10 km (10,11 km exact)",
+    "prijs": 5.0,
+    "prijsNotitie": "Online voorinschrijving € 5; op de dag zelf € 7 (vanaf 09:30); seizoenskaart € 25"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-12-04",
+   "platform": "inschrijven.nl",
+   "url": "https://avspiritlelystad.nl/wintercup/"
+  },
+  "website": "https://avspiritlelystad.nl/wintercup/",
+  "maxDeelnemers": null,
+  "organisator": "AV Spirit Lelystad",
+  "bronnen": [
+   "https://avspiritlelystad.nl/wintercup/",
+   "https://avspiritlelystad.nl/2026/09/14/wintercup-seizoen-2026-2027-gaat-van-start/"
+  ],
+  "notitie": "Maandelijkse wintercompetitie (okt-mrt). Start/finish Sportpark Langezand, Sportparkweg 2. Online inschrijving 'tot vrijdag voor elke editie' (sluit = die vrijdag). Coordinaten benaderd.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "devil-s-nighttrail-netl-kraggenburg-2026-12-12",
+  "naam": "Devil's NightTrail Netl-Kraggenburg",
+  "datum": "2026-12-12",
+  "starttijd": "19:00",
+  "plaats": "Kraggenburg",
+  "gemeente": "Noordoostpolder",
+  "provincie": "Flevoland",
+  "lat": 52.6619,
+  "lon": 5.9006,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km NightTrail",
+    "prijs": 17.5,
+    "prijsNotitie": "€ 17,50 t/m 1 okt, daarna € 20 tot 6 dec (early bird € 15 t/m 1 juli verlopen)"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": "2026-03-01",
+   "sluit": "2026-12-06",
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026121351604"
+  },
+  "website": "https://devilstrail.nl/evenementen/devils-trail-netl-kraggenburg/",
+  "maxDeelnemers": 150,
+  "organisator": "Devil's Trail",
+  "bronnen": [
+   "https://devilstrail.nl/evenementen/devils-trail-netl-kraggenburg/",
+   "https://inschrijven.nl/form/2026121351604"
+  ],
+  "notitie": "Avondtrail op zaterdag; max 150 deelnemers per afstand. Start Netl Park, Leemringweg 19 (coordinaten = plaatscentrum).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "dsw-bruggenloop-rotterdam-2026-12-13",
+  "naam": "DSW Bruggenloop Rotterdam",
+  "datum": "2026-12-13",
+  "starttijd": null,
+  "plaats": "Rotterdam",
+  "gemeente": "Rotterdam",
+  "provincie": "Zuid-Holland",
+  "lat": 51.8939,
+  "lon": 4.5231,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "vol",
+   "opent": null,
+   "sluit": null,
+   "platform": "eigen site",
+   "url": "https://bruggenloop.nl/inschrijven/"
+  },
+  "website": "https://bruggenloop.nl",
+  "maxDeelnemers": null,
+  "organisator": "Golazo",
+  "bronnen": [
+   "https://bruggenloop.nl"
+  ],
+  "notitie": "Individuele startbewijzen uitverkocht (wachtlijst); start Stadion Feijenoord",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "devil-s-trail-netl-kraggenburg-2026-12-13",
+  "naam": "Devil's Trail Netl-Kraggenburg",
+  "datum": "2026-12-13",
+  "starttijd": "11:30",
+  "plaats": "Kraggenburg",
+  "gemeente": "Noordoostpolder",
+  "provincie": "Flevoland",
+  "lat": 52.6619,
+  "lon": 5.9006,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 15,
+    "label": "15 km Voorsterbos Trail",
+    "prijs": 26.0,
+    "prijsNotitie": "€ 26 t/m 1 okt, daarna € 28 tot 6 dec (early bird € 24 t/m 1 juli verlopen)"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": "2026-03-01",
+   "sluit": "2026-12-06",
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026121351604"
+  },
+  "website": "https://devilstrail.nl/evenementen/devils-trail-netl-kraggenburg/",
+  "maxDeelnemers": 150,
+  "organisator": "Devil's Trail",
+  "bronnen": [
+   "https://devilstrail.nl/evenementen/devils-trail-netl-kraggenburg/",
+   "https://inschrijven.nl/form/2026121351604"
+  ],
+  "notitie": "Starttijd geldt voor 15 km. Ook 9 km en 30 km (niet opgenomen). Max 150 deelnemers per afstand. Start Netl Park, Leemringweg 19 (coordinaten = plaatscentrum).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "flevo-fun-run-ronde-2-2026-12-13",
+  "naam": "Flevo Fun Run (ronde 2)",
+  "datum": "2026-12-13",
+  "starttijd": null,
+  "plaats": "Zeewolde",
+  "gemeente": "Zeewolde",
+  "provincie": "Flevoland",
+  "lat": 52.3304,
+  "lon": 5.5413,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": "Vorig seizoen (2025-26): € 6,50 voorinschrijving, € 8 op de dag; nieuw tarief niet gepubliceerd"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://www.tvz-zeewolde.nl/"
+  },
+  "website": "https://www.tvz-zeewolde.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Triathlon Vereniging Zeewolde (TVZ)",
+  "bronnen": [
+   "https://finishlijn.nl/hardloopwedstrijden/flevo-fun-run",
+   "https://runphy.nl/events/flevo-fun-run/2026-12-13",
+   "https://www.tvz-zeewolde.nl/index.php?page=7336&sid=2"
+  ],
+  "notitie": "ONZEKER: datum alleen bij aggregators (runphy, running.life/finishlijn), nog niet op organisatorsite bevestigd. Start bij RCN camping Zeewolde (coordinaten = plaatscentrum). Vorig seizoen start 5/10 km 10:30. ",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "ter-specke-loop-2026-12-13",
+  "naam": "Ter Specke Loop",
+  "datum": "2026-12-13",
+  "starttijd": null,
+  "plaats": "Lisse",
+  "gemeente": "Lisse",
+  "provincie": "Zuid-Holland",
+  "lat": 52.258,
+  "lon": 4.557,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.zorgenzekerheidcircuit.nl/Race.php?ID=1&RID=110",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://runphy.nl/events/ter-specke-loop/2026-12-13"
+  ],
+  "notitie": "Organisatorsite niet bereikbaar voor controle; naam/datum/afstanden alleen via aggregators (runphy.nl, running.life); deel van Zorg en Zekerheid Circuit",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "starke-kerstloop-dronten-2026-12-20",
+  "naam": "Starke Kerstloop Dronten",
+  "datum": "2026-12-20",
+  "starttijd": null,
+  "plaats": "Dronten",
+  "gemeente": "Dronten",
+  "provincie": "Flevoland",
+  "lat": 52.5245,
+  "lon": 5.7186,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": "Starttijd 11:00"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://inschrijven.nl/form/2026122051751"
+  },
+  "website": "https://kerstloopdronten.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Kerstloop Dronten (met Tafelronde 168 en AV Flevo Delta)",
+  "bronnen": [
+   "https://kerstloopdronten.nl/",
+   "https://kerstloopdronten.nl/halve-marathon/",
+   "https://inschrijven.nl/form/2026122051751"
+  ],
+  "notitie": "35e editie. Start/finish Meerpaalplein, De Rede 1. Starttijd halve marathon 11:00 (10 km onbekend). Prijzen niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "de-onderlingen-oliebollenloop-2026-12-31",
+  "naam": "De Onderlingen Oliebollenloop",
+  "datum": "2026-12-31",
+  "starttijd": "11:00",
+  "plaats": "Schoonhoven",
+  "gemeente": "Krimpenerwaard",
+  "provincie": "Zuid-Holland",
+  "lat": 51.947,
+  "lon": 4.849,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 15.0,
+    "prijsNotitie": "Avantri-leden 50% korting"
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": 17.5,
+    "prijsNotitie": "start 11:10; Avantri-leden 50% korting"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2026-12-31",
+   "platform": "inschrijven.nl",
+   "url": null
+  },
+  "website": "https://www.avantri.nl/wedstrijden/wedstrijden-avantri/oliebollenloop/",
+  "maxDeelnemers": null,
+  "organisator": "Avantri",
+  "bronnen": [
+   "https://www.avantri.nl/wedstrijden/wedstrijden-avantri/oliebollenloop/"
+  ],
+  "notitie": "42e editie; inschrijving sluit 30 min voor start; start Opweg",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "283ste-wintercup-lelystad-2027-01-03",
+  "naam": "283ste Wintercup Lelystad",
+  "datum": "2027-01-03",
+  "starttijd": "10:45",
+  "plaats": "Lelystad",
+  "gemeente": "Lelystad",
+  "provincie": "Flevoland",
+  "lat": 52.512,
+  "lon": 5.456,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10.11,
+    "label": "10 km (10,11 km exact)",
+    "prijs": 5.0,
+    "prijsNotitie": "Online voorinschrijving € 5; op de dag zelf € 7 (vanaf 09:30); seizoenskaart € 25"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2027-01-01",
+   "platform": "inschrijven.nl",
+   "url": "https://avspiritlelystad.nl/wintercup/"
+  },
+  "website": "https://avspiritlelystad.nl/wintercup/",
+  "maxDeelnemers": null,
+  "organisator": "AV Spirit Lelystad",
+  "bronnen": [
+   "https://avspiritlelystad.nl/wintercup/",
+   "https://avspiritlelystad.nl/2026/09/14/wintercup-seizoen-2026-2027-gaat-van-start/"
+  ],
+  "notitie": "Maandelijkse wintercompetitie (okt-mrt). Start/finish Sportpark Langezand, Sportparkweg 2. Online inschrijving 'tot vrijdag voor elke editie' (sluit = die vrijdag). Coordinaten benaderd.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "3e-oosterbaan-strand-en-duinloop-2027-01-03",
+  "naam": "3e Oosterbaan Strand- en Duinloop",
+  "datum": "2027-01-03",
+  "starttijd": null,
+  "plaats": "Castricum",
+  "gemeente": "Castricum",
+  "provincie": "Noord-Holland",
+  "lat": 52.553,
+  "lon": 4.638,
+  "type": "cross",
+  "afstanden": [
+   {
+    "km": 10.1,
+    "label": "10,1 km",
+    "prijs": null,
+    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": "2027-01-01",
+   "platform": "inschrijven.nl",
+   "url": "https://www.avcastricum.nl/inschrijving-prijzen"
+  },
+  "website": "https://www.avcastricum.nl/agenda-activiteiten",
+  "maxDeelnemers": null,
+  "organisator": "AV Castricum",
+  "bronnen": [
+   "https://www.avcastricum.nl/agenda-activiteiten",
+   "https://www.avcastricum.nl/inschrijving-prijzen",
+   "https://avcastricum.nl/nieuws/63/?nid=1022&np="
+  ],
+  "notitie": "Strand-/duincross vanaf Sportpark De Duinloper, Zeeweg 4. Programma 10:15-12:30. Voorinschrijving t/m vrijdag vóór de loop; na-inschrijving vanaf zaterdagmiddag.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "flevo-fun-run-ronde-3-2027-01-10",
+  "naam": "Flevo Fun Run (ronde 3)",
+  "datum": "2027-01-10",
+  "starttijd": null,
+  "plaats": "Zeewolde",
+  "gemeente": "Zeewolde",
+  "provincie": "Flevoland",
+  "lat": 52.3304,
+  "lon": 5.5413,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": "Vorig seizoen (2025-26): € 6,50 voorinschrijving, € 8 op de dag; nieuw tarief niet gepubliceerd"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://www.tvz-zeewolde.nl/"
+  },
+  "website": "https://www.tvz-zeewolde.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Triathlon Vereniging Zeewolde (TVZ)",
+  "bronnen": [
+   "https://finishlijn.nl/hardloopwedstrijden/flevo-fun-run",
+   "https://runphy.nl/events/flevo-fun-run/2027-01-10",
+   "https://www.tvz-zeewolde.nl/index.php?page=7336&sid=2"
+  ],
+  "notitie": "ONZEKER: datum alleen bij aggregators (runphy, running.life/finishlijn), nog niet op organisatorsite bevestigd. Start bij RCN camping Zeewolde (coordinaten = plaatscentrum). Vorig seizoen start 5/10 km 10:30. ",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "de-knikker-zegerplasloop-2027-01-17",
+  "naam": "De Knikker Zegerplasloop",
+  "datum": "2027-01-17",
+  "starttijd": null,
+  "plaats": "Alphen aan den Rijn",
+  "gemeente": "Alphen aan den Rijn",
+  "provincie": "Zuid-Holland",
+  "lat": 52.129,
+  "lon": 4.656,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 20,
+    "label": "20 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.aav36.nl/zegerplasloop",
+  "maxDeelnemers": null,
+  "organisator": "AAV'36",
+  "bronnen": [
+   "https://runphy.nl/events/de-knikker-zegerplasloop/2026-11-15"
+  ],
+  "notitie": "Organisatorsite blokkeert fetch (robots.txt); datum/afstanden alleen via runphy.nl/running.life; winterserie Zegerplas",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "duinloopcircuit-katwijk-duin-strandloop-2027-01-23",
+  "naam": "Duinloopcircuit Katwijk – Duin/strandloop",
+  "datum": "2027-01-23",
+  "starttijd": "10:00",
+  "plaats": "Katwijk aan Zee",
+  "gemeente": "Katwijk",
+  "provincie": "Zuid-Holland",
+  "lat": 52.203,
+  "lon": 4.399,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 11.0,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": null
+  },
+  "website": "https://duinloopcircuit.nl",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Halve van Katwijk i.s.m. AV Rijnsoever",
+  "bronnen": [
+   "https://duinloopcircuit.nl",
+   "https://duinloopcircuit.nl/starttijden"
+  ],
+  "notitie": "Deel van Duinloopcircuit Katwijk; prijs/starttijd van algemene starttijdenpagina; type duinloop (weg/duin) niet expliciet vermeld",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "hubo-kaagloop-2027-01-31",
+  "naam": "Hubo Kaagloop",
+  "datum": "2027-01-31",
+  "starttijd": "11:10",
+  "plaats": "Wervershoof",
+  "gemeente": "Medemblik",
+  "provincie": "Noord-Holland",
+  "lat": 52.73,
+  "lon": 5.155,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 16,
+    "label": "16 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "nog niet open",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": "https://kaagloop.nl/"
+  },
+  "website": "https://kaagloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Hubo Kaagloop",
+  "bronnen": [
+   "https://kaagloop.nl/",
+   "https://www.westfrieswegcircuit.nl/"
+  ],
+  "notitie": "16 km start 11:00, 10 km 11:10. Sportpark de Westrand. Deel van Westfries Wegcircuit.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "284ste-wintercup-lelystad-2027-02-07",
+  "naam": "284ste Wintercup Lelystad",
+  "datum": "2027-02-07",
+  "starttijd": "10:45",
+  "plaats": "Lelystad",
+  "gemeente": "Lelystad",
+  "provincie": "Flevoland",
+  "lat": 52.512,
+  "lon": 5.456,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10.11,
+    "label": "10 km (10,11 km exact)",
+    "prijs": 5.0,
+    "prijsNotitie": "Online voorinschrijving € 5; op de dag zelf € 7 (vanaf 09:30); seizoenskaart € 25"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2027-02-05",
+   "platform": "inschrijven.nl",
+   "url": "https://avspiritlelystad.nl/wintercup/"
+  },
+  "website": "https://avspiritlelystad.nl/wintercup/",
+  "maxDeelnemers": null,
+  "organisator": "AV Spirit Lelystad",
+  "bronnen": [
+   "https://avspiritlelystad.nl/wintercup/",
+   "https://avspiritlelystad.nl/2026/09/14/wintercup-seizoen-2026-2027-gaat-van-start/"
+  ],
+  "notitie": "Maandelijkse wintercompetitie (okt-mrt). Start/finish Sportpark Langezand, Sportparkweg 2. Online inschrijving 'tot vrijdag voor elke editie' (sluit = die vrijdag). Coordinaten benaderd.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "parnassia-groep-loop-strand-en-duinloop-2027-02-07",
+  "naam": "Parnassia Groep Loop (Strand- en Duinloop)",
+  "datum": "2027-02-07",
+  "starttijd": null,
+  "plaats": "Castricum",
+  "gemeente": "Castricum",
+  "provincie": "Noord-Holland",
+  "lat": 52.553,
+  "lon": 4.638,
+  "type": "cross",
+  "afstanden": [
+   {
+    "km": 10.1,
+    "label": "10,1 km",
+    "prijs": null,
+    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": "2027-02-05",
+   "platform": "inschrijven.nl",
+   "url": "https://www.avcastricum.nl/inschrijving-prijzen"
+  },
+  "website": "https://www.avcastricum.nl/agenda-activiteiten",
+  "maxDeelnemers": null,
+  "organisator": "AV Castricum",
+  "bronnen": [
+   "https://www.avcastricum.nl/agenda-activiteiten",
+   "https://www.avcastricum.nl/inschrijving-prijzen",
+   "https://avcastricum.nl/nieuws/63/?nid=1022&np="
+  ],
+  "notitie": "Strand-/duincross vanaf Sportpark De Duinloper, Zeeweg 4. Programma 10:15-12:30. Voorinschrijving t/m vrijdag vóór de loop; na-inschrijving vanaf zaterdagmiddag. Afstanden voor Parnassia-loop aangenomen gelijk aan serie (onzeker).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "duinloopcircuit-katwijk-krokusloop-2027-02-13",
+  "naam": "Duinloopcircuit Katwijk – Krokusloop",
+  "datum": "2027-02-13",
+  "starttijd": "10:00",
+  "plaats": "Katwijk aan Zee",
+  "gemeente": "Katwijk",
+  "provincie": "Zuid-Holland",
+  "lat": 52.203,
+  "lon": 4.399,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 11.0,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": null
+  },
+  "website": "https://duinloopcircuit.nl",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Halve van Katwijk i.s.m. AV Rijnsoever",
+  "bronnen": [
+   "https://duinloopcircuit.nl",
+   "https://duinloopcircuit.nl/starttijden"
+  ],
+  "notitie": "Deel van Duinloopcircuit Katwijk; prijs/starttijd van algemene starttijdenpagina; type duinloop (weg/duin) niet expliciet vermeld",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "flevo-fun-run-ronde-4-2027-02-14",
+  "naam": "Flevo Fun Run (ronde 4)",
+  "datum": "2027-02-14",
+  "starttijd": null,
+  "plaats": "Zeewolde",
+  "gemeente": "Zeewolde",
+  "provincie": "Flevoland",
+  "lat": 52.3304,
+  "lon": 5.5413,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": "Vorig seizoen (2025-26): € 6,50 voorinschrijving, € 8 op de dag; nieuw tarief niet gepubliceerd"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": "https://www.tvz-zeewolde.nl/"
+  },
+  "website": "https://www.tvz-zeewolde.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Triathlon Vereniging Zeewolde (TVZ)",
+  "bronnen": [
+   "https://finishlijn.nl/hardloopwedstrijden/flevo-fun-run",
+   "https://runphy.nl/events/flevo-fun-run/2027-02-14",
+   "https://www.tvz-zeewolde.nl/index.php?page=7336&sid=2"
+  ],
+  "notitie": "ONZEKER: datum alleen bij aggregators (runphy, running.life/finishlijn), nog niet op organisatorsite bevestigd. Start bij RCN camping Zeewolde (coordinaten = plaatscentrum). Vorig seizoen start 5/10 km 10:30. ",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "de-knikker-zegerplasloop-2027-02-21",
+  "naam": "De Knikker Zegerplasloop",
+  "datum": "2027-02-21",
+  "starttijd": null,
+  "plaats": "Alphen aan den Rijn",
+  "gemeente": "Alphen aan den Rijn",
+  "provincie": "Zuid-Holland",
+  "lat": 52.129,
+  "lon": 4.656,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 20,
+    "label": "20 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.aav36.nl/zegerplasloop",
+  "maxDeelnemers": null,
+  "organisator": "AAV'36",
+  "bronnen": [
+   "https://runphy.nl/events/de-knikker-zegerplasloop/2026-11-15"
+  ],
+  "notitie": "Organisatorsite blokkeert fetch (robots.txt); datum/afstanden alleen via runphy.nl/running.life; winterserie Zegerplas",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "285ste-wintercup-lelystad-2027-03-07",
+  "naam": "285ste Wintercup Lelystad",
+  "datum": "2027-03-07",
+  "starttijd": "10:45",
+  "plaats": "Lelystad",
+  "gemeente": "Lelystad",
+  "provincie": "Flevoland",
+  "lat": 52.512,
+  "lon": 5.456,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10.11,
+    "label": "10 km (10,11 km exact)",
+    "prijs": 5.0,
+    "prijsNotitie": "Online voorinschrijving € 5; op de dag zelf € 7 (vanaf 09:30); seizoenskaart € 25"
+   }
+  ],
+  "inschrijving": {
+   "status": "open",
+   "opent": null,
+   "sluit": "2027-03-05",
+   "platform": "inschrijven.nl",
+   "url": "https://avspiritlelystad.nl/wintercup/"
+  },
+  "website": "https://avspiritlelystad.nl/wintercup/",
+  "maxDeelnemers": null,
+  "organisator": "AV Spirit Lelystad",
+  "bronnen": [
+   "https://avspiritlelystad.nl/wintercup/",
+   "https://avspiritlelystad.nl/2026/09/14/wintercup-seizoen-2026-2027-gaat-van-start/"
+  ],
+  "notitie": "Maandelijkse wintercompetitie (okt-mrt). Start/finish Sportpark Langezand, Sportparkweg 2. Online inschrijving 'tot vrijdag voor elke editie' (sluit = die vrijdag). Coordinaten benaderd.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "duinloopcircuit-katwijk-noordduinloop-voorjaar-2027-03-13",
+  "naam": "Duinloopcircuit Katwijk – Noordduinloop (voorjaar)",
+  "datum": "2027-03-13",
+  "starttijd": "10:00",
+  "plaats": "Katwijk aan Zee",
+  "gemeente": "Katwijk",
+  "provincie": "Zuid-Holland",
+  "lat": 52.203,
+  "lon": 4.399,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": 11.0,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": "inschrijven.nl",
+   "url": null
+  },
+  "website": "https://duinloopcircuit.nl",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Halve van Katwijk i.s.m. AV Rijnsoever",
+  "bronnen": [
+   "https://duinloopcircuit.nl",
+   "https://duinloopcircuit.nl/starttijden"
+  ],
+  "notitie": "Deel van Duinloopcircuit Katwijk; prijs/starttijd van algemene starttijdenpagina; type duinloop (weg/duin) niet expliciet vermeld",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "kloetloop-2027-03-14",
+  "naam": "Kloetloop",
+  "datum": "2027-03-14",
+  "starttijd": null,
+  "plaats": "Grootebroek",
+  "gemeente": "Stede Broec",
+  "provincie": "Noord-Holland",
+  "lat": 52.702,
+  "lon": 5.205,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 16.1,
+    "label": "10 Engelse mijl",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.kloetloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Streker Atletiek Vereniging (SAV)",
+  "bronnen": [
+   "https://www.westfrieswegcircuit.nl/",
+   "https://runphy.nl/events/de-kloetloop/2027-03-14"
+  ],
+  "notitie": "Datum bevestigd door Westfries Wegcircuit; eigen site niet bereikbaar, afstanden uit runphy (onbevestigd).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "fish-potato-run-2027-09-11",
+  "naam": "Fish Potato Run",
+  "datum": "2027-09-11",
+  "starttijd": "15:00",
+  "plaats": "Urk",
+  "gemeente": "Urk",
+  "provincie": "Flevoland",
+  "lat": 52.6619,
+  "lon": 5.6004,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 12.88,
+    "label": "8 Engelse mijl",
+    "prijs": null,
+    "prijsNotitie": "Vorige editie: € 25 (eerste 1000), daarna € 27,50; na-inschrijving € 30. Tarief 2027 niet gepubliceerd"
+   }
+  ],
+  "inschrijving": {
+   "status": "nog niet open",
+   "opent": null,
+   "sluit": null,
+   "platform": "atleta.cc",
+   "url": "https://www.fishpotatorun.nl/inschrijven/"
+  },
+  "website": "https://www.fishpotatorun.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Fish Potato Run (i.s.m. AV Noordoostpolder)",
+  "bronnen": [
+   "https://www.fishpotatorun.nl/",
+   "https://www.fishpotatorun.nl/inschrijven/"
+  ],
+  "notitie": "Puntloop van Urk (haven) naar Emmeloord. 8 Engelse mijl = 12,88 km. Site noemt opening 'zaterdag 18 april' (lijkt tekst van 2026), daarom opent = null.",
+  "gecontroleerd": "2026-10-01"
+ }
+];

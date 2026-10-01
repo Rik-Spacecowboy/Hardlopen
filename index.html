@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Hardloopwedstrijden</title>
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* Opmaak voorlopig overgenomen van het Anesthesie-project; wordt later vervangen. */
+    :root {
+      --bg: #f3f3f0;
+      --surface: #ffffff;
+      --ink: #0a0a0a;
+      --ink-zacht: #5d5d58;
+      --lijn: #d9d9d3;
+      --accent: #ff5500;
+      --accent-tekst: #0a0a0a;
+      --hero-bg: #0a0a0a;
+      --hero-ink: #f5f5f2;
+      --hero-zacht: #a3a39c;
+      --open: #1f8a4c;
+      --kaart-land: #e6e4dd;
+      --kaart-actief: #d2cfc4;
+      --display: 'Barlow Condensed', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+      --tekst: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0a0a0a;
+        --surface: #141414;
+        --ink: #f5f5f2;
+        --ink-zacht: #a3a39c;
+        --lijn: #2a2a28;
+        --hero-bg: #000000;
+        --open: #3fbf72;
+        --kaart-land: #1d1d1b;
+        --kaart-actief: #34342f;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--ink);
+      font-family: var(--tekst); font-size: 16px; line-height: 1.45; -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+    .verborgen { position: absolute; left: -9999px; }
+
+    /* ---------- kop ---------- */
+    .topbalk {
+      background: var(--hero-bg); color: var(--hero-ink);
+      display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 20px;
+      font: 700 1rem var(--display); letter-spacing: 0.08em; text-transform: uppercase;
+    }
+    .topbalk .merk { display: flex; align-items: center; gap: 10px; }
+    .topbalk .merk i { width: 12px; height: 12px; background: var(--accent); border-radius: 50%; display: inline-block; }
+    .topbalk .teller-top { color: var(--hero-zacht); font-weight: 600; }
+    .hero { background: var(--hero-bg); color: var(--hero-ink); }
+    .hero-binnen { max-width: 1180px; margin: 0 auto; padding: 18px 20px 26px; }
+    .eyebrow { font: 700 1rem var(--display); text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent); margin: 0 0 10px; }
+    .hero h1 {
+      font: 800 clamp(2.3rem, 5.6vw, 4.4rem)/0.9 var(--display); text-transform: uppercase; letter-spacing: -0.01em;
+      margin: 0 0 12px; text-wrap: balance;
+    }
+    .hero h1 em { font-style: normal; color: var(--accent); }
+    .hero .sub { color: var(--hero-zacht); max-width: 62ch; margin: 0; }
+
+    /* ---------- filters ---------- */
+    main { max-width: 1180px; margin: 0 auto; padding: 0 20px 80px; }
+    .toolbar { position: sticky; top: 0; z-index: 20; background: var(--bg); padding: 16px 0 12px; border-bottom: 1px solid var(--lijn); }
+    .zoekrij { display: flex; gap: 10px; }
+    .zoek {
+      flex: 1; min-width: 0; font: 600 1.15rem var(--tekst); padding: 14px 16px;
+      background: var(--surface); color: var(--ink); border: 2px solid var(--ink); border-radius: 2px;
+    }
+    .zoek::placeholder { color: var(--ink-zacht); font-weight: 500; }
+    .knop {
+      font: 700 1rem var(--display); letter-spacing: 0.08em; text-transform: uppercase; padding: 0 18px;
+      border-radius: 2px; cursor: pointer; background: var(--ink); color: var(--bg); border: 2px solid var(--ink);
+    }
+    .knop:hover { background: var(--accent); border-color: var(--accent); color: var(--accent-tekst); }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 0 4px; align-items: center; }
+    .chip {
+      flex: none; cursor: pointer; font: 700 0.95rem var(--display); text-transform: uppercase; letter-spacing: 0.07em;
+      padding: 7px 14px; border-radius: 999px; background: transparent; color: var(--ink); border: 2px solid var(--lijn);
+    }
+    .chip:hover { border-color: var(--ink); }
+    .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-tekst); }
+    .chips .scheiding { flex: none; width: 2px; align-self: stretch; background: var(--lijn); margin: 4px; }
+    details.meer { margin-top: 8px; }
+    details.meer summary {
+      cursor: pointer; list-style: none; display: inline-flex; gap: 8px; align-items: center;
+      font: 700 0.95rem var(--display); letter-spacing: 0.1em; text-transform: uppercase; padding: 6px 0;
+    }
+    details.meer summary::-webkit-details-marker { display: none; }
+    details.meer summary::after { content: "+"; font-size: 1.3rem; line-height: 1; }
+    details.meer[open] summary::after { content: "–"; }
+    .meer-raster { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; padding: 10px 0 6px; }
+    .veld { display: flex; flex-direction: column; gap: 4px; }
+    .veld label { font: 700 0.8rem var(--display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-zacht); }
+    .veld select, .veld input {
+      font: 500 1rem var(--tekst); padding: 10px; background: var(--surface); color: var(--ink);
+      border: 2px solid var(--lijn); border-radius: 2px;
+    }
+    .filter-noot { margin: 0 0 6px; font-size: 0.8rem; color: var(--ink-zacht); max-width: 80ch; }
+    .week-uitleg { margin: 6px 0 2px; font-size: 0.88rem; color: var(--ink-zacht); max-width: 70ch; border-left: 3px solid var(--accent); padding-left: 10px; }
+    .chip.uitleg-knop { width: 36px; padding: 7px 0; text-align: center; }
+    .teller-rij { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-top: 18px; }
+    #resultaatTeller { margin: 0; font: 700 1rem var(--display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-zacht); }
+    .weergave { display: inline-flex; border: 2px solid var(--ink); border-radius: 999px; overflow: hidden; }
+    .weergave-knop {
+      cursor: pointer; border: 0; background: transparent; color: var(--ink); padding: 6px 13px;
+      font: 800 0.85rem var(--display); letter-spacing: 0.08em; text-transform: uppercase;
+    }
+    .weergave-knop[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+
+    /* ---------- kaarten ---------- */
+    .lijst { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 16px; padding-top: 8px; }
+    .maandkop {
+      grid-column: 1 / -1; margin: 26px 0 -4px; font: 800 clamp(2.4rem, 8vw, 4.5rem)/0.85 var(--display);
+      text-transform: uppercase; color: transparent; -webkit-text-stroke: 2px var(--ink);
+    }
+    .wkaart {
+      background: var(--surface); border: 2px solid var(--ink); border-radius: 2px;
+      display: flex; flex-direction: column; overflow: hidden; transition: transform .18s ease, box-shadow .18s ease;
+    }
+    .wkaart:hover { transform: translate(-4px, -4px); box-shadow: 8px 8px 0 var(--accent); }
+    .wkaart.voorbij { opacity: .62; }
+    .kaart-datum {
+      display: flex; align-items: flex-end; justify-content: space-between; gap: 12px;
+      padding: 16px 18px 12px; border-bottom: 2px solid var(--ink); background: var(--hero-bg); color: var(--hero-ink);
+    }
+    .dag-groot { font: 800 3.6rem/0.85 var(--display); }
+    .maand { font: 700 1.1rem var(--display); text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); }
+    .weekdag { font: 600 0.85rem var(--tekst); color: var(--hero-zacht); margin-top: 7px; }
+    .kaart-datum .rechts { text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+    .weekbadge { font: 700 0.85rem var(--display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--hero-zacht); }
+    .weekbadge b { color: var(--hero-ink); }
+    .weekbadge::before { content: ""; display: inline-block; width: 9px; height: 9px; margin-right: 6px; border-radius: 50%; background: var(--hero-ink); }
+    .weekbadge.oneven::before { background: var(--accent); }
+    .ster { cursor: pointer; background: transparent; border: 0; padding: 0 2px; line-height: 1; font-size: 1.7rem; color: var(--hero-zacht); }
+    .ster:hover { color: var(--hero-ink); }
+    .ster[aria-pressed="true"] { color: var(--accent); }
+    .kaart-body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+    .wkaart h2 { margin: 0; font: 800 1.75rem/0.98 var(--display); text-transform: uppercase; text-wrap: balance; }
+    .plek { font-weight: 600; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+    .plek::before { content: ""; flex: none; width: 10px; height: 10px; background: var(--accent); border-radius: 50% 50% 50% 0; transform: rotate(-45deg) translateY(1px); }
+    .plek small { font-weight: 400; color: var(--ink-zacht); font-size: 0.9rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .tag { font: 700 0.82rem var(--display); letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 9px; border: 1.5px solid var(--ink); border-radius: 999px; }
+    .status {
+      font: 700 0.8rem var(--display); letter-spacing: 0.1em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px;
+      border: 1.5px solid currentColor; display: inline-block;
+    }
+    .status.open { background: var(--open); border-color: var(--open); color: #fff; }
+    .status.vol, .status.gesloten, .status.geannuleerd { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+    .status.loting, .status.wachtlijst, .status.nog-niet-open { color: var(--accent); }
+    .status.onbekend { color: var(--ink-zacht); border-style: dashed; }
+    .afstanden { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+    .afstanden td { padding: 5px 0; border-top: 1px solid var(--lijn); vertical-align: top; }
+    .afstanden td:first-child { font-weight: 700; }
+    .afstanden td.prijs { text-align: right; font-weight: 700; white-space: nowrap; padding-left: 12px; }
+    .afstanden td.prijs.onbekend { font-weight: 400; color: var(--ink-zacht); }
+    .afstanden small { display: block; font-weight: 400; color: var(--ink-zacht); font-size: 0.8rem; }
+    .afstanden tr.buiten-filter { opacity: .45; }
+    .inschrijfregel { font-size: 0.9rem; display: flex; flex-direction: column; gap: 3px; }
+    .inschrijfregel .nog { color: var(--ink-zacht); font-size: 0.85rem; }
+    .inschrijfregel .dringend { color: var(--ink); font-weight: 700; }
+    .notitie-kaart { font-size: 0.85rem; color: var(--ink-zacht); border-left: 3px solid var(--lijn); padding-left: 10px; }
+    .kaart-voet { margin-top: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; padding-top: 8px; border-top: 1px solid var(--lijn); }
+    .gecontroleerd { font-size: 0.8rem; color: var(--ink-zacht); }
+    .gecontroleerd.oud { color: var(--accent); font-weight: 600; }
+    .kaart-acties { display: flex; gap: 6px; flex-wrap: wrap; }
+    a.bron, .actie {
+      flex: none; font: 800 0.9rem var(--display); letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none;
+      padding: 7px 13px; border-radius: 999px; cursor: pointer;
+    }
+    a.bron { background: var(--ink); color: var(--bg); border: 2px solid var(--ink); }
+    a.bron:hover { background: var(--accent); border-color: var(--accent); color: var(--accent-tekst); }
+    .actie { background: transparent; color: var(--ink); border: 2px solid var(--lijn); }
+    .actie:hover { border-color: var(--ink); }
+    .leeg { grid-column: 1 / -1; text-align: center; padding: 60px 20px; font: 700 1.8rem var(--display); text-transform: uppercase; color: var(--ink-zacht); }
+
+    /* ---------- lijstweergave ---------- */
+    .lijst.als-lijst { display: block; }
+    .lijst-rij { border-bottom: 1px solid var(--lijn); display: grid; grid-template-columns: 1fr auto; align-items: center; }
+    .lijst-rij.voorbij { opacity: .62; }
+    .rij-hoofd {
+      all: unset; box-sizing: border-box; cursor: pointer; padding: 11px 6px;
+      display: grid; grid-template-columns: 100px minmax(0, 1fr) 170px 150px 120px 140px; gap: 4px 14px; align-items: baseline;
+    }
+    .rij-hoofd:hover .rij-naam b { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+    .rij-hoofd:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+    .rij-hoofd small { display: block; color: var(--ink-zacht); font-size: 0.8rem; }
+    .rij-datum b { font: 800 1.15rem var(--display); text-transform: uppercase; }
+    .rij-naam b { font-weight: 700; }
+    .rij-plek, .rij-afst, .rij-prijs { font-size: 0.9rem; }
+    .rij-prijs { font-weight: 700; }
+    .rij-meta { display: none; }
+    .lijst-rij .ster { color: var(--lijn); padding: 0 8px; font-size: 1.5rem; }
+    .lijst-rij .ster[aria-pressed="true"] { color: var(--accent); }
+    .rij-detail { grid-column: 1 / -1; padding: 4px 0 18px; max-width: 520px; }
+    @media (max-width: 900px) {
+      .rij-hoofd { grid-template-columns: 76px minmax(0, 1fr); padding: 10px 2px; }
+      .rij-plek, .rij-afst, .rij-prijs, .rij-status { display: none; }
+      .rij-meta { display: block; grid-column: 2; font-size: 0.82rem; color: var(--ink-zacht); }
+    }
+
+    /* ---------- kaartweergave ---------- */
+    .lijst.als-kaart { display: block; }
+    .kaart-vak { position: relative; background: var(--surface); border: 2px solid var(--ink); border-radius: 2px; overflow: hidden; margin-top: 12px; }
+    .kaart-vak svg { display: block; width: 100%; height: auto; max-height: 78vh; }
+    .provincie { fill: var(--kaart-land); stroke: var(--surface); stroke-width: 1.2; }
+    .provincie.actief { fill: var(--kaart-actief); }
+    .prov-naam { font: 700 13px var(--display); letter-spacing: 0.12em; text-transform: uppercase; fill: var(--ink-zacht); text-anchor: middle; pointer-events: none; }
+    .stip { fill: var(--accent); stroke: var(--ink); stroke-width: 1.3; cursor: pointer; }
+    .stip:hover, .stip:focus-visible, .stip.gekozen { fill: var(--ink); stroke: var(--accent); stroke-width: 3; outline: none; }
+    .stip-getal { font: 800 12px var(--display); fill: #0a0a0a; text-anchor: middle; pointer-events: none; }
+    .stip-getal.gekozen { fill: var(--bg); }
+    .kaart-tip {
+      position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); padding: 3px 9px; border-radius: 2px;
+      font: 700 0.8rem var(--display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap;
+    }
+    .kaart-paneel { margin-top: 14px; }
+    .kaart-paneel h3 { margin: 0 0 10px; font: 800 1.5rem var(--display); text-transform: uppercase; }
+    .kaart-paneel .paneel-kaarten { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 16px; }
+    .kaart-hint { margin: 0; color: var(--ink-zacht); }
+
+    .voet { background: var(--hero-bg); color: var(--hero-zacht); margin-top: 40px; }
+    .voet-binnen { max-width: 1180px; margin: 0 auto; padding: 28px 20px 36px; font-size: 0.9rem; }
+    .voet p { margin: 0 0 8px; max-width: 75ch; }
+    .voet strong { color: var(--hero-ink); }
+    .melding {
+      position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); z-index: 50;
+      background: var(--ink); color: var(--bg); padding: 10px 18px; border-radius: 2px;
+      font: 700 0.95rem var(--display); letter-spacing: 0.08em; text-transform: uppercase;
+    }
+    @media (max-width: 480px) {
+      main, .hero-binnen, .topbalk, .voet-binnen { padding-left: 16px; padding-right: 16px; }
+      .topbalk .teller-top { display: none; }
+      .zoek { font-size: 1rem; padding: 12px; }
+      .zoekrij .knop { padding: 0 12px; }
+      .hero h1 { font-size: 1.95rem; }
+      .toolbar { position: static; }
+      .chip { font-size: 0.85rem; padding: 6px 11px; }
+    }
+    @media (prefers-reduced-motion: reduce) { .wkaart { transition: none; } }
+  </style>
+</head>
+<body>
+  <div class="topbalk">
+    <div class="merk"><i></i> Hardloopwedstrijden</div>
+    <div class="teller-top" id="tellerTop"></div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-binnen">
+      <p class="eyebrow">Noord-Holland · Zuid-Holland · Utrecht · Flevoland</p>
+      <h1>Van <em>10 km</em> tot de <em>halve</em></h1>
+      <p class="sub" id="heroSub">Wanneer, waar, wat het kost en of je je nog kunt inschrijven. Elke wedstrijd met bron en de datum waarop hij is gecontroleerd.</p>
+    </div>
+  </header>
+
+  <main id="lijst-top">
+    <div class="toolbar">
+      <div class="zoekrij">
+        <label for="zoek" class="verborgen">Zoeken</label>
+        <input type="text" id="zoek" class="zoek" placeholder="Zoek op naam, plaats, organisator…" autocomplete="off">
+        <button type="button" id="wis" class="knop">Wis</button>
+        <button type="button" id="deel" class="knop" title="Kopieer een link naar deze selectie">Deel</button>
+      </div>
+      <div class="chips" id="chipRij" role="group" aria-label="Snelfilters"></div>
+      <p class="week-uitleg" id="weekUitleg" hidden>Even en oneven gaan over het ISO-weeknummer van de wedstrijddatum (een week loopt van maandag tot en met zondag). Handig als je rooster in even en oneven weken loopt.</p>
+      <details class="meer">
+        <summary>Meer filters</summary>
+        <div class="meer-raster">
+          <div class="veld"><label for="fStad">Plaats</label><select id="fStad"><option value="">Alle plaatsen</option></select></div>
+          <div class="veld"><label for="fMaand">Maand</label><select id="fMaand"><option value="">Alle maanden</option></select></div>
+          <div class="veld"><label for="fVanaf">Vanaf datum</label><input type="date" id="fVanaf"></div>
+          <div class="veld"><label for="fTot">Tot datum</label><input type="date" id="fTot"></div>
+          <div class="veld"><label for="fMaxPrijs">Max. prijs (€)</label><input type="number" id="fMaxPrijs" min="0" step="5" inputmode="numeric" placeholder="geen maximum"></div>
+          <div class="veld"><label for="fSorteer">Sorteer op</label><select id="fSorteer"><option value="">Datum</option><option value="prijs">Prijs (laag–hoog)</option><option value="sluit">Inschrijving sluit</option></select></div>
+        </div>
+        <p class="filter-noot">Prijs = het laagste voorinschrijftarief van de afstanden die door je afstandsfilter vallen. Wedstrijden zonder bekende prijs vallen buiten een maximum en staan bij sorteren achteraan. "Nog in te schrijven" = status open, loting of nog niet open.</p>
+      </details>
+    </div>
+
+    <div class="teller-rij">
+      <p id="resultaatTeller"></p>
+      <div class="weergave" role="group" aria-label="Weergave">
+        <button type="button" class="weergave-knop" data-weergave="kaarten" aria-pressed="true">Kaarten</button>
+        <button type="button" class="weergave-knop" data-weergave="lijst" aria-pressed="false">Lijst</button>
+        <button type="button" class="weergave-knop" data-weergave="kaart" aria-pressed="false">Kaart</button>
+      </div>
+    </div>
+    <div class="melding" id="melding" role="status" hidden></div>
+    <div class="lijst" id="lijst"></div>
+  </main>
+
+  <footer class="voet">
+    <div class="voet-binnen">
+      <p><strong>Hoe actueel is dit?</strong> Elke wedstrijd is met de hand nagekeken bij de organisator of het inschrijfplatform, op de datum die op de kaart staat. Of een loop vol is, kan sinds die datum veranderd zijn: check altijd de inschrijflink. Is iets onbekend, dan staat er "onbekend"; er wordt niets geschat.</p>
+      <p>Kaart: provinciegrenzen van CBS/PDOK via cartomap/nl.</p>
+    </div>
+  </footer>
+
+  <script src="data/wedstrijden.js"></script>
+  <script src="data/provincies.js"></script>
+  <script>
+    // ---------- datums ----------
+    // ISO-week in UTC, zodat een kalenderdatum overal hetzelfde weeknummer geeft.
+    function isoWeek(datumString) {
+      const d = new Date(datumString + 'T00:00:00Z');
+      const dag = (d.getUTCDay() + 6) % 7;
+      d.setUTCDate(d.getUTCDate() - dag + 3);
+      const eersteDonderdag = new Date(Date.UTC(d.getUTCFullYear(), 0, 4));
+      eersteDonderdag.setUTCDate(eersteDonderdag.getUTCDate() - ((eersteDonderdag.getUTCDay() + 6) % 7) + 3);
+      return 1 + Math.round((d - eersteDonderdag) / (7 * 86400000));
+    }
+    const p2 = n => String(n).padStart(2, '0');
+    const lokaal = d => `${d.getFullYear()}-${p2(d.getMonth() + 1)}-${p2(d.getDate())}`;
+    const VANDAAG = lokaal(new Date());
+    const MAANDEN = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november', 'december'];
+    const MAANDEN_KORT = ['jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
+    const WEEKDAGEN = ['zondag', 'maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag'];
+    const datumObj = s => new Date(s + 'T00:00:00');
+    const dagenTot = s => Math.round((datumObj(s) - datumObj(VANDAAG)) / 86400000);
+    const kortDatum = s => { const d = datumObj(s); return `${d.getDate()} ${MAANDEN_KORT[d.getMonth()]}${d.getFullYear() !== datumObj(VANDAAG).getFullYear() ? ' ' + d.getFullYear() : ''}`; };
+    function nogTekst(n) {
+      if (n === 0) return 'vandaag';
+      if (n === 1) return 'morgen';
+      if (n > 0) return `over ${n} dagen`;
+      return n === -1 ? 'gisteren' : `${-n} dagen geleden`;
+    }
+    const esc = t => String(t ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const euro = n => '€ ' + (Number.isInteger(n) ? n : n.toFixed(2).replace('.', ','));
+    const kmTekst = km => String(km).replace('.', ',') + ' km';
+
+    // ---------- afgeleide velden ----------
+    const STATUS_LABEL = {
+      'open': 'Inschrijving open', 'vol': 'Vol', 'loting': 'Loting', 'wachtlijst': 'Vol · wachtlijst',
+      'nog niet open': 'Nog niet open', 'gesloten': 'Inschrijving gesloten', 'geannuleerd': 'Geannuleerd', 'onbekend': 'Status onbekend',
+    };
+    const INSCHRIJFBAAR = new Set(['open', 'loting', 'nog niet open']);
+    // De opgeslagen status kan verouderd zijn; datums die al voorbij zijn, gaan voor.
+    function effectieveStatus(w) {
+      const i = w.inschrijving;
+      if (i.status === 'open' && i.sluit && i.sluit < VANDAAG) return 'gesloten';
+      if (i.status === 'nog niet open' && i.opent && i.opent <= VANDAAG) return 'onbekend';
+      return i.status;
+    }
+    WEDSTRIJDEN.forEach(w => {
+      w.week = isoWeek(w.datum);
+      w.pariteit = w.week % 2 === 0 ? 'even' : 'oneven';
+      w.voorbij = w.datum < VANDAAG;
+      w.status = effectieveStatus(w);
+      w.zoektekst = [w.naam, w.plaats, w.gemeente, w.provincie, w.organisator, w.type].join(' ').toLowerCase();
+    });
+
+    // ---------- filters ----------
+    const PROVINCIES_LIJST = ['Noord-Holland', 'Zuid-Holland', 'Utrecht', 'Flevoland'];
+    const AFSTAND_GROEPEN = [
+      { id: '10', label: '10–11 km', past: km => km < 11.5 },
+      { id: '12-18', label: '12–18 km', past: km => km >= 11.5 && km < 18 },
+      { id: 'halve', label: '20 km – halve', past: km => km >= 18 },
+    ];
+    const TYPES = { weg: 'Weg', trail: 'Trail', cross: 'Cross' };
+
+    const f = {
+      q: '', prov: new Set(), afst: new Set(), type: new Set(), week: '', inschrijfbaar: false, bewaard: false, afgelopen: false,
+      stad: '', maand: '', vanaf: '', tot: '', maxPrijs: '', sorteer: '',
+    };
+    let weergave = (() => { try { const w = localStorage.getItem('weergave'); return ['lijst', 'kaart'].includes(w) ? w : 'kaarten'; } catch { return 'kaarten'; } })();
+    let bewaard = (() => { try { return new Set(JSON.parse(localStorage.getItem('bewaard') || '[]')); } catch { return new Set(); } })();
+    const slaBewaardOp = () => { try { localStorage.setItem('bewaard', JSON.stringify([...bewaard])); } catch {} };
+
+    function passendeAfstanden(w) {
+      if (!f.afst.size) return w.afstanden;
+      return w.afstanden.filter(a => AFSTAND_GROEPEN.some(g => f.afst.has(g.id) && g.past(a.km)));
+    }
+    function laagstePrijs(w) {
+      const prijzen = passendeAfstanden(w).map(a => a.prijs).filter(p => typeof p === 'number');
+      return prijzen.length ? Math.min(...prijzen) : null;
+    }
+    function voldoet(w) {
+      if (!f.afgelopen && w.voorbij) return false;
+      if (f.q && !f.q.toLowerCase().split(/\s+/).every(t => w.zoektekst.includes(t))) return false;
+      if (f.prov.size && !f.prov.has(w.provincie)) return false;
+      if (f.afst.size && !passendeAfstanden(w).length) return false;
+      if (f.type.size && !f.type.has(w.type)) return false;
+      if (f.week && w.pariteit !== f.week) return false;
+      if (f.inschrijfbaar && !INSCHRIJFBAAR.has(w.status)) return false;
+      if (f.bewaard && !bewaard.has(w.id)) return false;
+      if (f.stad && w.plaats !== f.stad) return false;
+      if (f.maand && w.datum.slice(0, 7) !== f.maand) return false;
+      if (f.vanaf && w.datum < f.vanaf) return false;
+      if (f.tot && w.datum > f.tot) return false;
+      if (f.maxPrijs !== '') { const p = laagstePrijs(w); if (p === null || p > Number(f.maxPrijs)) return false; }
+      return true;
+    }
+
+    // Alle filters staan in de URL, zodat een selectie te delen en te bookmarken is.
+    const SETS = ['prov', 'afst', 'type'];
+    const VELDEN = ['q', 'week', 'stad', 'maand', 'vanaf', 'tot', 'maxPrijs', 'sorteer'];
+    const VLAGGEN = ['inschrijfbaar', 'bewaard', 'afgelopen'];
+    function filtersUitUrl() {
+      const u = new URLSearchParams(location.search);
+      SETS.forEach(k => { f[k] = new Set((u.get(k) || '').split(',').filter(Boolean)); });
+      VELDEN.forEach(k => { f[k] = u.get(k) || ''; });
+      VLAGGEN.forEach(k => { f[k] = u.get(k) === '1'; });
+    }
+    function filtersNaarUrl() {
+      const u = new URLSearchParams();
+      SETS.forEach(k => { if (f[k].size) u.set(k, [...f[k]].join(',')); });
+      VELDEN.forEach(k => { if (f[k]) u.set(k, f[k]); });
+      VLAGGEN.forEach(k => { if (f[k]) u.set(k, '1'); });
+      const s = u.toString();
+      history.replaceState(null, '', location.pathname + (s ? '?' + s : '') + location.hash);
+    }
+
+    function bouwChips() {
+      const rij = document.getElementById('chipRij');
+      const chip = (label, actief, klik, extra = '') => {
+        const b = document.createElement('button');
+        b.type = 'button'; b.className = 'chip' + extra; b.textContent = label;
+        b.setAttribute('aria-pressed', actief ? 'true' : 'false');
+        b.addEventListener('click', klik);
+        rij.appendChild(b);
+      };
+      const scheiding = () => { const s = document.createElement('span'); s.className = 'scheiding'; rij.appendChild(s); };
+      const wissel = (set, waarde) => () => { set.has(waarde) ? set.delete(waarde) : set.add(waarde); vernieuw(); };
+      rij.innerHTML = '';
+      chip('Nog in te schrijven', f.inschrijfbaar, () => { f.inschrijfbaar = !f.inschrijfbaar; vernieuw(); });
+      if (bewaard.size || f.bewaard) chip(`★ Bewaard (${bewaard.size})`, f.bewaard, () => { f.bewaard = !f.bewaard; vernieuw(); });
+      scheiding();
+      PROVINCIES_LIJST.forEach(p => chip(p, f.prov.has(p), wissel(f.prov, p)));
+      scheiding();
+      AFSTAND_GROEPEN.forEach(g => chip(g.label, f.afst.has(g.id), wissel(f.afst, g.id)));
+      scheiding();
+      Object.entries(TYPES).forEach(([k, v]) => chip(v, f.type.has(k), wissel(f.type, k)));
+      scheiding();
+      chip('Even week', f.week === 'even', () => { f.week = f.week === 'even' ? '' : 'even'; vernieuw(); });
+      chip('Oneven week', f.week === 'oneven', () => { f.week = f.week === 'oneven' ? '' : 'oneven'; vernieuw(); });
+      const uitleg = document.getElementById('weekUitleg');
+      chip('?', !uitleg.hidden, () => { uitleg.hidden = !uitleg.hidden; bouwChips(); }, ' uitleg-knop');
+      rij.lastChild.setAttribute('aria-label', 'Wat betekent even/oneven?');
+      scheiding();
+      chip('Ook afgelopen', f.afgelopen, () => { f.afgelopen = !f.afgelopen; vernieuw(); });
+    }
+
+    function vulSelects() {
+      const stad = document.getElementById('fStad');
+      [...new Set(WEDSTRIJDEN.map(w => w.plaats))].sort((a, b) => a.localeCompare(b, 'nl'))
+        .forEach(s => stad.add(new Option(s, s)));
+      const maand = document.getElementById('fMaand');
+      [...new Set(WEDSTRIJDEN.map(w => w.datum.slice(0, 7)))].sort()
+        .forEach(m => maand.add(new Option(`${MAANDEN[Number(m.slice(5)) - 1]} ${m.slice(0, 4)}`, m)));
+    }
+    const VELD_IDS = { stad: 'fStad', maand: 'fMaand', vanaf: 'fVanaf', tot: 'fTot', maxPrijs: 'fMaxPrijs', sorteer: 'fSorteer' };
+    function syncVelden() {
+      document.getElementById('zoek').value = f.q;
+      Object.entries(VELD_IDS).forEach(([k, id]) => { document.getElementById(id).value = f[k]; });
+      if (Object.keys(VELD_IDS).some(k => k !== 'sorteer' && f[k])) document.querySelector('details.meer').open = true;
+    }
+
+    // ---------- weergave: kaart ----------
+    const STATUS_KORT = { 'open': 'Open', 'gesloten': 'Gesloten', 'onbekend': 'Onbekend', 'wachtlijst': 'Wachtlijst' };
+    function statusHtml(w, kort = false) {
+      const label = (kort && STATUS_KORT[w.status]) || STATUS_LABEL[w.status] || w.status;
+      return `<span class="status ${w.status.replace(/ /g, '-')}">${esc(label)}</span>`;
+    }
+    function inschrijfHtml(w) {
+      const i = w.inschrijving;
+      const regels = [];
+      if (i.opent && i.opent > VANDAAG) {
+        const n = dagenTot(i.opent);
+        regels.push(`<span class="${n <= 14 ? 'dringend' : ''}">Inschrijving opent ${kortDatum(i.opent)} <span class="nog">(${nogTekst(n)})</span></span>`);
+      }
+      if (i.sluit) {
+        const n = dagenTot(i.sluit);
+        const tekst = n >= 0 ? `Inschrijving sluit ${kortDatum(i.sluit)} <span class="nog">(${nogTekst(n)})</span>` : `Inschrijving sloot ${kortDatum(i.sluit)}`;
+        regels.push(`<span class="${n >= 0 && n <= 7 ? 'dringend' : ''}">${tekst}</span>`);
+      }
+      if (w.maxDeelnemers) regels.push(`<span class="nog">Maximaal ${w.maxDeelnemers} deelnemers</span>`);
+      return regels.length ? `<div class="inschrijfregel">${regels.join('')}</div>` : '';
+    }
+    function afstandenHtml(w) {
+      const passend = new Set(passendeAfstanden(w));
+      return `<table class="afstanden"><tbody>${w.afstanden.map(a => `
+        <tr class="${passend.has(a) ? '' : 'buiten-filter'}">
+          <td>${esc(a.label || kmTekst(a.km))}${a.label && !/km/.test(a.label) ? `<small>${kmTekst(a.km)}</small>` : ''}${a.prijsNotitie ? `<small>${esc(a.prijsNotitie)}</small>` : ''}</td>
+          <td class="prijs${a.prijs == null ? ' onbekend' : ''}">${a.prijs == null ? 'prijs onbekend' : euro(a.prijs)}</td>
+        </tr>`).join('')}</tbody></table>`;
+    }
+    function renderKaart(w) {
+      const d = datumObj(w.datum);
+      const el = document.createElement('article');
+      el.className = 'wkaart' + (w.voorbij ? ' voorbij' : '');
+      el.dataset.id = w.id;
+      const oud = dagenTot(w.gecontroleerd) < -14;
+      const inschrijfUrl = w.inschrijving.url || w.website;
+      el.innerHTML = `
+        <div class="kaart-datum">
+          <div>
+            <div class="maand">${MAANDEN_KORT[d.getMonth()]} ${d.getFullYear()}</div>
+            <div class="dag-groot">${d.getDate()}</div>
+            <div class="weekdag">${WEEKDAGEN[d.getDay()]}${w.starttijd ? ' · ' + esc(w.starttijd) : ''}</div>
+          </div>
+          <div class="rechts">
+            <button type="button" class="ster" aria-pressed="${bewaard.has(w.id)}" aria-label="Bewaar ${esc(w.naam)}">★</button>
+            <span class="weekbadge ${w.pariteit}">Week <b>${w.week}</b> · ${w.pariteit}</span>
+          </div>
+        </div>
+        <div class="kaart-body">
+          <div>${statusHtml(w)}</div>
+          <h2>${esc(w.naam)}</h2>
+          <div class="plek">${esc(w.plaats)} <small>${esc(w.provincie)}${w.organisator ? ' · ' + esc(w.organisator) : ''}</small></div>
+          ${w.type !== 'weg' ? `<div class="tags"><span class="tag">${esc(TYPES[w.type] || w.type)}</span></div>` : ''}
+          ${afstandenHtml(w)}
+          ${inschrijfHtml(w)}
+          ${w.notitie ? `<div class="notitie-kaart">${esc(w.notitie)}</div>` : ''}
+          <div class="kaart-voet">
+            <span class="gecontroleerd${oud ? ' oud' : ''}" title="Datum waarop status en prijs bij de bron zijn nagekeken">Gecontroleerd ${kortDatum(w.gecontroleerd)}</span>
+            <div class="kaart-acties">
+              ${w.website && w.website !== inschrijfUrl ? `<a class="actie" href="${esc(w.website)}" target="_blank" rel="noopener">Website</a>` : ''}
+              ${inschrijfUrl ? `<a class="bron" href="${esc(inschrijfUrl)}" target="_blank" rel="noopener">${w.status === 'open' ? 'Inschrijven' : 'Bekijk'}</a>` : ''}
+            </div>
+          </div>
+        </div>`;
+      el.querySelector('.ster').addEventListener('click', e => wisselBewaard(w.id, e.currentTarget));
+      return el;
+    }
+    function wisselBewaard(id, knop) {
+      bewaard.has(id) ? bewaard.delete(id) : bewaard.add(id);
+      slaBewaardOp();
+      document.querySelectorAll(`[data-id="${CSS.escape(id)}"] .ster`).forEach(s => s.setAttribute('aria-pressed', bewaard.has(id)));
+      if (knop) knop.setAttribute('aria-pressed', bewaard.has(id));
+      bouwChips();
+      if (f.bewaard) toon();
+    }
+
+    // ---------- weergave: lijst ----------
+    function renderRij(w) {
+      const el = document.createElement('div');
+      el.className = 'lijst-rij' + (w.voorbij ? ' voorbij' : '');
+      el.dataset.id = w.id;
+      const d = datumObj(w.datum);
+      const p = laagstePrijs(w);
+      const afst = passendeAfstanden(w).map(a => kmTekst(a.km)).join(' · ');
+      el.innerHTML = `
+        <button type="button" class="rij-hoofd" aria-expanded="false">
+          <span class="rij-datum"><b>${d.getDate()} ${MAANDEN_KORT[d.getMonth()]}</b><small>${WEEKDAGEN[d.getDay()].slice(0, 2)} · wk ${w.week}</small></span>
+          <span class="rij-naam"><b>${esc(w.naam)}</b><span class="rij-meta">${esc(w.plaats)} · ${esc(afst)} · ${esc(STATUS_LABEL[w.status])}</span></span>
+          <span class="rij-plek">${esc(w.plaats)}<small>${esc(w.provincie)}</small></span>
+          <span class="rij-afst">${esc(afst)}</span>
+          <span class="rij-prijs">${p === null ? '<small>prijs onbekend</small>' : 'vanaf ' + euro(p)}</span>
+          <span class="rij-status">${statusHtml(w, true)}</span>
+        </button>
+        <button type="button" class="ster" aria-pressed="${bewaard.has(w.id)}" aria-label="Bewaar ${esc(w.naam)}">★</button>`;
+      const hoofd = el.querySelector('.rij-hoofd');
+      hoofd.addEventListener('click', () => {
+        const open = hoofd.getAttribute('aria-expanded') !== 'true';
+        hoofd.setAttribute('aria-expanded', open);
+        el.querySelector('.rij-detail')?.remove();
+        if (open) { const det = document.createElement('div'); det.className = 'rij-detail'; det.appendChild(renderKaart(w)); el.appendChild(det); }
+      });
+      el.querySelector(':scope > .ster').addEventListener('click', e => wisselBewaard(w.id, e.currentTarget));
+      return el;
+    }
+
+    // ---------- weergave: kaart van Nederland ----------
+    // Eenvoudige equirectangulaire projectie met cos(breedte)-correctie: voor een gebied zo klein als
+    // deze vier provincies is dat nauwelijks te onderscheiden van een echte kaartprojectie.
+    const KAART = { lonMin: 3.75, lonMax: 6.05, latMin: 51.62, latMax: 53.22, breedte: 800 };
+    const COSLAT = Math.cos((52.4 * Math.PI) / 180);
+    KAART.hoogte = Math.round(KAART.breedte * (KAART.latMax - KAART.latMin) / ((KAART.lonMax - KAART.lonMin) * COSLAT));
+    const projecteer = (lon, lat) => [
+      ((lon - KAART.lonMin) / (KAART.lonMax - KAART.lonMin)) * KAART.breedte,
+      ((KAART.latMax - lat) / (KAART.latMax - KAART.latMin)) * KAART.hoogte,
+    ];
+    const PROV_LABELS = { 'Noord-Holland': [4.83, 52.72], 'Zuid-Holland': [4.47, 51.93], 'Utrecht': [5.2, 52.06], 'Flevoland': [5.6, 52.53] };
+    let kaartGekozen = null;
+    const svgEl = (naam, attrs, ouder) => {
+      const el = document.createElementNS('http://www.w3.org/2000/svg', naam);
+      Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v));
+      if (ouder) ouder.appendChild(el);
+      return el;
+    };
+    function toonKaart(rijen, lijst) {
+      lijst.innerHTML = `
+        <div class="kaart-vak" id="kaartVak"><div class="kaart-tip" id="kaartTip" hidden></div></div>
+        <div class="kaart-paneel" id="kaartPaneel"><p class="kaart-hint">Klik op een stip voor de wedstrijden in die plaats. Hoe groter de stip, hoe meer wedstrijden.</p></div>`;
+      const vak = document.getElementById('kaartVak');
+      const svg = svgEl('svg', { viewBox: `0 0 ${KAART.breedte} ${KAART.hoogte}`, role: 'img', 'aria-label': 'Kaart van Noord-Holland, Zuid-Holland, Utrecht en Flevoland met de wedstrijden' });
+      vak.insertBefore(svg, document.getElementById('kaartTip'));
+      PROVINCIES.forEach(p => {
+        const polys = p.type === 'MultiPolygon' ? p.coords : [p.coords];
+        const d = polys.map(poly => poly.map(ring => 'M' + ring.map(([lon, lat]) => projecteer(lon, lat).map(n => n.toFixed(1)).join(',')).join('L') + 'Z').join('')).join('');
+        svgEl('path', { d, class: 'provincie' + (PROVINCIES_LIJST.includes(p.naam) ? ' actief' : '') }, svg);
+      });
+      Object.entries(PROV_LABELS).forEach(([naam, [lon, lat]]) => {
+        const [x, y] = projecteer(lon, lat);
+        svgEl('text', { x, y, class: 'prov-naam' }, svg).textContent = naam;
+      });
+      // Eén stip per plaats, op het gemiddelde van de startlocaties (anders liggen stippen van
+      // dezelfde plaats over elkaar heen).
+      const groepen = new Map();
+      rijen.forEach(w => {
+        const sleutel = w.plaats;
+        if (!groepen.has(sleutel)) groepen.set(sleutel, { rijen: [], lat: 0, lon: 0 });
+        groepen.get(sleutel).rijen.push(w);
+      });
+      groepen.forEach(g => {
+        g.lat = g.rijen.reduce((s, w) => s + w.lat, 0) / g.rijen.length;
+        g.lon = g.rijen.reduce((s, w) => s + w.lon, 0) / g.rijen.length;
+      });
+      const tip = document.getElementById('kaartTip');
+      [...groepen.entries()].sort((a, b) => b[1].rijen.length - a[1].rijen.length).forEach(([sleutel, g]) => {
+        const [x, y] = projecteer(g.lon, g.lat);
+        const n = g.rijen.length;
+        const r = 7 + 3 * Math.sqrt(n - 1);
+        const plaatsen = [...new Set(g.rijen.map(w => w.plaats))].join(' / ');
+        const gekozen = kaartGekozen === sleutel;
+        const c = svgEl('circle', { cx: x, cy: y, r, class: 'stip' + (gekozen ? ' gekozen' : ''), tabindex: 0, role: 'button', 'aria-label': `${plaatsen}: ${n} ${n === 1 ? 'wedstrijd' : 'wedstrijden'}` }, svg);
+        if (n > 1) svgEl('text', { x, y: y + 4, class: 'stip-getal' + (gekozen ? ' gekozen' : '') }, svg).textContent = n;
+        const kies = () => {
+          kaartGekozen = sleutel;
+          svg.querySelectorAll('.gekozen').forEach(e => e.classList.remove('gekozen'));
+          c.classList.add('gekozen');
+          const paneel = document.getElementById('kaartPaneel');
+          paneel.innerHTML = `<h3>${esc(plaatsen)}</h3><div class="paneel-kaarten"></div>`;
+          g.rijen.forEach(w => paneel.querySelector('.paneel-kaarten').appendChild(renderKaart(w)));
+        };
+        c.addEventListener('click', kies);
+        c.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); kies(); } });
+        c.addEventListener('mouseenter', () => {
+          tip.textContent = `${plaatsen} · ${n}`; tip.hidden = false;
+          const schaal = vak.clientWidth / KAART.breedte;
+          tip.style.left = `${x * schaal + 12}px`; tip.style.top = `${y * schaal - 30}px`;
+        });
+        c.addEventListener('mouseleave', () => { tip.hidden = true; });
+        if (gekozen) kies();
+      });
+    }
+
+    // ---------- alles samen ----------
+    function gefilterd() {
+      const rijen = WEDSTRIJDEN.filter(voldoet);
+      if (f.sorteer === 'prijs') {
+        rijen.sort((a, b) => (laagstePrijs(a) ?? Infinity) - (laagstePrijs(b) ?? Infinity) || a.datum.localeCompare(b.datum));
+      } else if (f.sorteer === 'sluit') {
+        const s = w => (w.inschrijving.sluit && w.inschrijving.sluit >= VANDAAG ? w.inschrijving.sluit : '9999');
+        rijen.sort((a, b) => s(a).localeCompare(s(b)) || a.datum.localeCompare(b.datum));
+      } else {
+        rijen.sort((a, b) => a.datum.localeCompare(b.datum) || a.naam.localeCompare(b.naam));
+      }
+      return rijen;
+    }
+    function toon() {
+      const rijen = gefilterd();
+      const lijst = document.getElementById('lijst');
+      lijst.className = 'lijst' + (weergave === 'lijst' ? ' als-lijst' : '') + (weergave === 'kaart' ? ' als-kaart' : '');
+      document.querySelectorAll('.weergave-knop').forEach(b => b.setAttribute('aria-pressed', b.dataset.weergave === weergave));
+      const totaal = WEDSTRIJDEN.filter(w => !w.voorbij).length;
+      document.getElementById('resultaatTeller').textContent = `${rijen.length} ${rijen.length === 1 ? 'wedstrijd' : 'wedstrijden'}`;
+      document.getElementById('tellerTop').textContent = `${totaal} komende wedstrijden`;
+      if (weergave === 'kaart') { toonKaart(rijen, lijst); return; }
+      lijst.innerHTML = '';
+      if (!rijen.length) { lijst.innerHTML = '<div class="leeg">Niets gevonden — probeer het breder</div>'; return; }
+      let vorigeMaand = null;
+      rijen.forEach(w => {
+        const maand = w.datum.slice(0, 7);
+        if (!f.sorteer && maand !== vorigeMaand) {
+          const kop = document.createElement('div');
+          kop.className = 'maandkop';
+          kop.textContent = `${MAANDEN[Number(maand.slice(5)) - 1]}${maand.slice(0, 4) !== VANDAAG.slice(0, 4) ? ' ' + maand.slice(0, 4) : ''}`;
+          lijst.appendChild(kop);
+          vorigeMaand = maand;
+        }
+        lijst.appendChild(weergave === 'lijst' ? renderRij(w) : renderKaart(w));
+      });
+    }
+    function vernieuw() { filtersNaarUrl(); bouwChips(); toon(); }
+
+    function melding(tekst) {
+      const m = document.getElementById('melding');
+      m.textContent = tekst; m.hidden = false;
+      clearTimeout(melding.t); melding.t = setTimeout(() => { m.hidden = true; }, 2200);
+    }
+
+    filtersUitUrl();
+    vulSelects();
+    syncVelden();
+    document.getElementById('zoek').addEventListener('input', e => { f.q = e.target.value.trim(); vernieuw(); });
+    Object.entries(VELD_IDS).forEach(([k, id]) => document.getElementById(id).addEventListener('input', e => { f[k] = e.target.value; vernieuw(); }));
+    document.getElementById('wis').addEventListener('click', () => {
+      SETS.forEach(k => { f[k] = new Set(); });
+      VELDEN.forEach(k => { f[k] = ''; });
+      VLAGGEN.forEach(k => { f[k] = false; });
+      syncVelden(); vernieuw();
+    });
+    document.getElementById('deel').addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(location.href); melding('Link gekopieerd'); }
+      catch { prompt('Kopieer deze link:', location.href); }
+    });
+    document.querySelectorAll('.weergave-knop').forEach(b => b.addEventListener('click', () => {
+      weergave = b.dataset.weergave;
+      try { localStorage.setItem('weergave', weergave); } catch {}
+      toon();
+    }));
+    bouwChips();
+    toon();
+  </script>
+</body>
+</html>
