@@ -4,6 +4,7 @@ const WEDSTRIJDEN = [
   "id": "petzl-night-trail-night-trail-utrechtse-heuvelrug-2026-10-02",
   "naam": "Petzl Night Trail (Night Trail Utrechtse Heuvelrug)",
   "datum": "2026-10-02",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Leersum (Landgoed Ginkelduin)",
   "gemeente": "Utrechtse Heuvelrug",
@@ -46,6 +47,7 @@ const WEDSTRIJDEN = [
   "id": "isoniq-urk-marathon-halve-marathon-2026-10-03",
   "naam": "Isoniq Urk Marathon (halve marathon)",
   "datum": "2026-10-03",
+  "verwacht": null,
   "starttijd": "11:15",
   "plaats": "Urk",
   "gemeente": "Urk",
@@ -83,6 +85,7 @@ const WEDSTRIJDEN = [
   "id": "leersumse-veld-trail-2026-10-03",
   "naam": "Leersumse Veld Trail",
   "datum": "2026-10-03",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Leersum",
   "gemeente": "Utrechtse Heuvelrug",
@@ -124,6 +127,7 @@ const WEDSTRIJDEN = [
   "id": "molens-mooiste-2026-10-03",
   "naam": "Molens Mooiste",
   "datum": "2026-10-03",
+  "verwacht": null,
   "starttijd": "09:30",
   "plaats": "Kinderdijk",
   "gemeente": "Molenlanden",
@@ -160,6 +164,7 @@ const WEDSTRIJDEN = [
   "id": "pieken-dalen-festival-2026-10-03",
   "naam": "Pieken+Dalen Festival",
   "datum": "2026-10-03",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Doorn",
   "gemeente": "Utrechtse Heuvelrug",
@@ -202,6 +207,7 @@ const WEDSTRIJDEN = [
   "id": "rottemerenloop-2026-10-03",
   "naam": "Rottemerenloop",
   "datum": "2026-10-03",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Bleiswijk",
   "gemeente": "Lansingerland",
@@ -243,6 +249,7 @@ const WEDSTRIJDEN = [
   "id": "valley-run-veenendaal-zomer-edition-2026-10-03",
   "naam": "Valley Run Veenendaal - Zomer Edition",
   "datum": "2026-10-03",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Veenendaal",
   "gemeente": "Veenendaal",
@@ -291,6 +298,7 @@ const WEDSTRIJDEN = [
   "id": "280ste-wintercup-lelystad-2026-10-04",
   "naam": "280ste Wintercup Lelystad",
   "datum": "2026-10-04",
+  "verwacht": null,
   "starttijd": "10:45",
   "plaats": "Lelystad",
   "gemeente": "Lelystad",
@@ -327,6 +335,7 @@ const WEDSTRIJDEN = [
   "id": "devil-s-trail-utrechtse-heuvelrug-2026-10-04",
   "naam": "Devil's Trail Utrechtse Heuvelrug",
   "datum": "2026-10-04",
+  "verwacht": null,
   "starttijd": "12:05",
   "plaats": "Doorn (Doornse Gat)",
   "gemeente": "Utrechtse Heuvelrug",
@@ -363,6 +372,7 @@ const WEDSTRIJDEN = [
   "id": "halve-marathon-oostland-2026-10-04",
   "naam": "Halve Marathon Oostland",
   "datum": "2026-10-04",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Pijnacker",
   "gemeente": "Pijnacker-Nootdorp",
@@ -405,6 +415,7 @@ const WEDSTRIJDEN = [
   "id": "houtloop-delft-2026-10-04",
   "naam": "Houtloop Delft",
   "datum": "2026-10-04",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Delft",
   "gemeente": "Delft",
@@ -441,6 +452,7 @@ const WEDSTRIJDEN = [
   "id": "langs-de-gouweloop-2026-10-04",
   "naam": "Langs de Gouweloop",
   "datum": "2026-10-04",
+  "verwacht": null,
   "starttijd": "14:00",
   "plaats": "Waddinxveen",
   "gemeente": "Waddinxveen",
@@ -477,6 +489,7 @@ const WEDSTRIJDEN = [
   "id": "msv-spijkenisse-family-run-2026-10-04",
   "naam": "MSV Spijkenisse Family Run",
   "datum": "2026-10-04",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Spijkenisse",
   "gemeente": "Nissewaard",
@@ -513,6 +526,7 @@ const WEDSTRIJDEN = [
   "id": "rondje-bergen-2026-10-04",
   "naam": "Rondje Bergen",
   "datum": "2026-10-04",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Bergen",
   "gemeente": "Bergen (NH)",
@@ -549,6 +563,7 @@ const WEDSTRIJDEN = [
   "id": "trek-singelloop-utrecht-2026-10-04",
   "naam": "TREK Singelloop Utrecht",
   "datum": "2026-10-04",
+  "verwacht": null,
   "starttijd": "09:00",
   "plaats": "Utrecht",
   "gemeente": "Utrecht",
@@ -585,6 +600,7 @@ const WEDSTRIJDEN = [
   "id": "tata-steel-marquetteloop-2026-10-04",
   "naam": "Tata Steel Marquetteloop",
   "datum": "2026-10-04",
+  "verwacht": null,
   "starttijd": "11:45",
   "plaats": "Heemskerk",
   "gemeente": "Heemskerk",
@@ -627,6 +643,7 @@ const WEDSTRIJDEN = [
   "id": "twiskemolenloop-oktober-2026-10-04",
   "naam": "Twiskemolenloop (oktober)",
   "datum": "2026-10-04",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Landsmeer",
   "gemeente": "Landsmeer",
@@ -674,6 +691,7 @@ const WEDSTRIJDEN = [
   "id": "avw-3bossentrail-2026-10-10",
   "naam": "AVW 3Bossentrail",
   "datum": "2026-10-10",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Wieringerwerf",
   "gemeente": "Hollands Kroon",
@@ -716,6 +734,7 @@ const WEDSTRIJDEN = [
   "id": "dordtse-biesbosch-trailrun-2026-10-10",
   "naam": "Dordtse Biesbosch Trailrun",
   "datum": "2026-10-10",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Dordrecht",
   "gemeente": "Dordrecht",
@@ -763,6 +782,7 @@ const WEDSTRIJDEN = [
   "id": "duinloopcircuit-katwijk-noordduinloop-najaar-2026-10-10",
   "naam": "Duinloopcircuit Katwijk – Noordduinloop (najaar)",
   "datum": "2026-10-10",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Katwijk aan Zee",
   "gemeente": "Katwijk",
@@ -799,6 +819,7 @@ const WEDSTRIJDEN = [
   "id": "epilepsieloop-amersfoort-2026-10-10",
   "naam": "EpilepsieLoop Amersfoort",
   "datum": "2026-10-10",
+  "verwacht": null,
   "starttijd": "12:20",
   "plaats": "Amersfoort",
   "gemeente": "Amersfoort",
@@ -841,6 +862,7 @@ const WEDSTRIJDEN = [
   "id": "jan-louter-loop-2026-10-10",
   "naam": "Jan Louter Loop",
   "datum": "2026-10-10",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Vlaardingen",
   "gemeente": "Vlaardingen",
@@ -882,6 +904,7 @@ const WEDSTRIJDEN = [
   "id": "lovelife-run-amsterdam-2026-10-10",
   "naam": "LoveLife Run Amsterdam",
   "datum": "2026-10-10",
+  "verwacht": null,
   "starttijd": "13:15",
   "plaats": "Amsterdam",
   "gemeente": "Amsterdam",
@@ -917,6 +940,7 @@ const WEDSTRIJDEN = [
   "id": "prattenburgrun-2026-10-10",
   "naam": "PrattenburgRun",
   "datum": "2026-10-10",
+  "verwacht": null,
   "starttijd": "10:30",
   "plaats": "Veenendaal (Landgoed Prattenburg)",
   "gemeente": "Rhenen",
@@ -959,6 +983,7 @@ const WEDSTRIJDEN = [
   "id": "run2day-vlinderloop-2026-10-10",
   "naam": "Run2Day Vlinderloop",
   "datum": "2026-10-10",
+  "verwacht": null,
   "starttijd": "11:30",
   "plaats": "Houten",
   "gemeente": "Houten",
@@ -1007,6 +1032,7 @@ const WEDSTRIJDEN = [
   "id": "amerongse-berg-trail-2026-10-11",
   "naam": "Amerongse Berg Trail",
   "datum": "2026-10-11",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Amerongen (Boshotel Overberg)",
   "gemeente": "Utrechtse Heuvelrug",
@@ -1060,6 +1086,7 @@ const WEDSTRIJDEN = [
   "id": "bodyresults-vestingloop-edam-2026-10-11",
   "naam": "BodyResults Vestingloop Edam",
   "datum": "2026-10-11",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Edam",
   "gemeente": "Edam-Volendam",
@@ -1096,6 +1123,7 @@ const WEDSTRIJDEN = [
   "id": "culture-run-woerden-2026-10-11",
   "naam": "Culture Run Woerden",
   "datum": "2026-10-11",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Woerden",
   "gemeente": "Woerden",
@@ -1131,6 +1159,7 @@ const WEDSTRIJDEN = [
   "id": "de-15-van-wassenaar-2026-10-11",
   "naam": "De 15 van Wassenaar",
   "datum": "2026-10-11",
+  "verwacht": null,
   "starttijd": "14:30",
   "plaats": "Wassenaar",
   "gemeente": "Wassenaar",
@@ -1166,6 +1195,7 @@ const WEDSTRIJDEN = [
   "id": "de-5-van-groenekan-2026-10-11",
   "naam": "De 5 van Groenekan",
   "datum": "2026-10-11",
+  "verwacht": null,
   "starttijd": "14:35",
   "plaats": "Groenekan",
   "gemeente": "De Bilt",
@@ -1201,6 +1231,7 @@ const WEDSTRIJDEN = [
   "id": "napoleon-mijlenloop-2026-10-11",
   "naam": "Napoleon-Mijlenloop",
   "datum": "2026-10-11",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Den Helder",
   "gemeente": "Den Helder",
@@ -1236,6 +1267,7 @@ const WEDSTRIJDEN = [
   "id": "oostvaardersrun-2026-10-11",
   "naam": "Oostvaardersrun",
   "datum": "2026-10-11",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Lelystad",
   "gemeente": "Lelystad",
@@ -1284,6 +1316,7 @@ const WEDSTRIJDEN = [
   "id": "sloterplasloop-90e-2026-10-11",
   "naam": "Sloterplasloop (90e)",
   "datum": "2026-10-11",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Amsterdam",
   "gemeente": "Amsterdam",
@@ -1320,6 +1353,7 @@ const WEDSTRIJDEN = [
   "id": "jan-koudstaal-dijkloop-2026-10-17",
   "naam": "Jan Koudstaal Dijkloop",
   "datum": "2026-10-17",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Schoonhoven",
   "gemeente": "Krimpenerwaard",
@@ -1361,6 +1395,7 @@ const WEDSTRIJDEN = [
   "id": "bertusloop-delft-2026-10-18",
   "naam": "Bertusloop Delft",
   "datum": "2026-10-18",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Delft",
   "gemeente": "Delft",
@@ -1396,6 +1431,7 @@ const WEDSTRIJDEN = [
   "id": "goudasfaltloop-2026-10-18",
   "naam": "GOUDasfaltloop",
   "datum": "2026-10-18",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Gouda",
   "gemeente": "Gouda",
@@ -1431,6 +1467,7 @@ const WEDSTRIJDEN = [
   "id": "maliebaanloop-2026-10-18",
   "naam": "Maliebaanloop",
   "datum": "2026-10-18",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Utrecht",
   "gemeente": "Utrecht",
@@ -1467,6 +1504,7 @@ const WEDSTRIJDEN = [
   "id": "tcs-amsterdam-marathon-mizuno-halve-marathon-2026-10-18",
   "naam": "TCS Amsterdam Marathon - Mizuno Halve Marathon",
   "datum": "2026-10-18",
+  "verwacht": null,
   "starttijd": "13:20",
   "plaats": "Amsterdam",
   "gemeente": "Amsterdam",
@@ -1503,6 +1541,7 @@ const WEDSTRIJDEN = [
   "id": "turfveld-wintercross-15-km-2026-10-18",
   "naam": "Turfveld Wintercross 15 km",
   "datum": "2026-10-18",
+  "verwacht": null,
   "starttijd": "10:50",
   "plaats": "Den Burg",
   "gemeente": "Texel",
@@ -1538,6 +1577,7 @@ const WEDSTRIJDEN = [
   "id": "zeezichtloop-petten-2026-10-18",
   "naam": "Zeezichtloop Petten",
   "datum": "2026-10-18",
+  "verwacht": null,
   "starttijd": "11:05",
   "plaats": "Petten",
   "gemeente": "Schagen",
@@ -1574,6 +1614,7 @@ const WEDSTRIJDEN = [
   "id": "lrrc-bockenloop-2026-10-24",
   "naam": "LRRC Bockenloop",
   "datum": "2026-10-24",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Leiden",
   "gemeente": "Leiden",
@@ -1609,6 +1650,7 @@ const WEDSTRIJDEN = [
   "id": "vijfhoekparkloop-2026-10-24",
   "naam": "Vijfhoekparkloop",
   "datum": "2026-10-24",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zaandam",
   "gemeente": "Zaanstad",
@@ -1644,6 +1686,7 @@ const WEDSTRIJDEN = [
   "id": "1e-oosterbaan-strand-en-duinloop-2026-10-25",
   "naam": "1e Oosterbaan Strand- en Duinloop",
   "datum": "2026-10-25",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Castricum",
   "gemeente": "Castricum",
@@ -1687,6 +1730,7 @@ const WEDSTRIJDEN = [
   "id": "dynafit-duinentrail-schoorl-2026-10-25",
   "naam": "DYNAFIT Duinentrail Schoorl",
   "datum": "2026-10-25",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Schoorl",
   "gemeente": "Bergen (NH)",
@@ -1728,6 +1772,7 @@ const WEDSTRIJDEN = [
   "id": "droomtijdloop-2026-10-25",
   "naam": "Droomtijdloop",
   "datum": "2026-10-25",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Delft",
   "gemeente": "Delft",
@@ -1763,6 +1808,7 @@ const WEDSTRIJDEN = [
   "id": "heemstedeloop-2026-10-25",
   "naam": "Heemstedeloop",
   "datum": "2026-10-25",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Heemstede",
   "gemeente": "Heemstede",
@@ -1799,6 +1845,7 @@ const WEDSTRIJDEN = [
   "id": "lidl-wolfskamerloop-2026-10-25",
   "naam": "Lidl Wolfskamerloop",
   "datum": "2026-10-25",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Huizen",
   "gemeente": "Huizen",
@@ -1835,6 +1882,7 @@ const WEDSTRIJDEN = [
   "id": "vechtstreek-in-beweging-vib-lopen-2026-10-25",
   "naam": "Vechtstreek in Beweging (VIB) Lopen",
   "datum": "2026-10-25",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Maarssen (Maarsseveense Plassen)",
   "gemeente": "Stichtse Vecht",
@@ -1877,6 +1925,7 @@ const WEDSTRIJDEN = [
   "id": "westvliet-hartekindloop-2026-10-25",
   "naam": "Westvliet Hartekindloop",
   "datum": "2026-10-25",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Den Haag",
   "gemeente": "Den Haag",
@@ -1912,6 +1961,7 @@ const WEDSTRIJDEN = [
   "id": "typhoonloop-2026-10-31",
   "naam": "Typhoonloop",
   "datum": "2026-10-31",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Gorinchem",
   "gemeente": "Gorinchem",
@@ -1947,6 +1997,7 @@ const WEDSTRIJDEN = [
   "id": "281ste-wintercup-lelystad-2026-11-01",
   "naam": "281ste Wintercup Lelystad",
   "datum": "2026-11-01",
+  "verwacht": null,
   "starttijd": "10:45",
   "plaats": "Lelystad",
   "gemeente": "Lelystad",
@@ -1983,6 +2034,7 @@ const WEDSTRIJDEN = [
   "id": "boerenkoolloop-warmenhuizen-2026-11-01",
   "naam": "Boerenkoolloop Warmenhuizen",
   "datum": "2026-11-01",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Warmenhuizen",
   "gemeente": "Schagen",
@@ -2018,6 +2070,7 @@ const WEDSTRIJDEN = [
   "id": "de-zilveren-turfloop-2026-11-01",
   "naam": "De Zilveren Turfloop",
   "datum": "2026-11-01",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Mijdrecht",
   "gemeente": "De Ronde Venen",
@@ -2060,6 +2113,7 @@ const WEDSTRIJDEN = [
   "id": "drechtstadloop-2026-11-01",
   "naam": "DrechtStadLoop",
   "datum": "2026-11-01",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Dordrecht",
   "gemeente": "Dordrecht",
@@ -2102,6 +2156,7 @@ const WEDSTRIJDEN = [
   "id": "egboetsloop-53e-2026-11-01",
   "naam": "Egboetsloop (53e)",
   "datum": "2026-11-01",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Hauwert",
   "gemeente": "Medemblik",
@@ -2138,6 +2193,7 @@ const WEDSTRIJDEN = [
   "id": "halve-van-het-gooi-2026-11-01",
   "naam": "Halve van het Gooi",
   "datum": "2026-11-01",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Naarden",
   "gemeente": "Gooise Meren",
@@ -2179,6 +2235,7 @@ const WEDSTRIJDEN = [
   "id": "houtloop-delft-2026-11-01",
   "naam": "Houtloop Delft",
   "datum": "2026-11-01",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Delft",
   "gemeente": "Delft",
@@ -2215,6 +2272,7 @@ const WEDSTRIJDEN = [
   "id": "nn-the-hague-10k-nn-marathon-the-hague-2026-11-01",
   "naam": "NN The Hague 10K (NN Marathon The Hague)",
   "datum": "2026-11-01",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Den Haag",
   "gemeente": "Den Haag",
@@ -2250,6 +2308,7 @@ const WEDSTRIJDEN = [
   "id": "startbaanrun-2026-11-01",
   "naam": "StartbaanRun",
   "datum": "2026-11-01",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Soesterberg (Park Vliegbasis Soesterberg)",
   "gemeente": "Soest",
@@ -2292,6 +2351,7 @@ const WEDSTRIJDEN = [
   "id": "twiskemolenloop-november-2026-11-01",
   "naam": "Twiskemolenloop (november)",
   "datum": "2026-11-01",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Landsmeer",
   "gemeente": "Landsmeer",
@@ -2339,6 +2399,7 @@ const WEDSTRIJDEN = [
   "id": "batavia-night-run-2026-11-06",
   "naam": "Batavia Night Run",
   "datum": "2026-11-06",
+  "verwacht": null,
   "starttijd": "20:15",
   "plaats": "Lelystad",
   "gemeente": "Lelystad",
@@ -2382,6 +2443,7 @@ const WEDSTRIJDEN = [
   "id": "dorpsrun-renswoude-2026-11-07",
   "naam": "Dorpsrun Renswoude",
   "datum": "2026-11-07",
+  "verwacht": null,
   "starttijd": "13:45",
   "plaats": "Renswoude",
   "gemeente": "Renswoude",
@@ -2424,6 +2486,7 @@ const WEDSTRIJDEN = [
   "id": "duifpoldertrainingsloop-2026-11-07",
   "naam": "Duifpoldertrainingsloop",
   "datum": "2026-11-07",
+  "verwacht": null,
   "starttijd": "14:00",
   "plaats": "Schipluiden",
   "gemeente": "Midden-Delfland",
@@ -2459,6 +2522,7 @@ const WEDSTRIJDEN = [
   "id": "duinloopcircuit-katwijk-zuidduinloop-2026-11-07",
   "naam": "Duinloopcircuit Katwijk – Zuidduinloop",
   "datum": "2026-11-07",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Katwijk aan Zee",
   "gemeente": "Katwijk",
@@ -2495,6 +2559,7 @@ const WEDSTRIJDEN = [
   "id": "lage-vuursche-trail-2026-11-07",
   "naam": "Lage Vuursche Trail",
   "datum": "2026-11-07",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Lage Vuursche",
   "gemeente": "Baarn",
@@ -2536,6 +2601,7 @@ const WEDSTRIJDEN = [
   "id": "schipholloop-halve-marathon-2026-11-07",
   "naam": "Schipholloop - Halve Marathon",
   "datum": "2026-11-07",
+  "verwacht": null,
   "starttijd": "10:30",
   "plaats": "Schiphol-Oost",
   "gemeente": "Haarlemmermeer",
@@ -2571,6 +2637,7 @@ const WEDSTRIJDEN = [
   "id": "waalbosrun-2026-11-07",
   "naam": "Waalbosrun",
   "datum": "2026-11-07",
+  "verwacht": null,
   "starttijd": "13:00",
   "plaats": "Rijsoord",
   "gemeente": "Ridderkerk",
@@ -2606,6 +2673,7 @@ const WEDSTRIJDEN = [
   "id": "dijkgatboscross-2026-11-08",
   "naam": "Dijkgatboscross",
   "datum": "2026-11-08",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Wieringerwerf",
   "gemeente": "Hollands Kroon",
@@ -2642,6 +2710,7 @@ const WEDSTRIJDEN = [
   "id": "eenhoornloop-2026-11-08",
   "naam": "Eenhoornloop",
   "datum": "2026-11-08",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Hoorn",
   "gemeente": "Hoorn",
@@ -2683,6 +2752,7 @@ const WEDSTRIJDEN = [
   "id": "flevo-fun-run-ronde-1-2026-11-08",
   "naam": "Flevo Fun Run (ronde 1)",
   "datum": "2026-11-08",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zeewolde",
   "gemeente": "Zeewolde",
@@ -2720,6 +2790,7 @@ const WEDSTRIJDEN = [
   "id": "halve-marathon-gouda-2026-11-08",
   "naam": "Halve Marathon Gouda",
   "datum": "2026-11-08",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Gouda",
   "gemeente": "Gouda",
@@ -2762,6 +2833,7 @@ const WEDSTRIJDEN = [
   "id": "inofec-maastunnelloop-2026-11-08",
   "naam": "Inofec Maastunnelloop",
   "datum": "2026-11-08",
+  "verwacht": null,
   "starttijd": "10:30",
   "plaats": "Rotterdam",
   "gemeente": "Rotterdam",
@@ -2797,6 +2869,7 @@ const WEDSTRIJDEN = [
   "id": "klaverbladloop-2026-11-08",
   "naam": "Klaverbladloop",
   "datum": "2026-11-08",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zoetermeer",
   "gemeente": "Zoetermeer",
@@ -2838,6 +2911,7 @@ const WEDSTRIJDEN = [
   "id": "nsl-nederzandtcross-2026-11-08",
   "naam": "NSL NederZandtCross",
   "datum": "2026-11-08",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Noordwijkerhout",
   "gemeente": "Noordwijkerhout",
@@ -2879,6 +2953,7 @@ const WEDSTRIJDEN = [
   "id": "olympisch-stadionloop-2026-11-08",
   "naam": "Olympisch Stadionloop",
   "datum": "2026-11-08",
+  "verwacht": null,
   "starttijd": "12:30",
   "plaats": "Amsterdam",
   "gemeente": "Amsterdam",
@@ -2914,6 +2989,7 @@ const WEDSTRIJDEN = [
   "id": "urban-trail-haarlem-2026-11-08",
   "naam": "Urban Trail Haarlem",
   "datum": "2026-11-08",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Haarlem",
   "gemeente": "Haarlem",
@@ -2949,6 +3025,7 @@ const WEDSTRIJDEN = [
   "id": "amersfoort-night-run-2026-11-13",
   "naam": "Amersfoort Night Run",
   "datum": "2026-11-13",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Amersfoort",
   "gemeente": "Amersfoort",
@@ -2991,6 +3068,7 @@ const WEDSTRIJDEN = [
   "id": "run2day-vlinderloop-2026-11-14",
   "naam": "Run2Day Vlinderloop",
   "datum": "2026-11-14",
+  "verwacht": null,
   "starttijd": "11:30",
   "plaats": "Houten",
   "gemeente": "Houten",
@@ -3038,6 +3116,7 @@ const WEDSTRIJDEN = [
   "id": "vijfhoekparkloop-2026-11-14",
   "naam": "Vijfhoekparkloop",
   "datum": "2026-11-14",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zaandam",
   "gemeente": "Zaanstad",
@@ -3073,6 +3152,7 @@ const WEDSTRIJDEN = [
   "id": "bertusloop-delft-2026-11-15",
   "naam": "Bertusloop Delft",
   "datum": "2026-11-15",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Delft",
   "gemeente": "Delft",
@@ -3108,6 +3188,7 @@ const WEDSTRIJDEN = [
   "id": "de-knikker-zegerplasloop-2026-11-15",
   "naam": "De Knikker Zegerplasloop",
   "datum": "2026-11-15",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Alphen aan den Rijn",
   "gemeente": "Alphen aan den Rijn",
@@ -3155,6 +3236,7 @@ const WEDSTRIJDEN = [
   "id": "de-ronde-venen-marathon-10-km-2026-11-15",
   "naam": "De Ronde Venen Marathon - 10 km",
   "datum": "2026-11-15",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Abcoude",
   "gemeente": "De Ronde Venen",
@@ -3190,6 +3272,7 @@ const WEDSTRIJDEN = [
   "id": "sterke-start-loop-2026-11-15",
   "naam": "Sterke Start Loop",
   "datum": "2026-11-15",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zevenhuizen",
   "gemeente": "Zuidplas",
@@ -3231,6 +3314,7 @@ const WEDSTRIJDEN = [
   "id": "derko-night-trail-2026-11-20",
   "naam": "Derko Night Trail",
   "datum": "2026-11-20",
+  "verwacht": null,
   "starttijd": "19:00",
   "plaats": "Nieuwegein (Skipiste)",
   "gemeente": "Nieuwegein",
@@ -3266,6 +3350,7 @@ const WEDSTRIJDEN = [
   "id": "utrecht-science-park-night-run-2026-11-20",
   "naam": "Utrecht Science Park Night Run",
   "datum": "2026-11-20",
+  "verwacht": null,
   "starttijd": "20:15",
   "plaats": "Utrecht (Sportcentrum Olympos)",
   "gemeente": "Utrecht",
@@ -3308,6 +3393,7 @@ const WEDSTRIJDEN = [
   "id": "halve-van-monster-2026-11-21",
   "naam": "Halve van Monster",
   "datum": "2026-11-21",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Monster",
   "gemeente": "Westland",
@@ -3349,6 +3435,7 @@ const WEDSTRIJDEN = [
   "id": "hollands-duin-trail-najaar-2026-11-21",
   "naam": "Hollands Duin Trail (najaar)",
   "datum": "2026-11-21",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Noordwijk",
   "gemeente": "Noordwijk",
@@ -3391,6 +3478,7 @@ const WEDSTRIJDEN = [
   "id": "soesterduinen-trailrun-2026-11-21",
   "naam": "Soesterduinen Trailrun",
   "datum": "2026-11-21",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Soest (De Birkt)",
   "gemeente": "Soest",
@@ -3433,6 +3521,7 @@ const WEDSTRIJDEN = [
   "id": "av-suomi-sinterklaasloop-2026-11-22",
   "naam": "AV Suomi Sinterklaasloop",
   "datum": "2026-11-22",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Santpoort-Noord",
   "gemeente": "Velsen",
@@ -3469,6 +3558,7 @@ const WEDSTRIJDEN = [
   "id": "ava-zorg-en-zekerheid-westeinderloop-2026-11-22",
   "naam": "AVA Zorg en Zekerheid Westeinderloop",
   "datum": "2026-11-22",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Kudelstaart",
   "gemeente": "Aalsmeer",
@@ -3510,6 +3600,7 @@ const WEDSTRIJDEN = [
   "id": "graef-castricum-trail-2026-11-22",
   "naam": "Graef Castricum Trail",
   "datum": "2026-11-22",
+  "verwacht": null,
   "starttijd": "10:30",
   "plaats": "Castricum",
   "gemeente": "Castricum",
@@ -3545,6 +3636,7 @@ const WEDSTRIJDEN = [
   "id": "vechtstreek-in-beweging-vib-lopen-2026-11-22",
   "naam": "Vechtstreek in Beweging (VIB) Lopen",
   "datum": "2026-11-22",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Maarssen (Maarsseveense Plassen)",
   "gemeente": "Stichtse Vecht",
@@ -3587,6 +3679,7 @@ const WEDSTRIJDEN = [
   "id": "vijfhoekparkloop-2026-11-28",
   "naam": "Vijfhoekparkloop",
   "datum": "2026-11-28",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zaandam",
   "gemeente": "Zaanstad",
@@ -3622,6 +3715,7 @@ const WEDSTRIJDEN = [
   "id": "2e-oosterbaan-strand-en-duinloop-2026-11-29",
   "naam": "2e Oosterbaan Strand- en Duinloop",
   "datum": "2026-11-29",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Castricum",
   "gemeente": "Castricum",
@@ -3665,6 +3759,7 @@ const WEDSTRIJDEN = [
   "id": "spijkenisse-marathon-2026-11-29",
   "naam": "Spijkenisse Marathon",
   "datum": "2026-11-29",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Spijkenisse",
   "gemeente": "Nissewaard",
@@ -3706,6 +3801,7 @@ const WEDSTRIJDEN = [
   "id": "duinloopcircuit-katwijk-sinterklaasloop-2026-12-05",
   "naam": "Duinloopcircuit Katwijk – Sinterklaasloop",
   "datum": "2026-12-05",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Katwijk aan Zee",
   "gemeente": "Katwijk",
@@ -3742,6 +3838,7 @@ const WEDSTRIJDEN = [
   "id": "pre-run-egmond-halve-marathon-2026-12-05",
   "naam": "Pre-Run Egmond Halve Marathon",
   "datum": "2026-12-05",
+  "verwacht": null,
   "starttijd": "11:15",
   "plaats": "Castricum aan Zee",
   "gemeente": "Castricum",
@@ -3777,6 +3874,7 @@ const WEDSTRIJDEN = [
   "id": "sint-nicolaasloop-2026-12-05",
   "naam": "Sint Nicolaasloop",
   "datum": "2026-12-05",
+  "verwacht": null,
   "starttijd": "10:40",
   "plaats": "Bunschoten-Spakenburg",
   "gemeente": "Bunschoten",
@@ -3819,6 +3917,7 @@ const WEDSTRIJDEN = [
   "id": "282ste-wintercup-lelystad-2026-12-06",
   "naam": "282ste Wintercup Lelystad",
   "datum": "2026-12-06",
+  "verwacht": null,
   "starttijd": "10:45",
   "plaats": "Lelystad",
   "gemeente": "Lelystad",
@@ -3855,6 +3954,7 @@ const WEDSTRIJDEN = [
   "id": "all4running-crosscircuit-duincross-2026-12-06",
   "naam": "All4running Crosscircuit Duincross",
   "datum": "2026-12-06",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Den Helder",
   "gemeente": "Den Helder",
@@ -3891,6 +3991,7 @@ const WEDSTRIJDEN = [
   "id": "houtloop-delft-2026-12-06",
   "naam": "Houtloop Delft",
   "datum": "2026-12-06",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Delft",
   "gemeente": "Delft",
@@ -3927,6 +4028,7 @@ const WEDSTRIJDEN = [
   "id": "voorne-s-duin-trail-2026-12-06",
   "naam": "Voorne's Duin Trail",
   "datum": "2026-12-06",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Oostvoorne",
   "gemeente": "Voorne aan Zee",
@@ -3963,6 +4065,7 @@ const WEDSTRIJDEN = [
   "id": "devil-s-nighttrail-netl-kraggenburg-2026-12-12",
   "naam": "Devil's NightTrail Netl-Kraggenburg",
   "datum": "2026-12-12",
+  "verwacht": null,
   "starttijd": "19:00",
   "plaats": "Kraggenburg",
   "gemeente": "Noordoostpolder",
@@ -3999,6 +4102,7 @@ const WEDSTRIJDEN = [
   "id": "run2day-vlinderloop-2026-12-12",
   "naam": "Run2Day Vlinderloop",
   "datum": "2026-12-12",
+  "verwacht": null,
   "starttijd": "11:30",
   "plaats": "Houten",
   "gemeente": "Houten",
@@ -4046,6 +4150,7 @@ const WEDSTRIJDEN = [
   "id": "silent-forest-trail-2026-12-12",
   "naam": "Silent Forest Trail",
   "datum": "2026-12-12",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Lage Vuursche",
   "gemeente": "Baarn",
@@ -4087,6 +4192,7 @@ const WEDSTRIJDEN = [
   "id": "dsw-bruggenloop-rotterdam-2026-12-13",
   "naam": "DSW Bruggenloop Rotterdam",
   "datum": "2026-12-13",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Rotterdam",
   "gemeente": "Rotterdam",
@@ -4122,6 +4228,7 @@ const WEDSTRIJDEN = [
   "id": "devil-s-trail-netl-kraggenburg-2026-12-13",
   "naam": "Devil's Trail Netl-Kraggenburg",
   "datum": "2026-12-13",
+  "verwacht": null,
   "starttijd": "11:30",
   "plaats": "Kraggenburg",
   "gemeente": "Noordoostpolder",
@@ -4158,6 +4265,7 @@ const WEDSTRIJDEN = [
   "id": "flevo-fun-run-ronde-2-2026-12-13",
   "naam": "Flevo Fun Run (ronde 2)",
   "datum": "2026-12-13",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zeewolde",
   "gemeente": "Zeewolde",
@@ -4195,6 +4303,7 @@ const WEDSTRIJDEN = [
   "id": "galgenberg-trail-2026-12-13",
   "naam": "Galgenberg Trail",
   "datum": "2026-12-13",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Amerongen (Amerongse Berg)",
   "gemeente": "Utrechtse Heuvelrug",
@@ -4236,6 +4345,7 @@ const WEDSTRIJDEN = [
   "id": "snertloop-tav-80-2026-12-13",
   "naam": "Snertloop TAV'80",
   "datum": "2026-12-13",
+  "verwacht": null,
   "starttijd": "10:30",
   "plaats": "'t Veld",
   "gemeente": "Hollands Kroon",
@@ -4277,6 +4387,7 @@ const WEDSTRIJDEN = [
   "id": "ter-specke-loop-2026-12-13",
   "naam": "Ter Specke Loop",
   "datum": "2026-12-13",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Lisse",
   "gemeente": "Lisse",
@@ -4318,6 +4429,7 @@ const WEDSTRIJDEN = [
   "id": "linschotenloop-2026-12-19",
   "naam": "Linschotenloop",
   "datum": "2026-12-19",
+  "verwacht": null,
   "starttijd": "11:45",
   "plaats": "Linschoten",
   "gemeente": "Montfoort",
@@ -4360,6 +4472,7 @@ const WEDSTRIJDEN = [
   "id": "bertusloop-delft-2026-12-20",
   "naam": "Bertusloop Delft",
   "datum": "2026-12-20",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Delft",
   "gemeente": "Delft",
@@ -4395,6 +4508,7 @@ const WEDSTRIJDEN = [
   "id": "starke-kerstloop-dronten-2026-12-20",
   "naam": "Starke Kerstloop Dronten",
   "datum": "2026-12-20",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Dronten",
   "gemeente": "Dronten",
@@ -4438,6 +4552,7 @@ const WEDSTRIJDEN = [
   "id": "kerstloop-amstelveen-2026-12-27",
   "naam": "Kerstloop Amstelveen",
   "datum": "2026-12-27",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Amstelveen",
   "gemeente": "Amstelveen",
@@ -4473,6 +4588,7 @@ const WEDSTRIJDEN = [
   "id": "vechtstreek-in-beweging-vib-lopen-2026-12-27",
   "naam": "Vechtstreek in Beweging (VIB) Lopen",
   "datum": "2026-12-27",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Maarssen (Maarsseveense Plassen)",
   "gemeente": "Stichtse Vecht",
@@ -4515,6 +4631,7 @@ const WEDSTRIJDEN = [
   "id": "de-onderlingen-oliebollenloop-2026-12-31",
   "naam": "De Onderlingen Oliebollenloop",
   "datum": "2026-12-31",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Schoonhoven",
   "gemeente": "Krimpenerwaard",
@@ -4556,6 +4673,7 @@ const WEDSTRIJDEN = [
   "id": "sport-2000-bart-langedijk-oudejaarsloop-2026-12-31",
   "naam": "Sport 2000 Bart Langedijk Oudejaarsloop",
   "datum": "2026-12-31",
+  "verwacht": null,
   "starttijd": "12:00",
   "plaats": "Den Helder",
   "gemeente": "Den Helder",
@@ -4588,9 +4706,63 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
+  "id": "twiskemolenloop-december-editie-2026-12",
+  "naam": "Twiskemolenloop (december-editie)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2026-12",
+   "vorigeEditie": "2026-10-04",
+   "aggregatorDatum": "2026-12-06"
+  },
+  "starttijd": null,
+  "plaats": "Landsmeer",
+  "gemeente": "Landsmeer",
+  "provincie": "Noord-Holland",
+  "lat": 52.4365,
+  "lon": 4.9285,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 16,
+    "label": "16 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.acwaterland.nl/twiskemolenloop/",
+  "maxDeelnemers": null,
+  "organisator": "AC Waterland",
+  "bronnen": [
+   "https://running.life/en/event/twiskemolenloop",
+   "https://www.acwaterland.nl/twiskemolenloop/"
+  ],
+  "notitie": "Losse edities door het seizoen (o.a. 4 okt 2026, 6 dec 2026 volgens eerdere bron). Organisatorsite niet te fetchen; data niet bij organisator bevestigd.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
   "id": "florijn-winterloop-2027-01-02",
   "naam": "Florijn Winterloop",
   "datum": "2027-01-02",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Woudenberg",
   "gemeente": "Woudenberg",
@@ -4633,6 +4805,7 @@ const WEDSTRIJDEN = [
   "id": "283ste-wintercup-lelystad-2027-01-03",
   "naam": "283ste Wintercup Lelystad",
   "datum": "2027-01-03",
+  "verwacht": null,
   "starttijd": "10:45",
   "plaats": "Lelystad",
   "gemeente": "Lelystad",
@@ -4669,6 +4842,7 @@ const WEDSTRIJDEN = [
   "id": "3e-oosterbaan-strand-en-duinloop-2027-01-03",
   "naam": "3e Oosterbaan Strand- en Duinloop",
   "datum": "2027-01-03",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Castricum",
   "gemeente": "Castricum",
@@ -4712,6 +4886,7 @@ const WEDSTRIJDEN = [
   "id": "de-nieuwjaarsloop-leiden-2027-01-03",
   "naam": "De Nieuwjaarsloop Leiden",
   "datum": "2027-01-03",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Leiden",
   "gemeente": "Leiden",
@@ -4750,9 +4925,54 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
+  "id": "snertloop-mtk-krimpen-a-d-ijssel-2027-01-03",
+  "naam": "Snertloop MTK (Krimpen a/d IJssel)",
+  "datum": "2027-01-03",
+  "verwacht": null,
+  "starttijd": null,
+  "plaats": "Krimpen aan den IJssel",
+  "gemeente": "Krimpen aan den IJssel",
+  "provincie": "Zuid-Holland",
+  "lat": 51.917,
+  "lon": 4.594,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.av-mtk.nl/",
+  "maxDeelnemers": null,
+  "organisator": "AV-MTK",
+  "bronnen": [
+   "https://www.av-mtk.nl/",
+   "https://www.av-mtk.nl/index.php?page=288&sid=1",
+   "https://my.raceresult.com/377778/"
+  ],
+  "notitie": "Organisator: 'De volgende Snertloop is gepland op 3 januari 2027.' Afstanden en starttijden zijn van de editie 14 februari 2026 (uitgesteld van januari): 21,1 km 11:00, 10 km 11:15; afstanden 2027 nog niet bevestigd. Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
   "id": "mundo-nieuwjaarsloop-2027-01-09",
   "naam": "Mundo Nieuwjaarsloop",
   "datum": "2027-01-09",
+  "verwacht": null,
   "starttijd": "11:30",
   "plaats": "Oud-Beijerland",
   "gemeente": "Hoeksche Waard",
@@ -4789,6 +5009,7 @@ const WEDSTRIJDEN = [
   "id": "run2day-vlinderloop-2027-01-09",
   "naam": "Run2Day Vlinderloop",
   "datum": "2027-01-09",
+  "verwacht": null,
   "starttijd": "11:30",
   "plaats": "Houten",
   "gemeente": "Houten",
@@ -4836,6 +5057,7 @@ const WEDSTRIJDEN = [
   "id": "amerongse-berg-trail-2027-01-10",
   "naam": "Amerongse Berg Trail",
   "datum": "2027-01-10",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Amerongen (Boshotel Overberg)",
   "gemeente": "Utrechtse Heuvelrug",
@@ -4889,6 +5111,7 @@ const WEDSTRIJDEN = [
   "id": "egmond-halve-marathon-2027-01-10",
   "naam": "Egmond Halve Marathon",
   "datum": "2027-01-10",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Egmond aan Zee",
   "gemeente": "Bergen (NH)",
@@ -4931,6 +5154,7 @@ const WEDSTRIJDEN = [
   "id": "flevo-fun-run-ronde-3-2027-01-10",
   "naam": "Flevo Fun Run (ronde 3)",
   "datum": "2027-01-10",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zeewolde",
   "gemeente": "Zeewolde",
@@ -4968,6 +5192,7 @@ const WEDSTRIJDEN = [
   "id": "de-knikker-zegerplasloop-2027-01-17",
   "naam": "De Knikker Zegerplasloop",
   "datum": "2027-01-17",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Alphen aan den Rijn",
   "gemeente": "Alphen aan den Rijn",
@@ -5015,6 +5240,7 @@ const WEDSTRIJDEN = [
   "id": "goedhart-drechtloop-2027-01-17",
   "naam": "Goedhart Drechtloop",
   "datum": "2027-01-17",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Leimuiden",
   "gemeente": "Kaag en Braassem",
@@ -5057,6 +5283,7 @@ const WEDSTRIJDEN = [
   "id": "moore-drv-halve-van-maassluis-2027-01-17",
   "naam": "Moore DRV Halve van Maassluis",
   "datum": "2027-01-17",
+  "verwacht": null,
   "starttijd": "13:00",
   "plaats": "Maassluis",
   "gemeente": "Maassluis",
@@ -5095,9 +5322,46 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
+  "id": "vondelparkloop-2027-01-17",
+  "naam": "Vondelparkloop",
+  "datum": "2027-01-17",
+  "verwacht": null,
+  "starttijd": null,
+  "plaats": "Amsterdam",
+  "gemeente": "Amsterdam",
+  "provincie": "Noord-Holland",
+  "lat": 52.3579,
+  "lon": 4.8686,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://vondelparkloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "AV Phanos / Running Holland",
+  "bronnen": [
+   "https://vondelparkloop.nl/"
+  ],
+  "notitie": "Organisator: volgende editie zondag 17 januari 2027. Inschrijving nog niet geopend/onbekend; 10 km volgens bedrijvenloop-vermelding, niet nader geverifieerd.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
   "id": "austerlitz-trail-2027-01-23",
   "naam": "Austerlitz Trail",
   "datum": "2027-01-23",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zeist (KNVB Campus)",
   "gemeente": "Zeist",
@@ -5145,6 +5409,7 @@ const WEDSTRIJDEN = [
   "id": "duinloopcircuit-katwijk-duin-strandloop-2027-01-23",
   "naam": "Duinloopcircuit Katwijk – Duin/strandloop",
   "datum": "2027-01-23",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Katwijk aan Zee",
   "gemeente": "Katwijk",
@@ -5181,6 +5446,7 @@ const WEDSTRIJDEN = [
   "id": "av-suomi-beeckestijn-cross-2027-01-24",
   "naam": "AV Suomi Beeckestijn Cross",
   "datum": "2027-01-24",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Velsen-Zuid",
   "gemeente": "Velsen",
@@ -5216,6 +5482,7 @@ const WEDSTRIJDEN = [
   "id": "beachrun-scheveningen-2027-01-24",
   "naam": "Beachrun Scheveningen",
   "datum": "2027-01-24",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Scheveningen",
   "gemeente": "Den Haag",
@@ -5251,6 +5518,7 @@ const WEDSTRIJDEN = [
   "id": "halve-marathon-zoetermeer-2027-01-24",
   "naam": "Halve Marathon Zoetermeer",
   "datum": "2027-01-24",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zoetermeer",
   "gemeente": "Zoetermeer",
@@ -5292,6 +5560,7 @@ const WEDSTRIJDEN = [
   "id": "f28-trainingsmarathon-halve-marathon-2027-01-31",
   "naam": "F28 Trainingsmarathon - halve marathon",
   "datum": "2027-01-31",
+  "verwacht": null,
   "starttijd": "09:00",
   "plaats": "Amersfoort",
   "gemeente": "Amersfoort",
@@ -5327,6 +5596,7 @@ const WEDSTRIJDEN = [
   "id": "hubo-kaagloop-2027-01-31",
   "naam": "Hubo Kaagloop",
   "datum": "2027-01-31",
+  "verwacht": null,
   "starttijd": "11:10",
   "plaats": "Wervershoof",
   "gemeente": "Medemblik",
@@ -5369,6 +5639,7 @@ const WEDSTRIJDEN = [
   "id": "uithoorns-mooiste-de-loop-2027-01-31",
   "naam": "Uithoorns Mooiste de Loop",
   "datum": "2027-01-31",
+  "verwacht": null,
   "starttijd": "11:00",
   "plaats": "Uithoorn",
   "gemeente": "Uithoorn",
@@ -5410,6 +5681,7 @@ const WEDSTRIJDEN = [
   "id": "wijckloop-trail-walk-2027-01-31",
   "naam": "Wijckloop Trail & Walk",
   "datum": "2027-01-31",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Wijk aan Zee",
   "gemeente": "Beverwijk",
@@ -5448,9 +5720,307 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
+  "id": "amersfoortse-bergcross-2027-01",
+  "naam": "Amersfoortse Bergcross",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-01",
+   "vorigeEditie": "2026-01-25",
+   "aggregatorDatum": "2027-01-24"
+  },
+  "starttijd": null,
+  "plaats": "Amersfoort",
+  "gemeente": "Amersfoort",
+  "provincie": "Utrecht",
+  "lat": 52.161,
+  "lon": 5.369,
+  "type": "cross",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.bergcross.nl/",
+  "maxDeelnemers": null,
+  "organisator": "AV Altis",
+  "bronnen": [
+   "https://running.life/nl/event/amersfoortse-bergcross",
+   "https://uitslagen.nl/evenement.php?id=2026012502103"
+  ],
+  "notitie": "Datum 2027 niet bij organisator bevestigd (site niet bereikbaar); vorige (34e) editie zondag 25 januari 2026. Runphy noemt 24 januari 2027. Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "driedorpenloop-dronten-2027-01",
+  "naam": "Driedorpenloop Dronten",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-01",
+   "vorigeEditie": "2026-01-31",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Dronten",
+  "gemeente": "Dronten",
+  "provincie": "Flevoland",
+  "lat": 52.525,
+  "lon": 5.718,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.flevodelta.nl/driedorpenloop-dronten/",
+  "maxDeelnemers": null,
+  "organisator": "AV Flevo Delta",
+  "bronnen": [
+   "https://www.duravista.nl/evenementen/driedorpenloop"
+  ],
+  "notitie": "Deel 1 van driedelige reeks (Dronten 31 jan 2026, Biddinghuizen 28 feb 2026). Gratis deelname in 2026. Ook 3 en 5 km.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "hoekse-nieuwjaarsloop-2027-01",
+  "naam": "Hoekse Nieuwjaarsloop",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-01",
+   "vorigeEditie": "2026-01-03",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Hoek van Holland",
+  "gemeente": "Rotterdam",
+  "provincie": "Zuid-Holland",
+  "lat": 51.977,
+  "lon": 4.133,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": "2026: € 9,00 (excl. SAW-chip € 4,50)"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.hvc10.nl/hoekse-nieuwjaarsloop/",
+  "maxDeelnemers": null,
+  "organisator": "HVC'10",
+  "bronnen": [
+   "https://www.hvc10.nl/hoekse-nieuwjaarsloop/"
+  ],
+  "notitie": "Datum 2027 nog niet bekend; vorige editie zaterdag 3 januari 2026 (start 10 km 11:00, bij HVC'10, Rondgang 10).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "kraanvogelloop-spijkenisse-2027-01",
+  "naam": "Kraanvogelloop (Spijkenisse)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-01",
+   "vorigeEditie": "2026-01-25",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Spijkenisse",
+  "gemeente": "Nissewaard",
+  "provincie": "Zuid-Holland",
+  "lat": 51.845,
+  "lon": 4.329,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 16.1,
+    "label": "10 Engelse mijl",
+    "prijs": null,
+    "prijsNotitie": "2026: € 16,00"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.avspark.nl/index.php?page=2303&sid=1",
+  "maxDeelnemers": null,
+  "organisator": "AV Spark",
+  "bronnen": [
+   "https://www.avspark.nl/index.php?page=2303&sid=1",
+   "https://running.life/en/event/kraanvogelloop",
+   "https://uitslagen.nl/evenement.php?id=2026012509236"
+  ],
+  "notitie": "Datum 2027 nog niet bekend; vorige (4e) editie zondag 25 januari 2026. Geen na-inschrijving.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "meerhorstloop-stompwijk-2027-01",
+  "naam": "Meerhorstloop (Stompwijk)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-01",
+   "vorigeEditie": "2025-01-05",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Stompwijk",
+  "gemeente": "Leidschendam-Voorburg",
+  "provincie": "Zuid-Holland",
+  "lat": 52.098,
+  "lon": 4.479,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.stompwijk92.nl/meerhorstloop",
+  "maxDeelnemers": null,
+  "organisator": "Stompwijk'92",
+  "bronnen": [
+   "https://www.stompwijk92.nl/meerhorstloop",
+   "https://www.midvliet.nl/actueel/nieuws-uit-stompwijk/32416-meerhorstloop-stompwijk-afgelast",
+   "https://running.life/en/event/meerhorstloop"
+  ],
+  "notitie": "Datum 2027 nog niet bekend (traditioneel eerste zondag van januari). 40e editie van 4 januari 2026 afgelast wegens slechte staat parcours; laatst gehouden editie 5 januari 2025. Afstanden volgens running.life (2025).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "nieuwjaarsloop-wilnis-jarige-job-run-2027-01",
+  "naam": "Nieuwjaarsloop Wilnis (Jarige Job Run)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-01",
+   "vorigeEditie": "2026-01-18",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Wilnis",
+  "gemeente": "De Ronde Venen",
+  "provincie": "Utrecht",
+  "lat": 52.196,
+  "lon": 4.898,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": null,
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://uitslagen.nl/2026011801144"
+  ],
+  "notitie": "Datum 2027 nog niet bekend; vorige editie zondag 18 januari 2026 met o.a. prestatieloop 10 km (uitslag op uitslagen.nl). Organisator/website niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "pierewaai-winter-trail-2027-01",
+  "naam": "Pierewaai Winter Trail",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-01",
+   "vorigeEditie": null,
+   "aggregatorDatum": "2027-01-23"
+  },
+  "starttijd": null,
+  "plaats": "IJmuiden",
+  "gemeente": "Velsen",
+  "provincie": "Noord-Holland",
+  "lat": 52.46,
+  "lon": 4.6,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://pierewaaitrail.nl",
+  "maxDeelnemers": null,
+  "organisator": "Pierewaai Trail",
+  "bronnen": [
+   "https://runphy.nl/events/pierewaai-trail"
+  ],
+  "notitie": "Aggregator noemt 23 jan 2027 (13e editie); ook 25 en 50 km (buiten bereik). Datum vorige editie (jan 2026) niet gevonden. Locatie IJmuiden volgens runphy, coordinaten bij benadering.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
   "id": "night-trail-utrechtse-heuvelrug-2027-02-05",
   "naam": "Night Trail Utrechtse Heuvelrug",
   "datum": "2027-02-05",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Leersum (Landgoed Ginkelduin)",
   "gemeente": "Utrechtse Heuvelrug",
@@ -5492,6 +6062,7 @@ const WEDSTRIJDEN = [
   "id": "coast-marathon-nationaal-park-hollandse-duinen-2027-02-06",
   "naam": "Coast Marathon Nationaal Park Hollandse Duinen",
   "datum": "2027-02-06",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Noordwijk",
   "gemeente": "Noordwijk",
@@ -5534,6 +6105,7 @@ const WEDSTRIJDEN = [
   "id": "leersumse-veld-trail-2027-02-06",
   "naam": "Leersumse Veld Trail",
   "datum": "2027-02-06",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Leersum",
   "gemeente": "Utrechtse Heuvelrug",
@@ -5575,6 +6147,7 @@ const WEDSTRIJDEN = [
   "id": "texeltrail-2027-02-06",
   "naam": "TexelTrail",
   "datum": "2027-02-06",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "De Cocksdorp",
   "gemeente": "Texel",
@@ -5611,6 +6184,7 @@ const WEDSTRIJDEN = [
   "id": "284ste-wintercup-lelystad-2027-02-07",
   "naam": "284ste Wintercup Lelystad",
   "datum": "2027-02-07",
+  "verwacht": null,
   "starttijd": "10:45",
   "plaats": "Lelystad",
   "gemeente": "Lelystad",
@@ -5647,6 +6221,7 @@ const WEDSTRIJDEN = [
   "id": "groenehartloop-2027-02-07",
   "naam": "Groenehartloop",
   "datum": "2027-02-07",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Gouda",
   "gemeente": "Gouda",
@@ -5688,6 +6263,7 @@ const WEDSTRIJDEN = [
   "id": "parnassia-groep-loop-strand-en-duinloop-2027-02-07",
   "naam": "Parnassia Groep Loop (Strand- en Duinloop)",
   "datum": "2027-02-07",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Castricum",
   "gemeente": "Castricum",
@@ -5731,6 +6307,7 @@ const WEDSTRIJDEN = [
   "id": "duinloopcircuit-katwijk-krokusloop-2027-02-13",
   "naam": "Duinloopcircuit Katwijk – Krokusloop",
   "datum": "2027-02-13",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Katwijk aan Zee",
   "gemeente": "Katwijk",
@@ -5767,6 +6344,7 @@ const WEDSTRIJDEN = [
   "id": "polderrun-2027-02-13",
   "naam": "Polderrun",
   "datum": "2027-02-13",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Bleskensgraaf",
   "gemeente": "Molenlanden",
@@ -5809,6 +6387,7 @@ const WEDSTRIJDEN = [
   "id": "run2day-vlinderloop-2027-02-13",
   "naam": "Run2Day Vlinderloop",
   "datum": "2027-02-13",
+  "verwacht": null,
   "starttijd": "11:30",
   "plaats": "Houten",
   "gemeente": "Houten",
@@ -5856,6 +6435,7 @@ const WEDSTRIJDEN = [
   "id": "flevo-fun-run-ronde-4-2027-02-14",
   "naam": "Flevo Fun Run (ronde 4)",
   "datum": "2027-02-14",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zeewolde",
   "gemeente": "Zeewolde",
@@ -5893,6 +6473,7 @@ const WEDSTRIJDEN = [
   "id": "groet-uit-schoorl-run-2027-02-14",
   "naam": "Groet uit Schoorl Run",
   "datum": "2027-02-14",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Schoorl",
   "gemeente": "Bergen (NH)",
@@ -5934,6 +6515,7 @@ const WEDSTRIJDEN = [
   "id": "keukenstudio-allround-bosdijkloop-2027-02-14",
   "naam": "Keukenstudio Allround Bosdijkloop",
   "datum": "2027-02-14",
+  "verwacht": null,
   "starttijd": "12:00",
   "plaats": "Vinkeveen",
   "gemeente": "De Ronde Venen",
@@ -5975,6 +6557,7 @@ const WEDSTRIJDEN = [
   "id": "noord-aa-polderloop-2027-02-14",
   "naam": "Noord-Aa Polderloop",
   "datum": "2027-02-14",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zoetermeer",
   "gemeente": "Zoetermeer",
@@ -6016,6 +6599,7 @@ const WEDSTRIJDEN = [
   "id": "de-knikker-zegerplasloop-2027-02-21",
   "naam": "De Knikker Zegerplasloop",
   "datum": "2027-02-21",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Alphen aan den Rijn",
   "gemeente": "Alphen aan den Rijn",
@@ -6063,6 +6647,7 @@ const WEDSTRIJDEN = [
   "id": "lansingerland-run-2027-02-28",
   "naam": "Lansingerland Run",
   "datum": "2027-02-28",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Berkel en Rodenrijs",
   "gemeente": "Lansingerland",
@@ -6098,6 +6683,7 @@ const WEDSTRIJDEN = [
   "id": "omloop-van-noordwijkerhout-2027-02-28",
   "naam": "Omloop van Noordwijkerhout",
   "datum": "2027-02-28",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Noordwijkerhout",
   "gemeente": "Noordwijkerhout",
@@ -6136,9 +6722,51 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
+  "id": "valley-run-veenendaal-winter-edition-2027-02",
+  "naam": "Valley Run Veenendaal - Winter Edition",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-02",
+   "vorigeEditie": "2026-02-07",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Veenendaal",
+  "gemeente": "Veenendaal",
+  "provincie": "Utrecht",
+  "lat": 52.03,
+  "lon": 5.58,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": null,
+  "maxDeelnemers": null,
+  "organisator": "Stichting Valley Run",
+  "bronnen": [
+   "https://running.life/en/event/schuiteman-valley-run",
+   "https://www.regiosportveenendaal.nl/sport/atletiek/1249905/eerste-editie-schuiteman-valley-run-winter-edition-groot-succ"
+  ],
+  "notitie": "Datum 2027 'n.t.b.'; eerste editie zaterdag 7 februari 2026 in Veenendaal-Oost (uitverkocht, ca. 1000 lopers). Organisatie wil voortaan twee edities per jaar. Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
   "id": "3bergenloop-2027-03-06",
   "naam": "3bergenLOOP",
   "datum": "2027-03-06",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Driebergen-Rijsenburg",
   "gemeente": "Utrechtse Heuvelrug",
@@ -6180,6 +6808,7 @@ const WEDSTRIJDEN = [
   "id": "lage-vuursche-trail-2027-03-06",
   "naam": "Lage Vuursche Trail",
   "datum": "2027-03-06",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Lage Vuursche",
   "gemeente": "Baarn",
@@ -6221,6 +6850,7 @@ const WEDSTRIJDEN = [
   "id": "285ste-wintercup-lelystad-2027-03-07",
   "naam": "285ste Wintercup Lelystad",
   "datum": "2027-03-07",
+  "verwacht": null,
   "starttijd": "10:45",
   "plaats": "Lelystad",
   "gemeente": "Lelystad",
@@ -6257,6 +6887,7 @@ const WEDSTRIJDEN = [
   "id": "halve-van-oostvoorne-2027-03-07",
   "naam": "Halve van Oostvoorne",
   "datum": "2027-03-07",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Oostvoorne",
   "gemeente": "Voorne aan Zee",
@@ -6299,6 +6930,7 @@ const WEDSTRIJDEN = [
   "id": "boels-rental-run-halve-marathon-dordrecht-2027-03-13",
   "naam": "Boels Rental Run (Halve Marathon Dordrecht)",
   "datum": "2027-03-13",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Dordrecht",
   "gemeente": "Dordrecht",
@@ -6340,6 +6972,7 @@ const WEDSTRIJDEN = [
   "id": "duinloopcircuit-katwijk-noordduinloop-voorjaar-2027-03-13",
   "naam": "Duinloopcircuit Katwijk – Noordduinloop (voorjaar)",
   "datum": "2027-03-13",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Katwijk aan Zee",
   "gemeente": "Katwijk",
@@ -6376,6 +7009,7 @@ const WEDSTRIJDEN = [
   "id": "halve-marathon-de-waal-44e-2027-03-13",
   "naam": "Halve Marathon De Waal (44e)",
   "datum": "2027-03-13",
+  "verwacht": null,
   "starttijd": "13:00",
   "plaats": "De Waal",
   "gemeente": "Texel",
@@ -6418,6 +7052,7 @@ const WEDSTRIJDEN = [
   "id": "run-for-kika-texel-2027-03-13",
   "naam": "Run for KiKa Texel",
   "datum": "2027-03-13",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Texel",
   "gemeente": "Texel",
@@ -6459,6 +7094,7 @@ const WEDSTRIJDEN = [
   "id": "run2day-vlinderloop-2027-03-13",
   "naam": "Run2Day Vlinderloop",
   "datum": "2027-03-13",
+  "verwacht": null,
   "starttijd": "11:30",
   "plaats": "Houten",
   "gemeente": "Houten",
@@ -6506,6 +7142,7 @@ const WEDSTRIJDEN = [
   "id": "kloetloop-2027-03-14",
   "naam": "Kloetloop",
   "datum": "2027-03-14",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Grootebroek",
   "gemeente": "Stede Broec",
@@ -6548,6 +7185,7 @@ const WEDSTRIJDEN = [
   "id": "nn-cpc-loop-den-haag-2027-03-14",
   "naam": "NN CPC Loop Den Haag",
   "datum": "2027-03-14",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Den Haag",
   "gemeente": "Den Haag",
@@ -6589,6 +7227,7 @@ const WEDSTRIJDEN = [
   "id": "dom-tot-dom-2027-03-20",
   "naam": "Dom tot Dom",
   "datum": "2027-03-20",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Utrecht (Domplein)",
   "gemeente": "Utrecht",
@@ -6630,6 +7269,7 @@ const WEDSTRIJDEN = [
   "id": "hollands-duin-trail-voorjaar-2027-03-20",
   "naam": "Hollands Duin Trail (voorjaar)",
   "datum": "2027-03-20",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Noordwijk",
   "gemeente": "Noordwijk",
@@ -6678,6 +7318,7 @@ const WEDSTRIJDEN = [
   "id": "arens-spiegelplasloop-2027-03-21",
   "naam": "ARENS Spiegelplasloop",
   "datum": "2027-03-21",
+  "verwacht": null,
   "starttijd": "13:00",
   "plaats": "Nederhorst den Berg",
   "gemeente": "Wijdemeren",
@@ -6713,6 +7354,7 @@ const WEDSTRIJDEN = [
   "id": "de-voorschotenloop-2027-03-21",
   "naam": "De VoorschotenLoop",
   "datum": "2027-03-21",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Voorschoten",
   "gemeente": "Voorschoten",
@@ -6754,6 +7396,7 @@ const WEDSTRIJDEN = [
   "id": "kpmg-lentemarathon-amstelveen-2027-03-21",
   "naam": "KPMG Lentemarathon Amstelveen",
   "datum": "2027-03-21",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Amstelveen",
   "gemeente": "Amstelveen",
@@ -6796,6 +7439,7 @@ const WEDSTRIJDEN = [
   "id": "moore-drv-halve-westland-2027-03-21",
   "naam": "Moore DRV Halve Westland",
   "datum": "2027-03-21",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Naaldwijk",
   "gemeente": "Westland",
@@ -6838,6 +7482,7 @@ const WEDSTRIJDEN = [
   "id": "zandvoort-circuit-run-2027-03-21",
   "naam": "Zandvoort Circuit Run",
   "datum": "2027-03-21",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zandvoort",
   "gemeente": "Zandvoort",
@@ -6880,6 +7525,7 @@ const WEDSTRIJDEN = [
   "id": "drie-molenloop-aarlanderveen-2027-03-29",
   "naam": "Drie Molenloop Aarlanderveen",
   "datum": "2027-03-29",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Aarlanderveen",
   "gemeente": "Alphen aan den Rijn",
@@ -6918,9 +7564,543 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
+  "id": "20-van-alphen-2027-03",
+  "naam": "20 van Alphen",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-03",
+   "vorigeEditie": "2026-03-01",
+   "aggregatorDatum": "2027-03-07"
+  },
+  "starttijd": null,
+  "plaats": "Alphen aan den Rijn",
+  "gemeente": "Alphen aan den Rijn",
+  "provincie": "Zuid-Holland",
+  "lat": 52.129,
+  "lon": 4.657,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://20vanalphen.nl/",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://20vanalphen.nl/save-the-date/",
+   "https://www.rodi.nl/alphenaandenrijn/nieuws/484934/20-van-alphen-2026-parcours-tijden-wegafsluitingen-en-bereikbaarheid",
+   "https://www.ahotu.com/nl/evenement/20-van-alphen"
+  ],
+  "notitie": "60e editie op zaterdag 6 en zondag 7 maart 2027; nog niet vermeld op welke dag de 10 km en halve marathon zijn. In 2026 (zondag 1 maart) liepen halve marathon (12:30) en 10 km (14:15) op zondag.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "almere-lenteloop-2027-03",
+  "naam": "Almere Lenteloop",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-03",
+   "vorigeEditie": "2026-03-22",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Almere",
+  "gemeente": "Almere",
+  "provincie": "Flevoland",
+  "lat": 52.37,
+  "lon": 5.22,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 20,
+    "label": "20 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://almere-lenteloop.nl",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://running.life/en/event/almere-lenteloop"
+  ],
+  "notitie": "40e editie 22 mrt 2026; ook 5 en 30 km. Datum 2027 onbekend.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "hollen-door-de-bollen-lisse-2027-03",
+  "naam": "Hollen door de Bollen (Lisse)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-03",
+   "vorigeEditie": "2026-03-29",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Lisse",
+  "gemeente": "Lisse",
+  "provincie": "Zuid-Holland",
+  "lat": 52.258,
+  "lon": 4.557,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": "2026: € 15 voorinschrijving, € 18 op de dag"
+   },
+   {
+    "km": 16.1,
+    "label": "10 Engelse mijl",
+    "prijs": null,
+    "prijsNotitie": "2026: € 15 voorinschrijving, € 18 op de dag"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://hollendoordebollen.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Roparun Team Bollenstreek",
+  "bronnen": [
+   "https://hollendoordebollen.nl/",
+   "https://uitslagen.nl/evenement.php?id=2026032950090"
+  ],
+  "notitie": "Datum 2027 nog niet bekend; vorige editie 29 maart 2026 vanaf Sportpark Ter Specke (10 km 10:00, 10 EM 11:10). Opbrengst naar Stichting Roparun.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "lions-heuvelloop-overveen-2027-03",
+  "naam": "Lions Heuvelloop Overveen",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-03",
+   "vorigeEditie": "2026-04-06",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Overveen",
+  "gemeente": "Bloemendaal",
+  "provincie": "Noord-Holland",
+  "lat": 52.393,
+  "lon": 4.619,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.lionsheuvelloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Lions Club",
+  "bronnen": [
+   "https://running.life/en/event/lions-heuvelloop-overveen",
+   "https://www.haarlemsweekblad.nl/lokaal/evenementen/808335/opbrengst-lions-heuvelloop-op-tweede-paasdag-gaat-naar-inloophu"
+  ],
+  "notitie": "Gehouden op tweede paasdag (2027: 29 maart); datum 2027 niet bij organisator bevestigd (site niet bereikbaar). Organisator-naam niet bevestigd.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "louis-vinkloop-rondje-mokum-2027-03",
+  "naam": "Louis Vinkloop (Rondje Mokum)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-03",
+   "vorigeEditie": "2026-03-15",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Amsterdam",
+  "gemeente": "Amsterdam",
+  "provincie": "Noord-Holland",
+  "lat": 52.4,
+  "lon": 4.95,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "http://www.louisvinkloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "AV Atos",
+  "bronnen": [
+   "https://runphy.nl/events/louis-vinkloop/2026-03-15"
+  ],
+  "notitie": "Start bij AV Atos (Amsterdam-Noord). Datum 2027 niet bekend.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "paaspolderloop-nieuwe-niedorp-2027-03",
+  "naam": "Paaspolderloop Nieuwe Niedorp",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-03",
+   "vorigeEditie": "2026-04-06",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Nieuwe Niedorp",
+  "gemeente": "Hollands Kroon",
+  "provincie": "Noord-Holland",
+  "lat": 52.75,
+  "lon": 4.93,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://paaspolderloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://running.life/en/event/paaspolderloop-nieuwe-niedorp"
+  ],
+  "notitie": "Gehouden op tweede paasdag (2027: 29 maart, aanname op basis van naam); ook 5 en 2 km.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "reeuwijkse-plassenloop-2027-03",
+  "naam": "Reeuwijkse Plassenloop",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-03",
+   "vorigeEditie": "2026-03-21",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Reeuwijk",
+  "gemeente": "Bodegraven-Reeuwijk",
+  "provincie": "Zuid-Holland",
+  "lat": 52.046,
+  "lon": 4.723,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "nog niet open",
+   "opent": "2027-01-01",
+   "sluit": "2027-03-13",
+   "platform": "inschrijven.nl",
+   "url": "https://reeuwijkse-plassenloop.nl/?page_id=2332"
+  },
+  "website": "https://www.reeuwijkse-plassenloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Sportclub Reeuwijk",
+  "bronnen": [
+   "https://reeuwijkse-plassenloop.nl/?page_id=2332",
+   "https://sportclubreeuwijk.nl/61e-reeuwijkse-plassenloop-2013/"
+  ],
+  "notitie": "73e editie 2027: wedstrijddatum nog niet vermeld; voorinschrijving opent 1 januari 2027 en sluit zaterdag 13 maart 2027 (middernacht), prijzen 'n.t.b.'. Vorige editie zaterdag 21 maart 2026, Sportpark Groene Zoom.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "rondje-zegveld-2027-03",
+  "naam": "Rondje Zegveld",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-03",
+   "vorigeEditie": "2026-03-28",
+   "aggregatorDatum": "2027-04-03"
+  },
+  "starttijd": null,
+  "plaats": "Zegveld",
+  "gemeente": "Woerden",
+  "provincie": "Utrecht",
+  "lat": 52.115,
+  "lon": 4.837,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.rondjezegveld.nl/",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://running.life/en/event/rondje-zegveld",
+   "https://uitslagen.nl/evenement.php?id=2026032850599"
+  ],
+  "notitie": "Datum 2027 niet bij organisator bevestigd (site niet bereikbaar); vorige editie zaterdag 28 maart 2026. Runphy noemt 3 april 2027 (dan verwacht april). Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "stoomtramloop-medemblik-2027-03",
+  "naam": "Stoomtramloop Medemblik",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-03",
+   "vorigeEditie": "2026-03-29",
+   "aggregatorDatum": "2027-04-04"
+  },
+  "starttijd": null,
+  "plaats": "Medemblik",
+  "gemeente": "Medemblik",
+  "provincie": "Noord-Holland",
+  "lat": 52.771,
+  "lon": 5.107,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km (start Twisk)",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://stoomtramloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Medemblik Sport",
+  "bronnen": [
+   "https://stoomtramloop.nl/",
+   "https://running.life/nl/event/stoomtramloop-medemblik"
+  ],
+  "notitie": "Datum 2027 nog niet bekend bij organisator (running.life noemt 4 apr 2027). Ook 5 km (buiten bereik).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "tollebeker-jachtrondes-2027-03",
+  "naam": "Tollebeker Jachtrondes",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-03",
+   "vorigeEditie": "2026-03-21",
+   "aggregatorDatum": "2027-03-27"
+  },
+  "starttijd": null,
+  "plaats": "Tollebeek",
+  "gemeente": "Noordoostpolder",
+  "provincie": "Flevoland",
+  "lat": 52.76,
+  "lon": 5.67,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km (4 x 2,5 km)",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://tollebeek.nl/tollebeker-jachtrondes/",
+  "maxDeelnemers": null,
+  "organisator": "Dorpsbelang Tollebeek (niet bevestigd)",
+  "bronnen": [
+   "https://tollebeek.nl/tollebeker-jachtrondes/",
+   "https://uitslagen.nl/2026032121417"
+  ],
+  "notitie": "Rondjesloop 2,5 km x 1-4. Datum 2026 volgens uitslagen.nl; organisator-pagina meldde alleen editie 2025. running.life noemt 27 mrt 2027.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "vechtstreek-in-beweging-vib-lopen-voorjaarsreeks-2027-2027-03",
+  "naam": "Vechtstreek in Beweging (VIB) Lopen - voorjaarsreeks 2027",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-03",
+   "vorigeEditie": "2026-03-21",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Maarsseveen",
+  "gemeente": "Stichtse Vecht",
+  "provincie": "Utrecht",
+  "lat": 52.14,
+  "lon": 5.058,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.viblopen.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Omni Sportclub Maarssen Atletiek & Recreatiesporten",
+  "bronnen": [
+   "https://www.viblopen.nl/",
+   "https://running.life/nl/event/vechtstreek-in-beweging-lopen-vib/2026-03-21",
+   "https://uitslagen.nl/evenement.php?id=2026030105154"
+  ],
+  "notitie": "Maandelijkse lopen rond de Maarsseveense Plassen; organisator: datums 2027 worden nog vastgesteld. Voorjaarsreeks 2026 o.a. 1 en 21 maart 2026. Zelf afstand kiezen (rondes van 5 km), pacers voor 10 en 15 km.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "vestingloop-gorinchem-2027-03",
+  "naam": "Vestingloop Gorinchem",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-03",
+   "vorigeEditie": "2026-03-08",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Gorinchem",
+  "gemeente": "Gorinchem",
+  "provincie": "Zuid-Holland",
+  "lat": 51.83,
+  "lon": 4.974,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.vestinglopen.nl/gorinchem/",
+  "maxDeelnemers": null,
+  "organisator": "Epic Sports & Business BV",
+  "bronnen": [
+   "https://www.vestinglopen.nl/gorinchem/",
+   "https://runphy.nl/events/vestingloop-gorinchem"
+  ],
+  "notitie": "Organisator noemt 'Maart 2027', nog geen exacte datum; vorige editie zondag 8 maart 2026 (HM 10:15, 10 km 14:00). Editie 2026 was uitverkocht. Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
   "id": "braassemloop-2027-04-04",
   "naam": "Braassemloop",
   "datum": "2027-04-04",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Roelofarendsveen",
   "gemeente": "Kaag en Braassem",
@@ -6962,6 +8142,7 @@ const WEDSTRIJDEN = [
   "id": "galgenberg-trail-2027-04-04",
   "naam": "Galgenberg Trail",
   "datum": "2027-04-04",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Amerongen (Amerongse Berg)",
   "gemeente": "Utrechtse Heuvelrug",
@@ -7003,6 +8184,7 @@ const WEDSTRIJDEN = [
   "id": "halve-van-den-helder-2027-04-04",
   "naam": "Halve van Den Helder",
   "datum": "2027-04-04",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Den Helder",
   "gemeente": "Den Helder",
@@ -7044,6 +8226,7 @@ const WEDSTRIJDEN = [
   "id": "marathon-amersfoort-2027-04-04",
   "naam": "Marathon Amersfoort",
   "datum": "2027-04-04",
+  "verwacht": null,
   "starttijd": "09:00",
   "plaats": "Amersfoort",
   "gemeente": "Amersfoort",
@@ -7086,6 +8269,7 @@ const WEDSTRIJDEN = [
   "id": "vrijstad-vianen-loop-2027-04-04",
   "naam": "Vrijstad Vianen Loop",
   "datum": "2027-04-04",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Vianen",
   "gemeente": "Vijfheerenlanden",
@@ -7127,6 +8311,7 @@ const WEDSTRIJDEN = [
   "id": "run2day-vlinderloop-2027-04-10",
   "naam": "Run2Day Vlinderloop",
   "datum": "2027-04-10",
+  "verwacht": null,
   "starttijd": "11:30",
   "plaats": "Houten",
   "gemeente": "Houten",
@@ -7174,6 +8359,7 @@ const WEDSTRIJDEN = [
   "id": "10-km-rotterdam-nn-marathon-rotterdam-2027-04-11",
   "naam": "10 km Rotterdam (NN Marathon Rotterdam)",
   "datum": "2027-04-11",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Rotterdam",
   "gemeente": "Rotterdam",
@@ -7209,6 +8395,7 @@ const WEDSTRIJDEN = [
   "id": "amerongse-berg-trail-2027-04-11",
   "naam": "Amerongse Berg Trail",
   "datum": "2027-04-11",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Amerongen (Boshotel Overberg)",
   "gemeente": "Utrechtse Heuvelrug",
@@ -7262,6 +8449,7 @@ const WEDSTRIJDEN = [
   "id": "cruyff-legacy-14k-2027-04-11",
   "naam": "Cruyff Legacy 14K",
   "datum": "2027-04-11",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Amsterdam",
   "gemeente": "Amsterdam",
@@ -7297,6 +8485,7 @@ const WEDSTRIJDEN = [
   "id": "greenrace-amerongse-koploop-2027-04-17",
   "naam": "GreenRace Amerongse Koploop",
   "datum": "2027-04-17",
+  "verwacht": null,
   "starttijd": "11:45",
   "plaats": "Amerongen",
   "gemeente": "Utrechtse Heuvelrug",
@@ -7338,6 +8527,7 @@ const WEDSTRIJDEN = [
   "id": "kamerikse-weteringloop-2027-04-17",
   "naam": "Kamerikse Weteringloop",
   "datum": "2027-04-17",
+  "verwacht": null,
   "starttijd": "12:45",
   "plaats": "Kamerik",
   "gemeente": "Woerden",
@@ -7379,6 +8569,7 @@ const WEDSTRIJDEN = [
   "id": "run-roast-utrecht-2027-04-17",
   "naam": "Run & Roast Utrecht",
   "datum": "2027-04-17",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Utrecht (Overvecht, Vechtdijk)",
   "gemeente": "Utrecht",
@@ -7414,6 +8605,7 @@ const WEDSTRIJDEN = [
   "id": "tulpen-trailrun-bloeiend-zijpe-2027-04-17",
   "naam": "Tulpen Trailrun Bloeiend Zijpe",
   "datum": "2027-04-17",
+  "verwacht": null,
   "starttijd": "13:00",
   "plaats": "Callantsoog",
   "gemeente": "Schagen",
@@ -7449,6 +8641,7 @@ const WEDSTRIJDEN = [
   "id": "85e-krinkels-pim-mulierloop-2027-04-18",
   "naam": "85e Krinkels Pim Mulierloop",
   "datum": "2027-04-18",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Santpoort-Noord",
   "gemeente": "Velsen",
@@ -7490,6 +8683,7 @@ const WEDSTRIJDEN = [
   "id": "houttrail-delft-2027-04-18",
   "naam": "Houttrail Delft",
   "datum": "2027-04-18",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Delft",
   "gemeente": "Delft",
@@ -7525,6 +8719,7 @@ const WEDSTRIJDEN = [
   "id": "kika-hilversum-city-run-2027-04-18",
   "naam": "KiKa Hilversum City Run",
   "datum": "2027-04-18",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Hilversum",
   "gemeente": "Hilversum",
@@ -7560,6 +8755,7 @@ const WEDSTRIJDEN = [
   "id": "sportpark-21-run-2027-04-18",
   "naam": "Sportpark 21 Run",
   "datum": "2027-04-18",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Hoofddorp",
   "gemeente": "Haarlemmermeer",
@@ -7599,9 +8795,130 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
+  "id": "nescioloop-2027-04",
+  "naam": "Nescioloop",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-04",
+   "vorigeEditie": "2026-04-19",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Amsterdam",
+  "gemeente": "Amsterdam",
+  "provincie": "Noord-Holland",
+  "lat": 52.35,
+  "lon": 4.95,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://nescioloop.nl",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://running.life/en/event/nescioloop-amsterdam-oost"
+  ],
+  "notitie": "Ook 8 km. Coordinaten Amsterdam-Oost bij benadering.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "pcc-maalwaterrun-2027-04",
+  "naam": "PCC MaalwaterRun",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-04",
+   "vorigeEditie": "2026-04-12",
+   "aggregatorDatum": "2027-04-18"
+  },
+  "starttijd": null,
+  "plaats": "Heiloo",
+  "gemeente": "Heiloo",
+  "provincie": "Noord-Holland",
+  "lat": 52.605,
+  "lon": 4.7006,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://pccmaalwaterrunenwalk.nl/",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://running.life/en/event/pcc-maalwaterrun-maalwaterwalk"
+  ],
+  "notitie": "Aggregator (running.life) noemt 18 apr 2027; niet bij organisator bevestigd (site niet te fetchen).",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "singelloop-wijk-bij-duurstede-2027-04",
+  "naam": "Singelloop Wijk bij Duurstede",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-04",
+   "vorigeEditie": "2026-04-27",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Wijk bij Duurstede",
+  "gemeente": "Wijk bij Duurstede",
+  "provincie": "Utrecht",
+  "lat": 51.974,
+  "lon": 5.341,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": "2026: € 10"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://singelloopwijkbijduurstede.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Singelloopcomité Wijk bij Duurstede",
+  "bronnen": [
+   "https://www.wijksnieuws.nl/lokaal/evenementen/1263880/koningsdag-2026-start-met-de-singelloop-wijk-bij-duurstede"
+  ],
+  "notitie": "Datum 2027 niet bij organisator bevestigd (traditioneel op Koningsdag); vorige (77e) editie maandag 27 april 2026, 10 km start 12:00, finish Veldpoortbrug.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
   "id": "golden-tenloop-2027-05-06",
   "naam": "Golden Tenloop",
   "datum": "2027-05-06",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Delft",
   "gemeente": "Delft",
@@ -7637,6 +8954,7 @@ const WEDSTRIJDEN = [
   "id": "austerlitz-trail-2027-05-08",
   "naam": "Austerlitz Trail",
   "datum": "2027-05-08",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zeist (KNVB Campus)",
   "gemeente": "Zeist",
@@ -7684,6 +9002,7 @@ const WEDSTRIJDEN = [
   "id": "kraaienrun-2027-05-08",
   "naam": "Kraaienrun",
   "datum": "2027-05-08",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Rijsoord",
   "gemeente": "Ridderkerk",
@@ -7719,6 +9038,7 @@ const WEDSTRIJDEN = [
   "id": "run2day-vlinderloop-2027-05-08",
   "naam": "Run2Day Vlinderloop",
   "datum": "2027-05-08",
+  "verwacht": null,
   "starttijd": "11:30",
   "plaats": "Houten",
   "gemeente": "Houten",
@@ -7766,6 +9086,7 @@ const WEDSTRIJDEN = [
   "id": "geijsel-hypotheken-rondehoeploop-40e-2027-05-09",
   "naam": "Geijsel Hypotheken Rondehoeploop (40e)",
   "datum": "2027-05-09",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Ouderkerk aan de Amstel",
   "gemeente": "Ouder-Amstel",
@@ -7801,6 +9122,7 @@ const WEDSTRIJDEN = [
   "id": "leiden-marathon-2027-05-09",
   "naam": "Leiden Marathon",
   "datum": "2027-05-09",
+  "verwacht": null,
   "starttijd": "10:00",
   "plaats": "Leiden",
   "gemeente": "Leiden",
@@ -7842,6 +9164,7 @@ const WEDSTRIJDEN = [
   "id": "schagen-city-run-2027-05-09",
   "naam": "Schagen City Run",
   "datum": "2027-05-09",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Schagen",
   "gemeente": "Schagen",
@@ -7877,6 +9200,7 @@ const WEDSTRIJDEN = [
   "id": "luilakpolderloop-2027-05-14",
   "naam": "Luilakpolderloop",
   "datum": "2027-05-14",
+  "verwacht": null,
   "starttijd": "18:30",
   "plaats": "Jisp",
   "gemeente": "Wormerland",
@@ -7918,6 +9242,7 @@ const WEDSTRIJDEN = [
   "id": "verkerkloop-2027-05-19",
   "naam": "Verkerkloop",
   "datum": "2027-05-19",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zwijndrecht",
   "gemeente": "Zwijndrecht",
@@ -7954,6 +9279,7 @@ const WEDSTRIJDEN = [
   "id": "omloop-van-zoetermeer-2027-05-23",
   "naam": "Omloop van Zoetermeer",
   "datum": "2027-05-23",
+  "verwacht": null,
   "starttijd": "09:00",
   "plaats": "Zoetermeer",
   "gemeente": "Zoetermeer",
@@ -7996,6 +9322,7 @@ const WEDSTRIJDEN = [
   "id": "zaanbocht-run-4e-2027-05-23",
   "naam": "Zaanbocht Run (4e)",
   "datum": "2027-05-23",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Wormerveer",
   "gemeente": "Zaanstad",
@@ -8031,6 +9358,7 @@ const WEDSTRIJDEN = [
   "id": "amsterdam-umc-run-2027-05-30",
   "naam": "Amsterdam UMC Run",
   "datum": "2027-05-30",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Amsterdam",
   "gemeente": "Amsterdam",
@@ -8066,6 +9394,7 @@ const WEDSTRIJDEN = [
   "id": "the-royal-ten-2027-05-30",
   "naam": "The Royal Ten",
   "datum": "2027-05-30",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Wassenaar",
   "gemeente": "Wassenaar",
@@ -8098,9 +9427,358 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
+  "id": "alkmaar-city-run-by-night-2027-05",
+  "naam": "Alkmaar City Run by night",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-05",
+   "vorigeEditie": null,
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Alkmaar",
+  "gemeente": "Alkmaar",
+  "provincie": "Noord-Holland",
+  "lat": 52.6324,
+  "lon": 4.7534,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.alkmaarcityrun.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Le Champion",
+  "bronnen": [
+   "https://www.alkmaarcityrun.nl/programma"
+  ],
+  "notitie": "Organisator: altijd woensdagavond voor Hemelvaart; in 2027 is dat 5 mei. Nog geen inschrijfinfo gezien. Organisator: \"altijd de woensdag voor Hemelvaart\" (dus vermoedelijk 5 mei 2027), nog niet expliciet aangekondigd.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "bevrijdingsloop-alblasserdam-2027-05",
+  "naam": "Bevrijdingsloop Alblasserdam",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-05",
+   "vorigeEditie": "2026-05-05",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Alblasserdam",
+  "gemeente": "Alblasserdam",
+  "provincie": "Zuid-Holland",
+  "lat": 51.87,
+  "lon": 4.65,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 12,
+    "label": "12 km (3 rondes)",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://aaa-atletiek.nl/events/bevrijdingsloop/",
+  "maxDeelnemers": null,
+  "organisator": "AAA Atletiekvereniging Alblasserdam",
+  "bronnen": [
+   "https://www.alblasserdam.net/nieuws/122596/bevrijdingsloop-2026-vier-de-vrijheid-en-loop-langs-de-molens-van-kinderdijk"
+  ],
+  "notitie": "Datum 2027 nog niet bekend (traditioneel 5 mei); vorige editie dinsdag 5 mei 2026, start 19:30 op het Boerenpad bij Sportcomplex Molenzicht. Volwassenen lopen 1 tot max. 3 rondes van 4 km. Prijs volwassenen niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "hipro-utrecht-marathon-10-km-halve-marathon-2027-05",
+  "naam": "HiPRO Utrecht Marathon (10 km / halve marathon)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-05",
+   "vorigeEditie": "2026-05-31",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Utrecht",
+  "gemeente": "Utrecht",
+  "provincie": "Utrecht",
+  "lat": 52.085,
+  "lon": 5.172,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://utrechtmarathon.com/",
+  "maxDeelnemers": null,
+  "organisator": "Golazo",
+  "bronnen": [
+   "https://utrechtmarathon.com/en/"
+  ],
+  "notitie": "Datum 2027 nog niet bekend; vorige editie 31 mei 2026, start/finish Utrecht Science Park. Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "ijsselsteinloop-2027-05",
+  "naam": "IJsselsteinloop",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-05",
+   "vorigeEditie": "2026-05-23",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "IJsselstein",
+  "gemeente": "IJsselstein",
+  "provincie": "Utrecht",
+  "lat": 52.02,
+  "lon": 5.043,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.ijsselsteinloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting IJsselsteinse Toertocht",
+  "bronnen": [
+   "https://www.ijsselsteinloop.nl/",
+   "https://www.zenderstreeknieuws.nl/nieuws/nieuws/465214/organisatie-past-programma-aan-door-hoge-temperaturen-ijsselsteinloop-2026-was-erg-warm-en-zeer-geslaagd-met-fotos-"
+  ],
+  "notitie": "Datum 2027 nog niet bekend; vorige (43e) editie zaterdag 23 mei 2026 (halve marathon toen wegens hitte ingekort tot 10 km). Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "nobel-run-2027-05",
+  "naam": "Nobel Run",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-05",
+   "vorigeEditie": "2026-05-17",
+   "aggregatorDatum": "2027-05-16"
+  },
+  "starttijd": null,
+  "plaats": "Almere",
+  "gemeente": "Almere",
+  "provincie": "Flevoland",
+  "lat": 52.38,
+  "lon": 5.33,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://nobelrun.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Nobel Run (Almere)",
+  "bronnen": [
+   "https://sportflevo.nl/evenementen/nobel-run-2026-almere/"
+  ],
+  "notitie": "Editie 2026 was 16-17 mei (Almere Hout, Nobellaan 13). 2027-datum (16 mei) alleen via aggregators; organisatorsite niet te fetchen. Ook 5 km.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "rotte-dam-loop-2027-05",
+  "naam": "Rotte Dam Loop",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-05",
+   "vorigeEditie": "2026-05-31",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Bergschenhoek",
+  "gemeente": "Lansingerland",
+  "provincie": "Zuid-Holland",
+  "lat": 51.987,
+  "lon": 4.509,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.rottedamloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://www.rottedamloop.nl/",
+   "https://running.life/en/event/rotte-dam-loop"
+  ],
+  "notitie": "Datum 2027 nog niet bekend; vorige (jubileum)editie zondag 31 mei 2026, uitverkocht. 10 km en 21 km starten op de Binnenrotte (Rotterdam), finish bij Outdoor Valley Bergschenhoek. Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "silvercityrun-schoonhoven-2027-05",
+  "naam": "SilvercityRUN (Schoonhoven)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-05",
+   "vorigeEditie": "2026-05-09",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Schoonhoven",
+  "gemeente": "Krimpenerwaard",
+  "provincie": "Zuid-Holland",
+  "lat": 51.947,
+  "lon": 4.849,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://silvercityrun.nl/",
+  "maxDeelnemers": null,
+  "organisator": "SilvercityRUN",
+  "bronnen": [
+   "https://silvercityrun.nl/actueel/",
+   "https://uitslagen.nl/evenement.php?id=2026050951349"
+  ],
+  "notitie": "Datum 2027 nog niet bekend; vorige editie zaterdag 9 mei 2026 (uitverkocht, ca. 1000 deelnemers op 5 en 10 km). Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "slooow-halve-natuurmarathon-2027-05",
+  "naam": "SlooOW Halve Natuurmarathon",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-05",
+   "vorigeEditie": "2026-05-09",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Lelystad",
+  "gemeente": "Lelystad",
+  "provincie": "Flevoland",
+  "lat": 52.5185,
+  "lon": 5.4714,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://slooownatuurmarathon.nl/",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://runeira.com/en/races/slooow-natuurloop",
+   "https://www.duravista.nl/evenementen/sloow-natuurmarathon-halve-marathon-recreatieve-natuurloop-kidsrun-2026"
+  ],
+  "notitie": "Editie 9 mei 2026 (volgens Runeira); afstand/organisator niet bij organisator geverifieerd (site niet te fetchen). Natuurloop, deels onverhard.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
   "id": "loop-door-houten-2027-06-11",
   "naam": "Loop door Houten",
   "datum": "2027-06-11",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Houten",
   "gemeente": "Houten",
@@ -8136,6 +9814,7 @@ const WEDSTRIJDEN = [
   "id": "hooge-vuursche-trail-2027-06-12",
   "naam": "Hooge Vuursche Trail",
   "datum": "2027-06-12",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Baarn (Hooge Vuursche)",
   "gemeente": "Baarn",
@@ -8177,6 +9856,7 @@ const WEDSTRIJDEN = [
   "id": "grachtenloop-haarlem-2027-06-18",
   "naam": "Grachtenloop Haarlem",
   "datum": "2027-06-18",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Haarlem",
   "gemeente": "Haarlem",
@@ -8209,9 +9889,53 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
+  "id": "heuvelrugloop-maarn-2027-06-19",
+  "naam": "Heuvelrugloop Maarn",
+  "datum": "2027-06-19",
+  "verwacht": null,
+  "starttijd": null,
+  "plaats": "Maarn",
+  "gemeente": "Utrechtse Heuvelrug",
+  "provincie": "Utrecht",
+  "lat": 52.064,
+  "lon": 5.371,
+  "type": "trail",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": "2026: € 15-25 afhankelijk van afstand en inschrijfmoment (incl. chip)"
+   },
+   {
+    "km": 16.1,
+    "label": "10 Engelse mijl",
+    "prijs": null,
+    "prijsNotitie": "2026: € 15-25 afhankelijk van afstand en inschrijfmoment (incl. chip)"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.heuvelrugloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Heuvelrugloop Maarn",
+  "bronnen": [
+   "https://www.heuvelrugloop.nl/",
+   "https://www.heuvelrugloop.nl/programma-2/"
+  ],
+  "notitie": "Datum 19 juni 2027 bevestigd door organisator; afstanden 2027 nog niet bekend, hier die van 2026 (20 juni 2026: 10 km 17:15, 16,1 km 17:30 i.p.v. de vroegere 21 km). Start 5 Mei-plein, Maarn.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
   "id": "midzomeravondloop-bleiswijk-2027-06-23",
   "naam": "Midzomeravondloop Bleiswijk",
   "datum": "2027-06-23",
+  "verwacht": null,
   "starttijd": "19:30",
   "plaats": "Bleiswijk",
   "gemeente": "Lansingerland",
@@ -8247,6 +9971,7 @@ const WEDSTRIJDEN = [
   "id": "de-ronde-van-nieuwveen-2027-06-24",
   "naam": "De Ronde van Nieuwveen",
   "datum": "2027-06-24",
+  "verwacht": null,
   "starttijd": "19:25",
   "plaats": "Nieuwveen",
   "gemeente": "Nieuwkoop",
@@ -8288,6 +10013,7 @@ const WEDSTRIJDEN = [
   "id": "hardloopfeest-dwars-door-oud-beijerland-2027-06-25",
   "naam": "Hardloopfeest Dwars door Oud-Beijerland",
   "datum": "2027-06-25",
+  "verwacht": null,
   "starttijd": "20:00",
   "plaats": "Oud-Beijerland",
   "gemeente": "Hoeksche Waard",
@@ -8323,6 +10049,7 @@ const WEDSTRIJDEN = [
   "id": "vechtloop-weesp-44e-2027-06-27",
   "naam": "Vechtloop Weesp (44e)",
   "datum": "2027-06-27",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Weesp",
   "gemeente": "Amsterdam",
@@ -8355,9 +10082,347 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
+  "id": "afas-kasteelloop-de-haar-2027-06",
+  "naam": "AFAS Kasteelloop de Haar",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-06",
+   "vorigeEditie": "2025-06-22",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Haarzuilens",
+  "gemeente": "Utrecht",
+  "provincie": "Utrecht",
+  "lat": 52.122,
+  "lon": 4.993,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 10.55,
+    "label": "10,55 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://kasteelloopdehaar.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Golazo",
+  "bronnen": [
+   "https://kasteelloopdehaar.nl/event-info/",
+   "https://kasteelloopdehaar.nl/interesselijst/",
+   "https://www.golazo.com/event/afas-kasteelloop-de-haar/"
+  ],
+  "notitie": "Datum 2027 niet bekend. Laatst gevonden editie 22 juni 2025 (21,1 km toen afgelast wegens warmte). Interesselijst noemt 2026, maar een editie 2026 is niet gevonden; voortbestaan onzeker.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "alphense-bruggenrun-2027-06",
+  "naam": "Alphense Bruggenrun",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-06",
+   "vorigeEditie": "2026-06-18",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Alphen aan den Rijn",
+  "gemeente": "Alphen aan den Rijn",
+  "provincie": "Zuid-Holland",
+  "lat": 52.129,
+  "lon": 4.657,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km (33 bruggen)",
+    "prijs": null,
+    "prijsNotitie": "2026: gratis"
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.bruggenrun.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Alphen a/d Run, CAS Alphen en Hendrick's Pub",
+  "bronnen": [
+   "https://www.bruggenrun.nl/"
+  ],
+  "notitie": "Datum 2027 nog niet bekend; vorige (18e) editie donderdagavond 18 juni 2026, start 20:00 bij Hendrick's Pub. Gratis deelname, alleen inschrijving op de avond zelf.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "bolidt-inner-circle-run-hendrik-ido-ambacht-2027-06",
+  "naam": "Bolidt Inner Circle Run (Hendrik-Ido-Ambacht)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-06",
+   "vorigeEditie": "2026-06-18",
+   "aggregatorDatum": "2027-06-17"
+  },
+  "starttijd": null,
+  "plaats": "Hendrik-Ido-Ambacht",
+  "gemeente": "Hendrik-Ido-Ambacht",
+  "provincie": "Zuid-Holland",
+  "lat": 51.844,
+  "lon": 4.639,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://innercirclerun.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Run-DezvousNL",
+  "bronnen": [
+   "https://uitslagen.nl/evenement.php?id=2026061800423",
+   "https://runeira.com/en/races/inner-circle-run"
+  ],
+  "notitie": "Datum 2027 niet bij organisator bevestigd (traditioneel derde donderdag van juni); vorige editie donderdag 18 juni 2026 rond Laan van Welhorst/Sophiahal. Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "dorpsloop-leusden-2027-06",
+  "naam": "Dorpsloop Leusden",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-06",
+   "vorigeEditie": "2026-06-17",
+   "aggregatorDatum": "2027-06-16"
+  },
+  "starttijd": null,
+  "plaats": "Leusden",
+  "gemeente": "Leusden",
+  "provincie": "Utrecht",
+  "lat": 52.133,
+  "lon": 5.43,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.dorpsloopleusden.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Dorpsloop Leusden",
+  "bronnen": [
+   "https://running.life/nl/event/dorpsloop-leusden",
+   "https://uitslagen.nl/2026061751498"
+  ],
+  "notitie": "Datum 2027 niet bij organisator bevestigd (site niet bereikbaar); vorige editie woensdag 17 juni 2026. Running.life noemt 16 juni 2027. Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "gaasperplasrun-rondje-mokum-2027-06",
+  "naam": "Gaasperplasrun (Rondje Mokum)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-06",
+   "vorigeEditie": "2026-06-21",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Amsterdam",
+  "gemeente": "Amsterdam",
+  "provincie": "Noord-Holland",
+  "lat": 52.31,
+  "lon": 4.99,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.gaasperplasrun.nl",
+  "maxDeelnemers": null,
+  "organisator": "AV Feniks",
+  "bronnen": [
+   "https://runphy.nl/events/gaasperplas-run"
+  ],
+  "notitie": "31e editie; start Karspeldreef 500. Datum 2027 niet bekend.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "schoklandloop-2027-06",
+  "naam": "Schoklandloop",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-06",
+   "vorigeEditie": "2026-09-26",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Schokland",
+  "gemeente": "Noordoostpolder",
+  "provincie": "Flevoland",
+  "lat": 52.637,
+  "lon": 5.774,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10.4,
+    "label": "10,4 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.museumschokland.nl/agenda/schoklandloop-2026/",
+  "maxDeelnemers": null,
+  "organisator": "Museum Schokland (Cultuurbedrijf NOP)",
+  "bronnen": [
+   "https://www.museumschokland.nl/agenda/schoklandloop-2026/",
+   "https://runphy.nl/events/schoklandloop"
+  ],
+  "notitie": "Editie 2026 gepland 25 jun maar afgelast (hitte), verplaatst naar 26 sep 2026. Reguliere slot juni. Ook 5 km.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "skechers-almere-weerwater-run-2027-06",
+  "naam": "Skechers Almere Weerwater Run",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-06",
+   "vorigeEditie": "2026-06-14",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Almere",
+  "gemeente": "Almere",
+  "provincie": "Flevoland",
+  "lat": 52.372,
+  "lon": 5.209,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://almereweerwaterrun.nl",
+  "maxDeelnemers": null,
+  "organisator": "Golazo Athletics B.V.",
+  "bronnen": [
+   "https://almereweerwaterrun.nl/inschrijven/10-km/"
+  ],
+  "notitie": "Start Esplanade. 2026: 10 km 26 euro (tarief 2). Datum 2027 onbekend.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "wateringse-veld-loopfestijn-2027-06",
+  "naam": "Wateringse Veld Loopfestijn",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-06",
+   "vorigeEditie": "2026-06-07",
+   "aggregatorDatum": "2027-06-13"
+  },
+  "starttijd": null,
+  "plaats": "Den Haag",
+  "gemeente": "Den Haag",
+  "provincie": "Zuid-Holland",
+  "lat": 52.037,
+  "lon": 4.283,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://loopfestijn.wateringseveld.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Bewonersplatform Wateringse Veld",
+  "bronnen": [
+   "https://running.life/nl/event/wateringse-veld-loopfestijn"
+  ],
+  "notitie": "Datum 2027 niet bij organisator bevestigd (organisatorsite niet bereikbaar); vorige editie 7 juni 2026. Running.life noemt 16e editie 13 juni 2027 in Vlietpark Escamp. Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
   "id": "moore-drv-kadeloop-2027-07-03",
   "naam": "Moore DRV Kadeloop",
   "datum": "2027-07-03",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Schipluiden",
   "gemeente": "Midden-Delfland",
@@ -8393,6 +10458,7 @@ const WEDSTRIJDEN = [
   "id": "10-van-noordwijk-2027-07-04",
   "naam": "10 van Noordwijk",
   "datum": "2027-07-04",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Noordwijk",
   "gemeente": "Noordwijk",
@@ -8428,6 +10494,7 @@ const WEDSTRIJDEN = [
   "id": "amerongse-berg-trail-2027-07-11",
   "naam": "Amerongse Berg Trail",
   "datum": "2027-07-11",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Amerongen (Boshotel Overberg)",
   "gemeente": "Utrechtse Heuvelrug",
@@ -8481,6 +10548,7 @@ const WEDSTRIJDEN = [
   "id": "moore-drv-run-maasdijk-2027-07-24",
   "naam": "Moore DRV Run Maasdijk",
   "datum": "2027-07-24",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Maasdijk",
   "gemeente": "Westland",
@@ -8513,9 +10581,96 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
+  "id": "amsterdam-pride-run-2027-07",
+  "naam": "Amsterdam Pride Run",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-07",
+   "vorigeEditie": "2026-07-19",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Amsterdam",
+  "gemeente": "Amsterdam",
+  "provincie": "Noord-Holland",
+  "lat": 52.3676,
+  "lon": 4.9041,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.amsterdampriderun.nl/",
+  "maxDeelnemers": null,
+  "organisator": null,
+  "bronnen": [
+   "https://running.life/en/event/pride-run-amsterdam"
+  ],
+  "notitie": "Editie 2026 viel samen met WorldPride; 5 km ook. Datum 2027 onbekend.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "hart-van-holland-loop-kockengen-2027-07",
+  "naam": "Hart van Holland Loop (Kockengen)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-07",
+   "vorigeEditie": "2026-07-10",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Kockengen",
+  "gemeente": "Stichtse Vecht",
+  "provincie": "Utrecht",
+  "lat": 52.149,
+  "lon": 4.957,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://hartvanholland.net/",
+  "maxDeelnemers": null,
+  "organisator": "Laatste bus naar Kockengen (LbnK)",
+  "bronnen": [
+   "https://www.varnws.nl/leidscherijn/sport/56272/lbnk-organiseert-de-12de-editie-van-de-hart-van-holland-loop-"
+  ],
+  "notitie": "Datum 2027 nog niet bekend; vorige (12e) editie vrijdagavond 10 juli 2026 vanaf Drie Stammenweg. Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
   "id": "austerlitz-trail-2027-08-21",
   "naam": "Austerlitz Trail",
   "datum": "2027-08-21",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zeist (KNVB Campus)",
   "gemeente": "Zeist",
@@ -8560,9 +10715,50 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
+  "id": "hemmeromloop-2027-08",
+  "naam": "Hemmeromloop",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-08",
+   "vorigeEditie": "2026-08-30",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Hem",
+  "gemeente": "Drechterland",
+  "provincie": "Noord-Holland",
+  "lat": 52.66,
+  "lon": 5.0,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.hemmeromloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting H.O.C.",
+  "bronnen": [
+   "https://www.hemmeromloop.nl/"
+  ],
+  "notitie": "40e editie; laatste zondag van augustus (2027: 29 aug, niet door organisator bevestigd). Ook 5 km.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
   "id": "fish-potato-run-2027-09-11",
   "naam": "Fish Potato Run",
   "datum": "2027-09-11",
+  "verwacht": null,
   "starttijd": "15:00",
   "plaats": "Urk",
   "gemeente": "Urk",
@@ -8599,6 +10795,7 @@ const WEDSTRIJDEN = [
   "id": "nn-dam-tot-damloop-41e-2027-09-19",
   "naam": "NN Dam tot Damloop (41e)",
   "datum": "2027-09-19",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Amsterdam",
   "gemeente": "Amsterdam",
@@ -8634,6 +10831,7 @@ const WEDSTRIJDEN = [
   "id": "halve-van-katwijk-2027-09-25",
   "naam": "Halve van Katwijk",
   "datum": "2027-09-25",
+  "verwacht": null,
   "starttijd": "10:30",
   "plaats": "Katwijk aan Zee",
   "gemeente": "Katwijk",
@@ -8681,6 +10879,7 @@ const WEDSTRIJDEN = [
   "id": "geuzenloop-zoetermeer-2027-09-26",
   "naam": "Geuzenloop Zoetermeer",
   "datum": "2027-09-26",
+  "verwacht": null,
   "starttijd": null,
   "plaats": "Zoetermeer",
   "gemeente": "Zoetermeer",
@@ -8717,6 +10916,358 @@ const WEDSTRIJDEN = [
    "https://runphy.nl/events/geuzenloop-zoetermeer/2027-09-26"
   ],
   "notitie": "Organisator: 'halve mijl tot halve marathon'; 10 km via runphy",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "bergermeerrun-2027-09",
+  "naam": "Bergermeerrun",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-09",
+   "vorigeEditie": "2026-09-26",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Alkmaar",
+  "gemeente": "Alkmaar",
+  "provincie": "Noord-Holland",
+  "lat": 52.642,
+  "lon": 4.738,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.bergermeerrun.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Wijkvereniging Bergermeer",
+  "bronnen": [
+   "https://eventkit.mylaps.com/en/event/1876"
+  ],
+  "notitie": "9e editie. Datum 2027 niet bekend.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "de-30-van-almere-run-for-kika-almere-2027-09",
+  "naam": "De 30 van Almere / Run for KiKa Almere",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-09",
+   "vorigeEditie": "2026-09-27",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Almere",
+  "gemeente": "Almere",
+  "provincie": "Flevoland",
+  "lat": 52.4,
+  "lon": 5.28,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 15,
+    "label": "15 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.runforkika.nl/informatie/almere",
+  "maxDeelnemers": null,
+  "organisator": "MOEV Events",
+  "bronnen": [
+   "https://www.runforkika.nl/informatie/almere",
+   "https://sportflevo.nl/evenementen/de-30-van-almere/"
+  ],
+  "notitie": "Start Rio de Janeiroplein. Ook 30 km (buiten bereik). Datum 2027 onbekend. Prijsnotitie 2026 niet per afstand opgenomen: 10 km 16 euro, 15 km 22 euro.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "heyu-vathorstrun-amersfoort-2027-09",
+  "naam": "Heyu VathorstRun (Amersfoort)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-09",
+   "vorigeEditie": "2026-09-27",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Hooglanderveen",
+  "gemeente": "Amersfoort",
+  "provincie": "Utrecht",
+  "lat": 52.183,
+  "lon": 5.428,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 16.1,
+    "label": "10 Engelse mijl",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://vathorstrun.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Run033",
+  "bronnen": [
+   "https://vathorstrun.nl/"
+  ],
+  "notitie": "Datum 2027 nog niet bekend; vorige editie zondag 27 september 2026 vanaf Disselplein, Hooglanderveen (uitverkocht). Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "loop-naar-de-pomp-noordeloos-2027-09",
+  "naam": "Loop naar de Pomp (Noordeloos)",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-09",
+   "vorigeEditie": "2026-09-05",
+   "aggregatorDatum": "2027-09-04"
+  },
+  "starttijd": null,
+  "plaats": "Noordeloos",
+  "gemeente": "Molenlanden",
+  "provincie": "Zuid-Holland",
+  "lat": 51.904,
+  "lon": 4.942,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.noordeloos.nl/vereniging/loopcomitenoordeloos/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Loopcomité Noordeloos",
+  "bronnen": [
+   "https://running.life/nl/event/loop-naar-de-pomp-noordeloos",
+   "https://runphy.nl/events/loop-naar-de-pomp-noordeloos"
+  ],
+  "notitie": "Organisator noemt alleen '1e zaterdag van september'; vorige editie zaterdag 5 september 2026. Start/finish bij de dorpspomp (Botersloot 15). Onderdeel StardGRL Loopcircuit. Prijs niet gevonden.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "marktstadrun-2027-09",
+  "naam": "Marktstadrun",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-09",
+   "vorigeEditie": "2026-09-06",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Purmerend",
+  "gemeente": "Purmerend",
+  "provincie": "Noord-Holland",
+  "lat": 52.505,
+  "lon": 4.959,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.marktstadrun.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Marktstadrun",
+  "bronnen": [
+   "https://www.marktstadrun.nl/"
+  ],
+  "notitie": "14e editie 6 sep 2026 (uitverkocht); datum 2027 niet bekend.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "run2day-halve-van-haarlem-2027-09",
+  "naam": "Run2Day Halve van Haarlem",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-09",
+   "vorigeEditie": "2026-09-27",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Haarlem",
+  "gemeente": "Haarlem",
+  "provincie": "Noord-Holland",
+  "lat": 52.3874,
+  "lon": 4.6462,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.halvevanhaarlem.nl/",
+  "maxDeelnemers": null,
+  "organisator": "SportSupport Kennemerland",
+  "bronnen": [
+   "https://www.halvevanhaarlem.nl/"
+  ],
+  "notitie": "Datum 2027 niet bekend; halve marathon 2026 uitverkocht.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "texel-halve-marathon-2027-09",
+  "naam": "Texel Halve Marathon",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-09",
+   "vorigeEditie": "2026-09-27",
+   "aggregatorDatum": null
+  },
+  "starttijd": null,
+  "plaats": "Den Burg",
+  "gemeente": "Texel",
+  "provincie": "Noord-Holland",
+  "lat": 53.054,
+  "lon": 4.797,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 10.55,
+    "label": "Kwart marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://www.texelhalvemarathon.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Texel Atletiek",
+  "bronnen": [
+   "https://www.texelhalvemarathon.nl/"
+  ],
+  "notitie": "Datum 2027 niet vermeld; 17e editie 27 sep 2026. Achtste marathon (5,3 km) buiten bereik.",
+  "gecontroleerd": "2026-10-01"
+ },
+ {
+  "id": "vooroeverloop-2027-09",
+  "naam": "Vooroeverloop",
+  "datum": null,
+  "verwacht": {
+   "maand": "2027-09",
+   "vorigeEditie": "2026-09-06",
+   "aggregatorDatum": null
+  },
+  "starttijd": "10:00",
+  "plaats": "Medemblik",
+  "gemeente": "Medemblik",
+  "provincie": "Noord-Holland",
+  "lat": 52.771,
+  "lon": 5.107,
+  "type": "weg",
+  "afstanden": [
+   {
+    "km": 21.1,
+    "label": "Halve marathon",
+    "prijs": null,
+    "prijsNotitie": null
+   },
+   {
+    "km": 10,
+    "label": "10 km",
+    "prijs": null,
+    "prijsNotitie": null
+   }
+  ],
+  "inschrijving": {
+   "status": "onbekend",
+   "opent": null,
+   "sluit": null,
+   "platform": null,
+   "url": null
+  },
+  "website": "https://vooroeverloop.nl/",
+  "maxDeelnemers": null,
+  "organisator": "Stichting Medemblik Sport",
+  "bronnen": [
+   "https://vooroeverloop.nl/"
+  ],
+  "notitie": "13e editie; start Nederlands Stoommachine Museum. Datum 2027 niet bekend.",
   "gecontroleerd": "2026-10-01"
  }
 ];
