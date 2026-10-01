@@ -519,7 +519,7 @@
           <div>${statusHtml(w)}</div>
           <h2>${esc(w.naam)}</h2>
           <div class="plek">${esc(w.plaats)} <small>${esc(w.provincie)}${w.organisator ? ' · ' + esc(w.organisator) : ''}</small></div>
-          ${w.type !== 'weg' ? `<div class="tags"><span class="tag">${esc(TYPES[w.type] || w.type)}</span></div>` : ''}
+          ${w.type && w.type !== 'weg' ? `<div class="tags"><span class="tag">${esc(TYPES[w.type] || w.type)}</span></div>` : ''}
           ${afstandenHtml(w)}
           ${inschrijfHtml(w)}
           ${w.notitie ? `<div class="notitie-kaart">${esc(w.notitie)}</div>` : ''}
