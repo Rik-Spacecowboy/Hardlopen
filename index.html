@@ -142,6 +142,8 @@
     .weekbadge b { color: var(--hero-ink); }
     .weekbadge::before { content: ""; display: inline-block; width: 9px; height: 9px; margin-right: 6px; border-radius: 50%; background: var(--hero-ink); }
     .weekbadge.oneven::before { background: var(--accent); }
+    .weekbadge.verwacht::before { background: transparent; border: 1.5px dashed var(--hero-zacht); }
+    .status.verwacht { color: var(--ink-zacht); border-style: dashed; }
     .ster { cursor: pointer; background: transparent; border: 0; padding: 0 2px; line-height: 1; font-size: 1.7rem; color: var(--hero-zacht); }
     .ster:hover { color: var(--hero-ink); }
     .ster[aria-pressed="true"] { color: var(--accent); }
@@ -303,12 +305,12 @@
 
   <footer class="voet">
     <div class="voet-binnen">
-      <p><strong>Hoe actueel is dit?</strong> Elke wedstrijd is met de hand nagekeken bij de organisator of het inschrijfplatform, op de datum die op de kaart staat. Of een loop vol is, kan sinds die datum veranderd zijn: check altijd de inschrijflink. Is iets onbekend, dan staat er "onbekend"; er wordt niets geschat.</p>
+      <p><strong>Hoe actueel is dit?</strong> Elke wedstrijd is met de hand nagekeken bij de organisator of het inschrijfplatform, op de datum die op de kaart staat. Of een loop vol is, kan sinds die datum veranderd zijn: check altijd de inschrijflink. Is iets onbekend, dan staat er "onbekend"; er wordt niets geschat. Lopen met "Datum volgt" hebben nog geen datum voor deze editie; de maand is die van de vorige editie, dus een verwachting.</p>
       <p>Kaart: provinciegrenzen van CBS/PDOK via cartomap/nl.</p>
     </div>
   </footer>
 
-  <script src="data/wedstrijden.js"></script>
+  <script src="data/wedstrijden.js?v=8abeef0e9b"></script>
   <script src="data/provincies.js"></script>
   <script>
     // ---------- datums ----------
@@ -354,9 +356,12 @@
       return i.status;
     }
     WEDSTRIJDEN.forEach(w => {
-      w.week = isoWeek(w.datum);
-      w.pariteit = w.week % 2 === 0 ? 'even' : 'oneven';
-      w.voorbij = w.datum < VANDAAG;
+      // Lopen zonder bevestigde datum hebben alleen verwacht.maand (op basis van de vorige editie).
+      w.maandSleutel = w.datum ? w.datum.slice(0, 7) : w.verwacht.maand;
+      w.sorteer = w.datum || `${w.verwacht.maand}-99`;
+      w.week = w.datum ? isoWeek(w.datum) : null;
+      w.pariteit = w.week === null ? null : (w.week % 2 === 0 ? 'even' : 'oneven');
+      w.voorbij = w.datum ? w.datum < VANDAAG : w.verwacht.maand < VANDAAG.slice(0, 7);
       w.status = effectieveStatus(w);
       w.zoektekst = [w.naam, w.plaats, w.gemeente, w.provincie, w.organisator, w.type].join(' ').toLowerCase();
     });
@@ -371,7 +376,7 @@
     const TYPES = { weg: 'Weg', trail: 'Trail', cross: 'Cross' };
 
     const f = {
-      q: '', prov: new Set(), afst: new Set(), type: new Set(), week: '', inschrijfbaar: false, bewaard: false, afgelopen: false,
+      q: '', prov: new Set(), afst: new Set(), type: new Set(), week: '', inschrijfbaar: false, bewaard: false, afgelopen: false, zeker: false,
       stad: '', maand: '', vanaf: '', tot: '', maxPrijs: '', sorteer: '',
     };
     let weergave = (() => { try { const w = localStorage.getItem('weergave'); return ['lijst', 'kaart'].includes(w) ? w : 'kaarten'; } catch { return 'kaarten'; } })();
@@ -393,12 +398,13 @@
       if (f.afst.size && !passendeAfstanden(w).length) return false;
       if (f.type.size && !f.type.has(w.type)) return false;
       if (f.week && w.pariteit !== f.week) return false;
+      if (f.zeker && !w.datum) return false;
       if (f.inschrijfbaar && !INSCHRIJFBAAR.has(w.status)) return false;
       if (f.bewaard && !bewaard.has(w.id)) return false;
       if (f.stad && w.plaats !== f.stad) return false;
-      if (f.maand && w.datum.slice(0, 7) !== f.maand) return false;
-      if (f.vanaf && w.datum < f.vanaf) return false;
-      if (f.tot && w.datum > f.tot) return false;
+      if (f.maand && w.maandSleutel !== f.maand) return false;
+      if (f.vanaf && (!w.datum || w.datum < f.vanaf)) return false;
+      if (f.tot && (!w.datum || w.datum > f.tot)) return false;
       if (f.maxPrijs !== '') { const p = laagstePrijs(w); if (p === null || p > Number(f.maxPrijs)) return false; }
       return true;
     }
@@ -406,7 +412,7 @@
     // Alle filters staan in de URL, zodat een selectie te delen en te bookmarken is.
     const SETS = ['prov', 'afst', 'type'];
     const VELDEN = ['q', 'week', 'stad', 'maand', 'vanaf', 'tot', 'maxPrijs', 'sorteer'];
-    const VLAGGEN = ['inschrijfbaar', 'bewaard', 'afgelopen'];
+    const VLAGGEN = ['inschrijfbaar', 'bewaard', 'afgelopen', 'zeker'];
     function filtersUitUrl() {
       const u = new URLSearchParams(location.search);
       SETS.forEach(k => { f[k] = new Set((u.get(k) || '').split(',').filter(Boolean)); });
@@ -449,6 +455,7 @@
       chip('?', !uitleg.hidden, () => { uitleg.hidden = !uitleg.hidden; bouwChips(); }, ' uitleg-knop');
       rij.lastChild.setAttribute('aria-label', 'Wat betekent even/oneven?');
       scheiding();
+      if (WEDSTRIJDEN.some(w => !w.datum)) chip('Alleen bevestigde datum', f.zeker, () => { f.zeker = !f.zeker; vernieuw(); });
       chip('Ook afgelopen', f.afgelopen, () => { f.afgelopen = !f.afgelopen; vernieuw(); });
     }
 
@@ -457,7 +464,7 @@
       [...new Set(WEDSTRIJDEN.map(w => w.plaats))].sort((a, b) => a.localeCompare(b, 'nl'))
         .forEach(s => stad.add(new Option(s, s)));
       const maand = document.getElementById('fMaand');
-      [...new Set(WEDSTRIJDEN.map(w => w.datum.slice(0, 7)))].sort()
+      [...new Set(WEDSTRIJDEN.map(w => w.maandSleutel))].sort()
         .forEach(m => maand.add(new Option(`${MAANDEN[Number(m.slice(5)) - 1]} ${m.slice(0, 4)}`, m)));
     }
     const VELD_IDS = { stad: 'fStad', maand: 'fMaand', vanaf: 'fVanaf', tot: 'fTot', maxPrijs: 'fMaxPrijs', sorteer: 'fSorteer' };
@@ -496,27 +503,40 @@
           <td class="prijs${a.prijs == null ? ' onbekend' : ''}">${a.prijs == null ? 'prijs onbekend' : euro(a.prijs)}</td>
         </tr>`).join('')}</tbody></table>`;
     }
-    function renderKaart(w) {
+    // Datumblok: bij een verwachte loop de maand met een vraagteken, geen weekdag of week.
+    function datumKop(w) {
+      if (!w.datum) {
+        const [j, m] = w.verwacht.maand.split('-').map(Number);
+        return `
+          <div>
+            <div class="maand">${MAANDEN_KORT[m - 1]} ${j}</div>
+            <div class="dag-groot">?</div>
+            <div class="weekdag">datum nog niet bekend</div>
+          </div>`;
+      }
       const d = datumObj(w.datum);
+      return `
+          <div>
+            <div class="maand">${MAANDEN_KORT[d.getMonth()]} ${d.getFullYear()}</div>
+            <div class="dag-groot">${d.getDate()}</div>
+            <div class="weekdag">${WEEKDAGEN[d.getDay()]}${w.starttijd ? ' · ' + esc(w.starttijd) : ''}</div>
+          </div>`;
+    }
+    function renderKaart(w) {
       const el = document.createElement('article');
       el.className = 'wkaart' + (w.voorbij ? ' voorbij' : '');
       el.dataset.id = w.id;
       const oud = dagenTot(w.gecontroleerd) < -14;
       const inschrijfUrl = w.inschrijving.url || w.website;
       el.innerHTML = `
-        <div class="kaart-datum">
-          <div>
-            <div class="maand">${MAANDEN_KORT[d.getMonth()]} ${d.getFullYear()}</div>
-            <div class="dag-groot">${d.getDate()}</div>
-            <div class="weekdag">${WEEKDAGEN[d.getDay()]}${w.starttijd ? ' · ' + esc(w.starttijd) : ''}</div>
-          </div>
+        <div class="kaart-datum">${datumKop(w)}
           <div class="rechts">
             <button type="button" class="ster" aria-pressed="${bewaard.has(w.id)}" aria-label="Bewaar ${esc(w.naam)}">★</button>
-            <span class="weekbadge ${w.pariteit}">Week <b>${w.week}</b> · ${w.pariteit}</span>
+            ${w.datum ? `<span class="weekbadge ${w.pariteit}">Week <b>${w.week}</b> · ${w.pariteit}</span>` : '<span class="weekbadge verwacht">Verwacht</span>'}
           </div>
         </div>
         <div class="kaart-body">
-          <div>${statusHtml(w)}</div>
+          <div class="tags">${statusHtml(w)}${w.datum ? '' : '<span class="status verwacht">Datum volgt</span>'}</div>
           <h2>${esc(w.naam)}</h2>
           <div class="plek">${esc(w.plaats)} <small>${esc(w.provincie)}${w.organisator ? ' · ' + esc(w.organisator) : ''}</small></div>
           ${w.type && w.type !== 'weg' ? `<div class="tags"><span class="tag">${esc(TYPES[w.type] || w.type)}</span></div>` : ''}
@@ -548,12 +568,15 @@
       const el = document.createElement('div');
       el.className = 'lijst-rij' + (w.voorbij ? ' voorbij' : '');
       el.dataset.id = w.id;
-      const d = datumObj(w.datum);
       const p = laagstePrijs(w);
+      const d = w.datum ? datumObj(w.datum) : null;
+      const datumCel = d
+        ? `<b>${d.getDate()} ${MAANDEN_KORT[d.getMonth()]}</b><small>${WEEKDAGEN[d.getDay()].slice(0, 2)} · wk ${w.week}</small>`
+        : `<b>${MAANDEN_KORT[Number(w.verwacht.maand.slice(5)) - 1]} ?</b><small>datum volgt</small>`;
       const afst = passendeAfstanden(w).map(a => kmTekst(a.km)).join(' · ');
       el.innerHTML = `
         <button type="button" class="rij-hoofd" aria-expanded="false">
-          <span class="rij-datum"><b>${d.getDate()} ${MAANDEN_KORT[d.getMonth()]}</b><small>${WEEKDAGEN[d.getDay()].slice(0, 2)} · wk ${w.week}</small></span>
+          <span class="rij-datum">${datumCel}</span>
           <span class="rij-naam"><b>${esc(w.naam)}</b><span class="rij-meta">${esc(w.plaats)} · ${esc(afst)} · ${esc(STATUS_LABEL[w.status])}</span></span>
           <span class="rij-plek">${esc(w.plaats)}<small>${esc(w.provincie)}</small></span>
           <span class="rij-afst">${esc(afst)}</span>
@@ -651,12 +674,12 @@
     function gefilterd() {
       const rijen = WEDSTRIJDEN.filter(voldoet);
       if (f.sorteer === 'prijs') {
-        rijen.sort((a, b) => (laagstePrijs(a) ?? Infinity) - (laagstePrijs(b) ?? Infinity) || a.datum.localeCompare(b.datum));
+        rijen.sort((a, b) => (laagstePrijs(a) ?? Infinity) - (laagstePrijs(b) ?? Infinity) || a.sorteer.localeCompare(b.sorteer));
       } else if (f.sorteer === 'sluit') {
         const s = w => (w.inschrijving.sluit && w.inschrijving.sluit >= VANDAAG ? w.inschrijving.sluit : '9999');
-        rijen.sort((a, b) => s(a).localeCompare(s(b)) || a.datum.localeCompare(b.datum));
+        rijen.sort((a, b) => s(a).localeCompare(s(b)) || a.sorteer.localeCompare(b.sorteer));
       } else {
-        rijen.sort((a, b) => a.datum.localeCompare(b.datum) || a.naam.localeCompare(b.naam));
+        rijen.sort((a, b) => a.sorteer.localeCompare(b.sorteer) || a.naam.localeCompare(b.naam));
       }
       return rijen;
     }
@@ -673,7 +696,7 @@
       if (!rijen.length) { lijst.innerHTML = '<div class="leeg">Niets gevonden — probeer het breder</div>'; return; }
       let vorigeMaand = null;
       rijen.forEach(w => {
-        const maand = w.datum.slice(0, 7);
+        const maand = w.maandSleutel;
         if (!f.sorteer && maand !== vorigeMaand) {
           const kop = document.createElement('div');
           kop.className = 'maandkop';
