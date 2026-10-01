@@ -26,13 +26,13 @@ DATUM = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 def fouten_in(w):
     f = []
     naam = w.get("naam") or "?"
-    for veld in ("id", "naam", "datum", "plaats", "provincie", "lat", "lon", "type", "afstanden", "inschrijving", "gecontroleerd"):
+    for veld in ("id", "naam", "datum", "plaats", "provincie", "lat", "lon", "afstanden", "inschrijving", "gecontroleerd"):
         if w.get(veld) in (None, "", []):
             f.append(f"{naam}: veld '{veld}' ontbreekt")
     if w.get("provincie") not in PROVINCIES:
         f.append(f"{naam}: provincie '{w.get('provincie')}' hoort niet bij {sorted(PROVINCIES)}")
-    if w.get("type") not in TYPES:
-        f.append(f"{naam}: type '{w.get('type')}' moet een van {sorted(TYPES)} zijn")
+    if w.get("type") is not None and w["type"] not in TYPES:  # null = ondergrond niet vermeld
+        f.append(f"{naam}: type '{w.get('type')}' moet een van {sorted(TYPES)} of null zijn")
     for veld in ("datum", "gecontroleerd"):
         if w.get(veld) and not DATUM.match(w[veld]):
             f.append(f"{naam}: {veld} '{w[veld]}' is geen JJJJ-MM-DD")
