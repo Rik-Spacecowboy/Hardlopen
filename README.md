@@ -3,7 +3,10 @@
 Overzicht van hardloopwedstrijden van **10 km tot en met de halve marathon** in **Noord-Holland, Zuid-Holland,
 Utrecht en Flevoland**: wanneer, waar, wat het kost, of je je nog kunt inschrijven en of de wedstrijd in een even
 of oneven week valt. Pure HTML/CSS/JS, geen framework; structureel gebaseerd op het
-[Anesthesie](https://github.com/Rik-Spacecowboy/Anesthesie)-project (de opmaak wordt later eigen).
+[Anesthesie](https://github.com/Rik-Spacecowboy/Anesthesie)-project, met een eigen sportieve opmaak.
+
+Foto's in `img/fotos/` komen van Pexels (vrije Pexels-licentie, fotografen RUN 4 FFWPU en Masi; vermeld in de
+voettekst). Gebruik alleen foto's met een vrije licentie, nooit foto's van organisatoren.
 
 Live: https://rik-spacecowboy.github.io/Hardlopen/
 
