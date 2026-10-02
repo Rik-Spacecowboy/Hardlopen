@@ -11,7 +11,7 @@ Live: https://rik-spacecowboy.github.io/Hardlopen/
 
 - Drie weergaven: **Kaarten**, een compacte **Lijst** (klik voor de hele kaart) en een **Kaart** van de vier
   provincies met een stip per plaats (groter = meer wedstrijden; klik voor de wedstrijden daar).
-- Filters: nog in te schrijven, provincie, afstand (10–11 km, 12–18 km, 20 km – halve), type (weg, trail, cross),
+- Filters: nog in te schrijven, provincie, afstand (10–11 km, 12–18 km, 20 km – halve), 
   even/oneven week (ISO-weeknummer van de wedstrijddatum), plaats, maand, datumbereik, maximumprijs. Sorteren op
   datum, prijs of sluitingsdatum van de inschrijving.
 - Alle filters staan in de URL ("Deel" kopieert de link). Wedstrijden bewaren met de ster (alleen in je eigen
@@ -27,7 +27,7 @@ python3 scripts/bouw_data.py          # controleert de data en schrijft data/wed
 python3 scripts/bouw_data.py --check  # wat de workflow "Controle" draait
 ```
 
-Per wedstrijd: datum, plaats, provincie, coördinaten, type, afstanden met prijs (+ toelichting op staffels),
+Alleen wegwedstrijden (trail en cross zijn eruit gehaald). Per wedstrijd: datum, plaats, provincie, coördinaten, type, afstanden met prijs (+ toelichting op staffels),
 inschrijving (status, opent, sluit, platform, link), website, organisator, bronnen, notitie en **`gecontroleerd`**:
 de datum waarop status en prijs bij de bron zijn nagekeken.
 

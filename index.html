@@ -310,7 +310,7 @@
     </div>
   </footer>
 
-  <script src="data/wedstrijden.js?v=a0cb7d1461"></script>
+  <script src="data/wedstrijden.js?v=616ca915f8"></script>
   <script src="data/provincies.js"></script>
   <script>
     // ---------- datums ----------
@@ -363,7 +363,7 @@
       w.pariteit = w.week === null ? null : (w.week % 2 === 0 ? 'even' : 'oneven');
       w.voorbij = w.datum ? w.datum < VANDAAG : w.verwacht.maand < VANDAAG.slice(0, 7);
       w.status = effectieveStatus(w);
-      w.zoektekst = [w.naam, w.plaats, w.gemeente, w.provincie, w.organisator, w.type].join(' ').toLowerCase();
+      w.zoektekst = [w.naam, w.plaats, w.gemeente, w.provincie, w.organisator].join(' ').toLowerCase();
     });
 
     // ---------- filters ----------
@@ -373,10 +373,9 @@
       { id: '12-18', label: '12–18 km', past: km => km >= 11.5 && km < 18 },
       { id: 'halve', label: '20 km – halve', past: km => km >= 18 },
     ];
-    const TYPES = { weg: 'Weg', trail: 'Trail', cross: 'Cross' };
 
     const f = {
-      q: '', prov: new Set(), afst: new Set(), type: new Set(), week: '', inschrijfbaar: false, bewaard: false, afgelopen: false, zeker: false,
+      q: '', prov: new Set(), afst: new Set(), week: '', inschrijfbaar: false, bewaard: false, afgelopen: false, zeker: false,
       stad: '', maand: '', vanaf: '', tot: '', maxPrijs: '', sorteer: '',
     };
     let weergave = (() => { try { const w = localStorage.getItem('weergave'); return ['lijst', 'kaart'].includes(w) ? w : 'kaarten'; } catch { return 'kaarten'; } })();
@@ -396,7 +395,6 @@
       if (f.q && !f.q.toLowerCase().split(/\s+/).every(t => w.zoektekst.includes(t))) return false;
       if (f.prov.size && !f.prov.has(w.provincie)) return false;
       if (f.afst.size && !passendeAfstanden(w).length) return false;
-      if (f.type.size && !f.type.has(w.type)) return false;
       if (f.week && w.pariteit !== f.week) return false;
       if (f.zeker && !w.datum) return false;
       if (f.inschrijfbaar && !INSCHRIJFBAAR.has(w.status)) return false;
@@ -410,7 +408,7 @@
     }
 
     // Alle filters staan in de URL, zodat een selectie te delen en te bookmarken is.
-    const SETS = ['prov', 'afst', 'type'];
+    const SETS = ['prov', 'afst'];
     const VELDEN = ['q', 'week', 'stad', 'maand', 'vanaf', 'tot', 'maxPrijs', 'sorteer'];
     const VLAGGEN = ['inschrijfbaar', 'bewaard', 'afgelopen', 'zeker'];
     function filtersUitUrl() {
@@ -446,8 +444,6 @@
       PROVINCIES_LIJST.forEach(p => chip(p, f.prov.has(p), wissel(f.prov, p)));
       scheiding();
       AFSTAND_GROEPEN.forEach(g => chip(g.label, f.afst.has(g.id), wissel(f.afst, g.id)));
-      scheiding();
-      Object.entries(TYPES).forEach(([k, v]) => chip(v, f.type.has(k), wissel(f.type, k)));
       scheiding();
       chip('Even week', f.week === 'even', () => { f.week = f.week === 'even' ? '' : 'even'; vernieuw(); });
       chip('Oneven week', f.week === 'oneven', () => { f.week = f.week === 'oneven' ? '' : 'oneven'; vernieuw(); });
@@ -539,7 +535,6 @@
           <div class="tags">${statusHtml(w)}${w.datum ? '' : '<span class="status verwacht">Datum volgt</span>'}</div>
           <h2>${esc(w.naam)}</h2>
           <div class="plek">${esc(w.plaats)} <small>${esc(w.provincie)}${w.organisator ? ' · ' + esc(w.organisator) : ''}</small></div>
-          ${w.type && w.type !== 'weg' ? `<div class="tags"><span class="tag">${esc(TYPES[w.type] || w.type)}</span></div>` : ''}
           ${afstandenHtml(w)}
           ${inschrijfHtml(w)}
           ${w.notitie ? `<div class="notitie-kaart">${esc(w.notitie)}</div>` : ''}

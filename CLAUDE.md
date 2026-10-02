@@ -1,7 +1,7 @@
 # Hardloopwedstrijden
 
 Nederlandstalige site; Rik is (vooralsnog) de enige gebruiker. Scope: 10 km t/m halve marathon, provincies
-Noord-Holland, Zuid-Holland, Utrecht en Flevoland, de komende 12 maanden. Weg, trail en cross.
+Noord-Holland, Zuid-Holland, Utrecht en Flevoland, de komende 12 maanden. Alleen wegwedstrijden: geen trail of cross (Rik, 2026-10-02).
 
 ## Data
 
