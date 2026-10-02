@@ -1,49 +1,6 @@
 // Gegenereerd door scripts/bouw_data.py uit data/wedstrijden.json. Niet met de hand bewerken.
 const WEDSTRIJDEN = [
  {
-  "id": "petzl-night-trail-night-trail-utrechtse-heuvelrug-2026-10-02",
-  "naam": "Petzl Night Trail (Night Trail Utrechtse Heuvelrug)",
-  "datum": "2026-10-02",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Leersum (Landgoed Ginkelduin)",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.0117,
-  "lon": 5.4317,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 12,
-    "label": "12 km (2 lussen)",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 18,
-    "label": "18 km (3 lussen)",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Petzl-Night-Trail-02-10-2026"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Petzl-Night-Trail-02-10-2026",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Petzl-Night-Trail-02-10-2026",
-   "https://running.life/en/event/petzl-night-trail/2026-10-02"
-  ],
-  "notitie": "Avondtrail; lus van 6 km, 1-3x te lopen. Prijzen/status niet uitleesbaar (JavaScript).",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "isoniq-urk-marathon-halve-marathon-2026-10-03",
   "naam": "Isoniq Urk Marathon (halve marathon)",
   "datum": "2026-10-03",
@@ -79,48 +36,6 @@ const WEDSTRIJDEN = [
    "https://inschrijven.nl/form/2026100351597-nl"
   ],
   "notitie": "Maximum (325 halve-marathonplekken) bereikt; wachtlijst mogelijk. Start/finish bij restaurant de Kaap, boulevard Urk. Ook een marathon (niet opgenomen). Prijs niet gevonden.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "leersumse-veld-trail-2026-10-03",
-  "naam": "Leersumse Veld Trail",
-  "datum": "2026-10-03",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Leersum",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.0117,
-  "lon": 5.4317,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 11,
-    "label": "11 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "21 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Leersumse-Veld-Trail-03-10-2026"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Leersumse-Veld-Trail-03-10-2026",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Leersumse-Veld-Trail-03-10-2026"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar.",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -329,43 +244,6 @@ const WEDSTRIJDEN = [
    "https://avspiritlelystad.nl/2026/09/14/wintercup-seizoen-2026-2027-gaat-van-start/"
   ],
   "notitie": "Maandelijkse wintercompetitie (okt-mrt). Start/finish Sportpark Langezand, Sportparkweg 2. Online inschrijving 'tot vrijdag voor elke editie' (sluit = die vrijdag). Coordinaten benaderd.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "devil-s-trail-utrechtse-heuvelrug-2026-10-04",
-  "naam": "Devil's Trail Utrechtse Heuvelrug",
-  "datum": "2026-10-04",
-  "verwacht": null,
-  "starttijd": "12:05",
-  "plaats": "Doorn (Doornse Gat)",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.0333,
-  "lon": 5.3436,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 16,
-    "label": "Breeveen 16 km",
-    "prijs": null,
-    "prijsNotitie": "Early bird € 25 (t/m 1 april), regulier € 27, laat € 29; overgangsdatum regulier/laat niet vermeld"
-   }
-  ],
-  "inschrijving": {
-   "status": "vol",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": "https://inschrijven.nl/form/2026100300402-nl"
-  },
-  "website": "https://devilstrail.nl/evenementen/devils-trail-utrechtse-heuvelrug/",
-  "maxDeelnemers": 1000,
-  "organisator": "Devil's Trail",
-  "bronnen": [
-   "https://devilstrail.nl/evenementen/devils-trail-utrechtse-heuvelrug/",
-   "https://inschrijven.nl/form/2026100300402-nl"
-  ],
-  "notitie": "Inschrijving gesloten: deelnamelimiet bereikt. Ook 8, 26, 36 km en 160 km ultra (3 okt).",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -688,134 +566,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "avw-3bossentrail-2026-10-10",
-  "naam": "AVW 3Bossentrail",
-  "datum": "2026-10-10",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Wieringerwerf",
-  "gemeente": "Hollands Kroon",
-  "provincie": "Noord-Holland",
-  "lat": 52.851,
-  "lon": 5.026,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 14,
-    "label": "14 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 17,
-    "label": "17 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": null,
-   "url": null
-  },
-  "website": "https://www.avwieringermeer.nl/",
-  "maxDeelnemers": null,
-  "organisator": "AV Wieringermeer",
-  "bronnen": [
-   "https://www.avwieringermeer.nl/index.php?page=Agenda&sid=1",
-   "https://running.life/running-calendar/netherlands/noord-holland"
-  ],
-  "notitie": "Datum bevestigd in clubagenda; afstanden alleen via running.life (onbevestigd); prijs/inschrijving niet gevonden.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "dordtse-biesbosch-trailrun-2026-10-10",
-  "naam": "Dordtse Biesbosch Trailrun",
-  "datum": "2026-10-10",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Dordrecht",
-  "gemeente": "Dordrecht",
-  "provincie": "Zuid-Holland",
-  "lat": 51.79,
-  "lon": 4.73,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 16.1,
-    "label": "10 Engelse mijl",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "Halve marathon",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "vol",
-   "opent": null,
-   "sluit": null,
-   "platform": null,
-   "url": null
-  },
-  "website": "https://www.dordtsebiesboschtrailrun.nl/",
-  "maxDeelnemers": null,
-  "organisator": "De Dordtse Biesbosch Trail Run",
-  "bronnen": [
-   "https://www.dordtsebiesboschtrailrun.nl/"
-  ],
-  "notitie": "Start Schenkeldijk; 'Tickets zijn uitverkocht'",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "duinloopcircuit-katwijk-noordduinloop-najaar-2026-10-10",
-  "naam": "Duinloopcircuit Katwijk – Noordduinloop (najaar)",
-  "datum": "2026-10-10",
-  "verwacht": null,
-  "starttijd": "10:00",
-  "plaats": "Katwijk aan Zee",
-  "gemeente": "Katwijk",
-  "provincie": "Zuid-Holland",
-  "lat": 52.203,
-  "lon": 4.399,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": 11.0,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": "https://inschrijven.nl/form/2026101051239-nl"
-  },
-  "website": "https://duinloopcircuit.nl",
-  "maxDeelnemers": null,
-  "organisator": "Stichting Halve van Katwijk i.s.m. AV Rijnsoever",
-  "bronnen": [
-   "https://duinloopcircuit.nl",
-   "https://duinloopcircuit.nl/starttijden"
-  ],
-  "notitie": "Deel van Duinloopcircuit Katwijk; prijs/starttijd van algemene starttijdenpagina; type duinloop (weg/duin) niet expliciet vermeld",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "epilepsieloop-amersfoort-2026-10-10",
   "naam": "EpilepsieLoop Amersfoort",
   "datum": "2026-10-10",
@@ -937,49 +687,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "prattenburgrun-2026-10-10",
-  "naam": "PrattenburgRun",
-  "datum": "2026-10-10",
-  "verwacht": null,
-  "starttijd": "10:30",
-  "plaats": "Veenendaal (Landgoed Prattenburg)",
-  "gemeente": "Rhenen",
-  "provincie": "Utrecht",
-  "lat": 52.0286,
-  "lon": 5.559,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": "start 10:30"
-   },
-   {
-    "km": 15,
-    "label": "15 km trailrun",
-    "prijs": null,
-    "prijsNotitie": "start 10:00; ca. 178 hoogtemeters"
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": null,
-   "sluit": "2026-10-07",
-   "platform": "inschrijven.nl",
-   "url": "https://inschrijven.nl/form/2026101018427-nl"
-  },
-  "website": "https://vriendenvanprattenburg.nl/prattenburgrun",
-  "maxDeelnemers": 250,
-  "organisator": "Stichting Vrienden van Landgoed Prattenburg",
-  "bronnen": [
-   "https://vriendenvanprattenburg.nl/prattenburgrun",
-   "https://inschrijven.nl/form/2026101018427-nl"
-  ],
-  "notitie": "Prijs niet vermeld (alleen trailcup € 2). Coördinaten = centrum Veenendaal.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "run2day-vlinderloop-2026-10-10",
   "naam": "Run2Day Vlinderloop",
   "datum": "2026-10-10",
@@ -1026,60 +733,6 @@ const WEDSTRIJDEN = [
    "https://inschrijven.nl/form/2026101005155-nl"
   ],
   "notitie": "Maandelijkse loop (seizoen sep-mei); alle afstanden starten 11:30. Start Jaagpad nabij Veerwagenweg. Prijs is voorinschrijving online.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "amerongse-berg-trail-2026-10-11",
-  "naam": "Amerongse Berg Trail",
-  "datum": "2026-10-11",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Amerongen (Boshotel Overberg)",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.005,
-  "lon": 5.46,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 12,
-    "label": "12 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 17,
-    "label": "17 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 20,
-    "label": "20 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "21 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Amerongse-Berg-Trail-11-10-2026"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Amerongse-Berg-Trail-11-10-2026",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Amerongse-Berg-Trail-11-10-2026"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar.",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -1261,55 +914,6 @@ const WEDSTRIJDEN = [
    "https://www.noordkopatletiek.nl/napoleon-mijlenloop/"
   ],
   "notitie": "Start Hotel Den Helder, Marsdiepstraat 2. Site noemt deadline '9 oktober 2025 23:59' (vermoedelijk verouderd/tikfout), daarom sluit=null.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "oostvaardersrun-2026-10-11",
-  "naam": "Oostvaardersrun",
-  "datum": "2026-10-11",
-  "verwacht": null,
-  "starttijd": "10:00",
-  "plaats": "Lelystad",
-  "gemeente": "Lelystad",
-  "provincie": "Flevoland",
-  "lat": 52.5185,
-  "lon": 5.4714,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 16,
-    "label": "16 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "Halve marathon",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": "2026-10-10",
-   "platform": null,
-   "url": "https://oostvaardersrun.nl/"
-  },
-  "website": "https://oostvaardersrun.nl/",
-  "maxDeelnemers": null,
-  "organisator": "Sportservice Flevoland",
-  "bronnen": [
-   "https://sportflevo.nl/evenementen/oostvaardersrun-2026-lelystad/",
-   "https://inschrijven.nl/form/2026101150686-nl"
-  ],
-  "notitie": "Natuurloop, start Kitsweg Lelystad (coordinaten = plaatscentrum). Sportflevo: 'Aanmelden kan tot en met 10 oktober 2026'; inschrijven.nl-formulier meldt echter 'voorinschrijven niet meer mogelijk'. Organisatorsite oostvaardersrun.nl niet bereikbaar; prijzen onbekend.",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -1538,42 +1142,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "turfveld-wintercross-15-km-2026-10-18",
-  "naam": "Turfveld Wintercross 15 km",
-  "datum": "2026-10-18",
-  "verwacht": null,
-  "starttijd": "10:50",
-  "plaats": "Den Burg",
-  "gemeente": "Texel",
-  "provincie": "Noord-Holland",
-  "lat": 53.048,
-  "lon": 4.79,
-  "type": "cross",
-  "afstanden": [
-   {
-    "km": 15,
-    "label": "15 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": null,
-   "url": null
-  },
-  "website": "https://www.avtexel.nl/wedstrijden",
-  "maxDeelnemers": null,
-  "organisator": "AV Texel",
-  "bronnen": [
-   "https://www.avtexel.nl/wedstrijden"
-  ],
-  "notitie": "Bospaviljoen 't Turfveld, Nattevlakweg 2. Prijs/inschrijving niet vermeld. Overige Turfveld-crossen in de serie zijn korter dan 10 km.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "zeezichtloop-petten-2026-10-18",
   "naam": "Zeezichtloop Petten",
   "datum": "2026-10-18",
@@ -1680,92 +1248,6 @@ const WEDSTRIJDEN = [
    "https://www.avzaanland.nl/index.php?page=996&sid=1"
   ],
   "notitie": "Serie van 3 lopen in Vijfhoekpark; tijd, prijs en inschrijving niet gevonden (nextrace niet bereikbaar). Coördinaten = Vijfhoekpark (benadering).",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "1e-oosterbaan-strand-en-duinloop-2026-10-25",
-  "naam": "1e Oosterbaan Strand- en Duinloop",
-  "datum": "2026-10-25",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Castricum",
-  "gemeente": "Castricum",
-  "provincie": "Noord-Holland",
-  "lat": 52.553,
-  "lon": 4.638,
-  "type": "cross",
-  "afstanden": [
-   {
-    "km": 10.1,
-    "label": "10,1 km",
-    "prijs": null,
-    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
-   },
-   {
-    "km": 15,
-    "label": "15 km",
-    "prijs": null,
-    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": null,
-   "sluit": "2026-10-23",
-   "platform": "inschrijven.nl",
-   "url": "https://www.avcastricum.nl/inschrijving-prijzen"
-  },
-  "website": "https://www.avcastricum.nl/agenda-activiteiten",
-  "maxDeelnemers": null,
-  "organisator": "AV Castricum",
-  "bronnen": [
-   "https://www.avcastricum.nl/agenda-activiteiten",
-   "https://www.avcastricum.nl/inschrijving-prijzen",
-   "https://avcastricum.nl/nieuws/63/?nid=1022&np="
-  ],
-  "notitie": "Strand-/duincross vanaf Sportpark De Duinloper, Zeeweg 4. Programma 10:15-12:30. Voorinschrijving t/m vrijdag vóór de loop; na-inschrijving vanaf zaterdagmiddag.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "dynafit-duinentrail-schoorl-2026-10-25",
-  "naam": "DYNAFIT Duinentrail Schoorl",
-  "datum": "2026-10-25",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Schoorl",
-  "gemeente": "Bergen (NH)",
-  "provincie": "Noord-Holland",
-  "lat": 52.702,
-  "lon": 4.693,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 13,
-    "label": "13 km trail",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 18,
-    "label": "18 km trail",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "gesloten",
-   "opent": null,
-   "sluit": "2026-10-01",
-   "platform": "inschrijven.nl",
-   "url": "https://inschrijven.nl/form/2026102500305-nl"
-  },
-  "website": "https://www.mudsweattrails.nl/duinentrail_schoorl/",
-  "maxDeelnemers": null,
-  "organisator": "Mud, Sweat & Trails",
-  "bronnen": [
-   "https://inschrijven.nl/form/2026102500305-nl"
-  ],
-  "notitie": "Voorinschrijving t/m 1 okt 2026 (vandaag laatste dag); status 'gesloten' vanaf 2 okt, na-inschrijving onbekend. Ook 34 en 50 km; swim-trail op 24 okt.",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -2519,85 +2001,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "duinloopcircuit-katwijk-zuidduinloop-2026-11-07",
-  "naam": "Duinloopcircuit Katwijk – Zuidduinloop",
-  "datum": "2026-11-07",
-  "verwacht": null,
-  "starttijd": "10:00",
-  "plaats": "Katwijk aan Zee",
-  "gemeente": "Katwijk",
-  "provincie": "Zuid-Holland",
-  "lat": 52.203,
-  "lon": 4.399,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": 11.0,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": null
-  },
-  "website": "https://duinloopcircuit.nl",
-  "maxDeelnemers": null,
-  "organisator": "Stichting Halve van Katwijk i.s.m. AV Rijnsoever",
-  "bronnen": [
-   "https://duinloopcircuit.nl",
-   "https://duinloopcircuit.nl/starttijden"
-  ],
-  "notitie": "Deel van Duinloopcircuit Katwijk; prijs/starttijd van algemene starttijdenpagina; type duinloop (weg/duin) niet expliciet vermeld",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "lage-vuursche-trail-2026-11-07",
-  "naam": "Lage Vuursche Trail",
-  "datum": "2026-11-07",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Lage Vuursche",
-  "gemeente": "Baarn",
-  "provincie": "Utrecht",
-  "lat": 52.1792,
-  "lon": 5.2306,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km (1 lus)",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 20,
-    "label": "20 km (2 lussen)",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Lage-Vuursche-Trail-07-11-2026"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Lage-Vuursche-Trail-07-11-2026",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Lage-Vuursche-Trail-07-11-2026"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar. Ook 30 km.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "schipholloop-halve-marathon-2026-11-07",
   "naam": "Schipholloop - Halve Marathon",
   "datum": "2026-11-07",
@@ -2631,79 +2034,6 @@ const WEDSTRIJDEN = [
    "https://inschrijven.nl/form/2026110750236-nl"
   ],
   "notitie": "Ronde om de Haarlemmermeer (ook marathon en 60 km). Niet verkeersvrij, semi-zelfvoorzienend. Prijs niet zichtbaar.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "waalbosrun-2026-11-07",
-  "naam": "Waalbosrun",
-  "datum": "2026-11-07",
-  "verwacht": null,
-  "starttijd": "13:00",
-  "plaats": "Rijsoord",
-  "gemeente": "Ridderkerk",
-  "provincie": "Zuid-Holland",
-  "lat": 51.856,
-  "lon": 4.595,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": null,
-   "sluit": null,
-   "platform": "totaltiming.inschrijven.nl",
-   "url": "https://totaltiming.inschrijven.nl/form/2026110751663-nl"
-  },
-  "website": "https://ijsclubrijsoord.nl/activiteit/waalbosrun-7-november/",
-  "maxDeelnemers": null,
-  "organisator": "IJsclub Rijsoord i.s.m. Bezoekerscentrum De IJsvogel",
-  "bronnen": [
-   "https://ijsclubrijsoord.nl/activiteit/waalbosrun-7-november/"
-  ],
-  "notitie": "Bosloop door Waalbos; start Bezoekerscentrum De IJsvogel",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "dijkgatboscross-2026-11-08",
-  "naam": "Dijkgatboscross",
-  "datum": "2026-11-08",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Wieringerwerf",
-  "gemeente": "Hollands Kroon",
-  "provincie": "Noord-Holland",
-  "lat": 52.835,
-  "lon": 5.06,
-  "type": "cross",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": null,
-   "url": null
-  },
-  "website": "https://www.avwieringermeer.nl/",
-  "maxDeelnemers": null,
-  "organisator": "AV Wieringermeer",
-  "bronnen": [
-   "https://www.avwieringermeer.nl/index.php?page=Agenda&sid=1",
-   "https://runphy.nl/events/avw-dijkgatboscross/2026-11-08"
-  ],
-  "notitie": "Datum bevestigd in clubagenda; 10 km alleen via runphy/running.life (onbevestigd).",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -2908,48 +2238,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "nsl-nederzandtcross-2026-11-08",
-  "naam": "NSL NederZandtCross",
-  "datum": "2026-11-08",
-  "verwacht": null,
-  "starttijd": "11:00",
-  "plaats": "Noordwijkerhout",
-  "gemeente": "Noordwijkerhout",
-  "provincie": "Zuid-Holland",
-  "lat": 52.285,
-  "lon": 4.49,
-  "type": "cross",
-  "afstanden": [
-   {
-    "km": 10.2,
-    "label": "10,2 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 16.6,
-    "label": "16,6 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": "https://inschrijven.nl/form/2026110807249-nl"
-  },
-  "website": "https://www.av-nsl.nl/events-1/1e-editie-nsl-nederzandtcross",
-  "maxDeelnemers": null,
-  "organisator": "AV NSL i.s.m. Vrijstaat Nederzandt",
-  "bronnen": [
-   "https://www.av-nsl.nl/events-1/1e-editie-nsl-nederzandtcross"
-  ],
-  "notitie": "1e editie; duinen, zand, bos en strand; start Nederzandt, Langevelderslag",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "olympisch-stadionloop-2026-11-08",
   "naam": "Olympisch Stadionloop",
   "datum": "2026-11-08",
@@ -2983,42 +2271,6 @@ const WEDSTRIJDEN = [
    "https://olympischstadionloop.nl/inschrijven/"
   ],
   "notitie": "Starttijden voorlopig (10 km 12:30 en 12:38). Coördinaten = Olympisch Stadion.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "urban-trail-haarlem-2026-11-08",
-  "naam": "Urban Trail Haarlem",
-  "datum": "2026-11-08",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Haarlem",
-  "gemeente": "Haarlem",
-  "provincie": "Noord-Holland",
-  "lat": 52.381,
-  "lon": 4.637,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 11,
-    "label": "Lange route (ca. 10-12 km)",
-    "prijs": 27.5,
-    "prijsNotitie": "Zelfde prijs voor beide afstanden"
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": null,
-   "sluit": null,
-   "platform": "Chronorace",
-   "url": "https://haarlemurbantrail.nl/inschrijven/"
-  },
-  "website": "https://haarlemurbantrail.nl/",
-  "maxDeelnemers": null,
-  "organisator": "Urban Trail Series",
-  "bronnen": [
-   "https://haarlemurbantrail.nl/inschrijven/"
-  ],
-  "notitie": "Stads-'urban trail' (trappen, gebouwen). Afstand lange route 'ca. 10-12 km'. 8e editie.",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -3311,42 +2563,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "derko-night-trail-2026-11-20",
-  "naam": "Derko Night Trail",
-  "datum": "2026-11-20",
-  "verwacht": null,
-  "starttijd": "19:00",
-  "plaats": "Nieuwegein (Skipiste)",
-  "gemeente": "Nieuwegein",
-  "provincie": "Utrecht",
-  "lat": 52.0292,
-  "lon": 5.0806,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 15,
-    "label": "ValidR 15 km",
-    "prijs": 17.5,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": "https://totaltiming.inschrijven.nl/form/2026112050597-nl"
-  },
-  "website": "https://www.derko.nl/derko-night-trail/",
-  "maxDeelnemers": null,
-  "organisator": "Derko / Runnersworld Utrecht",
-  "bronnen": [
-   "https://www.derko.nl/derko-night-trail/"
-  ],
-  "notitie": "Start Skipiste Nieuwegein, Nedereindseweg 501a. Ook 5 en 7,5 km.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "utrecht-science-park-night-run-2026-11-20",
   "naam": "Utrecht Science Park Night Run",
   "datum": "2026-11-20",
@@ -3387,134 +2603,6 @@ const WEDSTRIJDEN = [
    "https://www.uspnightrun.nl/inschrijven"
   ],
   "notitie": "10 en 15 km uitverkocht (5 km nog open). Start Olympos, Uppsalalaan 3. Coördinaten = centrum Utrecht.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "halve-van-monster-2026-11-21",
-  "naam": "Halve van Monster",
-  "datum": "2026-11-21",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Monster",
-  "gemeente": "Westland",
-  "provincie": "Zuid-Holland",
-  "lat": 52.025,
-  "lon": 4.175,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10.3,
-    "label": "10,3 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "Halve marathon",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": "2026-08-15",
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": null
-  },
-  "website": "https://halvevanmonster.nl/",
-  "maxDeelnemers": null,
-  "organisator": null,
-  "bronnen": [
-   "https://halvevanmonster.nl/"
-  ],
-  "notitie": "51e editie; parcours door duinen en over strand; start Sporthal De Wielepet; 300-400 deelnemers per editie",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "hollands-duin-trail-najaar-2026-11-21",
-  "naam": "Hollands Duin Trail (najaar)",
-  "datum": "2026-11-21",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Noordwijk",
-  "gemeente": "Noordwijk",
-  "provincie": "Zuid-Holland",
-  "lat": 52.27,
-  "lon": 4.475,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "Halve marathon",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Hollands-Duin-Trail-21-11-2026"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Hollands-Duin-Trail-21-11-2026",
-  "maxDeelnemers": 1460,
-  "organisator": "Trail Events",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Hollands-Duin-Trail-21-11-2026",
-   "https://running.life/en/event/hollands-duin-trail/2026-11-21"
-  ],
-  "notitie": "Organisatorpagina (URL met datum 21-11-2026) toont geen details; afstanden en max. 1460 deelnemers via running.life; start Vrijstaat Nederzandt, Langevelderslag",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "soesterduinen-trailrun-2026-11-21",
-  "naam": "Soesterduinen Trailrun",
-  "datum": "2026-11-21",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Soest (De Birkt)",
-  "gemeente": "Soest",
-  "provincie": "Utrecht",
-  "lat": 52.1733,
-  "lon": 5.2917,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "21 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "epictrails.nl",
-   "url": "https://www.epictrails.nl/details-en-registratie/soesterduinen-trailrun"
-  },
-  "website": "https://www.epictrails.nl/",
-  "maxDeelnemers": null,
-  "organisator": "Epic Trails",
-  "bronnen": [
-   "https://www.epictrails.nl/",
-   "https://running.life/en/event/soesterduinen-trailrun"
-  ],
-  "notitie": "Organisator noemt '21 November' (10-21-30 km); jaar staat er niet bij, running.life: 2026. Detailpagina toont nog vorige editie ('tickets zijn niet te koop'). Start vorige editie Theehuis Het Oude Paard, Birkstraat 107.",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -3597,42 +2685,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "graef-castricum-trail-2026-11-22",
-  "naam": "Graef Castricum Trail",
-  "datum": "2026-11-22",
-  "verwacht": null,
-  "starttijd": "10:30",
-  "plaats": "Castricum",
-  "gemeente": "Castricum",
-  "provincie": "Noord-Holland",
-  "lat": 52.553,
-  "lon": 4.638,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 11,
-    "label": "11 km trail",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": "https://inschrijven.nl/form/2026112250088-nl"
-  },
-  "website": "https://cairnadventures.nl/trail/graef-castricum-trail/",
-  "maxDeelnemers": null,
-  "organisator": "CAIRN Trails and Adventures",
-  "bronnen": [
-   "https://inschrijven.nl/form/2026112250088-nl"
-  ],
-  "notitie": "Start bij atletiekbaan AV Castricum; traildistances starten gespreid 10:30-11:30. Ook 7, 23, 35, 60 km. Prijs niet zichtbaar; korting voor AVC-leden.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "vechtstreek-in-beweging-vib-lopen-2026-11-22",
   "naam": "Vechtstreek in Beweging (VIB) Lopen",
   "datum": "2026-11-22",
@@ -3712,50 +2764,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "2e-oosterbaan-strand-en-duinloop-2026-11-29",
-  "naam": "2e Oosterbaan Strand- en Duinloop",
-  "datum": "2026-11-29",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Castricum",
-  "gemeente": "Castricum",
-  "provincie": "Noord-Holland",
-  "lat": 52.553,
-  "lon": 4.638,
-  "type": "cross",
-  "afstanden": [
-   {
-    "km": 10.1,
-    "label": "10,1 km",
-    "prijs": null,
-    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
-   },
-   {
-    "km": 15,
-    "label": "15 km",
-    "prijs": null,
-    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": "2026-11-27",
-   "platform": "inschrijven.nl",
-   "url": "https://www.avcastricum.nl/inschrijving-prijzen"
-  },
-  "website": "https://www.avcastricum.nl/agenda-activiteiten",
-  "maxDeelnemers": null,
-  "organisator": "AV Castricum",
-  "bronnen": [
-   "https://www.avcastricum.nl/agenda-activiteiten",
-   "https://www.avcastricum.nl/inschrijving-prijzen",
-   "https://avcastricum.nl/nieuws/63/?nid=1022&np="
-  ],
-  "notitie": "Strand-/duincross vanaf Sportpark De Duinloper, Zeeweg 4. Programma 10:15-12:30. Voorinschrijving t/m vrijdag vóór de loop; na-inschrijving vanaf zaterdagmiddag.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "spijkenisse-marathon-2026-11-29",
   "naam": "Spijkenisse Marathon",
   "datum": "2026-11-29",
@@ -3795,79 +2803,6 @@ const WEDSTRIJDEN = [
    "https://runphy.nl/events/spijkenisse-marathon/2026-11-29"
   ],
   "notitie": "Organisatorsite toont alleen frames (niet uitleesbaar); details via runphy.nl",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "duinloopcircuit-katwijk-sinterklaasloop-2026-12-05",
-  "naam": "Duinloopcircuit Katwijk – Sinterklaasloop",
-  "datum": "2026-12-05",
-  "verwacht": null,
-  "starttijd": "10:00",
-  "plaats": "Katwijk aan Zee",
-  "gemeente": "Katwijk",
-  "provincie": "Zuid-Holland",
-  "lat": 52.203,
-  "lon": 4.399,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": 11.0,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": null
-  },
-  "website": "https://duinloopcircuit.nl",
-  "maxDeelnemers": null,
-  "organisator": "Stichting Halve van Katwijk i.s.m. AV Rijnsoever",
-  "bronnen": [
-   "https://duinloopcircuit.nl",
-   "https://duinloopcircuit.nl/starttijden"
-  ],
-  "notitie": "Deel van Duinloopcircuit Katwijk; prijs/starttijd van algemene starttijdenpagina; type duinloop (weg/duin) niet expliciet vermeld",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "pre-run-egmond-halve-marathon-2026-12-05",
-  "naam": "Pre-Run Egmond Halve Marathon",
-  "datum": "2026-12-05",
-  "verwacht": null,
-  "starttijd": "11:15",
-  "plaats": "Castricum aan Zee",
-  "gemeente": "Castricum",
-  "provincie": "Noord-Holland",
-  "lat": 52.556,
-  "lon": 4.611,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 16,
-    "label": "16 km",
-    "prijs": 16.0,
-    "prijsNotitie": "Gratis voor Le Champion-leden"
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": null,
-   "sluit": null,
-   "platform": "atleta.cc",
-   "url": "https://www.lechampion.nl/members/verenigingsactiviteiten/pre-runs/egmond-halve-marathon"
-  },
-  "website": "https://www.lechampion.nl/pre-run-egmond-halve-marathon",
-  "maxDeelnemers": null,
-  "organisator": "Le Champion",
-  "bronnen": [
-   "https://www.lechampion.nl/members/verenigingsactiviteiten/pre-runs/egmond-halve-marathon"
-  ],
-  "notitie": "Start Camping Bakkum, Zeeweg 31. Strand/duin/bos. Status 'open' aangenomen (inschrijflink actief).",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -3951,43 +2886,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "all4running-crosscircuit-duincross-2026-12-06",
-  "naam": "All4running Crosscircuit Duincross",
-  "datum": "2026-12-06",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Den Helder",
-  "gemeente": "Den Helder",
-  "provincie": "Noord-Holland",
-  "lat": 52.942,
-  "lon": 4.765,
-  "type": "cross",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": "https://inschrijven.nl/form/2026120651342-nl"
-  },
-  "website": "https://www.noordkopatletiek.nl/event/duincross-copy/",
-  "maxDeelnemers": null,
-  "organisator": "SV Noordkop Atletiek i.s.m. FC Den Helder",
-  "bronnen": [
-   "https://www.noordkopatletiek.nl/event/duincross-copy/",
-   "https://inschrijven.nl/form/2026120651342-nl"
-  ],
-  "notitie": "38e editie, Streepjesberg/Bremstraat. Deel van All4running Crosscircuit. 10 km alleen via runphy (organisator noemt afstanden niet).",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "houtloop-delft-2026-12-06",
   "naam": "Houtloop Delft",
   "datum": "2026-12-06",
@@ -4022,80 +2920,6 @@ const WEDSTRIJDEN = [
    "https://running.life/en/event/houtloop-delft/2026-10-04"
   ],
   "notitie": "Maandelijkse loop in de Delftse Hout; datum in agenda AV'40, afstand 10 km alleen via running.life; coördinaten Delftse Hout benaderd",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "voorne-s-duin-trail-2026-12-06",
-  "naam": "Voorne's Duin Trail",
-  "datum": "2026-12-06",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Oostvoorne",
-  "gemeente": "Voorne aan Zee",
-  "provincie": "Zuid-Holland",
-  "lat": 51.912,
-  "lon": 4.07,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 15,
-    "label": "15 km trail",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": null,
-   "sluit": "2026-11-29",
-   "platform": "inschrijven.nl",
-   "url": "https://inschrijven.nl/form/2026120650659-nl"
-  },
-  "website": "https://www.voornesduintrail.nl/",
-  "maxDeelnemers": null,
-  "organisator": "Stichting Voorne's Duin Trail",
-  "bronnen": [
-   "https://www.voornesduintrail.nl/",
-   "https://inschrijven.nl/form/2026120650659-nl"
-  ],
-  "notitie": "13e editie; start Brunotti Beachclub; voorinschrijving sluit 29 nov 2026",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "devil-s-nighttrail-netl-kraggenburg-2026-12-12",
-  "naam": "Devil's NightTrail Netl-Kraggenburg",
-  "datum": "2026-12-12",
-  "verwacht": null,
-  "starttijd": "19:00",
-  "plaats": "Kraggenburg",
-  "gemeente": "Noordoostpolder",
-  "provincie": "Flevoland",
-  "lat": 52.6619,
-  "lon": 5.9006,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km NightTrail",
-    "prijs": 17.5,
-    "prijsNotitie": "€ 17,50 t/m 1 okt, daarna € 20 tot 6 dec (early bird € 15 t/m 1 juli verlopen)"
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": "2026-03-01",
-   "sluit": "2026-12-06",
-   "platform": "inschrijven.nl",
-   "url": "https://inschrijven.nl/form/2026121351604"
-  },
-  "website": "https://devilstrail.nl/evenementen/devils-trail-netl-kraggenburg/",
-  "maxDeelnemers": 150,
-  "organisator": "Devil's Trail",
-  "bronnen": [
-   "https://devilstrail.nl/evenementen/devils-trail-netl-kraggenburg/",
-   "https://inschrijven.nl/form/2026121351604"
-  ],
-  "notitie": "Avondtrail op zaterdag; max 150 deelnemers per afstand. Start Netl Park, Leemringweg 19 (coordinaten = plaatscentrum).",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -4147,48 +2971,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "silent-forest-trail-2026-12-12",
-  "naam": "Silent Forest Trail",
-  "datum": "2026-12-12",
-  "verwacht": null,
-  "starttijd": "10:00",
-  "plaats": "Lage Vuursche",
-  "gemeente": "Baarn",
-  "provincie": "Utrecht",
-  "lat": 52.1792,
-  "lon": 5.2306,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km Flow Trail",
-    "prijs": 28.0,
-    "prijsNotitie": "excl. servicekosten € 0,70-0,95"
-   },
-   {
-    "km": 20,
-    "label": "20 km Forest Trail",
-    "prijs": 33.0,
-    "prijsNotitie": "excl. servicekosten € 0,70-0,95"
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": null,
-   "sluit": null,
-   "platform": "epictrails.nl",
-   "url": "https://www.epictrails.nl/details-en-registratie/silent-forest-trail"
-  },
-  "website": "https://www.epictrails.nl/",
-  "maxDeelnemers": null,
-  "organisator": "Epic Trails",
-  "bronnen": [
-   "https://www.epictrails.nl/details-en-registratie/silent-forest-trail"
-  ],
-  "notitie": "Startblokken 10:00-12:30; meeste blokken uitverkocht, alleen laatste blok (12:00-12:30) nog beschikbaar. Start parkeerterrein nabij Theehuis 't Hooge Erf. Ook 30 km.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "dsw-bruggenloop-rotterdam-2026-12-13",
   "naam": "DSW Bruggenloop Rotterdam",
   "datum": "2026-12-13",
@@ -4222,43 +3004,6 @@ const WEDSTRIJDEN = [
    "https://bruggenloop.nl"
   ],
   "notitie": "Individuele startbewijzen uitverkocht (wachtlijst); start Stadion Feijenoord",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "devil-s-trail-netl-kraggenburg-2026-12-13",
-  "naam": "Devil's Trail Netl-Kraggenburg",
-  "datum": "2026-12-13",
-  "verwacht": null,
-  "starttijd": "11:30",
-  "plaats": "Kraggenburg",
-  "gemeente": "Noordoostpolder",
-  "provincie": "Flevoland",
-  "lat": 52.6619,
-  "lon": 5.9006,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 15,
-    "label": "15 km Voorsterbos Trail",
-    "prijs": 26.0,
-    "prijsNotitie": "€ 26 t/m 1 okt, daarna € 28 tot 6 dec (early bird € 24 t/m 1 juli verlopen)"
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": "2026-03-01",
-   "sluit": "2026-12-06",
-   "platform": "inschrijven.nl",
-   "url": "https://inschrijven.nl/form/2026121351604"
-  },
-  "website": "https://devilstrail.nl/evenementen/devils-trail-netl-kraggenburg/",
-  "maxDeelnemers": 150,
-  "organisator": "Devil's Trail",
-  "bronnen": [
-   "https://devilstrail.nl/evenementen/devils-trail-netl-kraggenburg/",
-   "https://inschrijven.nl/form/2026121351604"
-  ],
-  "notitie": "Starttijd geldt voor 15 km. Ook 9 km en 30 km (niet opgenomen). Max 150 deelnemers per afstand. Start Netl Park, Leemringweg 19 (coordinaten = plaatscentrum).",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -4297,48 +3042,6 @@ const WEDSTRIJDEN = [
    "https://www.tvz-zeewolde.nl/index.php?page=7336&sid=2"
   ],
   "notitie": "ONZEKER: datum alleen bij aggregators (runphy, running.life/finishlijn), nog niet op organisatorsite bevestigd. Start bij RCN camping Zeewolde (coordinaten = plaatscentrum). Vorig seizoen start 5/10 km 10:30. ",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "galgenberg-trail-2026-12-13",
-  "naam": "Galgenberg Trail",
-  "datum": "2026-12-13",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Amerongen (Amerongse Berg)",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.005,
-  "lon": 5.46,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 18,
-    "label": "18 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 20,
-    "label": "20 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Galgenberg-Trail-13-12-2026"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Galgenberg-Trail-13-12-2026",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Galgenberg-Trail-13-12-2026"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar. Ook 9 en 27 km.",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -4839,50 +3542,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "3e-oosterbaan-strand-en-duinloop-2027-01-03",
-  "naam": "3e Oosterbaan Strand- en Duinloop",
-  "datum": "2027-01-03",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Castricum",
-  "gemeente": "Castricum",
-  "provincie": "Noord-Holland",
-  "lat": 52.553,
-  "lon": 4.638,
-  "type": "cross",
-  "afstanden": [
-   {
-    "km": 10.1,
-    "label": "10,1 km",
-    "prijs": null,
-    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
-   },
-   {
-    "km": 15,
-    "label": "15 km",
-    "prijs": null,
-    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": "2027-01-01",
-   "platform": "inschrijven.nl",
-   "url": "https://www.avcastricum.nl/inschrijving-prijzen"
-  },
-  "website": "https://www.avcastricum.nl/agenda-activiteiten",
-  "maxDeelnemers": null,
-  "organisator": "AV Castricum",
-  "bronnen": [
-   "https://www.avcastricum.nl/agenda-activiteiten",
-   "https://www.avcastricum.nl/inschrijving-prijzen",
-   "https://avcastricum.nl/nieuws/63/?nid=1022&np="
-  ],
-  "notitie": "Strand-/duincross vanaf Sportpark De Duinloper, Zeeweg 4. Programma 10:15-12:30. Voorinschrijving t/m vrijdag vóór de loop; na-inschrijving vanaf zaterdagmiddag.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "de-nieuwjaarsloop-leiden-2027-01-03",
   "naam": "De Nieuwjaarsloop Leiden",
   "datum": "2027-01-03",
@@ -5051,60 +3710,6 @@ const WEDSTRIJDEN = [
    "https://loopgroephouten.nl/vlinderloop-algemene-info/"
   ],
   "notitie": "Maandelijkse loop (seizoen sep-mei); alle afstanden starten 11:30. Start Jaagpad nabij Veerwagenweg. Prijs is voorinschrijving online.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "amerongse-berg-trail-2027-01-10",
-  "naam": "Amerongse Berg Trail",
-  "datum": "2027-01-10",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Amerongen (Boshotel Overberg)",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.005,
-  "lon": 5.46,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 12,
-    "label": "12 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 17,
-    "label": "17 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 20,
-    "label": "20 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "21 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Amerongse-Berg-Trail-10-01-2027"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Amerongse-Berg-Trail-10-01-2027",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Amerongse-Berg-Trail-10-01-2027"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar.",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -5358,163 +3963,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "austerlitz-trail-2027-01-23",
-  "naam": "Austerlitz Trail",
-  "datum": "2027-01-23",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Zeist (KNVB Campus)",
-  "gemeente": "Zeist",
-  "provincie": "Utrecht",
-  "lat": 52.09,
-  "lon": 5.2333,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 15,
-    "label": "15 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "21 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Austerlitz-Trail-23-01-2027"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Austerlitz-Trail-23-01-2027",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Austerlitz-Trail-23-01-2027"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar. Lussen vanaf KNVB Campus in de Staatsbossen; ook 25-35 km. running.life noemt 23-24 jan.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "duinloopcircuit-katwijk-duin-strandloop-2027-01-23",
-  "naam": "Duinloopcircuit Katwijk – Duin/strandloop",
-  "datum": "2027-01-23",
-  "verwacht": null,
-  "starttijd": "10:00",
-  "plaats": "Katwijk aan Zee",
-  "gemeente": "Katwijk",
-  "provincie": "Zuid-Holland",
-  "lat": 52.203,
-  "lon": 4.399,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": 11.0,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": null
-  },
-  "website": "https://duinloopcircuit.nl",
-  "maxDeelnemers": null,
-  "organisator": "Stichting Halve van Katwijk i.s.m. AV Rijnsoever",
-  "bronnen": [
-   "https://duinloopcircuit.nl",
-   "https://duinloopcircuit.nl/starttijden"
-  ],
-  "notitie": "Deel van Duinloopcircuit Katwijk; prijs/starttijd van algemene starttijdenpagina; type duinloop (weg/duin) niet expliciet vermeld",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "av-suomi-beeckestijn-cross-2027-01-24",
-  "naam": "AV Suomi Beeckestijn Cross",
-  "datum": "2027-01-24",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Velsen-Zuid",
-  "gemeente": "Velsen",
-  "provincie": "Noord-Holland",
-  "lat": 52.456,
-  "lon": 4.634,
-  "type": "cross",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": null,
-   "url": null
-  },
-  "website": "https://www.avsuomi.nl/",
-  "maxDeelnemers": null,
-  "organisator": "AV Suomi",
-  "bronnen": [
-   "https://www.avsuomi.nl/index.php?page=Agenda&sid=2"
-  ],
-  "notitie": "Clubagenda: 'Info volgt'. 10 km alleen via running.life (onbevestigd).",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "beachrun-scheveningen-2027-01-24",
-  "naam": "Beachrun Scheveningen",
-  "datum": "2027-01-24",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Scheveningen",
-  "gemeente": "Den Haag",
-  "provincie": "Zuid-Holland",
-  "lat": 52.11,
-  "lon": 4.278,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 14,
-    "label": "14 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": null,
-   "url": null
-  },
-  "website": "https://beachrunning.nl/scheveningen/",
-  "maxDeelnemers": null,
-  "organisator": "Exventure",
-  "bronnen": [
-   "https://runphy.nl/events/beachrun-scheveningen/2027-01-24"
-  ],
-  "notitie": "Organisatorsite niet bereikbaar voor controle; naam/datum/afstanden alleen via aggregator (runphy.nl/running.life); strandloop",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "halve-marathon-zoetermeer-2027-01-24",
   "naam": "Halve Marathon Zoetermeer",
   "datum": "2027-01-24",
@@ -5675,89 +4123,6 @@ const WEDSTRIJDEN = [
    "https://inschrijven.nl/form/2027013101144-nl"
   ],
   "notitie": "43e editie. Sportpark De Randhoorn, Randhoornweg 100. Deel van Zorg en Zekerheid Circuit.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "wijckloop-trail-walk-2027-01-31",
-  "naam": "Wijckloop Trail & Walk",
-  "datum": "2027-01-31",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Wijk aan Zee",
-  "gemeente": "Beverwijk",
-  "provincie": "Noord-Holland",
-  "lat": 52.493,
-  "lon": 4.607,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km trail",
-    "prijs": 19.5,
-    "prijsNotitie": null
-   },
-   {
-    "km": 16,
-    "label": "16 km trail",
-    "prijs": 23.5,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": "https://cairnadventures.nl/trail/wijckloop-trail/"
-  },
-  "website": "https://cairnadventures.nl/trail/wijckloop-trail/",
-  "maxDeelnemers": null,
-  "organisator": "CAIRN Trails and Adventures",
-  "bronnen": [
-   "https://cairnadventures.nl/trail/wijckloop-trail/"
-  ],
-  "notitie": "Start Heliomare, Relweg 51. 10 km 11:00, 16 km 10:45. 99% offroad (duinen). Inschrijfstatus niet expliciet.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "amersfoortse-bergcross-2027-01",
-  "naam": "Amersfoortse Bergcross",
-  "datum": null,
-  "verwacht": {
-   "maand": "2027-01",
-   "vorigeEditie": "2026-01-25",
-   "aggregatorDatum": "2027-01-24"
-  },
-  "starttijd": null,
-  "plaats": "Amersfoort",
-  "gemeente": "Amersfoort",
-  "provincie": "Utrecht",
-  "lat": 52.161,
-  "lon": 5.369,
-  "type": "cross",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": null,
-   "url": null
-  },
-  "website": "https://www.bergcross.nl/",
-  "maxDeelnemers": null,
-  "organisator": "AV Altis",
-  "bronnen": [
-   "https://running.life/nl/event/amersfoortse-bergcross",
-   "https://uitslagen.nl/evenement.php?id=2026012502103"
-  ],
-  "notitie": "Datum 2027 niet bij organisator bevestigd (site niet bereikbaar); vorige (34e) editie zondag 25 januari 2026. Runphy noemt 24 januari 2027. Prijs niet gevonden.",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -5971,216 +4336,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "pierewaai-winter-trail-2027-01",
-  "naam": "Pierewaai Winter Trail",
-  "datum": null,
-  "verwacht": {
-   "maand": "2027-01",
-   "vorigeEditie": null,
-   "aggregatorDatum": "2027-01-23"
-  },
-  "starttijd": null,
-  "plaats": "IJmuiden",
-  "gemeente": "Velsen",
-  "provincie": "Noord-Holland",
-  "lat": 52.46,
-  "lon": 4.6,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 15,
-    "label": "15 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": null,
-   "url": null
-  },
-  "website": "https://pierewaaitrail.nl",
-  "maxDeelnemers": null,
-  "organisator": "Pierewaai Trail",
-  "bronnen": [
-   "https://runphy.nl/events/pierewaai-trail"
-  ],
-  "notitie": "Aggregator noemt 23 jan 2027 (13e editie); ook 25 en 50 km (buiten bereik). Datum vorige editie (jan 2026) niet gevonden. Locatie IJmuiden volgens runphy, coordinaten bij benadering.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "night-trail-utrechtse-heuvelrug-2027-02-05",
-  "naam": "Night Trail Utrechtse Heuvelrug",
-  "datum": "2027-02-05",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Leersum (Landgoed Ginkelduin)",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.0117,
-  "lon": 5.4317,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 12,
-    "label": "12 km (2 lussen)",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 18,
-    "label": "18 km (3 lussen)",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Night-Trail-05-02-2027"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Night-Trail-05-02-2027",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Night-Trail-05-02-2027"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar. Avondtrail; lus van 6 km.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "coast-marathon-nationaal-park-hollandse-duinen-2027-02-06",
-  "naam": "Coast Marathon Nationaal Park Hollandse Duinen",
-  "datum": "2027-02-06",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Noordwijk",
-  "gemeente": "Noordwijk",
-  "provincie": "Zuid-Holland",
-  "lat": 52.24,
-  "lon": 4.43,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "Halve marathon",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "open",
-   "opent": null,
-   "sluit": null,
-   "platform": "Passion for Sports",
-   "url": "https://www.passionforsports.eu/nl-coastmarathon"
-  },
-  "website": "https://www.bearsports.nl/coastmarathon/",
-  "maxDeelnemers": 3000,
-  "organisator": "Bear Sports",
-  "bronnen": [
-   "https://web.sqmtime.com/bearsports/coast-marathon/en",
-   "https://running.life/en/event/coast-marathon-nationaal-park-hollandse-duinen"
-  ],
-  "notitie": "Ca. 70% offroad (duinen, zand, kust); één wave-start voor alle afstanden",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "leersumse-veld-trail-2027-02-06",
-  "naam": "Leersumse Veld Trail",
-  "datum": "2027-02-06",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Leersum",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.0117,
-  "lon": 5.4317,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 11,
-    "label": "11 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "21 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Leersumse-Veld-Trail-06-02-2027"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Leersumse-Veld-Trail-06-02-2027",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Leersumse-Veld-Trail-06-02-2027"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "texeltrail-2027-02-06",
-  "naam": "TexelTrail",
-  "datum": "2027-02-06",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "De Cocksdorp",
-  "gemeente": "Texel",
-  "provincie": "Noord-Holland",
-  "lat": 53.156,
-  "lon": 4.858,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 15,
-    "label": "15 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": null,
-   "url": null
-  },
-  "website": "https://www.texeltrail.nl/",
-  "maxDeelnemers": null,
-  "organisator": null,
-  "bronnen": [
-   "https://www.texeltrail.nl/",
-   "https://runphy.nl/events/texeltrail/2027-02-06"
-  ],
-  "notitie": "Datum 'onder voorbehoud' volgens organisator; start De Waddenhoeve, De Krim. 15 km alleen via runphy (onbevestigd); ook 24 km en marathon.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "284ste-wintercup-lelystad-2027-02-07",
   "naam": "284ste Wintercup Lelystad",
   "datum": "2027-02-07",
@@ -6257,87 +4412,6 @@ const WEDSTRIJDEN = [
    "https://runphy.nl/events/groenehartloop/2027-02-07"
   ],
   "notitie": "Organisatorsite niet bereikbaar voor controle; naam/datum/afstanden alleen via aggregator (runphy.nl/running.life)",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "parnassia-groep-loop-strand-en-duinloop-2027-02-07",
-  "naam": "Parnassia Groep Loop (Strand- en Duinloop)",
-  "datum": "2027-02-07",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Castricum",
-  "gemeente": "Castricum",
-  "provincie": "Noord-Holland",
-  "lat": 52.553,
-  "lon": 4.638,
-  "type": "cross",
-  "afstanden": [
-   {
-    "km": 10.1,
-    "label": "10,1 km",
-    "prijs": null,
-    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
-   },
-   {
-    "km": 15,
-    "label": "15 km",
-    "prijs": null,
-    "prijsNotitie": "Voorinschrijving goedkoper dan na-inschrijving (bedragen niet vermeld)"
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": "2027-02-05",
-   "platform": "inschrijven.nl",
-   "url": "https://www.avcastricum.nl/inschrijving-prijzen"
-  },
-  "website": "https://www.avcastricum.nl/agenda-activiteiten",
-  "maxDeelnemers": null,
-  "organisator": "AV Castricum",
-  "bronnen": [
-   "https://www.avcastricum.nl/agenda-activiteiten",
-   "https://www.avcastricum.nl/inschrijving-prijzen",
-   "https://avcastricum.nl/nieuws/63/?nid=1022&np="
-  ],
-  "notitie": "Strand-/duincross vanaf Sportpark De Duinloper, Zeeweg 4. Programma 10:15-12:30. Voorinschrijving t/m vrijdag vóór de loop; na-inschrijving vanaf zaterdagmiddag. Afstanden voor Parnassia-loop aangenomen gelijk aan serie (onzeker).",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "duinloopcircuit-katwijk-krokusloop-2027-02-13",
-  "naam": "Duinloopcircuit Katwijk – Krokusloop",
-  "datum": "2027-02-13",
-  "verwacht": null,
-  "starttijd": "10:00",
-  "plaats": "Katwijk aan Zee",
-  "gemeente": "Katwijk",
-  "provincie": "Zuid-Holland",
-  "lat": 52.203,
-  "lon": 4.399,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": 11.0,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": null
-  },
-  "website": "https://duinloopcircuit.nl",
-  "maxDeelnemers": null,
-  "organisator": "Stichting Halve van Katwijk i.s.m. AV Rijnsoever",
-  "bronnen": [
-   "https://duinloopcircuit.nl",
-   "https://duinloopcircuit.nl/starttijden"
-  ],
-  "notitie": "Deel van Duinloopcircuit Katwijk; prijs/starttijd van algemene starttijdenpagina; type duinloop (weg/duin) niet expliciet vermeld",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -6763,90 +4837,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "3bergenloop-2027-03-06",
-  "naam": "3bergenLOOP",
-  "datum": "2027-03-06",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Driebergen-Rijsenburg",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.0533,
-  "lon": 5.2817,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km (bosroute)",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "Halve marathon (bosparcours)",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "nog niet open",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": "https://inschrijven.nl/form/2026030705908-nl"
-  },
-  "website": "https://3bergenloop.nl/",
-  "maxDeelnemers": null,
-  "organisator": null,
-  "bronnen": [
-   "https://3bergenloop.nl/"
-  ],
-  "notitie": "Inschrijving opent 'begin december 2026'. Bosparcours over landgoederen Bornia, Heidestein, Hoog Moersbergen. Prijzen/starttijden nog niet bekend.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "lage-vuursche-trail-2027-03-06",
-  "naam": "Lage Vuursche Trail",
-  "datum": "2027-03-06",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Lage Vuursche",
-  "gemeente": "Baarn",
-  "provincie": "Utrecht",
-  "lat": 52.1792,
-  "lon": 5.2306,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km (1 lus)",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 20,
-    "label": "20 km (2 lussen)",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Lage-Vuursche-Trail-06-03-2027"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Lage-Vuursche-Trail-06-03-2027",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Lage-Vuursche-Trail-06-03-2027"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar. Ook 30 km.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "285ste-wintercup-lelystad-2027-03-07",
   "naam": "285ste Wintercup Lelystad",
   "datum": "2027-03-07",
@@ -6966,43 +4956,6 @@ const WEDSTRIJDEN = [
    "https://runphy.nl/events/boels-rental-run/2027-03-13"
   ],
   "notitie": "Organisatorsite niet bereikbaar voor controle; naam/datum/afstanden alleen via aggregator (runphy.nl/running.life); 49e editie",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "duinloopcircuit-katwijk-noordduinloop-voorjaar-2027-03-13",
-  "naam": "Duinloopcircuit Katwijk – Noordduinloop (voorjaar)",
-  "datum": "2027-03-13",
-  "verwacht": null,
-  "starttijd": "10:00",
-  "plaats": "Katwijk aan Zee",
-  "gemeente": "Katwijk",
-  "provincie": "Zuid-Holland",
-  "lat": 52.203,
-  "lon": 4.399,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": 11.0,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "inschrijven.nl",
-   "url": null
-  },
-  "website": "https://duinloopcircuit.nl",
-  "maxDeelnemers": null,
-  "organisator": "Stichting Halve van Katwijk i.s.m. AV Rijnsoever",
-  "bronnen": [
-   "https://duinloopcircuit.nl",
-   "https://duinloopcircuit.nl/starttijden"
-  ],
-  "notitie": "Deel van Duinloopcircuit Katwijk; prijs/starttijd van algemene starttijdenpagina; type duinloop (weg/duin) niet expliciet vermeld",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -7263,55 +5216,6 @@ const WEDSTRIJDEN = [
    "https://atleta.cc/e/SdUE4XUsxKfP"
   ],
   "notitie": "Start/finish Domplein; 'beperkt aantal startnummers'. Prijs/starttijd niet uitleesbaar.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "hollands-duin-trail-voorjaar-2027-03-20",
-  "naam": "Hollands Duin Trail (voorjaar)",
-  "datum": "2027-03-20",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Noordwijk",
-  "gemeente": "Noordwijk",
-  "provincie": "Zuid-Holland",
-  "lat": 52.27,
-  "lon": 4.475,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 20,
-    "label": "20 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "Halve marathon",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Hollands-Duin-Trail-20-03-2027"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Hollands-Duin-Trail-20-03-2027",
-  "maxDeelnemers": 1460,
-  "organisator": "Trail Events",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Hollands-Duin-Trail-20-03-2027",
-   "https://running.life/en/event/hollands-duin-trail/2027-03-20"
-  ],
-  "notitie": "Organisatorpagina (URL met datum 20-03-2027) noemt 6/10/20/21/30 km maar toont geen verdere details; max. 1460 via running.life; start Vrijstaat Nederzandt",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -8139,48 +6043,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "galgenberg-trail-2027-04-04",
-  "naam": "Galgenberg Trail",
-  "datum": "2027-04-04",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Amerongen (Amerongse Berg)",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.005,
-  "lon": 5.46,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 18,
-    "label": "18 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 20,
-    "label": "20 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Galgenberg-Trail-04-04-2027"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Galgenberg-Trail-04-04-2027",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Galgenberg-Trail-04-04-2027"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar. Ook 9 km.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "halve-van-den-helder-2027-04-04",
   "naam": "Halve van Den Helder",
   "datum": "2027-04-04",
@@ -8392,60 +6254,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "amerongse-berg-trail-2027-04-11",
-  "naam": "Amerongse Berg Trail",
-  "datum": "2027-04-11",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Amerongen (Boshotel Overberg)",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.005,
-  "lon": 5.46,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 12,
-    "label": "12 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 17,
-    "label": "17 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 20,
-    "label": "20 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "21 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Amerongse-Berg-Trail-11-04-2027"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Amerongse-Berg-Trail-11-04-2027",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Amerongse-Berg-Trail-11-04-2027"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "cruyff-legacy-14k-2027-04-11",
   "naam": "Cruyff Legacy 14K",
   "datum": "2027-04-11",
@@ -8479,48 +6287,6 @@ const WEDSTRIJDEN = [
    "https://www.cruyff-foundation.org/agenda/cruyff-legacy-14k-2027/"
   ],
   "notitie": "Start/finish Johan Cruijff ArenA. Goede-doelenloop (rennen of wandelen); prijs niet vermeld.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "greenrace-amerongse-koploop-2027-04-17",
-  "naam": "GreenRace Amerongse Koploop",
-  "datum": "2027-04-17",
-  "verwacht": null,
-  "starttijd": "11:45",
-  "plaats": "Amerongen",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.005,
-  "lon": 5.46,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "Trailrun 10 km",
-    "prijs": null,
-    "prijsNotitie": "start 12:00"
-   },
-   {
-    "km": 16,
-    "label": "Trailrun 16 km",
-    "prijs": null,
-    "prijsNotitie": "start 11:45"
-   }
-  ],
-  "inschrijving": {
-   "status": "vol",
-   "opent": null,
-   "sluit": null,
-   "platform": "greenrace.nl",
-   "url": "https://greenrace.nl/event/koploop/"
-  },
-  "website": "https://greenrace.nl/event/koploop/",
-  "maxDeelnemers": null,
-  "organisator": "GreenRace",
-  "bronnen": [
-   "https://greenrace.nl/event/koploop/"
-  ],
-  "notitie": "Start Bertus Leendersweg 4B. Pagina meldt 'VOL' voor alle afstanden (mogelijk restant vorige editie, niet te verifiëren). Ook 6 en 25 km.",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -8602,42 +6368,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "tulpen-trailrun-bloeiend-zijpe-2027-04-17",
-  "naam": "Tulpen Trailrun Bloeiend Zijpe",
-  "datum": "2027-04-17",
-  "verwacht": null,
-  "starttijd": "13:00",
-  "plaats": "Callantsoog",
-  "gemeente": "Schagen",
-  "provincie": "Noord-Holland",
-  "lat": 52.838,
-  "lon": 4.697,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 15,
-    "label": "15 km",
-    "prijs": null,
-    "prijsNotitie": "2026-tarief was € 10 (volwassenen); 2027 nog niet vermeld"
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "eigen site",
-   "url": "https://bloeiendzijpe.nl/tickets-bestellen/"
-  },
-  "website": "https://bloeiendzijpe.nl/tulpen-trailrun/",
-  "maxDeelnemers": null,
-  "organisator": "Bloeiend Zijpe",
-  "bronnen": [
-   "https://bloeiendzijpe.nl/tulpen-trailrun/"
-  ],
-  "notitie": "Recreatieve trail langs bollenvelden; start tussen 13:00 en 15:00 vanaf Camping de Nollen, Westerweg 8.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "85e-krinkels-pim-mulierloop-2027-04-18",
   "naam": "85e Krinkels Pim Mulierloop",
   "datum": "2027-04-18",
@@ -8677,42 +6407,6 @@ const WEDSTRIJDEN = [
    "https://www.avsuomi.nl/index.php?page=Agenda&sid=2"
   ],
   "notitie": "Datum uit clubagenda AV Suomi (runphy noemt 23 mei, afwijkend). Afstanden via aggregators; eigen site niet bereikbaar.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "houttrail-delft-2027-04-18",
-  "naam": "Houttrail Delft",
-  "datum": "2027-04-18",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Delft",
-  "gemeente": "Delft",
-  "provincie": "Zuid-Holland",
-  "lat": 52.0,
-  "lon": 4.38,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 13,
-    "label": "13 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "nog niet open",
-   "opent": "2027-01-01",
-   "sluit": null,
-   "platform": "mijninschrijving.nl",
-   "url": null
-  },
-  "website": "https://www.houttrail.nl/",
-  "maxDeelnemers": null,
-  "organisator": "Houttrail",
-  "bronnen": [
-   "https://www.houttrail.nl/"
-  ],
-  "notitie": "Delftse Hout; startlocatie niet vermeld (coördinaten Delftse Hout benaderd); 13 km vanaf 16 jaar; ook 24 en 35 km",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -8948,54 +6642,6 @@ const WEDSTRIJDEN = [
    "https://runphy.nl/events/golden-tenloop/2027-05-06"
   ],
   "notitie": "Organisatorsite niet bereikbaar voor controle; naam/datum/afstanden alleen via aggregator (runphy.nl); 38e editie; Hemelvaartsdag",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "austerlitz-trail-2027-05-08",
-  "naam": "Austerlitz Trail",
-  "datum": "2027-05-08",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Zeist (KNVB Campus)",
-  "gemeente": "Zeist",
-  "provincie": "Utrecht",
-  "lat": 52.09,
-  "lon": 5.2333,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 15,
-    "label": "15 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "21 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Austerlitz-Trail-08-05-2027"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Austerlitz-Trail-08-05-2027",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Austerlitz-Trail-08-05-2027"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar. Ook 25-35 km.",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -9273,49 +6919,6 @@ const WEDSTRIJDEN = [
    "https://runphy.nl/events/verkerkloop/2027-05-19"
   ],
   "notitie": "Datum en inschrijfopening bij organisator; 10 km alleen via runphy",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "omloop-van-zoetermeer-2027-05-23",
-  "naam": "Omloop van Zoetermeer",
-  "datum": "2027-05-23",
-  "verwacht": null,
-  "starttijd": "09:00",
-  "plaats": "Zoetermeer",
-  "gemeente": "Zoetermeer",
-  "provincie": "Zuid-Holland",
-  "lat": 52.0575,
-  "lon": 4.4931,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "Halve marathon",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "nog niet open",
-   "opent": "2026-12-01",
-   "sluit": null,
-   "platform": null,
-   "url": null
-  },
-  "website": "https://omloopvanzoetermeer.nl",
-  "maxDeelnemers": null,
-  "organisator": "Running Forward",
-  "bronnen": [
-   "https://www.zfmzoetermeer.nl/2026/08/27/zoetermeer-krijgt-primeur-met-eigen-marathon-groen-parcours-rondom-de-stad/",
-   "https://runphy.nl/events/omloop-van-zoetermeer/2027-05-23"
-  ],
-  "notitie": "1e editie; organisatorsite nog niet online; gegevens uit lokaal nieuws (ZFM) en runphy; start Buytenpark; 'groene' route door natuurgebieden (type weg/trail niet bevestigd); earlybird vóór 1 jan 2027; starttijd = halve marathon",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -9734,47 +7337,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "slooow-halve-natuurmarathon-2027-05",
-  "naam": "SlooOW Halve Natuurmarathon",
-  "datum": null,
-  "verwacht": {
-   "maand": "2027-05",
-   "vorigeEditie": "2026-05-09",
-   "aggregatorDatum": null
-  },
-  "starttijd": null,
-  "plaats": "Lelystad",
-  "gemeente": "Lelystad",
-  "provincie": "Flevoland",
-  "lat": 52.5185,
-  "lon": 5.4714,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 21.1,
-    "label": "Halve marathon",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": null,
-   "url": null
-  },
-  "website": "https://slooownatuurmarathon.nl/",
-  "maxDeelnemers": null,
-  "organisator": null,
-  "bronnen": [
-   "https://runeira.com/en/races/slooow-natuurloop",
-   "https://www.duravista.nl/evenementen/sloow-natuurmarathon-halve-marathon-recreatieve-natuurloop-kidsrun-2026"
-  ],
-  "notitie": "Editie 9 mei 2026 (volgens Runeira); afstand/organisator niet bij organisator geverifieerd (site niet te fetchen). Natuurloop, deels onverhard.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "loop-door-houten-2027-06-11",
   "naam": "Loop door Houten",
   "datum": "2027-06-11",
@@ -9811,48 +7373,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "hooge-vuursche-trail-2027-06-12",
-  "naam": "Hooge Vuursche Trail",
-  "datum": "2027-06-12",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Baarn (Hooge Vuursche)",
-  "gemeente": "Baarn",
-  "provincie": "Utrecht",
-  "lat": 52.2117,
-  "lon": 5.2883,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 13,
-    "label": "13 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "21 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Hooge-Vuursche-Trail-12-06-2027"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Hooge-Vuursche-Trail-12-06-2027",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Hooge-Vuursche-Trail-12-06-2027"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar. Ook 7 km.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "grachtenloop-haarlem-2027-06-18",
   "naam": "Grachtenloop Haarlem",
   "datum": "2027-06-18",
@@ -9886,49 +7406,6 @@ const WEDSTRIJDEN = [
    "https://www.grachtenloop.nl/"
   ],
   "notitie": "'Save the date 18 juni 2027' (vrijdagavond). Startadres Henk van Turnhoutpad 1.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "heuvelrugloop-maarn-2027-06-19",
-  "naam": "Heuvelrugloop Maarn",
-  "datum": "2027-06-19",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Maarn",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.064,
-  "lon": 5.371,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": "2026: € 15-25 afhankelijk van afstand en inschrijfmoment (incl. chip)"
-   },
-   {
-    "km": 16.1,
-    "label": "10 Engelse mijl",
-    "prijs": null,
-    "prijsNotitie": "2026: € 15-25 afhankelijk van afstand en inschrijfmoment (incl. chip)"
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": null,
-   "url": null
-  },
-  "website": "https://www.heuvelrugloop.nl/",
-  "maxDeelnemers": null,
-  "organisator": "Stichting Heuvelrugloop Maarn",
-  "bronnen": [
-   "https://www.heuvelrugloop.nl/",
-   "https://www.heuvelrugloop.nl/programma-2/"
-  ],
-  "notitie": "Datum 19 juni 2027 bevestigd door organisator; afstanden 2027 nog niet bekend, hier die van 2026 (20 juni 2026: 10 km 17:15, 16,1 km 17:30 i.p.v. de vroegere 21 km). Start 5 Mei-plein, Maarn.",
   "gecontroleerd": "2026-10-01"
  },
  {
@@ -10491,60 +7968,6 @@ const WEDSTRIJDEN = [
   "gecontroleerd": "2026-10-01"
  },
  {
-  "id": "amerongse-berg-trail-2027-07-11",
-  "naam": "Amerongse Berg Trail",
-  "datum": "2027-07-11",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Amerongen (Boshotel Overberg)",
-  "gemeente": "Utrechtse Heuvelrug",
-  "provincie": "Utrecht",
-  "lat": 52.005,
-  "lon": 5.46,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 12,
-    "label": "12 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 17,
-    "label": "17 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 20,
-    "label": "20 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "21 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Amerongse-Berg-Trail-11-07-2027"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Amerongse-Berg-Trail-11-07-2027",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Amerongse-Berg-Trail-11-07-2027"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar.",
-  "gecontroleerd": "2026-10-01"
- },
- {
   "id": "moore-drv-run-maasdijk-2027-07-24",
   "naam": "Moore DRV Run Maasdijk",
   "datum": "2027-07-24",
@@ -10664,54 +8087,6 @@ const WEDSTRIJDEN = [
    "https://www.varnws.nl/leidscherijn/sport/56272/lbnk-organiseert-de-12de-editie-van-de-hart-van-holland-loop-"
   ],
   "notitie": "Datum 2027 nog niet bekend; vorige (12e) editie vrijdagavond 10 juli 2026 vanaf Drie Stammenweg. Prijs niet gevonden.",
-  "gecontroleerd": "2026-10-01"
- },
- {
-  "id": "austerlitz-trail-2027-08-21",
-  "naam": "Austerlitz Trail",
-  "datum": "2027-08-21",
-  "verwacht": null,
-  "starttijd": null,
-  "plaats": "Zeist (KNVB Campus)",
-  "gemeente": "Zeist",
-  "provincie": "Utrecht",
-  "lat": 52.09,
-  "lon": 5.2333,
-  "type": "trail",
-  "afstanden": [
-   {
-    "km": 10,
-    "label": "10 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 15,
-    "label": "15 km",
-    "prijs": null,
-    "prijsNotitie": null
-   },
-   {
-    "km": 21.1,
-    "label": "21 km",
-    "prijs": null,
-    "prijsNotitie": null
-   }
-  ],
-  "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
-   "platform": "trail-events.eu",
-   "url": "https://www.trail-events.eu/EVENT-Austerlitz-Trail-21-08-2027"
-  },
-  "website": "https://www.trail-events.eu/EVENT-Austerlitz-Trail-21-08-2027",
-  "maxDeelnemers": null,
-  "organisator": "Trail Running Netherlands (trail-events.eu)",
-  "bronnen": [
-   "https://www.trail-events.eu/EVENT-Austerlitz-Trail-21-08-2027"
-  ],
-  "notitie": "Datum bevestigd via bestaande eventpagina op trail-events.eu; prijzen/starttijden/status worden via JavaScript geladen en waren niet uitleesbaar. Ook 25-35 km.",
   "gecontroleerd": "2026-10-01"
  },
  {

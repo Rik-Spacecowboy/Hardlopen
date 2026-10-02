@@ -22,7 +22,7 @@ INDEX = ROOT / "index.html"
 SCRIPT_TAG = re.compile(r'<script src="data/wedstrijden\.js(\?v=[0-9a-f]*)?"></script>')
 
 PROVINCIES = {"Noord-Holland", "Zuid-Holland", "Utrecht", "Flevoland"}
-TYPES = {"weg", "trail", "cross"}
+TYPES = {"weg"}  # trail en cross bewust niet (Rik, 2026-10-02)
 STATUSSEN = {"open", "vol", "loting", "wachtlijst", "nog niet open", "gesloten", "geannuleerd", "onbekend"}
 MIN_KM, MAX_KM = 9.5, 21.2  # 10 km t/m halve marathon
 DATUM = re.compile(r"^\d{4}-\d{2}-\d{2}$")
