@@ -18,11 +18,20 @@ jobs:
       - name: Download
         run: |
           mkdir -p kandidaten
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
+          : > kandidaten/log.txt
           while read -r id; do
             [ -z "$id" ] && continue
-            curl -sSL --fail -o "kandidaten/$id.jpg" "https://unsplash.com/photos/$id/download?w=1600&fm=jpg&q=72" || echo "mislukt: $id"
+            pagina=$(curl -sSL -A "$UA" "https://unsplash.com/photos/$id" || true)
+            img=$(printf '%s' "$pagina" | grep -o 'https://images.unsplash.com/photo-[^"?&]*' | head -1)
+            auteur=$(printf '%s' "$pagina" | grep -o '<title>[^<]*' | head -1 | sed 's/<title>//')
+            if [ -n "$img" ] && curl -sSL --fail -A "$UA" -o "kandidaten/$id.jpg" "$img?w=1600&fm=jpg&q=72&fit=max"; then
+              echo "OK $id | $img | $auteur" >> kandidaten/log.txt
+            else
+              echo "MISLUKT $id | img=$img | $auteur" >> kandidaten/log.txt
+            fi
           done < fotos-kandidaten.txt
-          ls -la kandidaten
+          cat kandidaten/log.txt
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
