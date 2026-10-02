@@ -139,6 +139,14 @@
       font: 500 1rem var(--tekst); padding: 10px 12px; background: var(--surface); color: var(--ink);
       border: 1.5px solid var(--lijn); border-radius: 10px;
     }
+    .thuis-rij { display: flex; gap: 6px; }
+    .thuis-rij select { flex: 1; min-width: 0; }
+    .thuis-rij .knop { padding: 0 10px; white-space: nowrap; }
+    .afstand-thuis { font-weight: 400; color: var(--ink-zacht); font-size: 0.9rem; }
+    .afstanden td.prijs small, .afstanden td small.vorig { display: block; font: 400 0.78rem var(--tekst); color: var(--ink-zacht); }
+    .mijn-sel { font: 600 0.85rem var(--tekst); padding: 5px 8px; border-radius: 999px; border: 1.5px solid var(--lijn); background: var(--surface); color: var(--ink); cursor: pointer; }
+    .mijn-sel.gezet { background: var(--accent-zacht); border-color: var(--accent); }
+    .voet button.link { background: none; border: 0; padding: 0; font: inherit; color: var(--donker-ink); text-decoration: underline; cursor: pointer; }
     .filter-noot { margin: 0 0 6px; font-size: 0.8rem; color: var(--ink-zacht); max-width: 80ch; }
     .week-uitleg { margin: 6px 0 2px; font-size: 0.88rem; color: var(--ink-zacht); max-width: 70ch; border-left: 3px solid var(--accent); padding-left: 10px; }
     .chip.uitleg-knop { width: 36px; padding: 7px 0; text-align: center; }
@@ -341,9 +349,13 @@
           <div class="veld"><label for="fVanaf">Vanaf datum</label><input type="date" id="fVanaf"></div>
           <div class="veld"><label for="fTot">Tot datum</label><input type="date" id="fTot"></div>
           <div class="veld"><label for="fMaxPrijs">Max. prijs (€)</label><input type="number" id="fMaxPrijs" min="0" step="5" inputmode="numeric" placeholder="geen maximum"></div>
-          <div class="veld"><label for="fSorteer">Sorteer op</label><select id="fSorteer"><option value="">Datum</option><option value="prijs">Prijs (laag–hoog)</option><option value="sluit">Inschrijving sluit</option></select></div>
+          <div class="veld"><label for="fStart">Starttijd</label><select id="fStart"><option value="">Alle starttijden</option><option value="ochtend">Voor 10:00</option><option value="midden">10:00 – 12:00</option><option value="middag">Vanaf 12:00</option></select></div>
+          <div class="veld"><label for="fMijn">Mijn lijst</label><select id="fMijn"><option value="">Alles</option><option value="bewaard">★ Bewaard</option><option value="gepland">Gepland</option><option value="ingeschreven">Ingeschreven</option><option value="gelopen">Gelopen</option></select></div>
+          <div class="veld"><label for="fThuis">Mijn woonplaats</label><div class="thuis-rij"><select id="fThuis"><option value="">Kies plaats…</option></select><button type="button" id="locatie" class="knop" title="Gebruik de locatie van dit apparaat">Locatie</button></div></div>
+          <div class="veld"><label for="fMaxKm">Max. afstand tot huis (km)</label><input type="number" id="fMaxKm" min="0" step="5" inputmode="numeric" placeholder="geen maximum"></div>
+          <div class="veld"><label for="fSorteer">Sorteer op</label><select id="fSorteer"><option value="">Datum</option><option value="prijs">Prijs (laag–hoog)</option><option value="sluit">Inschrijving sluit</option><option value="start">Starttijd (vroeg–laat)</option><option value="afstand">Afstand tot huis</option></select></div>
         </div>
-        <p class="filter-noot">Prijs = het laagste voorinschrijftarief van de afstanden die door je afstandsfilter vallen. Wedstrijden zonder bekende prijs vallen buiten een maximum en staan bij sorteren achteraan. "Nog in te schrijven" = status open, loting of nog niet open.</p>
+        <p class="filter-noot">Prijs = het laagste voorinschrijftarief van de afstanden die door je afstandsfilter vallen. Wedstrijden zonder bekende prijs vallen buiten een maximum en staan bij sorteren achteraan. "Nog in te schrijven" = status open, loting of nog niet open. Starttijd en afstand tot huis werken alleen voor wedstrijden waarvan de starttijd bekend is, en voor afstand moet je woonplaats of locatie ingesteld zijn; die blijft alleen in je eigen browser (afstand is hemelsbreed).</p>
       </details>
     </div>
 
@@ -362,6 +374,8 @@
   <footer class="voet">
     <div class="voet-binnen">
       <p><strong>Hoe actueel is dit?</strong> Elke wedstrijd is met de hand nagekeken bij de organisator of het inschrijfplatform, op de datum die op de kaart staat. Of een loop vol is, kan sinds die datum veranderd zijn: check altijd de inschrijflink. Is iets onbekend, dan staat er "onbekend"; er wordt niets geschat. Lopen met "Datum volgt" hebben nog geen datum voor deze editie; de maand is die van de vorige editie, dus een verwachting.</p>
+      <p><strong>Agenda:</strong> <a href="webcal://rik-spacecowboy.github.io/Hardlopen/agenda.ics">abonneer op alle wedstrijden met een vaste datum</a> (hele-dag-afspraken; de starttijd staat in de titel).</p>
+      <p><strong>Mijn lijst</strong> (bewaard, gepland, ingeschreven, gelopen) staat alleen in deze browser. Wil je hem op een ander apparaat? <button type="button" class="link" id="exporteer">Kopieer mijn lijst</button> en <button type="button" class="link" id="importeer">plak hem daar</button>.</p>
       <p>Kaart: provinciegrenzen van CBS/PDOK via cartomap/nl.</p>
       <p>Foto's: <a href="https://www.pexels.com/photo/people-running-2461982/" target="_blank" rel="noopener">RUN 4 FFWPU</a> en <a href="https://www.pexels.com/photo/man-running-on-road-in-countryside-16980804/" target="_blank" rel="noopener">Masi</a> via Pexels (vrije Pexels-licentie).</p>
     </div>
@@ -433,11 +447,33 @@
 
     const f = {
       q: '', prov: new Set(), afst: new Set(), week: '', inschrijfbaar: false, bewaard: false, afgelopen: false, zeker: false,
-      stad: '', maand: '', vanaf: '', tot: '', maxPrijs: '', sorteer: '',
+      stad: '', maand: '', vanaf: '', tot: '', maxPrijs: '', sorteer: '', start: '', mijn: '', maxKm: '',
     };
     let weergave = (() => { try { const w = localStorage.getItem('weergave'); return ['lijst', 'kaart'].includes(w) ? w : 'kaarten'; } catch { return 'kaarten'; } })();
     let bewaard = (() => { try { return new Set(JSON.parse(localStorage.getItem('bewaard') || '[]')); } catch { return new Set(); } })();
     const slaBewaardOp = () => { try { localStorage.setItem('bewaard', JSON.stringify([...bewaard])); } catch {} };
+    // Eigen status per wedstrijd: id -> gepland | ingeschreven | gelopen (alleen in deze browser).
+    const MIJN_STATUS = { gepland: 'Gepland', ingeschreven: 'Ingeschreven', gelopen: 'Gelopen' };
+    let mijn = (() => { try { const m = JSON.parse(localStorage.getItem('mijn') || '{}'); return Object.fromEntries(Object.entries(m).filter(([, v]) => v in MIJN_STATUS)); } catch { return {}; } })();
+    const slaMijnOp = () => { try { localStorage.setItem('mijn', JSON.stringify(mijn)); } catch {} };
+
+    // Woonplaats of apparaatlocatie: alleen in localStorage, nooit in de URL.
+    let thuis = (() => { try { const t = JSON.parse(localStorage.getItem('thuis') || 'null'); return t && Number.isFinite(t.lat) && Number.isFinite(t.lon) ? t : null; } catch { return null; } })();
+    function hemelsbreed(lat1, lon1, lat2, lon2) {
+      const rad = x => x * Math.PI / 180, dLat = rad(lat2 - lat1), dLon = rad(lon2 - lon1);
+      const a = Math.sin(dLat / 2) ** 2 + Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * Math.sin(dLon / 2) ** 2;
+      return 6371 * 2 * Math.asin(Math.sqrt(a));
+    }
+    function berekenThuis() {
+      WEDSTRIJDEN.forEach(w => { w.thuisKm = thuis ? Math.round(hemelsbreed(thuis.lat, thuis.lon, w.lat, w.lon)) : null; });
+    }
+    function zetThuis(t) {
+      thuis = t;
+      try { t ? localStorage.setItem('thuis', JSON.stringify(t)) : localStorage.removeItem('thuis'); } catch {}
+      berekenThuis();
+    }
+    const startMin = w => { const m = /^(\d{1,2}):(\d{2})/.exec(w.starttijd || ''); return m ? Number(m[1]) * 60 + Number(m[2]) : null; };
+    const START_GROEPEN = { ochtend: m => m < 600, midden: m => m >= 600 && m < 720, middag: m => m >= 720 };
 
     function passendeAfstanden(w) {
       if (!f.afst.size) return w.afstanden;
@@ -448,7 +484,7 @@
       return prijzen.length ? Math.min(...prijzen) : null;
     }
     function voldoet(w) {
-      if (!f.afgelopen && w.voorbij) return false;
+      if (!f.afgelopen && !f.mijn && w.voorbij) return false;
       if (f.q && !f.q.toLowerCase().split(/\s+/).every(t => w.zoektekst.includes(t))) return false;
       if (f.prov.size && !f.prov.has(w.provincie)) return false;
       if (f.afst.size && !passendeAfstanden(w).length) return false;
@@ -456,6 +492,9 @@
       if (f.zeker && !w.datum) return false;
       if (f.inschrijfbaar && !INSCHRIJFBAAR.has(w.status)) return false;
       if (f.bewaard && !bewaard.has(w.id)) return false;
+      if (f.mijn && (f.mijn === 'bewaard' ? !bewaard.has(w.id) : mijn[w.id] !== f.mijn)) return false;
+      if (f.start) { const m = startMin(w); if (m === null || !START_GROEPEN[f.start]?.(m)) return false; }
+      if (f.maxKm !== '' && thuis && (w.thuisKm === null || w.thuisKm > Number(f.maxKm))) return false;
       if (f.stad && w.plaats !== f.stad) return false;
       if (f.maand && w.maandSleutel !== f.maand) return false;
       if (f.vanaf && (!w.datum || w.datum < f.vanaf)) return false;
@@ -466,7 +505,7 @@
 
     // Alle filters staan in de URL, zodat een selectie te delen en te bookmarken is.
     const SETS = ['prov', 'afst'];
-    const VELDEN = ['q', 'week', 'stad', 'maand', 'vanaf', 'tot', 'maxPrijs', 'sorteer'];
+    const VELDEN = ['q', 'week', 'stad', 'maand', 'vanaf', 'tot', 'maxPrijs', 'sorteer', 'start', 'mijn', 'maxKm'];
     const VLAGGEN = ['inschrijfbaar', 'bewaard', 'afgelopen', 'zeker'];
     function filtersUitUrl() {
       const u = new URLSearchParams(location.search);
@@ -516,15 +555,26 @@
       const stad = document.getElementById('fStad');
       [...new Set(WEDSTRIJDEN.map(w => w.plaats))].sort((a, b) => a.localeCompare(b, 'nl'))
         .forEach(s => stad.add(new Option(s, s)));
+      const huis = document.getElementById('fThuis');
+      const centra = new Map();
+      WEDSTRIJDEN.forEach(w => { const c = centra.get(w.plaats) || { lat: 0, lon: 0, n: 0 }; c.lat += w.lat; c.lon += w.lon; c.n++; centra.set(w.plaats, c); });
+      [...centra.keys()].sort((a, b) => a.localeCompare(b, 'nl')).forEach(p => huis.add(new Option(p, p)));
+      huis.addEventListener('change', e => {
+        const c = centra.get(e.target.value);
+        zetThuis(c ? { naam: e.target.value, lat: c.lat / c.n, lon: c.lon / c.n } : null);
+        vernieuw();
+      });
+      if (thuis?.naam && centra.has(thuis.naam)) huis.value = thuis.naam;
+      else if (thuis) { huis.add(new Option('Mijn locatie', '_loc')); huis.value = '_loc'; }
       const maand = document.getElementById('fMaand');
       [...new Set(WEDSTRIJDEN.map(w => w.maandSleutel))].sort()
         .forEach(m => maand.add(new Option(`${MAANDEN[Number(m.slice(5)) - 1]} ${m.slice(0, 4)}`, m)));
     }
-    const VELD_IDS = { stad: 'fStad', maand: 'fMaand', vanaf: 'fVanaf', tot: 'fTot', maxPrijs: 'fMaxPrijs', sorteer: 'fSorteer' };
+    const VELD_IDS = { stad: 'fStad', maand: 'fMaand', vanaf: 'fVanaf', tot: 'fTot', maxPrijs: 'fMaxPrijs', sorteer: 'fSorteer', start: 'fStart', mijn: 'fMijn', maxKm: 'fMaxKm' };
     function syncVelden() {
       document.getElementById('zoek').value = f.q;
       Object.entries(VELD_IDS).forEach(([k, id]) => { document.getElementById(id).value = f[k]; });
-      if (Object.keys(VELD_IDS).some(k => k !== 'sorteer' && f[k])) document.querySelector('details.meer').open = true;
+      if (Object.keys(VELD_IDS).some(k => k !== 'sorteer' && f[k]) || thuis) document.querySelector('details.meer').open = true;
     }
 
     // ---------- weergave: kaart ----------
@@ -553,7 +603,7 @@
       return `<table class="afstanden"><tbody>${w.afstanden.map(a => `
         <tr class="${passend.has(a) ? '' : 'buiten-filter'}">
           <td>${esc(a.label || kmTekst(a.km))}${a.label && !/km/.test(a.label) ? `<small>${kmTekst(a.km)}</small>` : ''}${a.prijsNotitie ? `<small>${esc(a.prijsNotitie)}</small>` : ''}</td>
-          <td class="prijs${a.prijs == null ? ' onbekend' : ''}">${a.prijs == null ? 'prijs onbekend' : euro(a.prijs)}</td>
+          <td class="prijs${a.prijs == null ? ' onbekend' : ''}">${a.prijs == null ? 'prijs onbekend' : euro(a.prijs)}${a.prijsVorigJaar ? `<small><a href="${esc(a.prijsVorigJaar.bron)}" target="_blank" rel="noopener">in ${a.prijsVorigJaar.jaar}: ${euro(a.prijsVorigJaar.prijs)}</a></small>` : ''}</td>
         </tr>`).join('')}</tbody></table>`;
     }
     // Datumblok: bij een verwachte loop de maand met een vraagteken, geen weekdag of week.
@@ -591,20 +641,45 @@
         <div class="kaart-body">
           <div class="tags">${statusHtml(w)}${w.datum ? '' : '<span class="status verwacht">Datum volgt</span>'}</div>
           <h2>${esc(w.naam)}</h2>
-          <div class="plek">${esc(w.plaats)} <small>${esc(w.provincie)}${w.organisator ? ' · ' + esc(w.organisator) : ''}</small></div>
+          <div class="plek">${esc(w.plaats)} <small>${esc(w.provincie)}${w.organisator ? ' · ' + esc(w.organisator) : ''}</small>${w.thuisKm != null ? `<span class="afstand-thuis">${w.thuisKm} km van huis</span>` : ''}</div>
           ${afstandenHtml(w)}
           ${inschrijfHtml(w)}
           ${w.notitie ? `<div class="notitie-kaart">${esc(w.notitie)}</div>` : ''}
           <div class="kaart-voet">
             <span class="gecontroleerd${oud ? ' oud' : ''}" title="Datum waarop status en prijs bij de bron zijn nagekeken">Gecontroleerd ${kortDatum(w.gecontroleerd)}</span>
             <div class="kaart-acties">
+              <select class="mijn-sel${mijn[w.id] ? ' gezet' : ''}" aria-label="Mijn status voor ${esc(w.naam)}"><option value="">Mijn status</option>${Object.entries(MIJN_STATUS).map(([k, v]) => `<option value="${k}"${mijn[w.id] === k ? ' selected' : ''}>${v}</option>`).join('')}</select>
+              ${w.datum && !w.voorbij ? '<button type="button" class="actie agenda-knop">In agenda</button>' : ''}
               ${w.website && w.website !== inschrijfUrl ? `<a class="actie" href="${esc(w.website)}" target="_blank" rel="noopener">Website</a>` : ''}
               ${inschrijfUrl ? `<a class="bron" href="${esc(inschrijfUrl)}" target="_blank" rel="noopener">${w.status === 'open' ? 'Inschrijven' : 'Bekijk'}</a>` : ''}
             </div>
           </div>
         </div>`;
       el.querySelector('.ster').addEventListener('click', e => wisselBewaard(w.id, e.currentTarget));
+      el.querySelector('.mijn-sel').addEventListener('change', e => {
+        e.target.value ? (mijn[w.id] = e.target.value) : delete mijn[w.id];
+        slaMijnOp();
+        e.target.classList.toggle('gezet', !!e.target.value);
+        if (f.mijn) toon();
+      });
+      el.querySelector('.agenda-knop')?.addEventListener('click', () => downloadIcs(w));
       return el;
+    }
+    // Eén wedstrijd als hele-dag-afspraak (hetzelfde formaat als agenda.ics van scripts/bouw_agenda.py).
+    function downloadIcs(w) {
+      const icsEsc = t => String(t).replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
+      const dag = w.datum.replace(/-/g, '');
+      const volgende = lokaal(new Date(datumObj(w.datum).getTime() + 86400000)).replace(/-/g, '');
+      const regels = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Hardloopwedstrijden//NL', 'BEGIN:VEVENT',
+        `UID:${w.id}@rik-spacecowboy.github.io`, `DTSTAMP:${dag}T000000Z`, `DTSTART;VALUE=DATE:${dag}`, `DTEND;VALUE=DATE:${volgende}`,
+        `SUMMARY:${icsEsc(w.naam + (w.starttijd ? ` (start ${w.starttijd})` : ''))}`, `LOCATION:${icsEsc(w.plaats + ', ' + w.provincie)}`,
+        `DESCRIPTION:${icsEsc(w.afstanden.map(a => a.label || kmTekst(a.km)).join(', ') + '\n' + (w.inschrijving.url || w.website || ''))}`,
+        'TRANSP:TRANSPARENT', 'END:VEVENT', 'END:VCALENDAR'];
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([regels.join('\r\n') + '\r\n'], { type: 'text/calendar' }));
+      a.download = w.id + '.ics';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
     }
     function wisselBewaard(id, knop) {
       bewaard.has(id) ? bewaard.delete(id) : bewaard.add(id);
@@ -629,8 +704,8 @@
       el.innerHTML = `
         <button type="button" class="rij-hoofd" aria-expanded="false">
           <span class="rij-datum">${datumCel}</span>
-          <span class="rij-naam"><b>${esc(w.naam)}</b><span class="rij-meta">${esc(w.plaats)} · ${esc(afst)} · ${esc(STATUS_LABEL[w.status])}</span></span>
-          <span class="rij-plek">${esc(w.plaats)}<small>${esc(w.provincie)}</small></span>
+          <span class="rij-naam"><b>${esc(w.naam)}</b><span class="rij-meta">${esc(w.plaats)} · ${esc(afst)} · ${esc(STATUS_LABEL[w.status])}${w.thuisKm != null ? ' · ' + w.thuisKm + ' km' : ''}</span></span>
+          <span class="rij-plek">${esc(w.plaats)}<small>${esc(w.provincie)}${w.thuisKm != null ? ' · ' + w.thuisKm + ' km' : ''}</small></span>
           <span class="rij-afst">${esc(afst)}</span>
           <span class="rij-prijs">${p === null ? '<small>prijs onbekend</small>' : 'vanaf ' + euro(p)}</span>
           <span class="rij-status">${statusHtml(w, true)}</span>
@@ -727,6 +802,10 @@
       const rijen = WEDSTRIJDEN.filter(voldoet);
       if (f.sorteer === 'prijs') {
         rijen.sort((a, b) => (laagstePrijs(a) ?? Infinity) - (laagstePrijs(b) ?? Infinity) || a.sorteer.localeCompare(b.sorteer));
+      } else if (f.sorteer === 'start') {
+        rijen.sort((a, b) => (startMin(a) ?? Infinity) - (startMin(b) ?? Infinity) || a.sorteer.localeCompare(b.sorteer));
+      } else if (f.sorteer === 'afstand' && thuis) {
+        rijen.sort((a, b) => (a.thuisKm ?? Infinity) - (b.thuisKm ?? Infinity) || a.sorteer.localeCompare(b.sorteer));
       } else if (f.sorteer === 'sluit') {
         const s = w => (w.inschrijving.sluit && w.inschrijving.sluit >= VANDAAG ? w.inschrijving.sluit : '9999');
         rijen.sort((a, b) => s(a).localeCompare(s(b)) || a.sorteer.localeCompare(b.sorteer));
@@ -750,7 +829,7 @@
       let vorigeMaand = null, maandNr = 0;
       rijen.forEach(w => {
         const maand = w.maandSleutel;
-        if (!f.sorteer && maand !== vorigeMaand) {
+        if ((!f.sorteer || (f.sorteer === 'afstand' && !thuis)) && maand !== vorigeMaand) {
           const kop = document.createElement('div');
           const naam = `${MAANDEN[Number(maand.slice(5)) - 1]}${maand.slice(0, 4) !== VANDAAG.slice(0, 4) ? ' ' + maand.slice(0, 4) : ''}`;
           // Om de maand een sfeerfoto als maandkop; de foto's rouleren.
@@ -777,6 +856,7 @@
     }
 
     filtersUitUrl();
+    berekenThuis();
     vulSelects();
     syncVelden();
     document.getElementById('zoek').addEventListener('input', e => { f.q = e.target.value.trim(); vernieuw(); });
@@ -786,6 +866,30 @@
       VELDEN.forEach(k => { f[k] = ''; });
       VLAGGEN.forEach(k => { f[k] = false; });
       syncVelden(); vernieuw();
+    });
+    document.getElementById('locatie').addEventListener('click', () => {
+      if (!navigator.geolocation) { melding('Locatie is niet beschikbaar in deze browser'); return; }
+      navigator.geolocation.getCurrentPosition(pos => {
+        zetThuis({ naam: null, lat: pos.coords.latitude, lon: pos.coords.longitude });
+        const huis = document.getElementById('fThuis');
+        if (![...huis.options].some(o => o.value === '_loc')) huis.add(new Option('Mijn locatie', '_loc'));
+        huis.value = '_loc';
+        vernieuw();
+      }, () => melding('Locatie opvragen is niet gelukt; kies je woonplaats'), { timeout: 8000, maximumAge: 600000 });
+    });
+    document.getElementById('exporteer').addEventListener('click', async () => {
+      const tekst = JSON.stringify({ bewaard: [...bewaard], mijn });
+      try { await navigator.clipboard.writeText(tekst); melding('Lijst gekopieerd'); } catch { prompt('Kopieer deze tekst:', tekst); }
+    });
+    document.getElementById('importeer').addEventListener('click', () => {
+      const tekst = prompt('Plak hier de lijst die je op je andere apparaat kopieerde (voegt samen met wat je hier al hebt):');
+      if (!tekst) return;
+      try {
+        const d = JSON.parse(tekst);
+        (Array.isArray(d.bewaard) ? d.bewaard : []).forEach(id => bewaard.add(String(id)));
+        Object.entries(d.mijn || {}).forEach(([id, v]) => { if (v in MIJN_STATUS) mijn[id] = v; });
+        slaBewaardOp(); slaMijnOp(); vernieuw(); melding('Lijst samengevoegd');
+      } catch { melding('Dat is geen geldige lijst'); }
     });
     document.getElementById('deel').addEventListener('click', async () => {
       try { await navigator.clipboard.writeText(location.href); melding('Link gekopieerd'); }

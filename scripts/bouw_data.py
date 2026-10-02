@@ -60,6 +60,13 @@ def fouten_in(w):
             f.append(f"{naam}: afstand {km} valt buiten 10 km t/m halve marathon")
         if a.get("prijs") is not None and not isinstance(a["prijs"], (int, float)):
             f.append(f"{naam}: prijs '{a['prijs']}' is geen getal")
+        # Optioneel: wat deze afstand vorige editie kostte, letterlijk bij de organisator gevonden.
+        pv = a.get("prijsVorigJaar")
+        if pv is not None:
+            if not isinstance(pv, dict) or not isinstance(pv.get("prijs"), (int, float)) or not isinstance(pv.get("jaar"), int):
+                f.append(f"{naam}: prijsVorigJaar moet {{'prijs': getal, 'jaar': JJJJ, 'bron': url}} zijn")
+            elif not str(pv.get("bron") or "").startswith("http"):
+                f.append(f"{naam}: prijsVorigJaar heeft een bron-URL nodig")
     lat, lon = w.get("lat"), w.get("lon")
     if isinstance(lat, (int, float)) and isinstance(lon, (int, float)):
         if not (51.6 <= lat <= 53.2 and 3.8 <= lon <= 6.0):

@@ -17,3 +17,5 @@ jobs:
           python-version: "3.12"
       - name: Wedstrijddata klopt en data/wedstrijden.js is actueel
         run: python3 scripts/bouw_data.py --check
+      - name: agenda.ics is actueel
+        run: python3 scripts/bouw_agenda.py --check
