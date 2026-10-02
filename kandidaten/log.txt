@@ -1,0 +1,13 @@
+OK 2402734 | 200 | JPEG image data, Exif standard
+OK 2654902 | 200 | JPEG image data, Exif standard
+OK 2461982 | 200 | JPEG image data, Exif standard
+OK 2402777 | 200 | JPEG image data, Exif standard
+OK 16980804 | 200 | JPEG image data, Exif standard
+OK 1465892 | 200 | JPEG image data, Exif standard
+OK 10168171 | 200 | JPEG image data, Exif standard
+OK 1555354 | 200 | JPEG image data, Exif standard
+OK 5196111 | 200 | JPEG image data, Exif standard
+OK 1933524 | 200 | JPEG image data, Exif standard
+MISLUKT 3114 | 404 | ASCII text, with no line termi
+OK 11001131 | 200 | JPEG image data, Exif standard
+OK 10084175 | 200 | JPEG image data, Exif standard
