@@ -1,6 +1,6 @@
 name: Foto's ophalen
 
-# Tijdelijk: haalt kandidaat-foto's van Unsplash op (vrije Unsplash-licentie) en commit ze op deze branch,
+# Tijdelijk: haalt kandidaat-foto's van Pexels op (vrije Pexels-licentie) en commit ze op deze branch,
 # omdat de Claude-omgeving de fotosites niet zelf kan bereiken. Wordt verwijderd na het kiezen.
 on:
   push:
@@ -21,14 +21,14 @@ jobs:
           UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
           : > kandidaten/log.txt
           while read -r id; do
-            [ -z "$id" ] && continue
-            pagina=$(curl -sSL -A "$UA" "https://unsplash.com/photos/$id" || true)
-            img=$(printf '%s' "$pagina" | grep -o 'https://images.unsplash.com/photo-[^"?&]*' | head -1)
-            auteur=$(printf '%s' "$pagina" | grep -o '<title>[^<]*' | head -1 | sed 's/<title>//')
-            if [ -n "$img" ] && curl -sSL --fail -A "$UA" -o "kandidaten/$id.jpg" "$img?w=1600&fm=jpg&q=72&fit=max"; then
-              echo "OK $id | $img | $auteur" >> kandidaten/log.txt
+            case "$id" in ''|\#*) continue;; esac
+            url="https://images.pexels.com/photos/$id/pexels-photo-$id.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            code=$(curl -sSL -A "$UA" -o "kandidaten/$id.jpg" -w '%{http_code}' "$url" || true)
+            soort=$(file -b "kandidaten/$id.jpg" | cut -c1-30)
+            if [ "$code" = "200" ] && echo "$soort" | grep -q JPEG; then
+              echo "OK $id | $code | $soort" >> kandidaten/log.txt
             else
-              echo "MISLUKT $id | img=$img | $auteur" >> kandidaten/log.txt
+              echo "MISLUKT $id | $code | $soort" >> kandidaten/log.txt; rm -f "kandidaten/$id.jpg"
             fi
           done < fotos-kandidaten.txt
           cat kandidaten/log.txt
