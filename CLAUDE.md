@@ -5,8 +5,9 @@ Noord-Holland, Zuid-Holland, Utrecht en Flevoland, de komende 12 maanden. Alleen
 
 ## Data
 
-- Bewerk alleen `data/wedstrijden.json`; daarna `python3 scripts/bouw_data.py` en `data/wedstrijden.js`
-  meecommitten (de workflow "Controle" faalt anders).
+- Bewerk alleen `data/wedstrijden.json`; daarna `python3 scripts/bouw_data.py` en `python3 scripts/bouw_agenda.py`, en
+  `data/wedstrijden.js` + `agenda.ics` meecommitten (de workflow "Controle" faalt anders).
+- Vorige-editieprijs per afstand: `prijsVorigJaar: {prijs, jaar, bron}`, alleen letterlijk van de organisator.
 - Alleen gegevens die letterlijk bij de organisator of het inschrijfplatform staan. Nooit schatten; bij twijfel
   `null` / status `"onbekend"`. Altijd `gecontroleerd` bijwerken naar de datum waarop je het nakeek, en de
   gebruikte pagina's in `bronnen`.
@@ -23,4 +24,4 @@ Noord-Holland, Zuid-Holland, Utrecht en Flevoland, de komende 12 maanden. Alleen
 
 ## Later (afgesproken, nog niet gebouwd)
 
-Agenda-abonnement, iPhone-tegel, meldformulier, filter "binnen X km van huis", herinnering bij openen inschrijving.
+iPhone-tegel, meldformulier, herinnering bij openen inschrijving. (Agenda-abonnement, afstand tot huis, starttijdfilter, eigen status en vorige-editieprijs zijn gebouwd; `prijsVorigJaar` is nog nergens ingevuld.)

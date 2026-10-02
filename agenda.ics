@@ -1,0 +1,2828 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hardloopwedstrijden//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hardloopwedstrijden
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:isoniq-urk-marathon-halve-marathon-2026-10-03@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261003
+SUMMARY:Isoniq Urk Marathon (halve marathon) (start 11:15)
+LOCATION:Urk\, Flevoland
+DESCRIPTION:Afstanden: Halve marathon\nInschrijving: vol\nhttps://inschrijv
+ en.nl/form/2026100351597-nl\nGecontroleerd 2026-10-01\; check de inschrijf
+ link voor de actuele stand.
+URL:https://www.urkmarathon.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Isoniq Urk Marathon (halve marathon) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:molens-mooiste-2026-10-03@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261003
+SUMMARY:Molens Mooiste (start 09:30)
+LOCATION:Kinderdijk\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 Engelse mijl\nInschrijving: open\nhttps://inschri
+ jven.nl/form/2026100306201\nGecontroleerd 2026-10-01\; check de inschrijfl
+ ink voor de actuele stand.
+URL:https://molensmooiste.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Molens Mooiste is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pieken-dalen-festival-2026-10-03@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261003
+SUMMARY:Pieken+Dalen Festival (start 10:00)
+LOCATION:Doorn\, Utrecht
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: open\nhttps://
+ atleta.cc/e/cL1066hDmiMo\nGecontroleerd 2026-10-01\; check de inschrijflin
+ k voor de actuele stand.
+URL:https://piekenendalenfestival.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pieken+Dalen Festival is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rottemerenloop-2026-10-03@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261003
+SUMMARY:Rottemerenloop (start 10:00)
+LOCATION:Bleiswijk\, Zuid-Holland
+DESCRIPTION:Afstanden: Kwart marathon € 15\,0\, Halve marathon € 20\,0\
+ nInschrijving: vol\nSluit: 2026-10-02\nhttps://dekieviten.nl/index.php?pag
+ e=Rottemerenloop&sid=4\nGecontroleerd 2026-10-01\; check de inschrijflink 
+ voor de actuele stand.
+URL:https://dekieviten.nl/index.php?page=Rottemerenloop&sid=4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rottemerenloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:valley-run-veenendaal-zomer-edition-2026-10-03@rik-spacecowboy.github.i
+ o
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261003
+SUMMARY:Valley Run Veenendaal - Zomer Edition (start 11:00)
+LOCATION:Veenendaal\, Utrecht
+DESCRIPTION:Afstanden: 10 km € 19\,5\, 15 km € 24\,5\, Halve marathon 
+ € 24\,5\nInschrijving: vol\nhttps://platform.inschrijfen.nl/202610035046
+ 6\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele stand
+ .
+URL:https://valleyrun.nl/zomer-edition/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Valley Run Veenendaal - Zomer Edition is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:280ste-wintercup-lelystad-2026-10-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261004
+SUMMARY:280ste Wintercup Lelystad (start 10:45)
+LOCATION:Lelystad\, Flevoland
+DESCRIPTION:Afstanden: 10 km (10\,11 km exact) € 5\,0\nInschrijving: open
+ \nSluit: 2026-10-02\nhttps://avspiritlelystad.nl/wintercup/\nGecontroleerd
+  2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://avspiritlelystad.nl/wintercup/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:280ste Wintercup Lelystad is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:halve-marathon-oostland-2026-10-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261004
+SUMMARY:Halve Marathon Oostland
+LOCATION:Pijnacker\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: open\nSluit: 2
+ 026-10-04\nhttps://inschrijven.nl/form/2026100451058-nl\nGecontroleerd 202
+ 6-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://halvemarathonoostland.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Halve Marathon Oostland is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:houtloop-delft-2026-10-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261004
+SUMMARY:Houtloop Delft
+LOCATION:Delft\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.av40.nl/i
+ ndex.php?sid=2\nGecontroleerd 2026-10-01\; check de inschrijflink voor de 
+ actuele stand.
+URL:https://www.av40.nl/index.php?sid=2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Houtloop Delft is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:langs-de-gouweloop-2026-10-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261004
+SUMMARY:Langs de Gouweloop (start 14:00)
+LOCATION:Waddinxveen\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km € 8\,0\nInschrijving: open\nhttps://inschrij
+ ven.nl/form/2026100410243-nl\nGecontroleerd 2026-10-01\; check de inschrij
+ flink voor de actuele stand.
+URL:https://langsdegouweloop.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Langs de Gouweloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:msv-spijkenisse-family-run-2026-10-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261004
+SUMMARY:MSV Spijkenisse Family Run
+LOCATION:Spijkenisse\, Zuid-Holland
+DESCRIPTION:Afstanden: Kwart marathon\nInschrijving: open\nhttps://inschrij
+ ven.nl/form/2026100451406-nl\nGecontroleerd 2026-10-01\; check de inschrij
+ flink voor de actuele stand.
+URL:https://www.msvspijkenisse.nl/wordpress/wegwedstrijd/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MSV Spijkenisse Family Run is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondje-bergen-2026-10-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261004
+SUMMARY:Rondje Bergen
+LOCATION:Bergen\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 16\,0\nInschrijving: gesloten\nSluit: 2026
+ -09-30\nhttps://inschrijven.nl/form/2026100400759\nGecontroleerd 2026-10-0
+ 1\; check de inschrijflink voor de actuele stand.
+URL:https://www.rondjebergen.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rondje Bergen is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:trek-singelloop-utrecht-2026-10-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261004
+SUMMARY:TREK Singelloop Utrecht (start 09:00)
+LOCATION:Utrecht\, Utrecht
+DESCRIPTION:Afstanden: TREK 10 km € 32\,0\nInschrijving: onbekend\nhttps:
+ //in.njuko.com/trek-singelloop-utrecht-20261778828345935/w/6a06c43c8b56fd5
+ a0bf282af\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actue
+ le stand.
+URL:https://singellooputrecht.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TREK Singelloop Utrecht is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tata-steel-marquetteloop-2026-10-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261004
+SUMMARY:Tata Steel Marquetteloop (start 11:45)
+LOCATION:Heemskerk\, Noord-Holland
+DESCRIPTION:Afstanden: 14 km € 17\,5\, Halve marathon € 20\,0\nInschrij
+ ving: gesloten\nhttps://www.inschrijven.nl/form/2026100403112-nl\nGecontro
+ leerd 2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.avdem.nl/wedstrijden/tata-steel-marquetteloop
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tata Steel Marquetteloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:twiskemolenloop-oktober-2026-10-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261004
+SUMMARY:Twiskemolenloop (oktober) (start 11:00)
+LOCATION:Landsmeer\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 14\,0\, 10 Engelse mijl € 14\,0\, Halve 
+ marathon € 14\,0\nInschrijving: open\nSluit: 2026-10-02\nhttps://inschri
+ jven.nl/form/2026100401136-nl\nGecontroleerd 2026-10-01\; check de inschri
+ jflink voor de actuele stand.
+URL:https://www.acwaterland.nl/twiskemolenloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Twiskemolenloop (oktober) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:epilepsieloop-amersfoort-2026-10-10@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:EpilepsieLoop Amersfoort (start 12:20)
+LOCATION:Amersfoort\, Utrecht
+DESCRIPTION:Afstanden: 10 km € 20\,0\, 15 km € 20\,0\nInschrijving: ope
+ n\nhttps://www.epilepsieloop.nl/project/amersfoort-hoofdlocatie\nGecontrol
+ eerd 2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.epilepsieloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EpilepsieLoop Amersfoort is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jan-louter-loop-2026-10-10@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Jan Louter Loop
+LOCATION:Vlaardingen\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: onbekend\nhttps://insch
+ rijven.nl/form/2026101009211-nl\nGecontroleerd 2026-10-01\; check de insch
+ rijflink voor de actuele stand.
+URL:https://janlouterloop.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jan Louter Loop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lovelife-run-amsterdam-2026-10-10@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:LoveLife Run Amsterdam (start 13:15)
+LOCATION:Amsterdam\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://www.fightcancer.n
+ l/event/lovelife-run-amsterdam/home\nGecontroleerd 2026-10-01\; check de i
+ nschrijflink voor de actuele stand.
+URL:https://www.fightcancer.nl/event/lovelife-run-amsterdam/home
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LoveLife Run Amsterdam is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:run2day-vlinderloop-2026-10-10@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Run2Day Vlinderloop (start 11:30)
+LOCATION:Houten\, Utrecht
+DESCRIPTION:Afstanden: 10\,7 km € 6\,0\, 14\,8 km € 6\,0\, 21\,1 km (ha
+ lve marathon) € 6\,0\nInschrijving: open\nSluit: 2026-10-09\nhttps://ins
+ chrijven.nl/form/2026101005155-nl\nGecontroleerd 2026-10-01\; check de ins
+ chrijflink voor de actuele stand.
+URL:https://loopgroephouten.nl/vlinderloop-algemene-info/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Run2Day Vlinderloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bodyresults-vestingloop-edam-2026-10-11@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:BodyResults Vestingloop Edam (start 11:00)
+LOCATION:Edam\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 8\,0\nInschrijving: open\nSluit: 2026-10-0
+ 1\nhttps://www.avedam.nl/onze-club/vestingloop.php\nGecontroleerd 2026-10-
+ 01\; check de inschrijflink voor de actuele stand.
+URL:https://www.avedam.nl/onze-club/vestingloop.php
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BodyResults Vestingloop Edam is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:culture-run-woerden-2026-10-11@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Culture Run Woerden
+LOCATION:Woerden\, Utrecht
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://atleta.cc/e/h
+ iO4zlALXxey\nGecontroleerd 2026-10-01\; check de inschrijflink voor de act
+ uele stand.
+URL:https://atleta.cc/e/hiO4zlALXxey
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Culture Run Woerden is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de-15-van-wassenaar-2026-10-11@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:De 15 van Wassenaar (start 14:30)
+LOCATION:Wassenaar\, Zuid-Holland
+DESCRIPTION:Afstanden: 15 km\nInschrijving: onbekend\nhttps://de15vanwassen
+ aar.nl\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele 
+ stand.
+URL:https://de15vanwassenaar.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:De 15 van Wassenaar is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de-5-van-groenekan-2026-10-11@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:De 5 van Groenekan (start 14:35)
+LOCATION:Groenekan\, Utrecht
+DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nSluit: 2026-10-09\nhttps:
+ //inschrijven.nl/form/2026101151650-nl\nGecontroleerd 2026-10-01\; check d
+ e inschrijflink voor de actuele stand.
+URL:https://rik-spacecowboy.github.io/Hardlopen/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:De 5 van Groenekan is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:napoleon-mijlenloop-2026-10-11@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Napoleon-Mijlenloop (start 11:00)
+LOCATION:Den Helder\, Noord-Holland
+DESCRIPTION:Afstanden: 10 Engelse mijl € 10\,0\nInschrijving: open\nhttps
+ ://www.noordkopatletiek.nl/napoleon-mijlenloop/\nGecontroleerd 2026-10-01\
+ ; check de inschrijflink voor de actuele stand.
+URL:https://www.noordkopatletiek.nl/napoleon-mijlenloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Napoleon-Mijlenloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sloterplasloop-90e-2026-10-11@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Sloterplasloop (90e)
+LOCATION:Amsterdam\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 13\,5\nInschrijving: open\nSluit: 2026-10-
+ 10\nhttps://inschrijven.nl/form/2026101101101-nl\nGecontroleerd 2026-10-01
+ \; check de inschrijflink voor de actuele stand.
+URL:https://sloterplasloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sloterplasloop (90e) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jan-koudstaal-dijkloop-2026-10-17@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261017
+SUMMARY:Jan Koudstaal Dijkloop (start 11:00)
+LOCATION:Schoonhoven\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km € 15\,0\, Halve marathon € 20\,0\nInschrij
+ ving: open\nSluit: 2026-10-17\nhttps://www.avantri.nl/wedstrijden/wedstrij
+ den-avantri/dijkloop/\nGecontroleerd 2026-10-01\; check de inschrijflink v
+ oor de actuele stand.
+URL:https://www.avantri.nl/wedstrijden/wedstrijden-avantri/dijkloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jan Koudstaal Dijkloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bertusloop-delft-2026-10-18@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261018
+SUMMARY:Bertusloop Delft (start 10:00)
+LOCATION:Delft\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km (2 rondes) € 3\,0\nInschrijving: open\nhttps
+ ://www.dijc-bertus.nl/index.php/trimlopen/bertusloop\nGecontroleerd 2026-1
+ 0-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.dijc-bertus.nl/index.php/trimlopen/bertusloop
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bertusloop Delft is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:goudasfaltloop-2026-10-18@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261018
+SUMMARY:GOUDasfaltloop (start 11:00)
+LOCATION:Gouda\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km € 13\,0\nInschrijving: open\nSluit: 2026-10-
+ 16\nhttps://www.goudasfalt.nl/\nGecontroleerd 2026-10-01\; check de inschr
+ ijflink voor de actuele stand.
+URL:https://www.goudasfalt.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GOUDasfaltloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:maliebaanloop-2026-10-18@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261018
+SUMMARY:Maliebaanloop
+LOCATION:Utrecht\, Utrecht
+DESCRIPTION:Afstanden: 10 km prestatieloop\nInschrijving: open\nSluit: 2026
+ -10-08\nhttps://inschrijven.nl/form/2026101805191-nl\nGecontroleerd 2026-1
+ 0-01\; check de inschrijflink voor de actuele stand.
+URL:https://maliebaanloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Maliebaanloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tcs-amsterdam-marathon-mizuno-halve-marathon-2026-10-18@rik-spacecowboy
+ .github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261018
+SUMMARY:TCS Amsterdam Marathon - Mizuno Halve Marathon (start 13:20)
+LOCATION:Amsterdam\, Noord-Holland
+DESCRIPTION:Afstanden: Halve marathon € 43\,5\nInschrijving: vol\nhttps:/
+ /www.tcsamsterdammarathon.nl/inschrijven\nGecontroleerd 2026-10-01\; check
+  de inschrijflink voor de actuele stand.
+URL:https://www.tcsamsterdammarathon.nl/mizuno-halve-marathon
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TCS Amsterdam Marathon - Mizuno Halve Marathon is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:zeezichtloop-petten-2026-10-18@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261018
+SUMMARY:Zeezichtloop Petten (start 11:05)
+LOCATION:Petten\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 10\,0\nInschrijving: open\nSluit: 2026-10-
+ 17\nhttps://inschrijven.nl/form/2026101851659-nl\nGecontroleerd 2026-10-01
+ \; check de inschrijflink voor de actuele stand.
+URL:https://zeezichtlooppetten.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Zeezichtloop Petten is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lrrc-bockenloop-2026-10-24@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261024
+SUMMARY:LRRC Bockenloop
+LOCATION:Leiden\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://inschrijven.n
+ l/form/2026102407256-nl\nGecontroleerd 2026-10-01\; check de inschrijflink
+  voor de actuele stand.
+URL:https://rik-spacecowboy.github.io/Hardlopen/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LRRC Bockenloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vijfhoekparkloop-2026-10-24@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261024
+SUMMARY:Vijfhoekparkloop
+LOCATION:Zaandam\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.avzaanlan
+ d.nl/index.php?page=996&sid=1\nGecontroleerd 2026-10-01\; check de inschri
+ jflink voor de actuele stand.
+URL:https://www.avzaanland.nl/index.php?page=996&sid=1
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vijfhoekparkloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:droomtijdloop-2026-10-25@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261025
+SUMMARY:Droomtijdloop
+LOCATION:Delft\, Zuid-Holland
+DESCRIPTION:Afstanden: Halve marathon\nInschrijving: onbekend\nhttps://droo
+ mtijdloop.nl\nGecontroleerd 2026-10-01\; check de inschrijflink voor de ac
+ tuele stand.
+URL:https://droomtijdloop.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Droomtijdloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:heemstedeloop-2026-10-25@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261025
+SUMMARY:Heemstedeloop
+LOCATION:Heemstede\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://totaltiming.insch
+ rijven.nl/form/2026102503902-nl\nGecontroleerd 2026-10-01\; check de insch
+ rijflink voor de actuele stand.
+URL:https://www.heemstedeloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Heemstedeloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lidl-wolfskamerloop-2026-10-25@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261025
+SUMMARY:Lidl Wolfskamerloop
+LOCATION:Huizen\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://wolfskamerloop.nl
+ /inschrijven/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de a
+ ctuele stand.
+URL:https://wolfskamerloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lidl Wolfskamerloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vechtstreek-in-beweging-vib-lopen-2026-10-25@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261025
+SUMMARY:Vechtstreek in Beweging (VIB) Lopen (start 11:00)
+LOCATION:Maarssen (Maarsseveense Plassen)\, Utrecht
+DESCRIPTION:Afstanden: 10 km (2 ronden) € 7\,5\, 15 km (3 ronden) € 7\,
+ 5\nInschrijving: open\nhttps://www.viblopen.nl/inschrijven/\nGecontroleerd
+  2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.viblopen.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vechtstreek in Beweging (VIB) Lopen is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:westvliet-hartekindloop-2026-10-25@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261025
+SUMMARY:Westvliet Hartekindloop
+LOCATION:Den Haag\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nSluit: 2026-10-24\nhttps:
+ //inschrijven.nl/form/2026102551586-nl\nGecontroleerd 2026-10-01\; check d
+ e inschrijflink voor de actuele stand.
+URL:https://rik-spacecowboy.github.io/Hardlopen/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Westvliet Hartekindloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:typhoonloop-2026-10-31@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261031
+SUMMARY:Typhoonloop
+LOCATION:Gorinchem\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://inschrijven.nl/fo
+ rm/2026103106240-nl\nGecontroleerd 2026-10-01\; check de inschrijflink voo
+ r de actuele stand.
+URL:https://avtyphoon.nl/typhoonloop-gorinchem/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Typhoonloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:281ste-wintercup-lelystad-2026-11-01@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:281ste Wintercup Lelystad (start 10:45)
+LOCATION:Lelystad\, Flevoland
+DESCRIPTION:Afstanden: 10 km (10\,11 km exact) € 5\,0\nInschrijving: open
+ \nSluit: 2026-10-30\nhttps://avspiritlelystad.nl/wintercup/\nGecontroleerd
+  2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://avspiritlelystad.nl/wintercup/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:281ste Wintercup Lelystad is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:boerenkoolloop-warmenhuizen-2026-11-01@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Boerenkoolloop Warmenhuizen
+LOCATION:Warmenhuizen\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 16\,0\nInschrijving: open\nSluit: 2026-10-
+ 25\nhttps://inschrijven.nl/form/2026110104127-nl\nGecontroleerd 2026-10-01
+ \; check de inschrijflink voor de actuele stand.
+URL:https://boerenkoolloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Boerenkoolloop Warmenhuizen is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de-zilveren-turfloop-2026-11-01@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:De Zilveren Turfloop (start 11:00)
+LOCATION:Mijdrecht\, Utrecht
+DESCRIPTION:Afstanden: 10 km € 13\,0\, 10 Engelse mijl € 15\,0\nInschri
+ jving: open\nSluit: 2026-10-31\nhttps://inschrijven.nl/form/2026110101151-
+ nl\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele stan
+ d.
+URL:https://veenlopers.nl/35ste-zilveren-turfloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:De Zilveren Turfloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:drechtstadloop-2026-11-01@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:DrechtStadLoop
+LOCATION:Dordrecht\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: onbekend\nhttp
+ s://drechtstadloop.nl\nGecontroleerd 2026-10-01\; check de inschrijflink v
+ oor de actuele stand.
+URL:https://drechtstadloop.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DrechtStadLoop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:egboetsloop-53e-2026-11-01@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Egboetsloop (53e) (start 11:00)
+LOCATION:Hauwert\, Noord-Holland
+DESCRIPTION:Afstanden: 16\,4 km € 8\,0\nInschrijving: open\nhttps://event
+ kit.mylaps.com/nl/event/1980\nGecontroleerd 2026-10-01\; check de inschrij
+ flink voor de actuele stand.
+URL:https://eventkit.mylaps.com/nl/event/1980
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Egboetsloop (53e) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:halve-van-het-gooi-2026-11-01@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Halve van het Gooi
+LOCATION:Naarden\, Noord-Holland
+DESCRIPTION:Afstanden: Kwart marathon (10\,55 km)\, Halve marathon\nInschri
+ jving: vol\nSluit: 2026-10-31\nhttps://inschrijven.nl/form/2026110100294-n
+ l\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele stand
+ .
+URL:https://halvevanhetgooi.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Halve van het Gooi is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:houtloop-delft-2026-11-01@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Houtloop Delft
+LOCATION:Delft\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.av40.nl/i
+ ndex.php?sid=2\nGecontroleerd 2026-10-01\; check de inschrijflink voor de 
+ actuele stand.
+URL:https://www.av40.nl/index.php?sid=2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Houtloop Delft is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nn-the-hague-10k-nn-marathon-the-hague-2026-11-01@rik-spacecowboy.githu
+ b.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:NN The Hague 10K (NN Marathon The Hague)
+LOCATION:Den Haag\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: vol\nhttps://nnmarathonthehague
+ .nl/inschrijven/\nGecontroleerd 2026-10-01\; check de inschrijflink voor d
+ e actuele stand.
+URL:https://nnmarathonthehague.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NN The Hague 10K (NN Marathon The Hague) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:startbaanrun-2026-11-01@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:StartbaanRun
+LOCATION:Soesterberg (Park Vliegbasis Soesterberg)\, Utrecht
+DESCRIPTION:Afstanden: 10 km\, Trailrun 11\,9 km\nInschrijving: open\nSluit
+ : 2026-10-30\nhttps://inschrijven.nl/form/2026110102103-nl\nGecontroleerd 
+ 2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://startbaanrun.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:StartbaanRun is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:twiskemolenloop-november-2026-11-01@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Twiskemolenloop (november)
+LOCATION:Landsmeer\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\, 10 Engelse mijl\, Halve marathon\nInschrijvi
+ ng: nog niet open\nhttps://inschrijven.nl/form/2026110101136-nl\nGecontrol
+ eerd 2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.acwaterland.nl/twiskemolenloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Twiskemolenloop (november) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:batavia-night-run-2026-11-06@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261106
+SUMMARY:Batavia Night Run (start 20:15)
+LOCATION:Lelystad\, Flevoland
+DESCRIPTION:Afstanden: 10 km € 25\,0\, 15 km € 27\,5\nInschrijving: ope
+ n\nhttps://www.batavianightrun.nl/inschrijven\nGecontroleerd 2026-10-01\; 
+ check de inschrijflink voor de actuele stand.
+URL:https://www.batavianightrun.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Batavia Night Run is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dorpsrun-renswoude-2026-11-07@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261107
+SUMMARY:Dorpsrun Renswoude (start 13:45)
+LOCATION:Renswoude\, Utrecht
+DESCRIPTION:Afstanden: 10 km € 13\,0\, Halve marathon € 14\,0\nInschrij
+ ving: open\nSluit: 2026-11-05\nhttps://inschrijven.nl/form/2026110751206-n
+ l\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele stand
+ .
+URL:https://www.dorpsrunrenswoude.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dorpsrun Renswoude is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:duifpoldertrainingsloop-2026-11-07@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261107
+SUMMARY:Duifpoldertrainingsloop (start 14:00)
+LOCATION:Schipluiden\, Zuid-Holland
+DESCRIPTION:Afstanden: 11\,7 km € 2\,0\nInschrijving: onbekend\nhttps://w
+ ww.dehardloper.nl/duifpoldertrainingsloop/\nGecontroleerd 2026-10-01\; che
+ ck de inschrijflink voor de actuele stand.
+URL:https://www.dehardloper.nl/duifpoldertrainingsloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Duifpoldertrainingsloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:schipholloop-halve-marathon-2026-11-07@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261107
+SUMMARY:Schipholloop - Halve Marathon (start 10:30)
+LOCATION:Schiphol-Oost\, Noord-Holland
+DESCRIPTION:Afstanden: Halve marathon\nInschrijving: open\nhttps://inschrij
+ ven.nl/form/2026110750236-nl\nGecontroleerd 2026-10-01\; check de inschrij
+ flink voor de actuele stand.
+URL:https://www.schipholloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Schipholloop - Halve Marathon is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eenhoornloop-2026-11-08@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261108
+SUMMARY:Eenhoornloop (start 11:00)
+LOCATION:Hoorn\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 10\,0\, 16\,1 km € 10\,0\nInschrijving: 
+ open\nSluit: 2026-11-07\nhttps://www.loopgroephoorn.nl/eenhoornloop/\nGeco
+ ntroleerd 2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.loopgroephoorn.nl/eenhoornloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Eenhoornloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:flevo-fun-run-ronde-1-2026-11-08@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261108
+SUMMARY:Flevo Fun Run (ronde 1)
+LOCATION:Zeewolde\, Flevoland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.tvz-zeewo
+ lde.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele
+  stand.
+URL:https://www.tvz-zeewolde.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Flevo Fun Run (ronde 1) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:halve-marathon-gouda-2026-11-08@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261108
+SUMMARY:Halve Marathon Gouda
+LOCATION:Gouda\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: onbekend\nhttp
+ s://inschrijven.nl/form/2026110850972-nl\nGecontroleerd 2026-10-01\; check
+  de inschrijflink voor de actuele stand.
+URL:https://halvemarathongouda.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Halve Marathon Gouda is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:inofec-maastunnelloop-2026-11-08@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261108
+SUMMARY:Inofec Maastunnelloop (start 10:30)
+LOCATION:Rotterdam\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://inschrijven.nl/fo
+ rm/2026110851345-nl\nGecontroleerd 2026-10-01\; check de inschrijflink voo
+ r de actuele stand.
+URL:https://epicruns.nl/maastunnelloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Inofec Maastunnelloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:klaverbladloop-2026-11-08@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261108
+SUMMARY:Klaverbladloop
+LOCATION:Zoetermeer\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: open\nhttps://inschrijv
+ en.nl/form/2026110810218-nl\nGecontroleerd 2026-10-01\; check de inschrijf
+ link voor de actuele stand.
+URL:https://www.ilion.nl/index.php?page=Klaverbladloop
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Klaverbladloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:olympisch-stadionloop-2026-11-08@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261108
+SUMMARY:Olympisch Stadionloop (start 12:30)
+LOCATION:Amsterdam\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 17\,5\nInschrijving: open\nhttps://inschri
+ jven.nl/form/2026110801110-nl\nGecontroleerd 2026-10-01\; check de inschri
+ jflink voor de actuele stand.
+URL:https://olympischstadionloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Olympisch Stadionloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:amersfoort-night-run-2026-11-13@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261113
+SUMMARY:Amersfoort Night Run
+LOCATION:Amersfoort\, Utrecht
+DESCRIPTION:Afstanden: 10 km € 25\,0\, 15 km € 27\,5\nInschrijving: ope
+ n\nhttps://www.amersfoortnightrun.nl/inschrijven\nGecontroleerd 2026-10-01
+ \; check de inschrijflink voor de actuele stand.
+URL:https://www.amersfoortnightrun.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amersfoort Night Run is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:run2day-vlinderloop-2026-11-14@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261114
+SUMMARY:Run2Day Vlinderloop (start 11:30)
+LOCATION:Houten\, Utrecht
+DESCRIPTION:Afstanden: 10\,7 km € 6\,0\, 14\,8 km € 6\,0\, 21\,1 km (ha
+ lve marathon) € 6\,0\nInschrijving: onbekend\nhttps://loopgroephouten.nl
+ /vlinderloop-algemene-info/\nGecontroleerd 2026-10-01\; check de inschrijf
+ link voor de actuele stand.
+URL:https://loopgroephouten.nl/vlinderloop-algemene-info/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Run2Day Vlinderloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vijfhoekparkloop-2026-11-14@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261114
+SUMMARY:Vijfhoekparkloop
+LOCATION:Zaandam\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.avzaanlan
+ d.nl/index.php?page=996&sid=1\nGecontroleerd 2026-10-01\; check de inschri
+ jflink voor de actuele stand.
+URL:https://www.avzaanland.nl/index.php?page=996&sid=1
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vijfhoekparkloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bertusloop-delft-2026-11-15@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Bertusloop Delft (start 10:00)
+LOCATION:Delft\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km (2 rondes) € 3\,0\nInschrijving: open\nhttps
+ ://www.dijc-bertus.nl/index.php/trimlopen/bertusloop\nGecontroleerd 2026-1
+ 0-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.dijc-bertus.nl/index.php/trimlopen/bertusloop
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bertusloop Delft is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de-knikker-zegerplasloop-2026-11-15@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:De Knikker Zegerplasloop
+LOCATION:Alphen aan den Rijn\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 15 km\, 20 km\nInschrijving: onbekend\nhttps
+ ://www.aav36.nl/zegerplasloop\nGecontroleerd 2026-10-01\; check de inschri
+ jflink voor de actuele stand.
+URL:https://www.aav36.nl/zegerplasloop
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:De Knikker Zegerplasloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de-ronde-venen-marathon-10-km-2026-11-15@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:De Ronde Venen Marathon - 10 km
+LOCATION:Abcoude\, Utrecht
+DESCRIPTION:Afstanden: GeinLust 10 km € 13\,0\nInschrijving: open\nSluit:
+  2026-11-02\nhttps://inschrijven.nl/form/2026111550616-nl\nGecontroleerd 2
+ 026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.derondevenenmarathon.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:De Ronde Venen Marathon - 10 km is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sterke-start-loop-2026-11-15@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Sterke Start Loop
+LOCATION:Zevenhuizen\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: onbekend\nhttp
+ s://atleta.cc/e/Vh33zZXNi8Lp\nGecontroleerd 2026-10-01\; check de inschrij
+ flink voor de actuele stand.
+URL:https://strongbabies.nl/help-mee/evenementen/sterkestartloop
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sterke Start Loop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utrecht-science-park-night-run-2026-11-20@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261120
+SUMMARY:Utrecht Science Park Night Run (start 20:15)
+LOCATION:Utrecht (Sportcentrum Olympos)\, Utrecht
+DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: vol\nhttps://www.uspnig
+ htrun.nl/inschrijven\nGecontroleerd 2026-10-01\; check de inschrijflink vo
+ or de actuele stand.
+URL:https://www.uspnightrun.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Utrecht Science Park Night Run is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:av-suomi-sinterklaasloop-2026-11-22@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261122
+SUMMARY:AV Suomi Sinterklaasloop
+LOCATION:Santpoort-Noord\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.avsuomi.n
+ l/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele stan
+ d.
+URL:https://www.avsuomi.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AV Suomi Sinterklaasloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ava-zorg-en-zekerheid-westeinderloop-2026-11-22@rik-spacecowboy.github.
+ io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261122
+SUMMARY:AVA Zorg en Zekerheid Westeinderloop (start 11:00)
+LOCATION:Kudelstaart\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 13\,0\, 10 Engelse mijl € 15\,0\nInschri
+ jving: open\nhttps://avaalsmeer.nl/index.php?amp=&page=1984&sid=2\nGecontr
+ oleerd 2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://avaalsmeer.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AVA Zorg en Zekerheid Westeinderloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vechtstreek-in-beweging-vib-lopen-2026-11-22@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261122
+SUMMARY:Vechtstreek in Beweging (VIB) Lopen (start 11:00)
+LOCATION:Maarssen (Maarsseveense Plassen)\, Utrecht
+DESCRIPTION:Afstanden: 10 km (2 ronden) € 7\,5\, 15 km (3 ronden) € 7\,
+ 5\nInschrijving: open\nhttps://www.viblopen.nl/inschrijven/\nGecontroleerd
+  2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.viblopen.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vechtstreek in Beweging (VIB) Lopen is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vijfhoekparkloop-2026-11-28@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261128
+SUMMARY:Vijfhoekparkloop
+LOCATION:Zaandam\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.avzaanlan
+ d.nl/index.php?page=996&sid=1\nGecontroleerd 2026-10-01\; check de inschri
+ jflink voor de actuele stand.
+URL:https://www.avzaanland.nl/index.php?page=996&sid=1
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vijfhoekparkloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:spijkenisse-marathon-2026-11-29@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261129
+SUMMARY:Spijkenisse Marathon
+LOCATION:Spijkenisse\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: onbekend\nhttp
+ s://www.spijkenissemarathon.nl/\nGecontroleerd 2026-10-01\; check de insch
+ rijflink voor de actuele stand.
+URL:https://www.spijkenissemarathon.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Spijkenisse Marathon is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sint-nicolaasloop-2026-12-05@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261205
+SUMMARY:Sint Nicolaasloop (start 10:40)
+LOCATION:Bunschoten-Spakenburg\, Utrecht
+DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: open\nSluit: 2026-12-03
+ \nhttps://inschrijven.nl/form/2026120500432\nGecontroleerd 2026-10-01\; ch
+ eck de inschrijflink voor de actuele stand.
+URL:https://www.quovadisbunschoten.nl/evenementen/sint-nicolaasloop
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sint Nicolaasloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:282ste-wintercup-lelystad-2026-12-06@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261206
+SUMMARY:282ste Wintercup Lelystad (start 10:45)
+LOCATION:Lelystad\, Flevoland
+DESCRIPTION:Afstanden: 10 km (10\,11 km exact) € 5\,0\nInschrijving: open
+ \nSluit: 2026-12-04\nhttps://avspiritlelystad.nl/wintercup/\nGecontroleerd
+  2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://avspiritlelystad.nl/wintercup/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:282ste Wintercup Lelystad is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:houtloop-delft-2026-12-06@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261206
+SUMMARY:Houtloop Delft
+LOCATION:Delft\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.av40.nl/i
+ ndex.php?sid=2\nGecontroleerd 2026-10-01\; check de inschrijflink voor de 
+ actuele stand.
+URL:https://www.av40.nl/index.php?sid=2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Houtloop Delft is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:run2day-vlinderloop-2026-12-12@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261212
+SUMMARY:Run2Day Vlinderloop (start 11:30)
+LOCATION:Houten\, Utrecht
+DESCRIPTION:Afstanden: 10\,7 km € 6\,0\, 14\,8 km € 6\,0\, 21\,1 km (ha
+ lve marathon) € 6\,0\nInschrijving: onbekend\nhttps://loopgroephouten.nl
+ /vlinderloop-algemene-info/\nGecontroleerd 2026-10-01\; check de inschrijf
+ link voor de actuele stand.
+URL:https://loopgroephouten.nl/vlinderloop-algemene-info/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Run2Day Vlinderloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsw-bruggenloop-rotterdam-2026-12-13@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261213
+SUMMARY:DSW Bruggenloop Rotterdam
+LOCATION:Rotterdam\, Zuid-Holland
+DESCRIPTION:Afstanden: 15 km\nInschrijving: vol\nhttps://bruggenloop.nl/ins
+ chrijven/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actue
+ le stand.
+URL:https://bruggenloop.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DSW Bruggenloop Rotterdam is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:flevo-fun-run-ronde-2-2026-12-13@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261213
+SUMMARY:Flevo Fun Run (ronde 2)
+LOCATION:Zeewolde\, Flevoland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.tvz-zeewo
+ lde.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele
+  stand.
+URL:https://www.tvz-zeewolde.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Flevo Fun Run (ronde 2) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:snertloop-tav-80-2026-12-13@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261213
+SUMMARY:Snertloop TAV'80 (start 10:30)
+LOCATION:'t Veld\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 17\,5\, 16 km € 17\,5\nInschrijving: ope
+ n\nSluit: 2026-12-03\nhttps://tinyurl.com/tav80snertloophardlopen\nGecontr
+ oleerd 2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://tav80.nl/index.php/snertloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Snertloop TAV'80 is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ter-specke-loop-2026-12-13@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261213
+SUMMARY:Ter Specke Loop
+LOCATION:Lisse\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: onbekend\nhttps://www.z
+ orgenzekerheidcircuit.nl/Race.php?ID=1&RID=110\nGecontroleerd 2026-10-01\;
+  check de inschrijflink voor de actuele stand.
+URL:https://www.zorgenzekerheidcircuit.nl/Race.php?ID=1&RID=110
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ter Specke Loop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:linschotenloop-2026-12-19@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261219
+SUMMARY:Linschotenloop (start 11:45)
+LOCATION:Linschoten\, Utrecht
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: nog niet open\
+ nhttps://inschrijven.nl/form/2026121950998-nl\nGecontroleerd 2026-10-01\; 
+ check de inschrijflink voor de actuele stand.
+URL:https://www.linschotenloop.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Linschotenloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bertusloop-delft-2026-12-20@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261220
+SUMMARY:Bertusloop Delft (start 10:00)
+LOCATION:Delft\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km (2 rondes) € 3\,0\nInschrijving: open\nhttps
+ ://www.dijc-bertus.nl/index.php/trimlopen/bertusloop\nGecontroleerd 2026-1
+ 0-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.dijc-bertus.nl/index.php/trimlopen/bertusloop
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bertusloop Delft is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:starke-kerstloop-dronten-2026-12-20@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261220
+SUMMARY:Starke Kerstloop Dronten
+LOCATION:Dronten\, Flevoland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: open\nhttps://
+ inschrijven.nl/form/2026122051751\nGecontroleerd 2026-10-01\; check de ins
+ chrijflink voor de actuele stand.
+URL:https://kerstloopdronten.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Starke Kerstloop Dronten is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kerstloop-amstelveen-2026-12-27@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261227
+SUMMARY:Kerstloop Amstelveen (start 11:00)
+LOCATION:Amstelveen\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 9\,0\nInschrijving: nog niet open\nhttps:/
+ /inschrijven.nl/form/2026080201125-nl\nGecontroleerd 2026-10-01\; check de
+  inschrijflink voor de actuele stand.
+URL:https://kerstloopamstelveen.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kerstloop Amstelveen is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vechtstreek-in-beweging-vib-lopen-2026-12-27@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261227
+SUMMARY:Vechtstreek in Beweging (VIB) Lopen (start 11:00)
+LOCATION:Maarssen (Maarsseveense Plassen)\, Utrecht
+DESCRIPTION:Afstanden: 10 km (2 ronden) € 7\,5\, 15 km (3 ronden) € 7\,
+ 5\nInschrijving: open\nhttps://www.viblopen.nl/inschrijven/\nGecontroleerd
+  2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.viblopen.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vechtstreek in Beweging (VIB) Lopen is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de-onderlingen-oliebollenloop-2026-12-31@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261231
+SUMMARY:De Onderlingen Oliebollenloop (start 11:00)
+LOCATION:Schoonhoven\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km € 15\,0\, 15 km € 17\,5\nInschrijving: ope
+ n\nSluit: 2026-12-31\nhttps://www.avantri.nl/wedstrijden/wedstrijden-avant
+ ri/oliebollenloop/\nGecontroleerd 2026-10-01\; check de inschrijflink voor
+  de actuele stand.
+URL:https://www.avantri.nl/wedstrijden/wedstrijden-avantri/oliebollenloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:De Onderlingen Oliebollenloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sport-2000-bart-langedijk-oudejaarsloop-2026-12-31@rik-spacecowboy.gith
+ ub.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261231
+SUMMARY:Sport 2000 Bart Langedijk Oudejaarsloop (start 12:00)
+LOCATION:Den Helder\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 10\,0\nInschrijving: open\nhttps://www.noo
+ rdkopatletiek.nl/event/sport-2000-bart-langedijk-oudejaarsloop-copy/\nGeco
+ ntroleerd 2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.noordkopatletiek.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sport 2000 Bart Langedijk Oudejaarsloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:florijn-winterloop-2027-01-02@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270102
+SUMMARY:Florijn Winterloop
+LOCATION:Woudenberg\, Utrecht
+DESCRIPTION:Afstanden: 10 km Bosloop\, 10 Engelse mijl\nInschrijving: open\
+ nSluit: 2026-12-20\nhttps://inschrijven.nl/form/2027010200682-nl\nGecontro
+ leerd 2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://florijnwinterloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Florijn Winterloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:283ste-wintercup-lelystad-2027-01-03@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270103
+SUMMARY:283ste Wintercup Lelystad (start 10:45)
+LOCATION:Lelystad\, Flevoland
+DESCRIPTION:Afstanden: 10 km (10\,11 km exact) € 5\,0\nInschrijving: open
+ \nSluit: 2027-01-01\nhttps://avspiritlelystad.nl/wintercup/\nGecontroleerd
+  2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://avspiritlelystad.nl/wintercup/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:283ste Wintercup Lelystad is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de-nieuwjaarsloop-leiden-2027-01-03@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270103
+SUMMARY:De Nieuwjaarsloop Leiden
+LOCATION:Leiden\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: onbekend\nhttps://zorge
+ nzekerheidcircuit.nl/Race.php?ID=1&RID=112\nGecontroleerd 2026-10-01\; che
+ ck de inschrijflink voor de actuele stand.
+URL:https://zorgenzekerheidcircuit.nl/Race.php?ID=1&RID=112
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:De Nieuwjaarsloop Leiden is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:snertloop-mtk-krimpen-a-d-ijssel-2027-01-03@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270103
+SUMMARY:Snertloop MTK (Krimpen a/d IJssel)
+LOCATION:Krimpen aan den IJssel\, Zuid-Holland
+DESCRIPTION:Afstanden: Halve marathon\, 10 km\nInschrijving: onbekend\nhttp
+ s://www.av-mtk.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor
+  de actuele stand.
+URL:https://www.av-mtk.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Snertloop MTK (Krimpen a/d IJssel) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mundo-nieuwjaarsloop-2027-01-09@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:Mundo Nieuwjaarsloop (start 11:30)
+LOCATION:Oud-Beijerland\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://inschrijven.nl/fo
+ rm/2027010906239-nl\nGecontroleerd 2026-10-01\; check de inschrijflink voo
+ r de actuele stand.
+URL:https://mundonieuwjaarsloop.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mundo Nieuwjaarsloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:run2day-vlinderloop-2027-01-09@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:Run2Day Vlinderloop (start 11:30)
+LOCATION:Houten\, Utrecht
+DESCRIPTION:Afstanden: 10\,7 km € 6\,0\, 14\,8 km € 6\,0\, 21\,1 km (ha
+ lve marathon) € 6\,0\nInschrijving: onbekend\nhttps://loopgroephouten.nl
+ /vlinderloop-algemene-info/\nGecontroleerd 2026-10-01\; check de inschrijf
+ link voor de actuele stand.
+URL:https://loopgroephouten.nl/vlinderloop-algemene-info/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Run2Day Vlinderloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:egmond-halve-marathon-2027-01-10@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270110
+SUMMARY:Egmond Halve Marathon
+LOCATION:Egmond aan Zee\, Noord-Holland
+DESCRIPTION:Afstanden: Kwart marathon € 28\,0\, Halve marathon\nInschrijv
+ ing: vol\nhttps://atleta.cc/e/nhIVGRx4Tk9h\nGecontroleerd 2026-10-01\; che
+ ck de inschrijflink voor de actuele stand.
+URL:https://www.egmondhalvemarathon.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Egmond Halve Marathon is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:flevo-fun-run-ronde-3-2027-01-10@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270110
+SUMMARY:Flevo Fun Run (ronde 3)
+LOCATION:Zeewolde\, Flevoland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.tvz-zeewo
+ lde.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele
+  stand.
+URL:https://www.tvz-zeewolde.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Flevo Fun Run (ronde 3) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de-knikker-zegerplasloop-2027-01-17@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:De Knikker Zegerplasloop
+LOCATION:Alphen aan den Rijn\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 15 km\, 20 km\nInschrijving: onbekend\nhttps
+ ://www.aav36.nl/zegerplasloop\nGecontroleerd 2026-10-01\; check de inschri
+ jflink voor de actuele stand.
+URL:https://www.aav36.nl/zegerplasloop
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:De Knikker Zegerplasloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:goedhart-drechtloop-2027-01-17@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:Goedhart Drechtloop
+LOCATION:Leimuiden\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 10 Engelse mijl\nInschrijving: onbekend\nhtt
+ ps://svkickers69.nl/drechtloop\nGecontroleerd 2026-10-01\; check de inschr
+ ijflink voor de actuele stand.
+URL:https://svkickers69.nl/drechtloop
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Goedhart Drechtloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:moore-drv-halve-van-maassluis-2027-01-17@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:Moore DRV Halve van Maassluis (start 13:00)
+LOCATION:Maassluis\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km € 12\,5\, Halve marathon € 17\,5\nInschrij
+ ving: nog niet open\nSluit: 2027-01-15\nhttps://www.avwaterweg.nl/index.ph
+ p?page=Halve_van_Maassluis&sid=9\nGecontroleerd 2026-10-01\; check de insc
+ hrijflink voor de actuele stand.
+URL:https://www.avwaterweg.nl/index.php?page=Halve_van_Maassluis&sid=9
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Moore DRV Halve van Maassluis is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vondelparkloop-2027-01-17@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:Vondelparkloop
+LOCATION:Amsterdam\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://vondelparkloo
+ p.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele s
+ tand.
+URL:https://vondelparkloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vondelparkloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:halve-marathon-zoetermeer-2027-01-24@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270124
+SUMMARY:Halve Marathon Zoetermeer
+LOCATION:Zoetermeer\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: open\nSluit: 2
+ 027-01-12\nhttps://halvemarathonzoetermeer.nl\nGecontroleerd 2026-10-01\; 
+ check de inschrijflink voor de actuele stand.
+URL:https://halvemarathonzoetermeer.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Halve Marathon Zoetermeer is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f28-trainingsmarathon-halve-marathon-2027-01-31@rik-spacecowboy.github.
+ io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:F28 Trainingsmarathon - halve marathon (start 09:00)
+LOCATION:Amersfoort\, Utrecht
+DESCRIPTION:Afstanden: Halve marathon (start Amersfoort 09:00 of Utrecht Do
+ m 11:00) € 11\,0\nInschrijving: open\nhttps://inschrijven.nl/form/202701
+ 3102911-nl\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actu
+ ele stand.
+URL:https://marathonamersfoort.nl/trainingsmarathon
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:F28 Trainingsmarathon - halve marathon is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hubo-kaagloop-2027-01-31@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:Hubo Kaagloop (start 11:10)
+LOCATION:Wervershoof\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\, 16 km\nInschrijving: nog niet open\nhttps://
+ kaagloop.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de ac
+ tuele stand.
+URL:https://kaagloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hubo Kaagloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:uithoorns-mooiste-de-loop-2027-01-31@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:Uithoorns Mooiste de Loop (start 11:00)
+LOCATION:Uithoorn\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 12\,0\, 10 Engelse mijl € 14\,0\nInschri
+ jving: open\nSluit: 2027-01-30\nhttps://inschrijven.nl/form/2027013101144-
+ nl\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele stan
+ d.
+URL:https://uithoornsmooiste.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Uithoorns Mooiste de Loop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:284ste-wintercup-lelystad-2027-02-07@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270207
+SUMMARY:284ste Wintercup Lelystad (start 10:45)
+LOCATION:Lelystad\, Flevoland
+DESCRIPTION:Afstanden: 10 km (10\,11 km exact) € 5\,0\nInschrijving: open
+ \nSluit: 2027-02-05\nhttps://avspiritlelystad.nl/wintercup/\nGecontroleerd
+  2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://avspiritlelystad.nl/wintercup/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:284ste Wintercup Lelystad is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:groenehartloop-2027-02-07@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270207
+SUMMARY:Groenehartloop
+LOCATION:Gouda\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: onbekend\nhttp
+ s://avgouda.nl/groenehartloop/\nGecontroleerd 2026-10-01\; check de inschr
+ ijflink voor de actuele stand.
+URL:https://avgouda.nl/groenehartloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Groenehartloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:polderrun-2027-02-13@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:Polderrun
+LOCATION:Bleskensgraaf\, Zuid-Holland
+DESCRIPTION:Afstanden: 7 Engelse mijl\, 10 Engelse mijl\nInschrijving: onbe
+ kend\nhttps://polderrun.nl\nGecontroleerd 2026-10-01\; check de inschrijfl
+ ink voor de actuele stand.
+URL:https://polderrun.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Polderrun is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:run2day-vlinderloop-2027-02-13@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:Run2Day Vlinderloop (start 11:30)
+LOCATION:Houten\, Utrecht
+DESCRIPTION:Afstanden: 10\,7 km € 6\,0\, 14\,8 km € 6\,0\, 21\,1 km (ha
+ lve marathon) € 6\,0\nInschrijving: onbekend\nhttps://loopgroephouten.nl
+ /vlinderloop-algemene-info/\nGecontroleerd 2026-10-01\; check de inschrijf
+ link voor de actuele stand.
+URL:https://loopgroephouten.nl/vlinderloop-algemene-info/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Run2Day Vlinderloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:flevo-fun-run-ronde-4-2027-02-14@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:Flevo Fun Run (ronde 4)
+LOCATION:Zeewolde\, Flevoland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.tvz-zeewo
+ lde.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele
+  stand.
+URL:https://www.tvz-zeewolde.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Flevo Fun Run (ronde 4) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:groet-uit-schoorl-run-2027-02-14@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:Groet uit Schoorl Run
+LOCATION:Schoorl\, Noord-Holland
+DESCRIPTION:Afstanden: Mizuno 10 km € 26\,0\, 21\,1 km\nInschrijving: ope
+ n\nhttps://www.groetuitschoorlrun.nl/inschrijven\nGecontroleerd 2026-10-01
+ \; check de inschrijflink voor de actuele stand.
+URL:https://www.groetuitschoorlrun.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Groet uit Schoorl Run is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:keukenstudio-allround-bosdijkloop-2027-02-14@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:Keukenstudio Allround Bosdijkloop (start 12:00)
+LOCATION:Vinkeveen\, Utrecht
+DESCRIPTION:Afstanden: 10 km € 10\,0\, Halve marathon € 12\,0\nInschrij
+ ving: open\nSluit: 2027-02-11\nhttps://bosdijkloop.nl/\nGecontroleerd 2026
+ -10-01\; check de inschrijflink voor de actuele stand.
+URL:https://bosdijkloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Keukenstudio Allround Bosdijkloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:noord-aa-polderloop-2027-02-14@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:Noord-Aa Polderloop
+LOCATION:Zoetermeer\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: onbekend\nhttps://roadr
+ unnerszoetermeer.nl/noord-aa-polderloop/\nGecontroleerd 2026-10-01\; check
+  de inschrijflink voor de actuele stand.
+URL:https://roadrunnerszoetermeer.nl/noord-aa-polderloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Noord-Aa Polderloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de-knikker-zegerplasloop-2027-02-21@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:De Knikker Zegerplasloop
+LOCATION:Alphen aan den Rijn\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 15 km\, 20 km\nInschrijving: onbekend\nhttps
+ ://www.aav36.nl/zegerplasloop\nGecontroleerd 2026-10-01\; check de inschri
+ jflink voor de actuele stand.
+URL:https://www.aav36.nl/zegerplasloop
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:De Knikker Zegerplasloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lansingerland-run-2027-02-28@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:Lansingerland Run
+LOCATION:Berkel en Rodenrijs\, Zuid-Holland
+DESCRIPTION:Afstanden: 15 km\nInschrijving: onbekend\nhttps://www.lansinger
+ landrun.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de act
+ uele stand.
+URL:https://www.lansingerlandrun.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lansingerland Run is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:omloop-van-noordwijkerhout-2027-02-28@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:Omloop van Noordwijkerhout
+LOCATION:Noordwijkerhout\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: onbekend\nhttp
+ s://zorgenzekerheidcircuit.nl/Race.php\nGecontroleerd 2026-10-01\; check d
+ e inschrijflink voor de actuele stand.
+URL:https://zorgenzekerheidcircuit.nl/Race.php
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Omloop van Noordwijkerhout is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:285ste-wintercup-lelystad-2027-03-07@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:285ste Wintercup Lelystad (start 10:45)
+LOCATION:Lelystad\, Flevoland
+DESCRIPTION:Afstanden: 10 km (10\,11 km exact) € 5\,0\nInschrijving: open
+ \nSluit: 2027-03-05\nhttps://avspiritlelystad.nl/wintercup/\nGecontroleerd
+  2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://avspiritlelystad.nl/wintercup/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:285ste Wintercup Lelystad is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:halve-van-oostvoorne-2027-03-07@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:Halve van Oostvoorne
+LOCATION:Oostvoorne\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 Engelse mijl\, Halve marathon\nInschrijving: open
+ \nhttps://inschrijven.nl/form/2027030709264-nl\nGecontroleerd 2026-10-01\;
+  check de inschrijflink voor de actuele stand.
+URL:https://dehalvevanoostvoorne.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Halve van Oostvoorne is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:boels-rental-run-halve-marathon-dordrecht-2027-03-13@rik-spacecowboy.gi
+ thub.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:Boels Rental Run (Halve Marathon Dordrecht)
+LOCATION:Dordrecht\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: onbekend\nhttp
+ s://boelsrentalrun.nl\nGecontroleerd 2026-10-01\; check de inschrijflink v
+ oor de actuele stand.
+URL:https://boelsrentalrun.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Boels Rental Run (Halve Marathon Dordrecht) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:halve-marathon-de-waal-44e-2027-03-13@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:Halve Marathon De Waal (44e) (start 13:00)
+LOCATION:De Waal\, Noord-Holland
+DESCRIPTION:Afstanden: 10\,6 km\, Halve marathon\nInschrijving: onbekend\nh
+ ttps://halvemarathondewaaltexel.nl/\nGecontroleerd 2026-10-01\; check de i
+ nschrijflink voor de actuele stand.
+URL:https://halvemarathondewaaltexel.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Halve Marathon De Waal (44e) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:run-for-kika-texel-2027-03-13@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:Run for KiKa Texel
+LOCATION:Texel\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: open\nhttps://
+ atleta.cc/e/LB59yQ6er2Vr\nGecontroleerd 2026-10-01\; check de inschrijflin
+ k voor de actuele stand.
+URL:https://www.runforkika.nl/informatie/texel
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Run for KiKa Texel is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:run2day-vlinderloop-2027-03-13@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:Run2Day Vlinderloop (start 11:30)
+LOCATION:Houten\, Utrecht
+DESCRIPTION:Afstanden: 10\,7 km € 6\,0\, 14\,8 km € 6\,0\, 21\,1 km (ha
+ lve marathon) € 6\,0\nInschrijving: onbekend\nhttps://loopgroephouten.nl
+ /vlinderloop-algemene-info/\nGecontroleerd 2026-10-01\; check de inschrijf
+ link voor de actuele stand.
+URL:https://loopgroephouten.nl/vlinderloop-algemene-info/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Run2Day Vlinderloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kloetloop-2027-03-14@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:Kloetloop
+LOCATION:Grootebroek\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\, 10 Engelse mijl\nInschrijving: onbekend\nhtt
+ ps://www.kloetloop.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink 
+ voor de actuele stand.
+URL:https://www.kloetloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kloetloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nn-cpc-loop-den-haag-2027-03-14@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:NN CPC Loop Den Haag
+LOCATION:Den Haag\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: nog niet open\
+ nhttps://nncpcloopdenhaag.nl/inschrijven/interesselijst/\nGecontroleerd 20
+ 26-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://nncpcloopdenhaag.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NN CPC Loop Den Haag is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dom-tot-dom-2027-03-20@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:Dom tot Dom
+LOCATION:Utrecht (Domplein)\, Utrecht
+DESCRIPTION:Afstanden: 10 km\, 10 mijl (16\,1 km)\nInschrijving: open\nhttp
+ s://atleta.cc/e/SdUE4XUsxKfP\nGecontroleerd 2026-10-01\; check de inschrij
+ flink voor de actuele stand.
+URL:https://atleta.cc/e/SdUE4XUsxKfP
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dom tot Dom is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arens-spiegelplasloop-2027-03-21@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:ARENS Spiegelplasloop (start 13:00)
+LOCATION:Nederhorst den Berg\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: nog niet open\nhttps://www.spie
+ gelplasloop.nl/inschrijven\nGecontroleerd 2026-10-01\; check de inschrijfl
+ ink voor de actuele stand.
+URL:https://www.spiegelplasloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ARENS Spiegelplasloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de-voorschotenloop-2027-03-21@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:De VoorschotenLoop
+LOCATION:Voorschoten\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 10 Engelse mijl\nInschrijving: onbekend\nhtt
+ ps://www.zorgenzekerheidcircuit.nl/Race.php?ID=1&RID=114\nGecontroleerd 20
+ 26-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.zorgenzekerheidcircuit.nl/Race.php?ID=1&RID=114
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:De VoorschotenLoop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpmg-lentemarathon-amstelveen-2027-03-21@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:KPMG Lentemarathon Amstelveen
+LOCATION:Amstelveen\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: open\nhttps://
+ www.lentemarathon.nl/inschrijven/\nGecontroleerd 2026-10-01\; check de ins
+ chrijflink voor de actuele stand.
+URL:https://www.lentemarathon.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KPMG Lentemarathon Amstelveen is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:moore-drv-halve-westland-2027-03-21@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:Moore DRV Halve Westland
+LOCATION:Naaldwijk\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: onbekend\nhttp
+ s://westlandsehalvemarathon.nl\nGecontroleerd 2026-10-01\; check de inschr
+ ijflink voor de actuele stand.
+URL:https://westlandsehalvemarathon.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Moore DRV Halve Westland is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:zandvoort-circuit-run-2027-03-21@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:Zandvoort Circuit Run
+LOCATION:Zandvoort\, Noord-Holland
+DESCRIPTION:Afstanden: 12 km\, 10 Engelse mijl\nInschrijving: open\nSluit: 
+ 2027-03-08\nhttps://www.zandvoortcircuitrun.nl/inschrijven\nGecontroleerd 
+ 2026-10-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.zandvoortcircuitrun.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Zandvoort Circuit Run is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:drie-molenloop-aarlanderveen-2027-03-29@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270329
+SUMMARY:Drie Molenloop Aarlanderveen
+LOCATION:Aarlanderveen\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: onbekend\nhttps://www.a
+ av36.nl/drie-molenloop\nGecontroleerd 2026-10-01\; check de inschrijflink 
+ voor de actuele stand.
+URL:https://www.aav36.nl/drie-molenloop
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Drie Molenloop Aarlanderveen is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:braassemloop-2027-04-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:Braassemloop
+LOCATION:Roelofarendsveen\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: onbekend\nhttps://www.p
+ lantaris.nl/braassemloop/\nGecontroleerd 2026-10-01\; check de inschrijfli
+ nk voor de actuele stand.
+URL:https://www.plantaris.nl/braassemloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Braassemloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:halve-van-den-helder-2027-04-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:Halve van Den Helder
+LOCATION:Den Helder\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\, 21 km (halve marathon)\nInschrijving: onbeke
+ nd\nhttps://halvevandenhelder.nl/\nGecontroleerd 2026-10-01\; check de ins
+ chrijflink voor de actuele stand.
+URL:https://halvevandenhelder.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Halve van Den Helder is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:marathon-amersfoort-2027-04-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:Marathon Amersfoort (start 09:00)
+LOCATION:Amersfoort\, Utrecht
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: nog niet open\
+ nhttps://inschrijven.nl/form/2027040402911-nl\nGecontroleerd 2026-10-01\; 
+ check de inschrijflink voor de actuele stand.
+URL:https://marathonamersfoort.nl/agenda/2027/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Marathon Amersfoort is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vrijstad-vianen-loop-2027-04-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:Vrijstad Vianen Loop
+LOCATION:Vianen\, Utrecht
+DESCRIPTION:Afstanden: 10 km\, 21\,1 km\nInschrijving: nog niet open\nhttps
+ ://vrijstadvianenloop.nl/\nGecontroleerd 2026-10-01\; check de inschrijfli
+ nk voor de actuele stand.
+URL:https://vrijstadvianenloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vrijstad Vianen Loop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:run2day-vlinderloop-2027-04-10@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:Run2Day Vlinderloop (start 11:30)
+LOCATION:Houten\, Utrecht
+DESCRIPTION:Afstanden: 10\,7 km € 6\,0\, 14\,8 km € 6\,0\, 21\,1 km (ha
+ lve marathon) € 6\,0\nInschrijving: onbekend\nhttps://loopgroephouten.nl
+ /vlinderloop-algemene-info/\nGecontroleerd 2026-10-01\; check de inschrijf
+ link voor de actuele stand.
+URL:https://loopgroephouten.nl/vlinderloop-algemene-info/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Run2Day Vlinderloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:10-km-rotterdam-nn-marathon-rotterdam-2027-04-11@rik-spacecowboy.github
+ .io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:10 km Rotterdam (NN Marathon Rotterdam)
+LOCATION:Rotterdam\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://nnmarathonrot
+ terdam.nl/inschrijven/1-4-marathon/\nGecontroleerd 2026-10-01\; check de i
+ nschrijflink voor de actuele stand.
+URL:https://nnmarathonrotterdam.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:10 km Rotterdam (NN Marathon Rotterdam) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cruyff-legacy-14k-2027-04-11@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:Cruyff Legacy 14K
+LOCATION:Amsterdam\, Noord-Holland
+DESCRIPTION:Afstanden: 14 km\nInschrijving: onbekend\nhttps://acties14k.cru
+ yff-foundation.org/\nGecontroleerd 2026-10-01\; check de inschrijflink voo
+ r de actuele stand.
+URL:https://www.cruyff-foundation.org/agenda/cruyff-legacy-14k-2027/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Cruyff Legacy 14K is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kamerikse-weteringloop-2027-04-17@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:Kamerikse Weteringloop (start 12:45)
+LOCATION:Kamerik\, Utrecht
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: nog niet open\
+ nhttps://weteringloop.nl/\nGecontroleerd 2026-10-01\; check de inschrijfli
+ nk voor de actuele stand.
+URL:https://weteringloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kamerikse Weteringloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:run-roast-utrecht-2027-04-17@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:Run & Roast Utrecht
+LOCATION:Utrecht (Overvecht\, Vechtdijk)\, Utrecht
+DESCRIPTION:Afstanden: 10 km € 27\,5\nInschrijving: nog niet open\nhttps:
+ //inschrijven.nl/form/2027041751094-nl\nGecontroleerd 2026-10-01\; check d
+ e inschrijflink voor de actuele stand.
+URL:https://hardloopnetwerk.nl/runandroast/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Run & Roast Utrecht is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:85e-krinkels-pim-mulierloop-2027-04-18@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:85e Krinkels Pim Mulierloop
+LOCATION:Santpoort-Noord\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\, 10 Engelse mijl\nInschrijving: onbekend\nhtt
+ ps://pimmulierloop.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink 
+ voor de actuele stand.
+URL:https://pimmulierloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:85e Krinkels Pim Mulierloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kika-hilversum-city-run-2027-04-18@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:KiKa Hilversum City Run
+LOCATION:Hilversum\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://atleta.cc/e/nhIVs
+ 09mLtt7\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele
+  stand.
+URL:https://www.kikahilversumcityrun.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KiKa Hilversum City Run is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sportpark-21-run-2027-04-18@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:Sportpark 21 Run
+LOCATION:Hoofddorp\, Noord-Holland
+DESCRIPTION:Afstanden: 10\,3 km\, Halve marathon\nInschrijving: onbekend\nh
+ ttps://sportpark21.run/\nGecontroleerd 2026-10-01\; check de inschrijflink
+  voor de actuele stand.
+URL:https://sportpark21.run/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sportpark 21 Run is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:golden-tenloop-2027-05-06@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270506
+SUMMARY:Golden Tenloop
+LOCATION:Delft\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://goldentenloop
+ .nl\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele sta
+ nd.
+URL:https://goldentenloop.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Golden Tenloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kraaienrun-2027-05-08@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:Kraaienrun
+LOCATION:Rijsoord\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km € 13\,5\nInschrijving: onbekend\nhttps://www
+ .kraaienrun.nl\nGecontroleerd 2026-10-01\; check de inschrijflink voor de 
+ actuele stand.
+URL:https://www.kraaienrun.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kraaienrun is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:run2day-vlinderloop-2027-05-08@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:Run2Day Vlinderloop (start 11:30)
+LOCATION:Houten\, Utrecht
+DESCRIPTION:Afstanden: 10\,7 km € 6\,0\, 14\,8 km € 6\,0\, 21\,1 km (ha
+ lve marathon) € 6\,0\nInschrijving: onbekend\nhttps://loopgroephouten.nl
+ /vlinderloop-algemene-info/\nGecontroleerd 2026-10-01\; check de inschrijf
+ link voor de actuele stand.
+URL:https://loopgroephouten.nl/vlinderloop-algemene-info/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Run2Day Vlinderloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:geijsel-hypotheken-rondehoeploop-40e-2027-05-09@rik-spacecowboy.github.
+ io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270509
+SUMMARY:Geijsel Hypotheken Rondehoeploop (40e)
+LOCATION:Ouderkerk aan de Amstel\, Noord-Holland
+DESCRIPTION:Afstanden: 17 km\nInschrijving: nog niet open\nhttps://rondehoe
+ ploop.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actue
+ le stand.
+URL:https://rondehoeploop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Geijsel Hypotheken Rondehoeploop (40e) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:leiden-marathon-2027-05-09@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270509
+SUMMARY:Leiden Marathon (start 10:00)
+LOCATION:Leiden\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km € 30\,0\, Halve marathon € 45\,0\nInschrij
+ ving: open\nhttps://marathon.nl\nGecontroleerd 2026-10-01\; check de insch
+ rijflink voor de actuele stand.
+URL:https://marathon.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leiden Marathon is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:schagen-city-run-2027-05-09@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270509
+SUMMARY:Schagen City Run
+LOCATION:Schagen\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.schagenci
+ tyrun.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actue
+ le stand.
+URL:https://www.schagencityrun.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Schagen City Run is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:luilakpolderloop-2027-05-14@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270514
+SUMMARY:Luilakpolderloop (start 18:30)
+LOCATION:Jisp\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km € 10\,0\, 10 Engelse mijl € 10\,0\nInschri
+ jving: nog niet open\nhttps://www.luilakpolderloop.nl/\nGecontroleerd 2026
+ -10-01\; check de inschrijflink voor de actuele stand.
+URL:https://www.luilakpolderloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Luilakpolderloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:verkerkloop-2027-05-19@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270519
+SUMMARY:Verkerkloop
+LOCATION:Zwijndrecht\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: nog niet open\nhttps://www.verk
+ erkloop.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de act
+ uele stand.
+URL:https://www.verkerkloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Verkerkloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:zaanbocht-run-4e-2027-05-23@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270523
+SUMMARY:Zaanbocht Run (4e)
+LOCATION:Wormerveer\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.zaanbocht
+ run.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele
+  stand.
+URL:https://www.zaanbochtrun.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Zaanbocht Run (4e) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:amsterdam-umc-run-2027-05-30@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270530
+SUMMARY:Amsterdam UMC Run
+LOCATION:Amsterdam\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: nog niet open\nhttps://www.amst
+ erdamumcrun.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de
+  actuele stand.
+URL:https://www.amsterdamumcrun.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amsterdam UMC Run is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-royal-ten-2027-05-30@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270530
+SUMMARY:The Royal Ten
+LOCATION:Wassenaar\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.royalten.
+ nl/nl/informatie/inschrijven/\nGecontroleerd 2026-10-01\; check de inschri
+ jflink voor de actuele stand.
+URL:https://www.royalten.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Royal Ten is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:loop-door-houten-2027-06-11@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270611
+SUMMARY:Loop door Houten
+LOCATION:Houten\, Utrecht
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://loopdoorhoute
+ n.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele s
+ tand.
+URL:https://loopdoorhouten.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Loop door Houten is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grachtenloop-haarlem-2027-06-18@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270618
+SUMMARY:Grachtenloop Haarlem
+LOCATION:Haarlem\, Noord-Holland
+DESCRIPTION:Afstanden: SportSupport 10 km\nInschrijving: nog niet open\nhtt
+ ps://www.grachtenloop.nl/\nGecontroleerd 2026-10-01\; check de inschrijfli
+ nk voor de actuele stand.
+URL:https://www.grachtenloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Grachtenloop Haarlem is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:midzomeravondloop-bleiswijk-2027-06-23@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270623
+SUMMARY:Midzomeravondloop Bleiswijk (start 19:30)
+LOCATION:Bleiswijk\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 Engelse mijl\nInschrijving: open\nSluit: 2027-06-
+ 22\nhttps://inschrijven.nl/form/2027062310247-nl\nGecontroleerd 2026-10-01
+ \; check de inschrijflink voor de actuele stand.
+URL:https://rik-spacecowboy.github.io/Hardlopen/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Midzomeravondloop Bleiswijk is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de-ronde-van-nieuwveen-2027-06-24@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270624
+SUMMARY:De Ronde van Nieuwveen (start 19:25)
+LOCATION:Nieuwveen\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km € 7\,0\, 15 km € 7\,0\nInschrijving: onbek
+ end\nhttps://derondevannieuwveen.nl\nGecontroleerd 2026-10-01\; check de i
+ nschrijflink voor de actuele stand.
+URL:https://derondevannieuwveen.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:De Ronde van Nieuwveen is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hardloopfeest-dwars-door-oud-beijerland-2027-06-25@rik-spacecowboy.gith
+ ub.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270625
+SUMMARY:Hardloopfeest Dwars door Oud-Beijerland (start 20:00)
+LOCATION:Oud-Beijerland\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: nog niet open\nhttps://hardloop
+ feest.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actue
+ le stand.
+URL:https://hardloopfeest.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hardloopfeest Dwars door Oud-Beijerland is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vechtloop-weesp-44e-2027-06-27@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270627
+SUMMARY:Vechtloop Weesp (44e)
+LOCATION:Weesp\, Noord-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://vechtloop.nl/
+ inschrijven-voor-de-vechtloop/\nGecontroleerd 2026-10-01\; check de inschr
+ ijflink voor de actuele stand.
+URL:https://vechtloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vechtloop Weesp (44e) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:moore-drv-kadeloop-2027-07-03@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270703
+SUMMARY:Moore DRV Kadeloop
+LOCATION:Schipluiden\, Zuid-Holland
+DESCRIPTION:Afstanden: 12 km\nInschrijving: onbekend\nhttps://dehardloper.n
+ l/kadeloop/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de act
+ uele stand.
+URL:https://dehardloper.nl/kadeloop/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Moore DRV Kadeloop is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:10-van-noordwijk-2027-07-04@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270704
+SUMMARY:10 van Noordwijk
+LOCATION:Noordwijk\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.10vannoor
+ dwijk.nl\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuel
+ e stand.
+URL:https://www.10vannoordwijk.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:10 van Noordwijk is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:moore-drv-run-maasdijk-2027-07-24@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270724
+SUMMARY:Moore DRV Run Maasdijk
+LOCATION:Maasdijk\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.mooredrvr
+ unmaasdijk.nl\nGecontroleerd 2026-10-01\; check de inschrijflink voor de a
+ ctuele stand.
+URL:https://www.mooredrvrunmaasdijk.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Moore DRV Run Maasdijk is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fish-potato-run-2027-09-11@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270911
+SUMMARY:Fish Potato Run (start 15:00)
+LOCATION:Urk\, Flevoland
+DESCRIPTION:Afstanden: 8 Engelse mijl\nInschrijving: nog niet open\nhttps:/
+ /www.fishpotatorun.nl/inschrijven/\nGecontroleerd 2026-10-01\; check de in
+ schrijflink voor de actuele stand.
+URL:https://www.fishpotatorun.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fish Potato Run is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nn-dam-tot-damloop-41e-2027-09-19@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270919
+SUMMARY:NN Dam tot Damloop (41e)
+LOCATION:Amsterdam\, Noord-Holland
+DESCRIPTION:Afstanden: 10 Engelse mijl\nInschrijving: nog niet open\nhttps:
+ //www.nndamloop.nl/\nGecontroleerd 2026-10-01\; check de inschrijflink voo
+ r de actuele stand.
+URL:https://www.nndamloop.nl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NN Dam tot Damloop (41e) is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:halve-van-katwijk-2027-09-25@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270925
+SUMMARY:Halve van Katwijk (start 10:30)
+LOCATION:Katwijk aan Zee\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, 15 km\, Halve marathon\nInschrijving: onbeke
+ nd\nhttps://halvevankatwijk.nl\nGecontroleerd 2026-10-01\; check de inschr
+ ijflink voor de actuele stand.
+URL:https://halvevankatwijk.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Halve van Katwijk is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:geuzenloop-zoetermeer-2027-09-26@rik-spacecowboy.github.io
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270926
+SUMMARY:Geuzenloop Zoetermeer
+LOCATION:Zoetermeer\, Zuid-Holland
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: nog niet open\
+ nhttps://www.geuzendag.nl\nGecontroleerd 2026-10-01\; check de inschrijfli
+ nk voor de actuele stand.
+URL:https://www.geuzendag.nl
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Geuzenloop Zoetermeer is morgen
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
