@@ -13,6 +13,10 @@ Noord-Holland, Zuid-Holland, Utrecht en Flevoland, de komende 12 maanden. Alleen
   gebruikte pagina's in `bronnen`.
 - Aggregators (runphy, hardlooplijst, hardloopkalendernederland, nextrace) alleen om wedstrijden te vinden,
   niet als bron voor prijs/status.
+- Wekelijkse controle: open geen websites vanuit de sessie (dat geeft toestemmingsverzoeken bij Rik). De Action
+  "Bronpagina's ophalen" zet elke maandag 05:15 UTC de tekst van de bronpagina's van lopen in de komende 8 weken
+  op branch `bronpaginas` (`<id>.txt` + `overzicht.tsv`); lees die met `git fetch origin bronpaginas`. Direct
+  starten: wijzig `bronpaginas-nu.txt` op main. Pagina's zonder bruikbare tekst: loop ongewijzigd laten en melden.
 - Datum "vóór 13 dec" wordt `2026-12-12` (laatste dag die zeker nog telt).
 
 ## Live zetten
