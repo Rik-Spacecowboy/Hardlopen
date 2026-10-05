@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:isoniq-urk-marathon-halve-marathon-2026-10-03@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261003
 SUMMARY:Isoniq Urk Marathon (halve marathon) (start 11:15)
 LOCATION:Urk\, Flevoland
@@ -26,7 +26,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:molens-mooiste-2026-10-03@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261003
 SUMMARY:Molens Mooiste (start 09:30)
 LOCATION:Kinderdijk\, Zuid-Holland
@@ -43,7 +43,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pieken-dalen-festival-2026-10-03@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261003
 SUMMARY:Pieken+Dalen Festival (start 10:00)
 LOCATION:Doorn\, Utrecht
@@ -60,7 +60,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rottemerenloop-2026-10-03@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261003
 SUMMARY:Rottemerenloop (start 10:00)
 LOCATION:Bleiswijk\, Zuid-Holland
@@ -79,7 +79,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:valley-run-veenendaal-zomer-edition-2026-10-03@rik-spacecowboy.github.i
  o
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261003
 SUMMARY:Valley Run Veenendaal - Zomer Edition (start 11:00)
 LOCATION:Veenendaal\, Utrecht
@@ -97,7 +97,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:280ste-wintercup-lelystad-2026-10-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261004
 SUMMARY:280ste Wintercup Lelystad (start 10:45)
 LOCATION:Lelystad\, Flevoland
@@ -114,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:halve-marathon-oostland-2026-10-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261004
 SUMMARY:Halve Marathon Oostland
 LOCATION:Pijnacker\, Zuid-Holland
@@ -131,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:houtloop-delft-2026-10-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261004
 SUMMARY:Houtloop Delft
 LOCATION:Delft\, Zuid-Holland
@@ -148,7 +148,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:langs-de-gouweloop-2026-10-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261004
 SUMMARY:Langs de Gouweloop (start 14:00)
 LOCATION:Waddinxveen\, Zuid-Holland
@@ -165,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msv-spijkenisse-family-run-2026-10-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261004
 SUMMARY:MSV Spijkenisse Family Run
 LOCATION:Spijkenisse\, Zuid-Holland
@@ -182,7 +182,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondje-bergen-2026-10-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261004
 SUMMARY:Rondje Bergen
 LOCATION:Bergen\, Noord-Holland
@@ -199,7 +199,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:trek-singelloop-utrecht-2026-10-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261004
 SUMMARY:TREK Singelloop Utrecht (start 09:00)
 LOCATION:Utrecht\, Utrecht
@@ -217,7 +217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tata-steel-marquetteloop-2026-10-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261004
 SUMMARY:Tata Steel Marquetteloop (start 11:45)
 LOCATION:Heemskerk\, Noord-Holland
@@ -234,7 +234,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:twiskemolenloop-oktober-2026-10-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261004
 SUMMARY:Twiskemolenloop (oktober) (start 11:00)
 LOCATION:Landsmeer\, Noord-Holland
@@ -252,13 +252,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:epilepsieloop-amersfoort-2026-10-10@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261010
 SUMMARY:EpilepsieLoop Amersfoort (start 12:20)
 LOCATION:Amersfoort\, Utrecht
 DESCRIPTION:Afstanden: 10 km € 20\,0\, 15 km € 20\,0\nInschrijving: ope
  n\nhttps://www.epilepsieloop.nl/project/amersfoort-hoofdlocatie\nGecontrol
- eerd 2026-10-01\; check de inschrijflink voor de actuele stand.
+ eerd 2026-10-05\; check de inschrijflink voor de actuele stand.
 URL:https://www.epilepsieloop.nl/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -269,13 +269,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jan-louter-loop-2026-10-10@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261010
 SUMMARY:Jan Louter Loop
 LOCATION:Vlaardingen\, Zuid-Holland
-DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: onbekend\nhttps://insch
- rijven.nl/form/2026101009211-nl\nGecontroleerd 2026-10-01\; check de insch
- rijflink voor de actuele stand.
+DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: open\nSluit: 2026-10-09
+ \nhttps://inschrijven.nl/form/2026101009211-nl\nGecontroleerd 2026-10-05\;
+  check de inschrijflink voor de actuele stand.
 URL:https://janlouterloop.nl
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -286,12 +286,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lovelife-run-amsterdam-2026-10-10@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261010
 SUMMARY:LoveLife Run Amsterdam (start 13:15)
 LOCATION:Amsterdam\, Noord-Holland
 DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://www.fightcancer.n
- l/event/lovelife-run-amsterdam/home\nGecontroleerd 2026-10-01\; check de i
+ l/event/lovelife-run-amsterdam/home\nGecontroleerd 2026-10-05\; check de i
  nschrijflink voor de actuele stand.
 URL:https://www.fightcancer.nl/event/lovelife-run-amsterdam/home
 TRANSP:TRANSPARENT
@@ -303,13 +303,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:run2day-vlinderloop-2026-10-10@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261010
 SUMMARY:Run2Day Vlinderloop (start 11:30)
 LOCATION:Houten\, Utrecht
 DESCRIPTION:Afstanden: 10\,7 km € 6\,0\, 14\,8 km € 6\,0\, 21\,1 km (ha
  lve marathon) € 6\,0\nInschrijving: open\nSluit: 2026-10-09\nhttps://ins
- chrijven.nl/form/2026101005155-nl\nGecontroleerd 2026-10-01\; check de ins
+ chrijven.nl/form/2026101005155-nl\nGecontroleerd 2026-10-05\; check de ins
  chrijflink voor de actuele stand.
 URL:https://loopgroephouten.nl/vlinderloop-algemene-info/
 TRANSP:TRANSPARENT
@@ -321,13 +321,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bodyresults-vestingloop-edam-2026-10-11@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261011
 SUMMARY:BodyResults Vestingloop Edam (start 11:00)
 LOCATION:Edam\, Noord-Holland
-DESCRIPTION:Afstanden: 10 km € 8\,0\nInschrijving: open\nSluit: 2026-10-0
- 1\nhttps://www.avedam.nl/onze-club/vestingloop.php\nGecontroleerd 2026-10-
- 01\; check de inschrijflink voor de actuele stand.
+DESCRIPTION:Afstanden: 10 km € 8\,0\nInschrijving: gesloten\nSluit: 2026-
+ 10-01\nhttps://www.avedam.nl/onze-club/vestingloop.php\nGecontroleerd 2026
+ -10-05\; check de inschrijflink voor de actuele stand.
 URL:https://www.avedam.nl/onze-club/vestingloop.php
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -338,7 +338,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:culture-run-woerden-2026-10-11@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261011
 SUMMARY:Culture Run Woerden
 LOCATION:Woerden\, Utrecht
@@ -355,12 +355,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de-15-van-wassenaar-2026-10-11@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261011
 SUMMARY:De 15 van Wassenaar (start 14:30)
 LOCATION:Wassenaar\, Zuid-Holland
 DESCRIPTION:Afstanden: 15 km\nInschrijving: onbekend\nhttps://de15vanwassen
- aar.nl\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele 
+ aar.nl\nGecontroleerd 2026-10-05\; check de inschrijflink voor de actuele 
  stand.
 URL:https://de15vanwassenaar.nl
 TRANSP:TRANSPARENT
@@ -372,12 +372,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de-5-van-groenekan-2026-10-11@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261011
 SUMMARY:De 5 van Groenekan (start 14:35)
 LOCATION:Groenekan\, Utrecht
 DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nSluit: 2026-10-09\nhttps:
- //inschrijven.nl/form/2026101151650-nl\nGecontroleerd 2026-10-01\; check d
+ //inschrijven.nl/form/2026101151650-nl\nGecontroleerd 2026-10-05\; check d
  e inschrijflink voor de actuele stand.
 URL:https://rik-spacecowboy.github.io/Hardlopen/
 TRANSP:TRANSPARENT
@@ -389,7 +389,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:napoleon-mijlenloop-2026-10-11@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261011
 SUMMARY:Napoleon-Mijlenloop (start 11:00)
 LOCATION:Den Helder\, Noord-Holland
@@ -406,12 +406,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sloterplasloop-90e-2026-10-11@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261011
 SUMMARY:Sloterplasloop (90e)
 LOCATION:Amsterdam\, Noord-Holland
 DESCRIPTION:Afstanden: 10 km € 13\,5\nInschrijving: open\nSluit: 2026-10-
- 10\nhttps://inschrijven.nl/form/2026101101101-nl\nGecontroleerd 2026-10-01
+ 10\nhttps://inschrijven.nl/form/2026101101101-nl\nGecontroleerd 2026-10-05
  \; check de inschrijflink voor de actuele stand.
 URL:https://sloterplasloop.nl/
 TRANSP:TRANSPARENT
@@ -423,13 +423,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jan-koudstaal-dijkloop-2026-10-17@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261017
 SUMMARY:Jan Koudstaal Dijkloop (start 11:00)
 LOCATION:Schoonhoven\, Zuid-Holland
 DESCRIPTION:Afstanden: 10 km € 15\,0\, Halve marathon € 20\,0\nInschrij
  ving: open\nSluit: 2026-10-17\nhttps://www.avantri.nl/wedstrijden/wedstrij
- den-avantri/dijkloop/\nGecontroleerd 2026-10-01\; check de inschrijflink v
+ den-avantri/dijkloop/\nGecontroleerd 2026-10-05\; check de inschrijflink v
  oor de actuele stand.
 URL:https://www.avantri.nl/wedstrijden/wedstrijden-avantri/dijkloop/
 TRANSP:TRANSPARENT
@@ -441,13 +441,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bertusloop-delft-2026-10-18@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261018
 SUMMARY:Bertusloop Delft (start 10:00)
 LOCATION:Delft\, Zuid-Holland
 DESCRIPTION:Afstanden: 10 km (2 rondes) € 3\,0\nInschrijving: open\nhttps
  ://www.dijc-bertus.nl/index.php/trimlopen/bertusloop\nGecontroleerd 2026-1
- 0-01\; check de inschrijflink voor de actuele stand.
+ 0-05\; check de inschrijflink voor de actuele stand.
 URL:https://www.dijc-bertus.nl/index.php/trimlopen/bertusloop
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -458,12 +458,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:goudasfaltloop-2026-10-18@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261018
 SUMMARY:GOUDasfaltloop (start 11:00)
 LOCATION:Gouda\, Zuid-Holland
 DESCRIPTION:Afstanden: 10 km € 13\,0\nInschrijving: open\nSluit: 2026-10-
- 16\nhttps://www.goudasfalt.nl/\nGecontroleerd 2026-10-01\; check de inschr
+ 16\nhttps://www.goudasfalt.nl/\nGecontroleerd 2026-10-05\; check de inschr
  ijflink voor de actuele stand.
 URL:https://www.goudasfalt.nl/
 TRANSP:TRANSPARENT
@@ -475,13 +475,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maliebaanloop-2026-10-18@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261018
 SUMMARY:Maliebaanloop
 LOCATION:Utrecht\, Utrecht
 DESCRIPTION:Afstanden: 10 km prestatieloop\nInschrijving: open\nSluit: 2026
  -10-08\nhttps://inschrijven.nl/form/2026101805191-nl\nGecontroleerd 2026-1
- 0-01\; check de inschrijflink voor de actuele stand.
+ 0-05\; check de inschrijflink voor de actuele stand.
 URL:https://maliebaanloop.nl/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -493,12 +493,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tcs-amsterdam-marathon-mizuno-halve-marathon-2026-10-18@rik-spacecowboy
  .github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261018
 SUMMARY:TCS Amsterdam Marathon - Mizuno Halve Marathon (start 13:20)
 LOCATION:Amsterdam\, Noord-Holland
 DESCRIPTION:Afstanden: Halve marathon € 43\,5\nInschrijving: vol\nhttps:/
- /www.tcsamsterdammarathon.nl/inschrijven\nGecontroleerd 2026-10-01\; check
+ /www.tcsamsterdammarathon.nl/inschrijven\nGecontroleerd 2026-10-05\; check
   de inschrijflink voor de actuele stand.
 URL:https://www.tcsamsterdammarathon.nl/mizuno-halve-marathon
 TRANSP:TRANSPARENT
@@ -510,12 +510,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zeezichtloop-petten-2026-10-18@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261018
 SUMMARY:Zeezichtloop Petten (start 11:05)
 LOCATION:Petten\, Noord-Holland
 DESCRIPTION:Afstanden: 10 km € 10\,0\nInschrijving: open\nSluit: 2026-10-
- 17\nhttps://inschrijven.nl/form/2026101851659-nl\nGecontroleerd 2026-10-01
+ 17\nhttps://inschrijven.nl/form/2026101851659-nl\nGecontroleerd 2026-10-05
  \; check de inschrijflink voor de actuele stand.
 URL:https://zeezichtlooppetten.nl/
 TRANSP:TRANSPARENT
@@ -527,12 +527,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lrrc-bockenloop-2026-10-24@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261024
 SUMMARY:LRRC Bockenloop
 LOCATION:Leiden\, Zuid-Holland
 DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://inschrijven.n
- l/form/2026102407256-nl\nGecontroleerd 2026-10-01\; check de inschrijflink
+ l/form/2026102407256-nl\nGecontroleerd 2026-10-05\; check de inschrijflink
   voor de actuele stand.
 URL:https://rik-spacecowboy.github.io/Hardlopen/
 TRANSP:TRANSPARENT
@@ -544,12 +544,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vijfhoekparkloop-2026-10-24@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261024
 SUMMARY:Vijfhoekparkloop
 LOCATION:Zaandam\, Noord-Holland
 DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.avzaanlan
- d.nl/index.php?page=996&sid=1\nGecontroleerd 2026-10-01\; check de inschri
+ d.nl/index.php?page=996&sid=1\nGecontroleerd 2026-10-05\; check de inschri
  jflink voor de actuele stand.
 URL:https://www.avzaanland.nl/index.php?page=996&sid=1
 TRANSP:TRANSPARENT
@@ -561,13 +561,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:droomtijdloop-2026-10-25@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261025
 SUMMARY:Droomtijdloop
 LOCATION:Delft\, Zuid-Holland
-DESCRIPTION:Afstanden: Halve marathon\nInschrijving: onbekend\nhttps://droo
- mtijdloop.nl\nGecontroleerd 2026-10-01\; check de inschrijflink voor de ac
- tuele stand.
+DESCRIPTION:Afstanden: Halve marathon\nInschrijving: open\nSluit: 2026-10-2
+ 2\nhttps://droomtijdloop.nl\nGecontroleerd 2026-10-05\; check de inschrijf
+ link voor de actuele stand.
 URL:https://droomtijdloop.nl
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -578,12 +578,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:heemstedeloop-2026-10-25@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261025
 SUMMARY:Heemstedeloop
 LOCATION:Heemstede\, Noord-Holland
 DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://totaltiming.insch
- rijven.nl/form/2026102503902-nl\nGecontroleerd 2026-10-01\; check de insch
+ rijven.nl/form/2026102503902-nl\nGecontroleerd 2026-10-05\; check de insch
  rijflink voor de actuele stand.
 URL:https://www.heemstedeloop.nl/
 TRANSP:TRANSPARENT
@@ -595,12 +595,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lidl-wolfskamerloop-2026-10-25@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261025
 SUMMARY:Lidl Wolfskamerloop
 LOCATION:Huizen\, Noord-Holland
 DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://wolfskamerloop.nl
- /inschrijven/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de a
+ /inschrijven/\nGecontroleerd 2026-10-05\; check de inschrijflink voor de a
  ctuele stand.
 URL:https://wolfskamerloop.nl/
 TRANSP:TRANSPARENT
@@ -612,13 +612,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vechtstreek-in-beweging-vib-lopen-2026-10-25@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261025
 SUMMARY:Vechtstreek in Beweging (VIB) Lopen (start 11:00)
 LOCATION:Maarssen (Maarsseveense Plassen)\, Utrecht
 DESCRIPTION:Afstanden: 10 km (2 ronden) € 7\,5\, 15 km (3 ronden) € 7\,
- 5\nInschrijving: open\nhttps://www.viblopen.nl/inschrijven/\nGecontroleerd
-  2026-10-01\; check de inschrijflink voor de actuele stand.
+ 5\nInschrijving: open\nSluit: 2026-10-24\nhttps://www.viblopen.nl/inschrij
+ ven/\nGecontroleerd 2026-10-05\; check de inschrijflink voor de actuele st
+ and.
 URL:https://www.viblopen.nl/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -629,12 +630,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:westvliet-hartekindloop-2026-10-25@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261025
 SUMMARY:Westvliet Hartekindloop
 LOCATION:Den Haag\, Zuid-Holland
 DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nSluit: 2026-10-24\nhttps:
- //inschrijven.nl/form/2026102551586-nl\nGecontroleerd 2026-10-01\; check d
+ //inschrijven.nl/form/2026102551586-nl\nGecontroleerd 2026-10-05\; check d
  e inschrijflink voor de actuele stand.
 URL:https://rik-spacecowboy.github.io/Hardlopen/
 TRANSP:TRANSPARENT
@@ -646,13 +647,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:typhoonloop-2026-10-31@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261031
 SUMMARY:Typhoonloop
 LOCATION:Gorinchem\, Zuid-Holland
-DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://inschrijven.nl/fo
- rm/2026103106240-nl\nGecontroleerd 2026-10-01\; check de inschrijflink voo
- r de actuele stand.
+DESCRIPTION:Afstanden: 10 km € 15\,0\nInschrijving: open\nSluit: 2026-10-
+ 30\nhttps://inschrijven.nl/form/2026103106240-nl\nGecontroleerd 2026-10-05
+ \; check de inschrijflink voor de actuele stand.
 URL:https://avtyphoon.nl/typhoonloop-gorinchem/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -663,13 +664,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:281ste-wintercup-lelystad-2026-11-01@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:281ste Wintercup Lelystad (start 10:45)
 LOCATION:Lelystad\, Flevoland
 DESCRIPTION:Afstanden: 10 km (10\,11 km exact) € 5\,0\nInschrijving: open
  \nSluit: 2026-10-30\nhttps://avspiritlelystad.nl/wintercup/\nGecontroleerd
-  2026-10-01\; check de inschrijflink voor de actuele stand.
+  2026-10-05\; check de inschrijflink voor de actuele stand.
 URL:https://avspiritlelystad.nl/wintercup/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -680,12 +681,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:boerenkoolloop-warmenhuizen-2026-11-01@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Boerenkoolloop Warmenhuizen
 LOCATION:Warmenhuizen\, Noord-Holland
 DESCRIPTION:Afstanden: 10 km € 16\,0\nInschrijving: open\nSluit: 2026-10-
- 25\nhttps://inschrijven.nl/form/2026110104127-nl\nGecontroleerd 2026-10-01
+ 25\nhttps://inschrijven.nl/form/2026110104127-nl\nGecontroleerd 2026-10-05
  \; check de inschrijflink voor de actuele stand.
 URL:https://boerenkoolloop.nl/
 TRANSP:TRANSPARENT
@@ -697,13 +698,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de-zilveren-turfloop-2026-11-01@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:De Zilveren Turfloop (start 11:00)
 LOCATION:Mijdrecht\, Utrecht
 DESCRIPTION:Afstanden: 10 km € 13\,0\, 10 Engelse mijl € 15\,0\nInschri
  jving: open\nSluit: 2026-10-31\nhttps://inschrijven.nl/form/2026110101151-
- nl\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele stan
+ nl\nGecontroleerd 2026-10-05\; check de inschrijflink voor de actuele stan
  d.
 URL:https://veenlopers.nl/35ste-zilveren-turfloop/
 TRANSP:TRANSPARENT
@@ -715,13 +716,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:drechtstadloop-2026-11-01@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:DrechtStadLoop
 LOCATION:Dordrecht\, Zuid-Holland
-DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: onbekend\nhttp
- s://drechtstadloop.nl\nGecontroleerd 2026-10-01\; check de inschrijflink v
- oor de actuele stand.
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: vol\nhttps://d
+ rechtstadloop.nl\nGecontroleerd 2026-10-05\; check de inschrijflink voor d
+ e actuele stand.
 URL:https://drechtstadloop.nl
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -732,12 +733,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:egboetsloop-53e-2026-11-01@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Egboetsloop (53e) (start 11:00)
 LOCATION:Hauwert\, Noord-Holland
 DESCRIPTION:Afstanden: 16\,4 km € 8\,0\nInschrijving: open\nhttps://event
- kit.mylaps.com/nl/event/1980\nGecontroleerd 2026-10-01\; check de inschrij
+ kit.mylaps.com/nl/event/1980\nGecontroleerd 2026-10-05\; check de inschrij
  flink voor de actuele stand.
 URL:https://eventkit.mylaps.com/nl/event/1980
 TRANSP:TRANSPARENT
@@ -749,13 +750,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:halve-van-het-gooi-2026-11-01@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Halve van het Gooi
 LOCATION:Naarden\, Noord-Holland
 DESCRIPTION:Afstanden: Kwart marathon (10\,55 km)\, Halve marathon\nInschri
  jving: vol\nSluit: 2026-10-31\nhttps://inschrijven.nl/form/2026110100294-n
- l\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele stand
+ l\nGecontroleerd 2026-10-05\; check de inschrijflink voor de actuele stand
  .
 URL:https://halvevanhetgooi.nl/
 TRANSP:TRANSPARENT
@@ -767,7 +768,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:houtloop-delft-2026-11-01@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Houtloop Delft
 LOCATION:Delft\, Zuid-Holland
@@ -785,7 +786,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:nn-the-hague-10k-nn-marathon-the-hague-2026-11-01@rik-spacecowboy.githu
  b.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:NN The Hague 10K (NN Marathon The Hague)
 LOCATION:Den Haag\, Zuid-Holland
@@ -802,13 +803,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:startbaanrun-2026-11-01@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:StartbaanRun
 LOCATION:Soesterberg (Park Vliegbasis Soesterberg)\, Utrecht
-DESCRIPTION:Afstanden: 10 km\, Trailrun 11\,9 km\nInschrijving: open\nSluit
- : 2026-10-30\nhttps://inschrijven.nl/form/2026110102103-nl\nGecontroleerd 
- 2026-10-01\; check de inschrijflink voor de actuele stand.
+DESCRIPTION:Afstanden: 10 km\, Trailrun 11\,9 km\nInschrijving: vol\nSluit:
+  2026-10-30\nhttps://inschrijven.nl/form/2026110102103-nl\nGecontroleerd 2
+ 026-10-05\; check de inschrijflink voor de actuele stand.
 URL:https://startbaanrun.nl/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -819,13 +820,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:twiskemolenloop-november-2026-11-01@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Twiskemolenloop (november)
 LOCATION:Landsmeer\, Noord-Holland
-DESCRIPTION:Afstanden: 10 km\, 10 Engelse mijl\, Halve marathon\nInschrijvi
- ng: nog niet open\nhttps://inschrijven.nl/form/2026110101136-nl\nGecontrol
- eerd 2026-10-01\; check de inschrijflink voor de actuele stand.
+DESCRIPTION:Afstanden: 10 km € 14\,0\, 10 Engelse mijl € 14\,0\, Halve 
+ marathon € 14\,0\nInschrijving: open\nSluit: 2026-10-30\nhttps://inschri
+ jven.nl/form/2026110101136-nl\nGecontroleerd 2026-10-05\; check de inschri
+ jflink voor de actuele stand.
 URL:https://www.acwaterland.nl/twiskemolenloop/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -836,12 +838,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:batavia-night-run-2026-11-06@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261106
 SUMMARY:Batavia Night Run (start 20:15)
 LOCATION:Lelystad\, Flevoland
 DESCRIPTION:Afstanden: 10 km € 25\,0\, 15 km € 27\,5\nInschrijving: ope
- n\nhttps://www.batavianightrun.nl/inschrijven\nGecontroleerd 2026-10-01\; 
+ n\nhttps://www.batavianightrun.nl/inschrijven\nGecontroleerd 2026-10-05\; 
  check de inschrijflink voor de actuele stand.
 URL:https://www.batavianightrun.nl/
 TRANSP:TRANSPARENT
@@ -853,13 +855,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dorpsrun-renswoude-2026-11-07@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261107
 SUMMARY:Dorpsrun Renswoude (start 13:45)
 LOCATION:Renswoude\, Utrecht
 DESCRIPTION:Afstanden: 10 km € 13\,0\, Halve marathon € 14\,0\nInschrij
  ving: open\nSluit: 2026-11-05\nhttps://inschrijven.nl/form/2026110751206-n
- l\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele stand
+ l\nGecontroleerd 2026-10-05\; check de inschrijflink voor de actuele stand
  .
 URL:https://www.dorpsrunrenswoude.nl/
 TRANSP:TRANSPARENT
@@ -871,12 +873,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:duifpoldertrainingsloop-2026-11-07@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261107
 SUMMARY:Duifpoldertrainingsloop (start 14:00)
 LOCATION:Schipluiden\, Zuid-Holland
 DESCRIPTION:Afstanden: 11\,7 km € 2\,0\nInschrijving: onbekend\nhttps://w
- ww.dehardloper.nl/duifpoldertrainingsloop/\nGecontroleerd 2026-10-01\; che
+ ww.dehardloper.nl/duifpoldertrainingsloop/\nGecontroleerd 2026-10-05\; che
  ck de inschrijflink voor de actuele stand.
 URL:https://www.dehardloper.nl/duifpoldertrainingsloop/
 TRANSP:TRANSPARENT
@@ -888,12 +890,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:schipholloop-halve-marathon-2026-11-07@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261107
 SUMMARY:Schipholloop - Halve Marathon (start 10:30)
 LOCATION:Schiphol-Oost\, Noord-Holland
 DESCRIPTION:Afstanden: Halve marathon\nInschrijving: open\nhttps://inschrij
- ven.nl/form/2026110750236-nl\nGecontroleerd 2026-10-01\; check de inschrij
+ ven.nl/form/2026110750236-nl\nGecontroleerd 2026-10-05\; check de inschrij
  flink voor de actuele stand.
 URL:https://www.schipholloop.nl/
 TRANSP:TRANSPARENT
@@ -905,13 +907,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eenhoornloop-2026-11-08@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Eenhoornloop (start 11:00)
 LOCATION:Hoorn\, Noord-Holland
 DESCRIPTION:Afstanden: 10 km € 10\,0\, 16\,1 km € 10\,0\nInschrijving: 
  open\nSluit: 2026-11-07\nhttps://www.loopgroephoorn.nl/eenhoornloop/\nGeco
- ntroleerd 2026-10-01\; check de inschrijflink voor de actuele stand.
+ ntroleerd 2026-10-05\; check de inschrijflink voor de actuele stand.
 URL:https://www.loopgroephoorn.nl/eenhoornloop/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -922,7 +924,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flevo-fun-run-ronde-1-2026-11-08@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Flevo Fun Run (ronde 1)
 LOCATION:Zeewolde\, Flevoland
@@ -939,13 +941,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:halve-marathon-gouda-2026-11-08@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Halve Marathon Gouda
 LOCATION:Gouda\, Zuid-Holland
-DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: onbekend\nhttp
- s://inschrijven.nl/form/2026110850972-nl\nGecontroleerd 2026-10-01\; check
-  de inschrijflink voor de actuele stand.
+DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: vol\nhttps://i
+ nschrijven.nl/form/2026110850972-nl\nGecontroleerd 2026-10-05\; check de i
+ nschrijflink voor de actuele stand.
 URL:https://halvemarathongouda.nl
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -956,13 +958,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:inofec-maastunnelloop-2026-11-08@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Inofec Maastunnelloop (start 10:30)
 LOCATION:Rotterdam\, Zuid-Holland
-DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://inschrijven.nl/fo
- rm/2026110851345-nl\nGecontroleerd 2026-10-01\; check de inschrijflink voo
- r de actuele stand.
+DESCRIPTION:Afstanden: 10 km € 28\,5\nInschrijving: open\nSluit: 2026-11-
+ 07\nhttps://inschrijven.nl/form/2026110851345-nl\nGecontroleerd 2026-10-05
+ \; check de inschrijflink voor de actuele stand.
 URL:https://epicruns.nl/maastunnelloop/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -973,12 +975,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:klaverbladloop-2026-11-08@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Klaverbladloop
 LOCATION:Zoetermeer\, Zuid-Holland
 DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: open\nhttps://inschrijv
- en.nl/form/2026110810218-nl\nGecontroleerd 2026-10-01\; check de inschrijf
+ en.nl/form/2026110810218-nl\nGecontroleerd 2026-10-05\; check de inschrijf
  link voor de actuele stand.
 URL:https://www.ilion.nl/index.php?page=Klaverbladloop
 TRANSP:TRANSPARENT
@@ -990,13 +992,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:olympisch-stadionloop-2026-11-08@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Olympisch Stadionloop (start 12:30)
 LOCATION:Amsterdam\, Noord-Holland
-DESCRIPTION:Afstanden: 10 km € 17\,5\nInschrijving: open\nhttps://inschri
- jven.nl/form/2026110801110-nl\nGecontroleerd 2026-10-01\; check de inschri
- jflink voor de actuele stand.
+DESCRIPTION:Afstanden: 10 km € 17\,5\nInschrijving: open\nSluit: 2026-11-
+ 04\nhttps://inschrijven.nl/form/2026110801110-nl\nGecontroleerd 2026-10-05
+ \; check de inschrijflink voor de actuele stand.
 URL:https://olympischstadionloop.nl/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1007,12 +1009,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amersfoort-night-run-2026-11-13@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261113
 SUMMARY:Amersfoort Night Run
 LOCATION:Amersfoort\, Utrecht
 DESCRIPTION:Afstanden: 10 km € 25\,0\, 15 km € 27\,5\nInschrijving: ope
- n\nhttps://www.amersfoortnightrun.nl/inschrijven\nGecontroleerd 2026-10-01
+ n\nhttps://www.amersfoortnightrun.nl/inschrijven\nGecontroleerd 2026-10-05
  \; check de inschrijflink voor de actuele stand.
 URL:https://www.amersfoortnightrun.nl/
 TRANSP:TRANSPARENT
@@ -1024,14 +1026,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:run2day-vlinderloop-2026-11-14@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261114
 SUMMARY:Run2Day Vlinderloop (start 11:30)
 LOCATION:Houten\, Utrecht
 DESCRIPTION:Afstanden: 10\,7 km € 6\,0\, 14\,8 km € 6\,0\, 21\,1 km (ha
- lve marathon) € 6\,0\nInschrijving: onbekend\nhttps://loopgroephouten.nl
- /vlinderloop-algemene-info/\nGecontroleerd 2026-10-01\; check de inschrijf
- link voor de actuele stand.
+ lve marathon) € 6\,0\nInschrijving: nog niet open\nhttps://loopgroephout
+ en.nl/vlinderloop-algemene-info/\nGecontroleerd 2026-10-05\; check de insc
+ hrijflink voor de actuele stand.
 URL:https://loopgroephouten.nl/vlinderloop-algemene-info/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1042,12 +1044,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vijfhoekparkloop-2026-11-14@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261114
 SUMMARY:Vijfhoekparkloop
 LOCATION:Zaandam\, Noord-Holland
 DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.avzaanlan
- d.nl/index.php?page=996&sid=1\nGecontroleerd 2026-10-01\; check de inschri
+ d.nl/index.php?page=996&sid=1\nGecontroleerd 2026-10-05\; check de inschri
  jflink voor de actuele stand.
 URL:https://www.avzaanland.nl/index.php?page=996&sid=1
 TRANSP:TRANSPARENT
@@ -1059,13 +1061,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bertusloop-delft-2026-11-15@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Bertusloop Delft (start 10:00)
 LOCATION:Delft\, Zuid-Holland
 DESCRIPTION:Afstanden: 10 km (2 rondes) € 3\,0\nInschrijving: open\nhttps
  ://www.dijc-bertus.nl/index.php/trimlopen/bertusloop\nGecontroleerd 2026-1
- 0-01\; check de inschrijflink voor de actuele stand.
+ 0-05\; check de inschrijflink voor de actuele stand.
 URL:https://www.dijc-bertus.nl/index.php/trimlopen/bertusloop
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1076,12 +1078,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de-knikker-zegerplasloop-2026-11-15@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:De Knikker Zegerplasloop
 LOCATION:Alphen aan den Rijn\, Zuid-Holland
 DESCRIPTION:Afstanden: 10 km\, 15 km\, 20 km\nInschrijving: onbekend\nhttps
- ://www.aav36.nl/zegerplasloop\nGecontroleerd 2026-10-01\; check de inschri
+ ://www.aav36.nl/zegerplasloop\nGecontroleerd 2026-10-05\; check de inschri
  jflink voor de actuele stand.
 URL:https://www.aav36.nl/zegerplasloop
 TRANSP:TRANSPARENT
@@ -1093,13 +1095,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de-ronde-venen-marathon-10-km-2026-11-15@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:De Ronde Venen Marathon - 10 km
 LOCATION:Abcoude\, Utrecht
 DESCRIPTION:Afstanden: GeinLust 10 km € 13\,0\nInschrijving: open\nSluit:
   2026-11-02\nhttps://inschrijven.nl/form/2026111550616-nl\nGecontroleerd 2
- 026-10-01\; check de inschrijflink voor de actuele stand.
+ 026-10-05\; check de inschrijflink voor de actuele stand.
 URL:https://www.derondevenenmarathon.nl/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1110,12 +1112,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sterke-start-loop-2026-11-15@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Sterke Start Loop
 LOCATION:Zevenhuizen\, Zuid-Holland
 DESCRIPTION:Afstanden: 10 km\, Halve marathon\nInschrijving: onbekend\nhttp
- s://atleta.cc/e/Vh33zZXNi8Lp\nGecontroleerd 2026-10-01\; check de inschrij
+ s://atleta.cc/e/Vh33zZXNi8Lp\nGecontroleerd 2026-10-05\; check de inschrij
  flink voor de actuele stand.
 URL:https://strongbabies.nl/help-mee/evenementen/sterkestartloop
 TRANSP:TRANSPARENT
@@ -1127,12 +1129,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:utrecht-science-park-night-run-2026-11-20@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Utrecht Science Park Night Run (start 20:15)
 LOCATION:Utrecht (Sportcentrum Olympos)\, Utrecht
 DESCRIPTION:Afstanden: 10 km\, 15 km\nInschrijving: vol\nhttps://www.uspnig
- htrun.nl/inschrijven\nGecontroleerd 2026-10-01\; check de inschrijflink vo
+ htrun.nl/inschrijven\nGecontroleerd 2026-10-05\; check de inschrijflink vo
  or de actuele stand.
 URL:https://www.uspnightrun.nl/
 TRANSP:TRANSPARENT
@@ -1144,13 +1146,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:av-suomi-sinterklaasloop-2026-11-22@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:AV Suomi Sinterklaasloop
 LOCATION:Santpoort-Noord\, Noord-Holland
-DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.avsuomi.n
- l/\nGecontroleerd 2026-10-01\; check de inschrijflink voor de actuele stan
- d.
+DESCRIPTION:Afstanden: 10 km\nInschrijving: open\nhttps://www.avsuomi.nl/\n
+ Gecontroleerd 2026-10-05\; check de inschrijflink voor de actuele stand.
 URL:https://www.avsuomi.nl/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1162,13 +1163,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ava-zorg-en-zekerheid-westeinderloop-2026-11-22@rik-spacecowboy.github.
  io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:AVA Zorg en Zekerheid Westeinderloop (start 11:00)
 LOCATION:Kudelstaart\, Noord-Holland
 DESCRIPTION:Afstanden: 10 km € 13\,0\, 10 Engelse mijl € 15\,0\nInschri
  jving: open\nhttps://avaalsmeer.nl/index.php?amp=&page=1984&sid=2\nGecontr
- oleerd 2026-10-01\; check de inschrijflink voor de actuele stand.
+ oleerd 2026-10-05\; check de inschrijflink voor de actuele stand.
 URL:https://avaalsmeer.nl/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1179,13 +1180,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vechtstreek-in-beweging-vib-lopen-2026-11-22@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:Vechtstreek in Beweging (VIB) Lopen (start 11:00)
 LOCATION:Maarssen (Maarsseveense Plassen)\, Utrecht
 DESCRIPTION:Afstanden: 10 km (2 ronden) € 7\,5\, 15 km (3 ronden) € 7\,
- 5\nInschrijving: open\nhttps://www.viblopen.nl/inschrijven/\nGecontroleerd
-  2026-10-01\; check de inschrijflink voor de actuele stand.
+ 5\nInschrijving: open\nSluit: 2026-11-21\nhttps://www.viblopen.nl/inschrij
+ ven/\nGecontroleerd 2026-10-05\; check de inschrijflink voor de actuele st
+ and.
 URL:https://www.viblopen.nl/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1196,12 +1198,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vijfhoekparkloop-2026-11-28@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261128
 SUMMARY:Vijfhoekparkloop
 LOCATION:Zaandam\, Noord-Holland
 DESCRIPTION:Afstanden: 10 km\nInschrijving: onbekend\nhttps://www.avzaanlan
- d.nl/index.php?page=996&sid=1\nGecontroleerd 2026-10-01\; check de inschri
+ d.nl/index.php?page=996&sid=1\nGecontroleerd 2026-10-05\; check de inschri
  jflink voor de actuele stand.
 URL:https://www.avzaanland.nl/index.php?page=996&sid=1
 TRANSP:TRANSPARENT
@@ -1213,7 +1215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spijkenisse-marathon-2026-11-29@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261129
 SUMMARY:Spijkenisse Marathon
 LOCATION:Spijkenisse\, Zuid-Holland
@@ -1230,7 +1232,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sint-nicolaasloop-2026-12-05@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261205
 SUMMARY:Sint Nicolaasloop (start 10:40)
 LOCATION:Bunschoten-Spakenburg\, Utrecht
@@ -1247,7 +1249,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:282ste-wintercup-lelystad-2026-12-06@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261206
 SUMMARY:282ste Wintercup Lelystad (start 10:45)
 LOCATION:Lelystad\, Flevoland
@@ -1264,7 +1266,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:houtloop-delft-2026-12-06@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261206
 SUMMARY:Houtloop Delft
 LOCATION:Delft\, Zuid-Holland
@@ -1281,7 +1283,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:run2day-vlinderloop-2026-12-12@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261212
 SUMMARY:Run2Day Vlinderloop (start 11:30)
 LOCATION:Houten\, Utrecht
@@ -1299,7 +1301,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dsw-bruggenloop-rotterdam-2026-12-13@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261213
 SUMMARY:DSW Bruggenloop Rotterdam
 LOCATION:Rotterdam\, Zuid-Holland
@@ -1316,7 +1318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flevo-fun-run-ronde-2-2026-12-13@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261213
 SUMMARY:Flevo Fun Run (ronde 2)
 LOCATION:Zeewolde\, Flevoland
@@ -1333,7 +1335,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:snertloop-tav-80-2026-12-13@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261213
 SUMMARY:Snertloop TAV'80 (start 10:30)
 LOCATION:'t Veld\, Noord-Holland
@@ -1350,7 +1352,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ter-specke-loop-2026-12-13@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261213
 SUMMARY:Ter Specke Loop
 LOCATION:Lisse\, Zuid-Holland
@@ -1367,7 +1369,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:linschotenloop-2026-12-19@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261219
 SUMMARY:Linschotenloop (start 11:45)
 LOCATION:Linschoten\, Utrecht
@@ -1384,7 +1386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bertusloop-delft-2026-12-20@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261220
 SUMMARY:Bertusloop Delft (start 10:00)
 LOCATION:Delft\, Zuid-Holland
@@ -1401,7 +1403,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:starke-kerstloop-dronten-2026-12-20@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261220
 SUMMARY:Starke Kerstloop Dronten
 LOCATION:Dronten\, Flevoland
@@ -1418,7 +1420,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kerstloop-amstelveen-2026-12-27@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261227
 SUMMARY:Kerstloop Amstelveen (start 11:00)
 LOCATION:Amstelveen\, Noord-Holland
@@ -1435,7 +1437,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vechtstreek-in-beweging-vib-lopen-2026-12-27@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261227
 SUMMARY:Vechtstreek in Beweging (VIB) Lopen (start 11:00)
 LOCATION:Maarssen (Maarsseveense Plassen)\, Utrecht
@@ -1452,7 +1454,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de-onderlingen-oliebollenloop-2026-12-31@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261231
 SUMMARY:De Onderlingen Oliebollenloop (start 11:00)
 LOCATION:Schoonhoven\, Zuid-Holland
@@ -1471,7 +1473,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sport-2000-bart-langedijk-oudejaarsloop-2026-12-31@rik-spacecowboy.gith
  ub.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261231
 SUMMARY:Sport 2000 Bart Langedijk Oudejaarsloop (start 12:00)
 LOCATION:Den Helder\, Noord-Holland
@@ -1488,7 +1490,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:florijn-winterloop-2027-01-02@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270102
 SUMMARY:Florijn Winterloop
 LOCATION:Woudenberg\, Utrecht
@@ -1505,7 +1507,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:283ste-wintercup-lelystad-2027-01-03@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270103
 SUMMARY:283ste Wintercup Lelystad (start 10:45)
 LOCATION:Lelystad\, Flevoland
@@ -1522,7 +1524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de-nieuwjaarsloop-leiden-2027-01-03@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270103
 SUMMARY:De Nieuwjaarsloop Leiden
 LOCATION:Leiden\, Zuid-Holland
@@ -1539,7 +1541,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:snertloop-mtk-krimpen-a-d-ijssel-2027-01-03@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270103
 SUMMARY:Snertloop MTK (Krimpen a/d IJssel)
 LOCATION:Krimpen aan den IJssel\, Zuid-Holland
@@ -1556,7 +1558,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mundo-nieuwjaarsloop-2027-01-09@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270109
 SUMMARY:Mundo Nieuwjaarsloop (start 11:30)
 LOCATION:Oud-Beijerland\, Zuid-Holland
@@ -1573,7 +1575,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:run2day-vlinderloop-2027-01-09@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270109
 SUMMARY:Run2Day Vlinderloop (start 11:30)
 LOCATION:Houten\, Utrecht
@@ -1591,7 +1593,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:egmond-halve-marathon-2027-01-10@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Egmond Halve Marathon
 LOCATION:Egmond aan Zee\, Noord-Holland
@@ -1608,7 +1610,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flevo-fun-run-ronde-3-2027-01-10@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Flevo Fun Run (ronde 3)
 LOCATION:Zeewolde\, Flevoland
@@ -1625,7 +1627,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de-knikker-zegerplasloop-2027-01-17@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270117
 SUMMARY:De Knikker Zegerplasloop
 LOCATION:Alphen aan den Rijn\, Zuid-Holland
@@ -1642,7 +1644,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:goedhart-drechtloop-2027-01-17@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270117
 SUMMARY:Goedhart Drechtloop
 LOCATION:Leimuiden\, Zuid-Holland
@@ -1659,7 +1661,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:moore-drv-halve-van-maassluis-2027-01-17@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270117
 SUMMARY:Moore DRV Halve van Maassluis (start 13:00)
 LOCATION:Maassluis\, Zuid-Holland
@@ -1677,7 +1679,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vondelparkloop-2027-01-17@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270117
 SUMMARY:Vondelparkloop
 LOCATION:Amsterdam\, Noord-Holland
@@ -1694,7 +1696,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:halve-marathon-zoetermeer-2027-01-24@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270124
 SUMMARY:Halve Marathon Zoetermeer
 LOCATION:Zoetermeer\, Zuid-Holland
@@ -1712,7 +1714,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:f28-trainingsmarathon-halve-marathon-2027-01-31@rik-spacecowboy.github.
  io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270131
 SUMMARY:F28 Trainingsmarathon - halve marathon (start 09:00)
 LOCATION:Amersfoort\, Utrecht
@@ -1730,7 +1732,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hubo-kaagloop-2027-01-31@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270131
 SUMMARY:Hubo Kaagloop (start 11:10)
 LOCATION:Wervershoof\, Noord-Holland
@@ -1747,7 +1749,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:uithoorns-mooiste-de-loop-2027-01-31@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270131
 SUMMARY:Uithoorns Mooiste de Loop (start 11:00)
 LOCATION:Uithoorn\, Noord-Holland
@@ -1765,7 +1767,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:284ste-wintercup-lelystad-2027-02-07@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270207
 SUMMARY:284ste Wintercup Lelystad (start 10:45)
 LOCATION:Lelystad\, Flevoland
@@ -1782,7 +1784,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:groenehartloop-2027-02-07@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270207
 SUMMARY:Groenehartloop
 LOCATION:Gouda\, Zuid-Holland
@@ -1799,7 +1801,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:polderrun-2027-02-13@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270213
 SUMMARY:Polderrun
 LOCATION:Bleskensgraaf\, Zuid-Holland
@@ -1816,7 +1818,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:run2day-vlinderloop-2027-02-13@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270213
 SUMMARY:Run2Day Vlinderloop (start 11:30)
 LOCATION:Houten\, Utrecht
@@ -1834,7 +1836,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flevo-fun-run-ronde-4-2027-02-14@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270214
 SUMMARY:Flevo Fun Run (ronde 4)
 LOCATION:Zeewolde\, Flevoland
@@ -1851,7 +1853,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:groet-uit-schoorl-run-2027-02-14@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270214
 SUMMARY:Groet uit Schoorl Run
 LOCATION:Schoorl\, Noord-Holland
@@ -1868,7 +1870,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:keukenstudio-allround-bosdijkloop-2027-02-14@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270214
 SUMMARY:Keukenstudio Allround Bosdijkloop (start 12:00)
 LOCATION:Vinkeveen\, Utrecht
@@ -1885,7 +1887,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:noord-aa-polderloop-2027-02-14@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270214
 SUMMARY:Noord-Aa Polderloop
 LOCATION:Zoetermeer\, Zuid-Holland
@@ -1902,7 +1904,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de-knikker-zegerplasloop-2027-02-21@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270221
 SUMMARY:De Knikker Zegerplasloop
 LOCATION:Alphen aan den Rijn\, Zuid-Holland
@@ -1919,7 +1921,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lansingerland-run-2027-02-28@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270228
 SUMMARY:Lansingerland Run
 LOCATION:Berkel en Rodenrijs\, Zuid-Holland
@@ -1936,7 +1938,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:omloop-van-noordwijkerhout-2027-02-28@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270228
 SUMMARY:Omloop van Noordwijkerhout
 LOCATION:Noordwijkerhout\, Zuid-Holland
@@ -1953,7 +1955,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:285ste-wintercup-lelystad-2027-03-07@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270307
 SUMMARY:285ste Wintercup Lelystad (start 10:45)
 LOCATION:Lelystad\, Flevoland
@@ -1970,7 +1972,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:halve-van-oostvoorne-2027-03-07@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270307
 SUMMARY:Halve van Oostvoorne
 LOCATION:Oostvoorne\, Zuid-Holland
@@ -1988,7 +1990,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:boels-rental-run-halve-marathon-dordrecht-2027-03-13@rik-spacecowboy.gi
  thub.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270313
 SUMMARY:Boels Rental Run (Halve Marathon Dordrecht)
 LOCATION:Dordrecht\, Zuid-Holland
@@ -2005,7 +2007,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:halve-marathon-de-waal-44e-2027-03-13@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270313
 SUMMARY:Halve Marathon De Waal (44e) (start 13:00)
 LOCATION:De Waal\, Noord-Holland
@@ -2022,7 +2024,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:run-for-kika-texel-2027-03-13@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270313
 SUMMARY:Run for KiKa Texel
 LOCATION:Texel\, Noord-Holland
@@ -2039,7 +2041,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:run2day-vlinderloop-2027-03-13@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270313
 SUMMARY:Run2Day Vlinderloop (start 11:30)
 LOCATION:Houten\, Utrecht
@@ -2057,7 +2059,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kloetloop-2027-03-14@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270314
 SUMMARY:Kloetloop
 LOCATION:Grootebroek\, Noord-Holland
@@ -2074,7 +2076,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nn-cpc-loop-den-haag-2027-03-14@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270314
 SUMMARY:NN CPC Loop Den Haag
 LOCATION:Den Haag\, Zuid-Holland
@@ -2091,7 +2093,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dom-tot-dom-2027-03-20@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270320
 SUMMARY:Dom tot Dom
 LOCATION:Utrecht (Domplein)\, Utrecht
@@ -2108,7 +2110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arens-spiegelplasloop-2027-03-21@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270321
 SUMMARY:ARENS Spiegelplasloop (start 13:00)
 LOCATION:Nederhorst den Berg\, Noord-Holland
@@ -2125,7 +2127,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de-voorschotenloop-2027-03-21@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270321
 SUMMARY:De VoorschotenLoop
 LOCATION:Voorschoten\, Zuid-Holland
@@ -2142,7 +2144,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kpmg-lentemarathon-amstelveen-2027-03-21@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270321
 SUMMARY:KPMG Lentemarathon Amstelveen
 LOCATION:Amstelveen\, Noord-Holland
@@ -2159,7 +2161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:moore-drv-halve-westland-2027-03-21@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270321
 SUMMARY:Moore DRV Halve Westland
 LOCATION:Naaldwijk\, Zuid-Holland
@@ -2176,7 +2178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zandvoort-circuit-run-2027-03-21@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270321
 SUMMARY:Zandvoort Circuit Run
 LOCATION:Zandvoort\, Noord-Holland
@@ -2193,7 +2195,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:drie-molenloop-aarlanderveen-2027-03-29@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270329
 SUMMARY:Drie Molenloop Aarlanderveen
 LOCATION:Aarlanderveen\, Zuid-Holland
@@ -2210,7 +2212,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:braassemloop-2027-04-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270404
 SUMMARY:Braassemloop
 LOCATION:Roelofarendsveen\, Zuid-Holland
@@ -2227,7 +2229,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:halve-van-den-helder-2027-04-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270404
 SUMMARY:Halve van Den Helder
 LOCATION:Den Helder\, Noord-Holland
@@ -2244,7 +2246,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marathon-amersfoort-2027-04-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270404
 SUMMARY:Marathon Amersfoort (start 09:00)
 LOCATION:Amersfoort\, Utrecht
@@ -2261,7 +2263,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vrijstad-vianen-loop-2027-04-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270404
 SUMMARY:Vrijstad Vianen Loop
 LOCATION:Vianen\, Utrecht
@@ -2278,7 +2280,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:run2day-vlinderloop-2027-04-10@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270410
 SUMMARY:Run2Day Vlinderloop (start 11:30)
 LOCATION:Houten\, Utrecht
@@ -2297,7 +2299,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:10-km-rotterdam-nn-marathon-rotterdam-2027-04-11@rik-spacecowboy.github
  .io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270411
 SUMMARY:10 km Rotterdam (NN Marathon Rotterdam)
 LOCATION:Rotterdam\, Zuid-Holland
@@ -2314,7 +2316,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cruyff-legacy-14k-2027-04-11@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270411
 SUMMARY:Cruyff Legacy 14K
 LOCATION:Amsterdam\, Noord-Holland
@@ -2331,7 +2333,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kamerikse-weteringloop-2027-04-17@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270417
 SUMMARY:Kamerikse Weteringloop (start 12:45)
 LOCATION:Kamerik\, Utrecht
@@ -2348,7 +2350,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:run-roast-utrecht-2027-04-17@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270417
 SUMMARY:Run & Roast Utrecht
 LOCATION:Utrecht (Overvecht\, Vechtdijk)\, Utrecht
@@ -2365,7 +2367,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:85e-krinkels-pim-mulierloop-2027-04-18@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270418
 SUMMARY:85e Krinkels Pim Mulierloop
 LOCATION:Santpoort-Noord\, Noord-Holland
@@ -2382,7 +2384,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kika-hilversum-city-run-2027-04-18@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270418
 SUMMARY:KiKa Hilversum City Run
 LOCATION:Hilversum\, Noord-Holland
@@ -2399,7 +2401,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sportpark-21-run-2027-04-18@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270418
 SUMMARY:Sportpark 21 Run
 LOCATION:Hoofddorp\, Noord-Holland
@@ -2416,7 +2418,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:golden-tenloop-2027-05-06@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270506
 SUMMARY:Golden Tenloop
 LOCATION:Delft\, Zuid-Holland
@@ -2433,7 +2435,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kraaienrun-2027-05-08@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270508
 SUMMARY:Kraaienrun
 LOCATION:Rijsoord\, Zuid-Holland
@@ -2450,7 +2452,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:run2day-vlinderloop-2027-05-08@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270508
 SUMMARY:Run2Day Vlinderloop (start 11:30)
 LOCATION:Houten\, Utrecht
@@ -2469,7 +2471,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:geijsel-hypotheken-rondehoeploop-40e-2027-05-09@rik-spacecowboy.github.
  io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270509
 SUMMARY:Geijsel Hypotheken Rondehoeploop (40e)
 LOCATION:Ouderkerk aan de Amstel\, Noord-Holland
@@ -2486,7 +2488,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:leiden-marathon-2027-05-09@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270509
 SUMMARY:Leiden Marathon (start 10:00)
 LOCATION:Leiden\, Zuid-Holland
@@ -2503,7 +2505,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:schagen-city-run-2027-05-09@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270509
 SUMMARY:Schagen City Run
 LOCATION:Schagen\, Noord-Holland
@@ -2520,7 +2522,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:luilakpolderloop-2027-05-14@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270514
 SUMMARY:Luilakpolderloop (start 18:30)
 LOCATION:Jisp\, Noord-Holland
@@ -2537,7 +2539,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:verkerkloop-2027-05-19@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270519
 SUMMARY:Verkerkloop
 LOCATION:Zwijndrecht\, Zuid-Holland
@@ -2554,7 +2556,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zaanbocht-run-4e-2027-05-23@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270523
 SUMMARY:Zaanbocht Run (4e)
 LOCATION:Wormerveer\, Noord-Holland
@@ -2571,7 +2573,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amsterdam-umc-run-2027-05-30@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270530
 SUMMARY:Amsterdam UMC Run
 LOCATION:Amsterdam\, Noord-Holland
@@ -2588,7 +2590,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-royal-ten-2027-05-30@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270530
 SUMMARY:The Royal Ten
 LOCATION:Wassenaar\, Zuid-Holland
@@ -2605,7 +2607,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:loop-door-houten-2027-06-11@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270611
 SUMMARY:Loop door Houten
 LOCATION:Houten\, Utrecht
@@ -2622,7 +2624,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grachtenloop-haarlem-2027-06-18@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270618
 SUMMARY:Grachtenloop Haarlem
 LOCATION:Haarlem\, Noord-Holland
@@ -2639,7 +2641,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:midzomeravondloop-bleiswijk-2027-06-23@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270623
 SUMMARY:Midzomeravondloop Bleiswijk (start 19:30)
 LOCATION:Bleiswijk\, Zuid-Holland
@@ -2656,7 +2658,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de-ronde-van-nieuwveen-2027-06-24@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270624
 SUMMARY:De Ronde van Nieuwveen (start 19:25)
 LOCATION:Nieuwveen\, Zuid-Holland
@@ -2674,7 +2676,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hardloopfeest-dwars-door-oud-beijerland-2027-06-25@rik-spacecowboy.gith
  ub.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270625
 SUMMARY:Hardloopfeest Dwars door Oud-Beijerland (start 20:00)
 LOCATION:Oud-Beijerland\, Zuid-Holland
@@ -2691,7 +2693,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vechtloop-weesp-44e-2027-06-27@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270627
 SUMMARY:Vechtloop Weesp (44e)
 LOCATION:Weesp\, Noord-Holland
@@ -2708,7 +2710,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:moore-drv-kadeloop-2027-07-03@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270703
 SUMMARY:Moore DRV Kadeloop
 LOCATION:Schipluiden\, Zuid-Holland
@@ -2725,7 +2727,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:10-van-noordwijk-2027-07-04@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270704
 SUMMARY:10 van Noordwijk
 LOCATION:Noordwijk\, Zuid-Holland
@@ -2742,7 +2744,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:moore-drv-run-maasdijk-2027-07-24@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270724
 SUMMARY:Moore DRV Run Maasdijk
 LOCATION:Maasdijk\, Zuid-Holland
@@ -2759,7 +2761,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fish-potato-run-2027-09-11@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270911
 SUMMARY:Fish Potato Run (start 15:00)
 LOCATION:Urk\, Flevoland
@@ -2776,7 +2778,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nn-dam-tot-damloop-41e-2027-09-19@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270919
 SUMMARY:NN Dam tot Damloop (41e)
 LOCATION:Amsterdam\, Noord-Holland
@@ -2793,7 +2795,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:halve-van-katwijk-2027-09-25@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270925
 SUMMARY:Halve van Katwijk (start 10:30)
 LOCATION:Katwijk aan Zee\, Zuid-Holland
@@ -2810,7 +2812,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:geuzenloop-zoetermeer-2027-09-26@rik-spacecowboy.github.io
-DTSTAMP:20261001T000000Z
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270926
 SUMMARY:Geuzenloop Zoetermeer
 LOCATION:Zoetermeer\, Zuid-Holland
