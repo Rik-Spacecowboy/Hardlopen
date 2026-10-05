@@ -606,7 +606,7 @@ const WEDSTRIJDEN = [
    "https://www.sein.nl/agenda/epilepsieloop-2026/"
   ],
   "notitie": "Goededoelenloop; prijs/starttijd via SEIN-agenda (partner), niet direct op organisatorpagina uitleesbaar. Exacte startlocatie niet gevonden.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "jan-louter-loop-2026-10-10",
@@ -635,9 +635,9 @@ const WEDSTRIJDEN = [
    }
   ],
   "inschrijving": {
-   "status": "onbekend",
+   "status": "open",
    "opent": null,
-   "sluit": null,
+   "sluit": "2026-10-09",
    "platform": "inschrijven.nl",
    "url": "https://inschrijven.nl/form/2026101009211-nl"
   },
@@ -645,10 +645,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "AV Fortuna",
   "bronnen": [
-   "https://janlouterloop.nl"
+   "https://janlouterloop.nl",
+   "https://inschrijven.nl/form/2026101009211-nl"
   ],
   "notitie": "Vlaardingse Broekpolder; opbrengst voor Support Casper",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "lovelife-run-amsterdam-2026-10-10",
@@ -681,10 +682,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "Fightcancer / LoveLife",
   "bronnen": [
-   "https://www.fightcancer.nl/event/lovelife-run-amsterdam/praktische-informatie"
+   "https://www.fightcancer.nl/event/lovelife-run-amsterdam/praktische-informatie",
+   "https://www.fightcancer.nl/event/lovelife-run-amsterdam/home"
   ],
   "notitie": "Goede-doelenloop (herstel na kanker), start/finish Olympisch Stadion. Inschrijfgeld/sponsordoel niet vermeld.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "run2day-vlinderloop-2026-10-10",
@@ -733,7 +735,7 @@ const WEDSTRIJDEN = [
    "https://inschrijven.nl/form/2026101005155-nl"
   ],
   "notitie": "Maandelijkse loop (seizoen sep-mei); alle afstanden starten 11:30. Start Jaagpad nabij Veerwagenweg. Prijs is voorinschrijving online.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "bodyresults-vestingloop-edam-2026-10-11",
@@ -756,7 +758,7 @@ const WEDSTRIJDEN = [
    }
   ],
   "inschrijving": {
-   "status": "open",
+   "status": "gesloten",
    "opent": null,
    "sluit": "2026-10-01",
    "platform": "inschrijven.nl",
@@ -770,7 +772,7 @@ const WEDSTRIJDEN = [
    "https://runphy.nl/events/bodyresults-vestingloop"
   ],
   "notitie": "Datum 11-10-2026 uit runphy; clubpagina noemt geen jaartal maar 'inschrijven t/m 1 oktober'. Start Noordervesting.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "culture-run-woerden-2026-10-11",
@@ -839,10 +841,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "Stichting De 15 van Wassenaar",
   "bronnen": [
-   "https://wassenaarders.nl/2026/09/20/11-oktober-de-15-van-wassenaar"
+   "https://wassenaarders.nl/2026/09/20/11-oktober-de-15-van-wassenaar",
+   "https://de15vanwassenaar.nl"
   ],
   "notitie": "Organisatorsite niet bereikbaar voor fetch; datum/starttijd uit lokaal nieuws (Wassenaarders.nl). Start sportpark Blauw-Zwart. 1100-1200 deelnemers verwacht",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "de-5-van-groenekan-2026-10-11",
@@ -878,7 +881,7 @@ const WEDSTRIJDEN = [
    "https://inschrijven.nl/form/2026101151650-nl"
   ],
   "notitie": "Parcours door bos Voordaan en Beukenburg; 'vol is vol'. Prijs niet uitleesbaar.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "napoleon-mijlenloop-2026-10-11",
@@ -948,10 +951,11 @@ const WEDSTRIJDEN = [
   "organisator": "AAC (Amsterdamse atletiekclub)",
   "bronnen": [
    "https://inschrijven.nl/form/2026101101101-nl",
-   "https://www.rondjemokum.nl/programma/"
+   "https://www.rondjemokum.nl/programma/",
+   "https://sloterplasloop.nl/"
   ],
   "notitie": "Deel van Rondje Mokum (organisator AAC volgens rondjemokum.nl). Coördinaten = Sloterplas (benadering).",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "jan-koudstaal-dijkloop-2026-10-17",
@@ -993,7 +997,7 @@ const WEDSTRIJDEN = [
    "https://www.avantri.nl/wedstrijden/wedstrijden-avantri/dijkloop/"
   ],
   "notitie": "50e editie; start Avantri Stormbaan, Nieuwe Singel 25a; inschrijving sluit 30 min voor start",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "bertusloop-delft-2026-10-18",
@@ -1029,7 +1033,7 @@ const WEDSTRIJDEN = [
    "https://www.dijc-bertus.nl/index.php/trimlopen/bertusloop"
   ],
   "notitie": "Maandelijkse trimloop (3e zondag van de maand); start parkeerplaats naast Onder Ons; ondergrond niet vermeld",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "goudasfaltloop-2026-10-18",
@@ -1065,7 +1069,7 @@ const WEDSTRIJDEN = [
    "https://www.goudasfalt.nl/"
   ],
   "notitie": "Start GOUDasfalt-terrein bij Gouderaksedijk",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "maliebaanloop-2026-10-18",
@@ -1099,10 +1103,11 @@ const WEDSTRIJDEN = [
   "organisator": null,
   "bronnen": [
    "https://inschrijven.nl/form/2026101805191-nl",
-   "https://www.vcutrecht.nl/o/Maliebaanloop/activiteiten/Maliebaanloop-2026/118359"
+   "https://www.vcutrecht.nl/o/Maliebaanloop/activiteiten/Maliebaanloop-2026/118359",
+   "https://maliebaanloop.nl/"
   ],
   "notitie": "40e editie, Maliebaan Utrecht. Voorinschrijving t/m 8 okt. Prijs/starttijd niet uitleesbaar (eigen site weigerde fetch).",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "tcs-amsterdam-marathon-mizuno-halve-marathon-2026-10-18",
@@ -1139,7 +1144,7 @@ const WEDSTRIJDEN = [
    "https://www.tcsamsterdammarathon.nl/inschrijven"
   ],
   "notitie": "Inschrijfpagina noemt € 43,50 en '15.000 (UITVERKOCHT)' zonder expliciet jaartal. Golfstarts 13:20-13:50, start Stadionweg, finish Olympisch Stadion.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "zeezichtloop-petten-2026-10-18",
@@ -1176,7 +1181,7 @@ const WEDSTRIJDEN = [
    "https://inschrijven.nl/form/2026101851659-nl"
   ],
   "notitie": "52e editie. Online sluit za 17 okt 17:00. Start Plein 1945.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "lrrc-bockenloop-2026-10-24",
@@ -1212,7 +1217,7 @@ const WEDSTRIJDEN = [
    "https://inschrijven.nl/form/2026102407256-nl"
   ],
   "notitie": "Clubsite niet bereikbaar; inschrijfformulier noemt 24 okt 2026 (deadline-tekst op formulier verwijst nog naar 2025)",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "vijfhoekparkloop-2026-10-24",
@@ -1248,7 +1253,7 @@ const WEDSTRIJDEN = [
    "https://www.avzaanland.nl/index.php?page=996&sid=1"
   ],
   "notitie": "Serie van 3 lopen in Vijfhoekpark; tijd, prijs en inschrijving niet gevonden (nextrace niet bereikbaar). Coördinaten = Vijfhoekpark (benadering).",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "droomtijdloop-2026-10-25",
@@ -1271,9 +1276,9 @@ const WEDSTRIJDEN = [
    }
   ],
   "inschrijving": {
-   "status": "onbekend",
-   "opent": null,
-   "sluit": null,
+   "status": "open",
+   "opent": "2026-07-04",
+   "sluit": "2026-10-22",
    "platform": null,
    "url": null
   },
@@ -1281,10 +1286,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "AV De Koplopers",
   "bronnen": [
-   "https://runphy.nl/events/droomtijdloop/2026-10-25"
+   "https://runphy.nl/events/droomtijdloop/2026-10-25",
+   "https://droomtijdloop.nl"
   ],
   "notitie": "Organisatorsite niet bereikbaar voor controle; naam/datum/afstanden alleen via aggregators (runphy.nl, running.life)",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "heemstedeloop-2026-10-25",
@@ -1318,10 +1324,11 @@ const WEDSTRIJDEN = [
   "organisator": "SportSupport Kennemerland",
   "bronnen": [
    "https://www.heemstedeloop.nl/info/inschrijven/",
-   "https://totaltiming.inschrijven.nl/form/2026102503902-nl"
+   "https://totaltiming.inschrijven.nl/form/2026102503902-nl",
+   "https://www.heemstedeloop.nl/"
   ],
   "notitie": "15e editie. Prijs niet zichtbaar.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "lidl-wolfskamerloop-2026-10-25",
@@ -1355,10 +1362,11 @@ const WEDSTRIJDEN = [
   "organisator": "AV Zuidwal",
   "bronnen": [
    "https://wolfskamerloop.nl/inschrijven/",
-   "https://wolfskamerloop.nl/algemeen/"
+   "https://wolfskamerloop.nl/algemeen/",
+   "https://wolfskamerloop.nl/"
   ],
   "notitie": "Start/finish IJsselmeerstraat bij Oude Haven; coördinaten = Huizen haven (benadering). Ook 20 km wandelen (niet opgenomen).",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "vechtstreek-in-beweging-vib-lopen-2026-10-25",
@@ -1389,7 +1397,7 @@ const WEDSTRIJDEN = [
   "inschrijving": {
    "status": "open",
    "opent": null,
-   "sluit": null,
+   "sluit": "2026-10-24",
    "platform": "inschrijven.nl",
    "url": "https://www.viblopen.nl/inschrijven/"
   },
@@ -1401,7 +1409,7 @@ const WEDSTRIJDEN = [
    "https://www.viblopen.nl/inschrijven/"
   ],
   "notitie": "Ronden van 5 km rond de Maarsseveense Plassen, verhard en autovrij; pacers voor 10/15 km. Voorinschrijving t/m zaterdag 21:00 voor de loop. sf2run.nl noemt ook 20 km en halve marathon (niet bij organisator bevestigd).",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "westvliet-hartekindloop-2026-10-25",
@@ -1437,7 +1445,7 @@ const WEDSTRIJDEN = [
    "https://inschrijven.nl/form/2026102551586-nl"
   ],
   "notitie": "Voorinschrijving t/m 24 okt; locatie Westvliet niet exact bevestigd, coördinaten centrum Den Haag/Westvliet benaderd",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "typhoonloop-2026-10-31",
@@ -1455,14 +1463,14 @@ const WEDSTRIJDEN = [
    {
     "km": 10,
     "label": "10 km",
-    "prijs": null,
+    "prijs": 15.0,
     "prijsNotitie": null
    }
   ],
   "inschrijving": {
    "status": "open",
    "opent": null,
-   "sluit": null,
+   "sluit": "2026-10-30",
    "platform": "inschrijven.nl",
    "url": "https://inschrijven.nl/form/2026103106240-nl"
   },
@@ -1470,10 +1478,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "AV Typhoon",
   "bronnen": [
-   "https://avtyphoon.nl/typhoonloop-gorinchem/"
+   "https://avtyphoon.nl/typhoonloop-gorinchem/",
+   "https://inschrijven.nl/form/2026103106240-nl"
   ],
   "notitie": "Start AV Typhoon, Grote Schelluinsekade 22",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "281ste-wintercup-lelystad-2026-11-01",
@@ -1510,7 +1519,7 @@ const WEDSTRIJDEN = [
    "https://avspiritlelystad.nl/2026/09/14/wintercup-seizoen-2026-2027-gaat-van-start/"
   ],
   "notitie": "Maandelijkse wintercompetitie (okt-mrt). Start/finish Sportpark Langezand, Sportparkweg 2. Online inschrijving 'tot vrijdag voor elke editie' (sluit = die vrijdag). Coordinaten benaderd.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "boerenkoolloop-warmenhuizen-2026-11-01",
@@ -1543,10 +1552,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "Vezet Boerenkoolloop",
   "bronnen": [
-   "https://boerenkoolloop.nl/inschrijven-2/"
+   "https://boerenkoolloop.nl/inschrijven-2/",
+   "https://inschrijven.nl/form/2026110104127-nl"
   ],
   "notitie": "Sluit 25 okt 21:59.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "de-zilveren-turfloop-2026-11-01",
@@ -1589,7 +1599,7 @@ const WEDSTRIJDEN = [
    "https://inschrijven.nl/form/2026110101151-nl"
   ],
   "notitie": "35e editie; start/finish Sporthal De Phoenix, Hoofdweg 85. Onderdeel Zorg en Zekerheid Circuit.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "drechtstadloop-2026-11-01",
@@ -1618,7 +1628,7 @@ const WEDSTRIJDEN = [
    }
   ],
   "inschrijving": {
-   "status": "onbekend",
+   "status": "vol",
    "opent": null,
    "sluit": null,
    "platform": null,
@@ -1629,10 +1639,11 @@ const WEDSTRIJDEN = [
   "organisator": null,
   "bronnen": [
    "https://runphy.nl/events/drechtstadloop/2026-11-01",
-   "https://running.life/en/event/drechtstadloop"
+   "https://running.life/en/event/drechtstadloop",
+   "https://drechtstadloop.nl"
   ],
   "notitie": "Organisatorsite niet bereikbaar voor controle; naam/datum/afstanden alleen via aggregators (runphy.nl, running.life); start Statenplein",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "egboetsloop-53e-2026-11-01",
@@ -1669,7 +1680,7 @@ const WEDSTRIJDEN = [
    "https://www.westfrieswegcircuit.nl/"
   ],
   "notitie": "Deel van Westfries Wegcircuit. Start Dorpshuis De Werf, Heemraadwitweg 2. Ook 8,2 km. Geen deadline vermeld.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "halve-van-het-gooi-2026-11-01",
@@ -1711,7 +1722,7 @@ const WEDSTRIJDEN = [
    "https://inschrijven.nl/form/2026110100294-nl"
   ],
   "notitie": "Start/finish Het Arsenaal, Naarden. Wachtlijst beschikbaar.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "houtloop-delft-2026-11-01",
@@ -1813,7 +1824,7 @@ const WEDSTRIJDEN = [
    }
   ],
   "inschrijving": {
-   "status": "open",
+   "status": "vol",
    "opent": null,
    "sluit": "2026-10-30",
    "platform": "inschrijven.nl",
@@ -1827,7 +1838,7 @@ const WEDSTRIJDEN = [
    "https://inschrijven.nl/form/2026110102103-nl"
   ],
   "notitie": "13e editie. 10 km nagenoeg vlak; trail max. 250 deelnemers (maxDeelnemers geldt voor trail). Inschrijving t/m 30 okt of tot vol. Prijzen niet uitleesbaar.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "twiskemolenloop-november-2026-11-01",
@@ -1845,26 +1856,26 @@ const WEDSTRIJDEN = [
    {
     "km": 10,
     "label": "10 km",
-    "prijs": null,
+    "prijs": 14.0,
     "prijsNotitie": null
    },
    {
     "km": 16.1,
     "label": "10 Engelse mijl",
-    "prijs": null,
+    "prijs": 14.0,
     "prijsNotitie": null
    },
    {
     "km": 21.1,
     "label": "Halve marathon",
-    "prijs": null,
+    "prijs": 14.0,
     "prijsNotitie": null
    }
   ],
   "inschrijving": {
-   "status": "nog niet open",
+   "status": "open",
    "opent": "2026-10-04",
-   "sluit": null,
+   "sluit": "2026-10-30",
    "platform": "inschrijven.nl",
    "url": "https://inschrijven.nl/form/2026110101136-nl"
   },
@@ -1872,10 +1883,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "AC Waterland",
   "bronnen": [
-   "https://inschrijven.nl/form/2026110101136-nl"
+   "https://inschrijven.nl/form/2026110101136-nl",
+   "https://www.acwaterland.nl/twiskemolenloop/"
   ],
   "notitie": "Inschrijving opent 4 okt 2026 12:00. Afstanden niet op formulier vermeld; overgenomen van oktober-editie (onzeker).",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "batavia-night-run-2026-11-06",
@@ -1919,7 +1931,7 @@ const WEDSTRIJDEN = [
    "https://www.batavianightrun.nl/programma"
   ],
   "notitie": "Eerste editie. Avondloop op ronde van 5 km; start/finish Museum Batavialand.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "dorpsrun-renswoude-2026-11-07",
@@ -1959,10 +1971,11 @@ const WEDSTRIJDEN = [
   "organisator": "Stichting Dorps Run Renswoude",
   "bronnen": [
    "https://www.dorpsrunrenswoude.nl/",
-   "https://www.dorpsrunrenswoude.nl/inschrijven/"
+   "https://www.dorpsrunrenswoude.nl/inschrijven/",
+   "https://inschrijven.nl/form/2026110751206-nl"
   ],
   "notitie": "Vorige edities snel uitverkocht.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "duifpoldertrainingsloop-2026-11-07",
@@ -1998,7 +2011,7 @@ const WEDSTRIJDEN = [
    "https://www.dehardloper.nl/duifpoldertrainingsloop/"
   ],
   "notitie": "Trainingsloop; inschrijven ter plaatse vanaf 12:45 in kantine IJsclub Vlietland; start Trambrug",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "schipholloop-halve-marathon-2026-11-07",
@@ -2031,10 +2044,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "Schipholloop",
   "bronnen": [
-   "https://inschrijven.nl/form/2026110750236-nl"
+   "https://inschrijven.nl/form/2026110750236-nl",
+   "https://www.schipholloop.nl/"
   ],
   "notitie": "Ronde om de Haarlemmermeer (ook marathon en 60 km). Niet verkeersvrij, semi-zelfvoorzienend. Prijs niet zichtbaar.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "eenhoornloop-2026-11-08",
@@ -2076,7 +2090,7 @@ const WEDSTRIJDEN = [
    "https://www.loopgroephoorn.nl/eenhoornloop/"
   ],
   "notitie": "16,1 km start 11:00, 10 km 11:10. Start Holenweg 14D. Voorinschrijving t/m 7 nov 12:00; daarna op de dag vanaf 9:45.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "flevo-fun-run-ronde-1-2026-11-08",
@@ -2143,7 +2157,7 @@ const WEDSTRIJDEN = [
    }
   ],
   "inschrijving": {
-   "status": "onbekend",
+   "status": "vol",
    "opent": "2026-04-01",
    "sluit": null,
    "platform": "inschrijven.nl",
@@ -2154,10 +2168,11 @@ const WEDSTRIJDEN = [
   "organisator": null,
   "bronnen": [
    "https://halvemarathongouda.nl",
-   "https://runphy.nl/events/halve-marathon-gouda/2026-11-08"
+   "https://runphy.nl/events/halve-marathon-gouda/2026-11-08",
+   "https://inschrijven.nl/form/2026110850972-nl"
   ],
   "notitie": "Start Markt (volgens runphy); inschrijving opende 1 april 2026 12:00",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "inofec-maastunnelloop-2026-11-08",
@@ -2175,14 +2190,14 @@ const WEDSTRIJDEN = [
    {
     "km": 10,
     "label": "10 km",
-    "prijs": null,
+    "prijs": 28.5,
     "prijsNotitie": null
    }
   ],
   "inschrijving": {
    "status": "open",
    "opent": null,
-   "sluit": null,
+   "sluit": "2026-11-07",
    "platform": "inschrijven.nl",
    "url": "https://inschrijven.nl/form/2026110851345-nl"
   },
@@ -2190,10 +2205,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "EPIC Runs",
   "bronnen": [
-   "https://epicruns.nl/maastunnelloop/"
+   "https://epicruns.nl/maastunnelloop/",
+   "https://inschrijven.nl/form/2026110851345-nl"
   ],
   "notitie": "Start Parkkade; 10 km in waves 10:30-12:40; naam op startnummer t/m 28 sep",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "klaverbladloop-2026-11-08",
@@ -2232,10 +2248,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "ARV Ilion",
   "bronnen": [
-   "https://www.ilion.nl/index.php?page=Klaverbladloop"
+   "https://www.ilion.nl/index.php?page=Klaverbladloop",
+   "https://inschrijven.nl/form/2026110810218-nl"
   ],
   "notitie": "49e editie; start Van der Hagenstraat 36",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "olympisch-stadionloop-2026-11-08",
@@ -2260,7 +2277,7 @@ const WEDSTRIJDEN = [
   "inschrijving": {
    "status": "open",
    "opent": null,
-   "sluit": null,
+   "sluit": "2026-11-04",
    "platform": "inschrijven.nl",
    "url": "https://inschrijven.nl/form/2026110801110-nl"
   },
@@ -2268,10 +2285,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "AV Phanos i.s.m. Run2Day",
   "bronnen": [
-   "https://olympischstadionloop.nl/inschrijven/"
+   "https://olympischstadionloop.nl/inschrijven/",
+   "https://inschrijven.nl/form/2026110801110-nl"
   ],
   "notitie": "Starttijden voorlopig (10 km 12:30 en 12:38). Coördinaten = Olympisch Stadion.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "amersfoort-night-run-2026-11-13",
@@ -2314,7 +2332,7 @@ const WEDSTRIJDEN = [
    "https://www.amersfoortnightrun.nl/inschrijven"
   ],
   "notitie": "1e editie; start/finish Eemplein (KAdE). Avondloop.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "run2day-vlinderloop-2026-11-14",
@@ -2349,7 +2367,7 @@ const WEDSTRIJDEN = [
    }
   ],
   "inschrijving": {
-   "status": "onbekend",
+   "status": "nog niet open",
    "opent": null,
    "sluit": null,
    "platform": "inschrijven.nl",
@@ -2362,7 +2380,7 @@ const WEDSTRIJDEN = [
    "https://loopgroephouten.nl/vlinderloop-algemene-info/"
   ],
   "notitie": "Maandelijkse loop (seizoen sep-mei); alle afstanden starten 11:30. Start Jaagpad nabij Veerwagenweg. Prijs is voorinschrijving online.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "vijfhoekparkloop-2026-11-14",
@@ -2398,7 +2416,7 @@ const WEDSTRIJDEN = [
    "https://www.avzaanland.nl/index.php?page=996&sid=1"
   ],
   "notitie": "Serie van 3 lopen in Vijfhoekpark; tijd, prijs en inschrijving niet gevonden (nextrace niet bereikbaar). Coördinaten = Vijfhoekpark (benadering).",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "bertusloop-delft-2026-11-15",
@@ -2434,7 +2452,7 @@ const WEDSTRIJDEN = [
    "https://www.dijc-bertus.nl/index.php/trimlopen/bertusloop"
   ],
   "notitie": "Maandelijkse trimloop (3e zondag van de maand); start parkeerplaats naast Onder Ons; ondergrond niet vermeld",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "de-knikker-zegerplasloop-2026-11-15",
@@ -2479,10 +2497,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "AAV'36",
   "bronnen": [
-   "https://runphy.nl/events/de-knikker-zegerplasloop/2026-11-15"
+   "https://runphy.nl/events/de-knikker-zegerplasloop/2026-11-15",
+   "https://www.aav36.nl/zegerplasloop"
   ],
   "notitie": "Organisatorsite blokkeert fetch (robots.txt); datum/afstanden alleen via runphy.nl/running.life; winterserie Zegerplas",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "de-ronde-venen-marathon-10-km-2026-11-15",
@@ -2515,10 +2534,11 @@ const WEDSTRIJDEN = [
   "maxDeelnemers": null,
   "organisator": "De Ronde Venen Marathon",
   "bronnen": [
-   "https://www.derondevenenmarathon.nl/inschrijven/"
+   "https://www.derondevenenmarathon.nl/inschrijven/",
+   "https://inschrijven.nl/form/2026111550616-nl"
   ],
   "notitie": "Start en finish 10 km in Abcoude; ook marathon. Datum uit inschrijfformulier-ID/aggregators; starttijd niet vermeld.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "sterke-start-loop-2026-11-15",
@@ -2560,7 +2580,7 @@ const WEDSTRIJDEN = [
    "https://strongbabies.nl/help-mee/evenementen/sterkestartloop"
   ],
   "notitie": "Willem-Alexander Baan; site noemt '21 km'",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "utrecht-science-park-night-run-2026-11-20",
@@ -2603,7 +2623,7 @@ const WEDSTRIJDEN = [
    "https://www.uspnightrun.nl/inschrijven"
   ],
   "notitie": "10 en 15 km uitverkocht (5 km nog open). Start Olympos, Uppsalalaan 3. Coördinaten = centrum Utrecht.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "av-suomi-sinterklaasloop-2026-11-22",
@@ -2626,7 +2646,7 @@ const WEDSTRIJDEN = [
    }
   ],
   "inschrijving": {
-   "status": "onbekend",
+   "status": "open",
    "opent": null,
    "sluit": null,
    "platform": null,
@@ -2637,10 +2657,11 @@ const WEDSTRIJDEN = [
   "organisator": "AV Suomi",
   "bronnen": [
    "https://www.avsuomi.nl/index.php?page=Agenda&sid=2",
-   "https://running.life/running-calendar/netherlands/noord-holland?page=3"
+   "https://running.life/running-calendar/netherlands/noord-holland?page=3",
+   "https://www.avsuomi.nl/"
   ],
   "notitie": "Datum in clubagenda; 10 km alleen via running.life (onbevestigd).",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "ava-zorg-en-zekerheid-westeinderloop-2026-11-22",
@@ -2682,7 +2703,7 @@ const WEDSTRIJDEN = [
    "https://avaalsmeer.nl/index.php?amp=&page=1984&sid=2"
   ],
   "notitie": "10 EM 11:00, 10 km 11:10. Sportpark Calslagen. Deel van Zorg en Zekerheid Circuit. Status 'open' afgeleid uit oproep tot online inschrijven.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "vechtstreek-in-beweging-vib-lopen-2026-11-22",
@@ -2713,7 +2734,7 @@ const WEDSTRIJDEN = [
   "inschrijving": {
    "status": "open",
    "opent": null,
-   "sluit": null,
+   "sluit": "2026-11-21",
    "platform": "inschrijven.nl",
    "url": "https://www.viblopen.nl/inschrijven/"
   },
@@ -2725,7 +2746,7 @@ const WEDSTRIJDEN = [
    "https://www.viblopen.nl/inschrijven/"
   ],
   "notitie": "Ronden van 5 km rond de Maarsseveense Plassen, verhard en autovrij; pacers voor 10/15 km. Voorinschrijving t/m zaterdag 21:00 voor de loop. sf2run.nl noemt ook 20 km en halve marathon (niet bij organisator bevestigd).",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "vijfhoekparkloop-2026-11-28",
@@ -2761,7 +2782,7 @@ const WEDSTRIJDEN = [
    "https://www.avzaanland.nl/index.php?page=996&sid=1"
   ],
   "notitie": "Serie van 3 lopen in Vijfhoekpark; tijd, prijs en inschrijving niet gevonden (nextrace niet bereikbaar). Coördinaten = Vijfhoekpark (benadering).",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-10-05"
  },
  {
   "id": "spijkenisse-marathon-2026-11-29",
