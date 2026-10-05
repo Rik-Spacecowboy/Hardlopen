@@ -1,0 +1,41 @@
+name: Bronpagina's ophalen
+
+# Haalt elke maandag de pagina's van organisatoren en inschrijfplatforms op voor de lopen in de komende
+# 8 weken en zet ze als tekst op de branch "bronpaginas". De wekelijkse controle leest die bestanden,
+# zodat er geen websites vanuit de Claude-sessie geopend hoeven te worden.
+on:
+  schedule:
+    - cron: "15 5 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [bronpaginas-nu.txt]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bronpaginas
+  cancel-in-progress: true
+
+jobs:
+  ophalen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ophalen
+        run: python3 scripts/haal_bronnen.py "$RUNNER_TEMP/bron"
+      - name: Op branch bronpaginas zetten
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan bronpaginas
+          git rm -rq --cached .
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp "$RUNNER_TEMP"/bron/* .
+          git add -A
+          git commit -qm "Bronpagina's $(date -u +%Y-%m-%d)"
+          git push -f origin bronpaginas
