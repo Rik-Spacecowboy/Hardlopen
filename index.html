@@ -12,40 +12,56 @@
   <style>
     /* Stijl "Energiek": licht en strak, één felle accentkleur, grote actiefoto's, schuine condensed koppen. */
     :root {
-      --bg: #f6f6f3;
+      /* Thema "Volt": zwart, gebroken wit en één fluoriserend geelgroen. Donker (prefers-color-scheme) = "inkt en ijsblauw". */
+      --bg: #f5f5f5;
       --surface: #ffffff;
-      --ink: #101114;
-      --ink-zacht: #63656b;
-      --lijn: #e3e3de;
-      --accent: #ff4a1c;
-      --accent-diep: #e03a10;
-      --accent-tekst: #ffffff;
-      --accent-zacht: #fff0ea;
-      --donker: #101114;
+      --ink: #111111;
+      --ink-zacht: #6b6b70;
+      --lijn: #dcdcdc;
+      --accent: #d4f23a;
+      --accent-tekst: #111111;
+      --accent-vorm: #a3bf12;   /* accent als lijn/vorm op een lichte ondergrond (volt zelf is daar te bleek) */
+      --accent-diep: #5a6a00;   /* accent als tekst op licht */
+      --accent-kop: #d4f23a;    /* accent op de donkere kopfoto */
+      --accent-zacht: #f3fac9;
+      --focus: #111111;
+      --datum-bg: #111111;
+      --datum-tekst: #ffffff;
+      --donker: #111111;
       --donker-ink: #ffffff;
       --donker-zacht: #b9bbc2;
-      --open: #12a150;
-      --schaduw: 0 1px 2px rgba(16,17,20,.06), 0 6px 20px rgba(16,17,20,.06);
-      --schaduw-hover: 0 2px 4px rgba(16,17,20,.08), 0 16px 36px rgba(16,17,20,.12);
-      --kaart-land: #e9e9e3;
-      --kaart-actief: #d9d8cf;
+      --open: #111111;
+      --open-tekst: #d4f23a;
+      --schaduw: 0 1px 2px rgba(17,17,17,.06), 0 6px 20px rgba(17,17,17,.06);
+      --schaduw-hover: 0 2px 4px rgba(17,17,17,.08), 0 16px 36px rgba(17,17,17,.12);
+      --kaart-land: #e6e6e6;
+      --kaart-actief: #d2d2d2;
       --display: 'Barlow Condensed', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
       --tekst: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
       --rond: 14px;
     }
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg: #0d0e10;
-        --surface: #17181b;
-        --ink: #f3f3f1;
-        --ink-zacht: #a2a4ab;
-        --lijn: #2a2c30;
-        --accent-zacht: #2a1610;
-        --open: #2fc46f;
+        --bg: #090d15;
+        --surface: #131a28;
+        --ink: #eef2f7;
+        --ink-zacht: #9aa6ba;
+        --lijn: #243047;
+        --accent: #2f6bf0;
+        --accent-tekst: #ffffff;
+        --accent-vorm: #3d7bff;
+        --accent-diep: #8fb3ff;
+        --accent-kop: #b8dde1;
+        --accent-zacht: #14213d;
+        --focus: #8fb3ff;
+        --datum-bg: #003789;
+        --donker: #0e131f;
+        --open: #b8dde1;
+        --open-tekst: #0e131f;
         --schaduw: 0 1px 2px rgba(0,0,0,.4);
         --schaduw-hover: 0 12px 30px rgba(0,0,0,.5);
-        --kaart-land: #202226;
-        --kaart-actief: #33363b;
+        --kaart-land: #172033;
+        --kaart-actief: #26354f;
       }
     }
     * { box-sizing: border-box; }
@@ -54,7 +70,7 @@
       font-family: var(--tekst); font-size: 16px; line-height: 1.45; -webkit-font-smoothing: antialiased;
     }
     a { color: inherit; }
-    :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+    :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
     .verborgen { position: absolute; left: -9999px; }
     .schuin { font-style: italic; }
 
@@ -78,7 +94,7 @@
       width: 26px; height: 26px; background: var(--accent); border-radius: 6px; display: inline-grid; place-items: center;
       transform: skewX(-12deg);
     }
-    .topbalk .merk i::after { content: ""; width: 10px; height: 10px; border: 3px solid #fff; border-left: 0; border-bottom: 0; transform: rotate(45deg) translate(-2px, 2px); }
+    .topbalk .merk i::after { content: ""; width: 10px; height: 10px; border: 3px solid var(--accent-tekst); border-left: 0; border-bottom: 0; transform: rotate(45deg) translate(-2px, 2px); }
     .topbalk .teller-top {
       font: 700 0.9rem var(--display); letter-spacing: 0.08em; padding: 6px 12px; border-radius: 999px;
       background: rgba(255,255,255,.14); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
@@ -86,13 +102,13 @@
     .hero-binnen { position: relative; z-index: 2; width: 100%; max-width: 1180px; margin: auto auto 0; padding: 20px 20px 40px; }
     .eyebrow {
       display: inline-block; font: italic 800 0.95rem var(--display); text-transform: uppercase; letter-spacing: 0.1em;
-      background: var(--accent); color: #fff; padding: 5px 12px; border-radius: 4px; margin: 0 0 16px; transform: skewX(-6deg);
+      background: var(--accent); color: var(--accent-tekst); padding: 5px 12px; border-radius: 4px; margin: 0 0 16px; transform: skewX(-6deg);
     }
     .hero h1 {
       font: italic 800 clamp(3rem, 9vw, 7rem)/0.86 var(--display); text-transform: uppercase; letter-spacing: -0.01em;
       margin: 0 0 16px; text-wrap: balance; text-shadow: 0 2px 30px rgba(0,0,0,.35);
     }
-    .hero h1 em { font-style: italic; color: var(--accent); }
+    .hero h1 em { font-style: italic; color: var(--accent-kop); }
     .hero .sub { color: rgba(255,255,255,.88); max-width: 56ch; margin: 0; font-size: 1.08rem; font-weight: 500; text-shadow: 0 1px 12px rgba(0,0,0,.5); }
 
     /* ---------- filters ---------- */
@@ -119,7 +135,7 @@
       background: var(--surface); color: var(--ink); border: 1.5px solid var(--lijn); border-radius: 999px;
       box-shadow: var(--schaduw);
     }
-    .zoek:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 20%, transparent); }
+    .zoek:focus { outline: none; border-color: var(--focus); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 35%, transparent); }
     .zoek::placeholder { color: var(--ink-zacht); }
     .knop {
       font: italic 800 1rem var(--display); letter-spacing: 0.06em; text-transform: uppercase; padding: 0 20px;
@@ -132,7 +148,7 @@
       padding: 7px 14px; border-radius: 999px; background: var(--surface); color: var(--ink); border: 1.5px solid var(--lijn);
     }
     .chip:hover { border-color: var(--ink); }
-    .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-tekst); }
+    .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent-vorm); color: var(--accent-tekst); }
     .chips .scheiding { flex: none; width: 1.5px; align-self: stretch; background: var(--lijn); margin: 4px; }
     details.meer { margin-top: 8px; }
     details.meer summary {
@@ -141,7 +157,7 @@
     }
     details.meer summary:hover { color: var(--ink); }
     details.meer summary::-webkit-details-marker { display: none; }
-    details.meer summary::after { content: "+"; font-size: 1.3rem; line-height: 1; color: var(--accent); }
+    details.meer summary::after { content: "+"; font-size: 1.3rem; line-height: 1; color: var(--accent-diep); }
     details.meer[open] summary::after { content: "–"; }
     .meer-raster { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; padding: 10px 0 6px; }
     .veld { display: flex; flex-direction: column; gap: 4px; }
@@ -156,10 +172,10 @@
     .afstand-thuis { font-weight: 400; color: var(--ink-zacht); font-size: 0.9rem; }
     .afstanden td.prijs small, .afstanden td small.vorig { display: block; font: 400 0.78rem var(--tekst); color: var(--ink-zacht); }
     .mijn-sel { font: 600 0.85rem var(--tekst); padding: 5px 8px; border-radius: 999px; border: 1.5px solid var(--lijn); background: var(--surface); color: var(--ink); cursor: pointer; }
-    .mijn-sel.gezet { background: var(--accent-zacht); border-color: var(--accent); }
+    .mijn-sel.gezet { background: var(--accent-zacht); border-color: var(--accent-vorm); }
     .voet button.link { background: none; border: 0; padding: 0; font: inherit; color: var(--donker-ink); text-decoration: underline; cursor: pointer; }
     .filter-noot { margin: 0 0 6px; font-size: 0.8rem; color: var(--ink-zacht); max-width: 80ch; }
-    .week-uitleg { margin: 6px 0 2px; font-size: 0.88rem; color: var(--ink-zacht); max-width: 70ch; border-left: 3px solid var(--accent); padding-left: 10px; }
+    .week-uitleg { margin: 6px 0 2px; font-size: 0.88rem; color: var(--ink-zacht); max-width: 70ch; border-left: 3px solid var(--accent-vorm); padding-left: 10px; }
     .chip.uitleg-knop { width: 36px; padding: 7px 0; text-align: center; }
     .teller-rij { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-top: 20px; }
     #resultaatTeller { margin: 0; font: italic 800 1.4rem var(--display); letter-spacing: 0.02em; text-transform: uppercase; }
@@ -176,7 +192,7 @@
       grid-column: 1 / -1; margin: 30px 0 0; font: italic 800 clamp(2.2rem, 6vw, 3.4rem)/0.9 var(--display);
       text-transform: uppercase; display: flex; align-items: center; gap: 14px;
     }
-    .maandkop::after { content: ""; flex: 1; height: 3px; background: var(--accent); border-radius: 3px; transform: skewX(-20deg); }
+    .maandkop::after { content: ""; flex: 1; height: 3px; background: var(--accent-vorm); border-radius: 3px; transform: skewX(-20deg); }
     .maandkop.met-foto {
       position: relative; height: clamp(150px, 22vw, 230px); border-radius: var(--rond); overflow: hidden; color: #fff;
       align-items: flex-end; padding: 0 22px 16px; background: var(--donker);
@@ -196,7 +212,7 @@
     .wkaart.voorbij { opacity: .6; }
     .kaart-datum { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: 16px 16px 0; }
     .kaart-datum > div:first-child {
-      background: var(--accent); color: #fff; border-radius: 10px; padding: 8px 12px 9px; min-width: 76px; text-align: center;
+      background: var(--datum-bg); color: var(--datum-tekst); border-radius: 10px; padding: 8px 12px 9px; min-width: 76px; text-align: center;
       transform: skewX(-6deg);
     }
     .kaart-datum > div:first-child > * { transform: skewX(6deg); }
@@ -210,17 +226,17 @@
     }
     .weekbadge b { color: var(--ink); }
     .weekbadge::before { content: ""; display: inline-block; width: 8px; height: 8px; margin-right: 6px; border-radius: 50%; background: var(--ink); }
-    .weekbadge.oneven::before { background: var(--accent); }
+    .weekbadge.oneven::before { background: var(--accent-vorm); }
     .weekbadge.verwacht::before { background: transparent; border: 1.5px dashed var(--ink-zacht); }
     .wkaart:has(.weekbadge.verwacht) .kaart-datum > div:first-child { background: var(--bg); color: var(--ink-zacht); outline: 1.5px dashed var(--lijn); }
     .status.verwacht { color: var(--ink-zacht); border-style: dashed; }
     .ster { cursor: pointer; background: transparent; border: 0; padding: 0 2px; line-height: 1; font-size: 1.6rem; color: var(--lijn); }
     .ster:hover { color: var(--ink-zacht); }
-    .ster[aria-pressed="true"] { color: var(--accent); }
+    .ster[aria-pressed="true"] { color: var(--accent-vorm); }
     .kaart-body { padding: 12px 16px 16px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
     .wkaart h2 { margin: 0; font: italic 800 1.7rem/0.95 var(--display); text-transform: uppercase; text-wrap: balance; }
     .plek { font-weight: 600; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
-    .plek::before { content: ""; flex: none; width: 10px; height: 10px; background: var(--accent); border-radius: 50% 50% 50% 0; transform: rotate(-45deg) translateY(1px); }
+    .plek::before { content: ""; flex: none; width: 10px; height: 10px; background: var(--accent-vorm); border-radius: 50% 50% 50% 0; transform: rotate(-45deg) translateY(1px); }
     .plek small { font-weight: 400; color: var(--ink-zacht); font-size: 0.9rem; }
     .tags { display: flex; flex-wrap: wrap; gap: 6px; }
     .tag { font: 700 0.82rem var(--display); letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 9px; border: 1.5px solid var(--ink); border-radius: 999px; }
@@ -228,7 +244,7 @@
       font: 800 0.78rem var(--display); letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 10px; border-radius: 999px;
       border: 1.5px solid currentColor; display: inline-block;
     }
-    .status.open { background: var(--open); border-color: var(--open); color: #fff; }
+    .status.open { background: var(--open); border-color: var(--open); color: var(--open-tekst); }
     .status.vol, .status.gesloten, .status.geannuleerd { background: var(--ink); border-color: var(--ink); color: var(--bg); }
     .status.loting, .status.wachtlijst, .status.nog-niet-open { color: var(--accent-diep); background: var(--accent-zacht); border-color: transparent; }
     .status.onbekend { color: var(--ink-zacht); border-style: dashed; }
@@ -265,8 +281,8 @@
       all: unset; box-sizing: border-box; cursor: pointer; padding: 11px 6px;
       display: grid; grid-template-columns: 100px minmax(0, 1fr) 170px 150px 120px 140px; gap: 4px 14px; align-items: baseline;
     }
-    .rij-hoofd:hover .rij-naam b { text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 3px; }
-    .rij-hoofd:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+    .rij-hoofd:hover .rij-naam b { text-decoration: underline; text-decoration-color: var(--accent-vorm); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+    .rij-hoofd:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }
     .rij-hoofd small { display: block; color: var(--ink-zacht); font-size: 0.8rem; }
     .rij-datum b { font: italic 800 1.2rem var(--display); text-transform: uppercase; color: var(--accent-diep); }
     .rij-naam b { font-weight: 700; }
@@ -274,7 +290,7 @@
     .rij-prijs { font-weight: 700; }
     .rij-meta { display: none; }
     .lijst-rij .ster { color: var(--lijn); padding: 0 8px; font-size: 1.5rem; }
-    .lijst-rij .ster[aria-pressed="true"] { color: var(--accent); }
+    .lijst-rij .ster[aria-pressed="true"] { color: var(--accent-vorm); }
     .rij-detail { grid-column: 1 / -1; padding: 4px 0 18px; max-width: 520px; }
     @media (max-width: 900px) {
       .rij-hoofd { grid-template-columns: 76px minmax(0, 1fr); padding: 10px 2px; }
@@ -289,9 +305,9 @@
     .provincie { fill: var(--kaart-land); stroke: var(--surface); stroke-width: 1.2; }
     .provincie.actief { fill: var(--kaart-actief); }
     .prov-naam { font: italic 800 13px var(--display); letter-spacing: 0.1em; text-transform: uppercase; fill: var(--ink-zacht); text-anchor: middle; pointer-events: none; }
-    .stip { fill: var(--accent); stroke: var(--surface); stroke-width: 1.6; cursor: pointer; }
-    .stip:hover, .stip:focus-visible, .stip.gekozen { fill: var(--ink); stroke: var(--accent); stroke-width: 3; outline: none; }
-    .stip-getal { font: 800 12px var(--display); fill: #fff; text-anchor: middle; pointer-events: none; }
+    .stip { fill: var(--accent-vorm); stroke: var(--surface); stroke-width: 1.6; cursor: pointer; }
+    .stip:hover, .stip:focus-visible, .stip.gekozen { fill: var(--ink); stroke: var(--accent-vorm); stroke-width: 3; outline: none; }
+    .stip-getal { font: 800 12px var(--display); fill: var(--ink); text-anchor: middle; pointer-events: none; }
     .stip-getal.gekozen { fill: var(--bg); }
     .kaart-tip {
       position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); padding: 4px 10px; border-radius: 999px;
