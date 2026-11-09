@@ -1,0 +1,6 @@
+# De Nieuwjaarsloop Leiden (2027-01-03, Leiden)
+opgehaald: 2026-11-09 13:59 UTC
+
+===== https://zorgenzekerheidcircuit.nl/Race.php?ID=1&RID=112
+(status fout: URLError, 0 tekens)
+
