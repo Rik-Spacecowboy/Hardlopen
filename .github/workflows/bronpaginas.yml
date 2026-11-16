@@ -1,11 +1,14 @@
 name: Bronpagina's ophalen
 
-# Haalt elke maandag de pagina's van organisatoren en inschrijfplatforms op voor de lopen in de komende
-# 8 weken en zet ze als tekst op de branch "bronpaginas". De wekelijkse controle leest die bestanden,
-# zodat er geen websites vanuit de Claude-sessie geopend hoeven te worden.
+# Haalt elke week de pagina's van organisatoren en inschrijfplatforms op voor de lopen in de komende
+# 8 weken en zet ze als tekst op de branch "bronpaginas". De wekelijkse controle (maandag 09:00
+# Amsterdam) leest die bestanden, zodat er geen websites vanuit de Claude-sessie geopend hoeven te worden.
+# Gepland op zondagavond: GitHub start geplande runs soms uren te laat (okt-nov 2026: 6-8,5 uur bij
+# een maandag-05:15-cron), dus zo is de run ruim klaar voor maandagochtend. Lukt dat toch niet, dan
+# start de weekcontrole hem zelf via workflow_dispatch of een wijziging in bronpaginas-nu.txt.
 on:
   schedule:
-    - cron: "15 5 * * 1"
+    - cron: "47 18 * * 0"  # zondag 18:47 UTC
   workflow_dispatch:
   push:
     branches: [main]
