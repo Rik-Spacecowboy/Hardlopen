@@ -1,0 +1,283 @@
+# Snertloop MTK (Krimpen a/d IJssel) (2027-01-03, Krimpen aan den IJssel)
+opgehaald: 2026-11-22 23:52 UTC
+
+===== https://www.av-mtk.nl/
+(status 200, 15076 tekens)
+Home · Hardloopvereniging AV-MTK
+ E-mail / Gebruiker
+ Wachtwoord
+ opvragen?
+Verstuur nieuw wachtwoord
+ Ingelogd blijven
+ Sluit
+ Inloggen
+Menu
+ Home
+ Nieuws
+ Over Ons
+ Wie zijn wij?
+ Clubwaarden, gedragscode en veiligheid
+ Onze ereleden
+ Het clubblad
+ Trainingen
+ Powerwalk
+ Trainingsschema
+ Trainingslocatie
+ Wedstrijden
+ Koningsloop
+ Vakantiekiloloop
+ Snertloop
+ Algemene Voorwaarden
+ Lid Worden
+ Voordelen van lid worden
+ Contributie
+ Aanmeldformulier
+ Contact
+ Contactformulier
+ Locatie/adres van de vereniging
+Belangrijk: je gegevens bij AV MTK zijn mogelijk in verkeerde handen
+ 11 nov
+We laten je weten dat er een datalek is geweest bij AllUnited. Dat is het systeem waarmee AV-MTK de ledenadministratie bijhoudt. Daarbij zijn mogelijk ook jouw gegevens buitgemaakt. Dat vinden we heel vervelend. In dit bericht lees je wat er is gebeurd en waar je op moet letten.
+Wat is er gebeurd?
+Op maandagavond 9 november 2026 heeft een onbekende aanvaller misbruik gemaakt van een fout in de software van AllUnited. Daardoor konden gegevens uit de database worden gekopieerd. Het ging om gegevens van verenigingen die AllUnited gebruiken, waaronder AV-MTK. AllUnited ontdekte het lek op 10 november en sloot het dezelfde dag.
+Om welke gegevens gaat het?
+Het kan gaan om gegevens uit je ledenrecord, zoals:
+Naam, adres en woonplaats
+E-mailadres en telefoonnummer
+Geboortedatum en geboorteplaats
+Rekeningnummer (IBAN)
+Lidnummer, team, functie en eventuele opmerkingen
+Als je een AllUnited-account hebt: je inloggegevens
+Waar moet je op letten?
+Oplichters kunnen deze gegevens mogelijk gebruiken om berichten te versturen die lijken te komen van AV-MTK of AllUnited. Denk bijvoorbeeld aan een bericht over contributie, een boete of een betaalverzoek met een link.
+Wees extra alert op e-mails, sms’jes, WhatsApp-berichten en telefoontjes.
+Klik niet zomaar op links en deel nooit je wachtwoord, een verificatiecode of rekeningnummer.
+Controleer altijd zelf of een bericht echt van AV-MTK komt.
+Wijzig direct je wachtwoord, zeker als je hetzelfde wachtwoord ook voor andere accounts gebruikt. Je wachtwoord bij AllUnited, de ClubApp en ons ledenportaal wordt opnieuw ingesteld; daarover ontvang je een apart bericht.
+Controleer je bankafschriften op afschrijvingen die je niet herkent. Twijfel je? Neem contact op met je bank.
+Wat doen wij en AllUnited?
+AllUnited heeft het lek gedicht.
+AllUnited stelt wachtwoorden opnieuw in en voert extra beveiligingsmaatregelen en controles uit.
+AV-MTK heeft het datalek gemeld bij de Autoriteit Persoonsgegevens.
+Vragen?
+Neem contact op met het bestuur via bestuur@av-mtk.nl.
+Het spijt ons dat dit is gebeurd. We houden je op de hoogte zodra er nieuwe informatie is.
+Met vriendelijke groet,
+Namens het bestuur van AV-MTK,
+Jos
+ Lees meer
+Privacy verklaring
+ 10 nov
+Privacyverklaring AV-MTK
+Atletiek Vereniging Marathon Team Krimpen (AV-MTK), gevestigd aan Krimpenerbosweg 2a, 2923 LA Krimpen aan den IJssel, is verantwoordelijk voor de verwerking van persoonsgegevens zoals beschreven in deze privacyverklaring.
+Contactgegevens:
+ AV-MTK
+ Atletiek Vereniging Marathon Team Krimpen
+ P/a Populierenlaan 73
+ 2925 CP Krimpen aan den IJssel
+ KVK-nummer: 40348401
+ E-mail: bestuur@av-mtk.nl
+ Website: https://www.av-mtk.nl
+Waarom deze verklaring
+AV-MTK hecht waarde aan de bescherming van je privacy. In deze privacyverklaring leggen we uit welke persoonsgegevens wij verwerken, waarom wij dat doen, hoe lang wij gegevens bewaren en welke rechten je hebt.
+Wij verwerken persoonsgegevens uitsluitend voor doelen die nodig zijn voor de organisatie en uitvoering van het lidmaatschap, de verenigingsactiviteiten en de daarbij horende administratie.
+Welke gegevens verwerken wij
+Afhankelijk van je lidmaatschap en gebruik van onze diensten kunnen wij de volgende gegevens verwerken:
+Voor- en achternaam
+Geslacht
+Geboortedatum en geboorteplaats
+Adresgegevens
+Telefoonnummer
+E-mailadres
+Lidnummer
+Team-, groeps- of trainingsinformatie
+Functie binnen de vereniging, bijvoorbeeld trainer, bestuurslid of vrijwilliger
+Rekeningnummer (IBAN), voor bijvoorbeeld contributie, incasso’s en vergoedingen
+Inloggegevens voor AllUnited, de ClubApp en/of het ledenportaal
+Overige gegevens die jij zelf aan ons verstrekt, bijvoorbeeld via correspondentie, een aanmelding of een formulier
+Wij verwerken geen bijzondere categorieën van persoonsgegevens, zoals gezondheidsgegevens, tenzij jij deze zelf aan ons verstrekt en dit nodig is voor de uitoefening van je lidmaatschap of deelname aan activiteiten.
+Waarom wij gegevens verwerken
+Wij verwerken je gegevens voor de volgende doelen:
+Het beheren van je lidmaatschap en de ledenadministratie
+Het organiseren van trainingen, wedstrijden, activiteiten en evenementen
+Het versturen van belangrijke informatie over het lidmaatschap, trainingen, wedstrijden en verenigingszaken
+Het afhandelen van contributie, incasso’s, betalingen en vergoedingen
+Het beheren van je account in AllUnited, de ClubApp en/of het ledenportaal
+Het uitvoeren van onze administratieve en financiële verplichtingen
+Het beheren en onderhouden van onze website
+Grondslagen
+Wij verwerken persoonsgegevens op basis van:
+Uitvoering van de lidmaatschapsovereenkomst: bijvoorbeeld voor ledenadministratie, trainingen, wedstrijden, communicatie en contributie.
+Wettelijke verplichting: bijvoorbeeld voor financiële administratie en belastingaangifte.
+Toestemming: bijvoorbeeld voor optionele nieuwsbrieven of andere vormen van marketingcommunicatie. Je kunt deze toestemming altijd intrekken.
+Gerechtvaardigd belang: bijvoorbeeld voor het beveiligen en verbeteren van onze website en digitale diensten.
+AllUnited als dienstverlener
+AV-MTK maakt gebruik van AllUnited voor de ledenadministratie, de ClubApp en het ledenportaal. AllUnited verwerkt persoonsgegevens namens AV-MTK en is daarbij verwerker.
+AllUnited verwerkt onder meer gegevens voor:
+Het beheren van het ledenbestand
+Het inloggen in de ClubApp en het ledenportaal
+Het versturen van communicatie
+Het afhandelen van contributies en betalingen
+Het beheren en beveiligen van de systemen
+AllUnited verwerkt persoonsgegevens namens AV-MTK en neemt passende beveiligingsmaatregelen.
+Delen met derden
+Wij verkopen je persoonsgegevens niet aan derden. Wij verstrekken gegevens alleen aan partijen die dit nodig hebben voor de uitvoering van onze diensten of wanneer wij wettelijk verplicht zijn deze te verstrekken.
+Wij maken onder meer gebruik van:
+AllUnited, voor ledenadministratie, ClubApp, ledenportaal en bijbehorende communicatie.
+Onze bank en/of betaaldienstverlener, voor contributies, incasso’s en betalingen.
+Onze hosting- en e-mailpartij, voor het beheer van de website en e-mailcommunicatie.
+Met partijen die persoonsgegevens namens AV-MTK verwerken, maken wij waar nodig afspraken over de verwerking en beveiliging van persoonsgegevens.
+Bewaartermijnen
+Wij bewaren persoonsgegevens niet langer dan noodzakelijk is voor de doelen waarvoor deze zijn verzameld.
+Ledenadministratie: zolang je lid bent van AV-MTK.
+Financiële administratie en betalingsgegevens: in beginsel 7 jaar na afloop van het boekjaar, conform de fiscale bewaartermijn.
+Communicatie en e-mails: zolang nodig is voor de afhandeling van de betreffende zaak.
+Website- en loggegevens: volgens de bewaartermijn die daarvoor geldt in de gebruikte diensten.
+Na afloop van de bewaartermijn worden gegevens verwijderd of geanonimiseerd, tenzij wettelijke verplichtingen bewaring vereisen.
+Cookies
+Wij gebruiken alleen technische en functionele cookies die nodig zijn om de website goed te laten werken. Deze cookies worden onder meer gebruikt om jouw voorkeursinstellingen te onthouden en om de website veilig en gebruiksvriendelijk te houden.
+Je kunt cookies altijd blokkeren of verwijderen via de instellingen van je internetbrowser. Let op: als je cookies blokkeert, kunnen sommige onderdelen van de website mogelijk niet goed werken.
+Beveiliging
+AllUnited neemt passende technische en organisatorische maatregelen om persoonsgegevens te beschermen tegen verlies, misbruik, onbevoegde toegang, openbaarmaking of wijziging.
+AllUnited neemt onder meer maatregelen zoals beveiligde verbindingen, toegangsbeveiliging, back-ups, monitoring en beveiligingscontroles. AV-MTK gaat zorgvuldig om met toegang tot ledengegevens en verstrekt deze alleen aan personen die deze nodig hebben voor hun taak binnen de vereniging.
+Jouw rechten
+Je hebt onder meer de volgende rechten:
+Inzage in je persoonsgegevens
+Correctie van onjuiste of onvolledige gegevens
+Verwijdering van je gegevens, voor zover er geen wettelijke bewaarplicht geldt
+Beperking van de verwerking
+Bezwaar maken tegen bepaalde verwerkingen
+Intrekken van toestemming, voor zover de verwerking daarop is gebaseerd
+Gegevensoverdraagbaarheid
+Wil je gebruikmaken van een van deze rechten, stuur dan een duidelijk omschreven verzoek naar bestuur@av-mtk.nl. Wij reageren zo snel mogelijk, maar in ieder geval binnen vier weken.
+Om te controleren of een verzoek daadwerkelijk van jou afkomstig is, kunnen wij je vragen om je identiteit aan te tonen. Verstuur bij voorkeur geen onnodige kopieën van je identiteitsbewijs. Als een kopie nodig is, maak dan je pasfoto, paspoortnummer, Burgerservicenummer (BSN) en de machine readable zone zwart.
+Klacht bij de AP
+Ben je niet tevreden over de manier waarop wij met je persoonsgegevens omgaan? Dan kun je een klacht indienen bij de Autoriteit Persoonsgegevens
+Wijzigingen
+AV-MTK kan deze privacyverklaring aanpassen. De meest actuele versie vind je altijd op onze website.
+Laatst bijgewerkt op: 11 november 2026
+ Lees meer
+De Snertloop/walk staat op 3 januari- schrijf je in!
+ 8 nov
+De datum van onze volgende loop is rond. Op zondag 3 januari staat de Snertloop op het programma, met daarnaast de Snertwalk.
+Lopen kan over 5, 10 of 21,1 kilometer. Wandelen kan over 10, 15 of 20 kilometer. Aan de finish wacht een medaille en een kom snert.
+Zet het alvast in je agenda. Inschrijven kan hier, en meer over de route en de afstanden lees je op de pagina van de Snertloop.
+ Lees meer
+Beginnersgroep, Een wijntje en een chippie
+ 9 jul
+Niet direct een titel waarbij je aan een hardlooptraining voor beginners zou denken, maar na het lezen van dit verslag weten jullie dat het dé kern is van een doordacht trainingsprogramma.
+Voor mij begon mijn trainingscampagne bij de beginners met een aanmelding voor een proefles. Ik was welkom en zou dinsdag, als ik op tijd weg kon van werk, of anders donderdag aansluiten. Ik kreeg gratis advies om prioriteiten te stellen en dinsdag mee te doen. Mijzelf het concept ‘proeftijd’ realiserend van mijn nieuwe baan, ging ik donderdag voor het eerst het asfalt op.
+De trainer, laten we hem voor het verhaal Jos noemen, want zo heet hij ten slotte, leidde de groep een woonwijk in. Op een wat donkere parkeerplaats stopten we. Mijn oog viel op een geparkeerd zwart busje en er schoot een flits door mijn hoofd van een Netflix-documentaire over mensen die ontvoerd worden door bendes orgaanhandelaren, maar dat kon ik van me afzetten toen de warming-up begon.
+Het was allem,aal goed te volgen, totdat Jos een heupbeweging begon te maken die veel weg had van zo’n Hawaii-poppetje met een rieten rokje dat mensen op hun dashboard zetten en dat gaat wiebelen tijdens het rijden. Ik heb veel geleerd tijdens de training, maar die beweging heb ik slechts bij toeval een keer weten te reproduceren.
+We gingen voor het eerst echt aan de gang en al snel kwam ene Jessica naast me lopen. Gezellig, gedeelde smart en zo tussen beginners onderling, maar ze stelde vooral veel vragen… Bleek dat het een trainersduo was en zij wilde testen wanneer ik met praten buiten adem zou raken. Het werd een korte test.
+Jos en Jessica. Mijn vrees dat we hier met de hardloopvariant van De Drie J’s te maken hadden, bleek ongegrond; het bleef bij twee.
+Aan het eind van de intervallen die we liepen, werden we als groep nog even de cooling-down in gestrekt en gebogen en het eerste rondje zat erop. Ik kwam thuis met een raar gevoel. ChatGPT leerde mij dat het ging om een mix van voldoening en trots. En het smaakt naar meer.
+Dus genoten we met z’n allen steeds van de fijne begeleiding van Jos en Jessica en de onderlinge support. Platvoeten werden gecorrigeerd, schouders opgehaald, spieren aangespannen en grenzen verlegd.
+Na aanmelden voor de training in de app durfde je eigenlijk alleen nog af te zeggen met een open botbreuk. Maar wat een fijne motivatie en gezonde groepsdruk van je medestrijders. De intervallen werden steeds langer, rust korter, maar constant werd er op je gelet en werd je geholpen jezelf te verbeteren.
+En als je dan naast je hoort: “niet te hard, gewoon je eigen tempo lopen!”, kun je de gedachte toch niet onderdrukken waarom zij dan net anderhalf pasje te snel naast je lopen, waardoor je ongemakkelijk probeert bij te blijven en het aantal dansende zwarte vlekjes voor je ogen exponentieel begint toe te nemen.
+Iets ervan zeggen is overigens geen optie, want je hebt toch geen lucht om een woord uit te brengen. Ik heb geprobeerd om met armgebaren aan te geven dat m’n kuiten begonnen te smelten, maar dan denken ze dat dat zwaaien ligt aan je gebrekkige techniek. “Probeer je armen strak langs je lichaam te houden!”
+Dat brengt me op het wijntje en een chippie… dat sloeg helaas op je loophouding: denkbeeldig vasthouden in allebei je handen en je armen krijgen vanzelf een goede positie. Bij mij vooral theoretisch.
+Dat zijn maar enkele bemoedigende listen die Jos en Jessica hebben gebruikt om ons klaar te stomen voor het einddoel: 5 km aan één stuk tijdens de Koningsloop. Ze hadden ons inmiddels het zelfvertrouwen gegeven dat we het gingen halen.
+Een kilometertje voorafgaand aan de 4 km-wedstrijd en uiteindelijk met je hart in je keel en tong op half zeven trots onder de finishboog door. Het smaakt nog steeds naar meer.
+Jessica en Jos, nogmaals heel erg bedankt dat jullie steeds met ons een loopje namen.
+Bram de Nies
+ Lees meer
+MTK - TransGranCanaria 2026
+ 21 mei
+ Lees meer
+Nieuws
+ Belangrijk: je gegevens bij AV MTK zijn mogelijk in verkeerde handen
+ Privacy verklaring
+ De Snertloop/walk staat op 3 januari- schrijf je in!
+ Beginnersgroep, Een wijntje en een chippie
+ MTK - TransGranCanaria 2026
+ Lees meer
+ Lid worden 
+ Schrijf je hier in 
+ Over de club 
+ Contactformulier 
+ Laatste foto's
+ (1/1)
+Title
+ Buienradar
+ Agenda
+ Er zijn momenteel geen agenda items.
+ Toon volledige agenda
+ Contact informatie
+ Over de club
+ secretaris@av-mtk.nl
+ Krimpenerbosweg 2a
+ 2923 LA
+ Krimpen aan den IJssel
+Wij willen graag onze sponsoren bedanken
+Om jouw bezoek aan onze website nóg makkelijk en persoonlijker te maken zetten we cookies (en daarmee vergelijkbare technieken) in. Met deze cookies kunnen wij en derde partijen informatie over jou verzamelen en jouw internetgedrag binnen (en mogelijk ook buiten) onze website volgen. Met deze informatie passen wij en derde partijen content of advertenties aan jouw interesses en profiel aan. Daarnaast is het dankzij cookies mogelijk informatie te delen via social media.AccepteerWeiger
+ 2026 © Hardloopvereniging AV-MTK
+ deze site is gerealiseerd door
+
+===== https://www.av-mtk.nl/index.php?page=288&sid=1
+(status 200, 2306 tekens)
+Starttijden Snertloop en Snertwalk – zaterdag 14 februari · Hardloopvereniging AV-MTK
+ E-mail / Gebruiker
+ Wachtwoord
+ opvragen?
+Verstuur nieuw wachtwoord
+ Ingelogd blijven
+ Sluit
+ Inloggen
+Menu
+ Home
+ Nieuws
+ Over Ons
+ Wie zijn wij?
+ Clubwaarden, gedragscode en veiligheid
+ Onze ereleden
+ Het clubblad
+ Trainingen
+ Powerwalk
+ Trainingsschema
+ Trainingslocatie
+ Wedstrijden
+ Koningsloop
+ Vakantiekiloloop
+ Snertloop
+ Algemene Voorwaarden
+ Lid Worden
+ Voordelen van lid worden
+ Contributie
+ Aanmeldformulier
+ Contact
+ Contactformulier
+ Locatie/adres van de vereniging
+ Starttijden Snertloop en Snertwalk – zaterdag 14 februari
+ Zaterdag 7 februari
+De starttijden van de uitgestelde Snertloop zijn ongewijzigd gebleven. Wandelingen starten vanaf 8u30 en het startsein voor de hardlopers volgt vanaf 11u.  
+Op zaterdag 14 februari staat de uitgestelde Snertloop op de agenda. 
+De Snertloop & Snertwalk is hét winterevenement voor hardlopers én wandelaars van alle niveaus.
+🏃 Snertloop – Hardlopen
+Starttijden Snertloop:
+21,1 km: 11.00 uur
+10 km: 11.15 uur
+5 km: 11.30 uur
+🥾 Snertwalk – Wandelen door de Krimpenerwaard
+Starttijden Snertwalk:
+20 km: 8.30 – 9.00 uur
+15 km: 9.00 – 9.30 uur
+10 km: 9.30 – 10.00 uur
+📍 Startlocatie
+Sporthal De Boog
+Krimpenerbosweg 2a, 2923 LA Krimpen aan den IJssel
+Parkeren bij de naastgelegen Vijverflat
+Na afloop ontvangt iedere hardloper een mooie medaille én een kop erwtensoep in De Boog. De wandelaars krijgen ook een heerlijke erwtensoep en zij kunnen bij interesse een medaille kopen. De bar is open voor een drankje en een gezellig praatje.
+ Nieuws
+ Overzicht
+ Tweet
+ Contact informatie
+ Over de club
+ secretaris@av-mtk.nl
+ Krimpenerbosweg 2a
+ 2923 LA
+ Krimpen aan den IJssel
+Wij willen graag onze sponsoren bedanken
+Om jouw bezoek aan onze website nóg makkelijk en persoonlijker te maken zetten we cookies (en daarmee vergelijkbare technieken) in. Met deze cookies kunnen wij en derde partijen informatie over jou verzamelen en jouw internetgedrag binnen (en mogelijk ook buiten) onze website volgen. Met deze informatie passen wij en derde partijen content of advertenties aan jouw interesses en profiel aan. Daarnaast is het dankzij cookies mogelijk informatie te delen via social media.AccepteerWeiger
+ 2026 © Hardloopvereniging AV-MTK
+ deze site is gerealiseerd door
