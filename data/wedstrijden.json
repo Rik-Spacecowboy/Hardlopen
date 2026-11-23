@@ -2665,7 +2665,7 @@
    "https://avaalsmeer.nl/"
   ],
   "notitie": "10 EM 11:00, 10 km 11:10. Sportpark Calslagen. Deel van Zorg en Zekerheid Circuit. Status 'open' afgeleid uit oproep tot online inschrijven.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "vechtstreek-in-beweging-vib-lopen-2026-11-22",
@@ -2694,7 +2694,7 @@
    }
   ],
   "inschrijving": {
-   "status": "open",
+   "status": "gesloten",
    "opent": null,
    "sluit": "2026-11-21",
    "platform": "inschrijven.nl",
@@ -2708,7 +2708,7 @@
    "https://www.viblopen.nl/inschrijven/"
   ],
   "notitie": "Ronden van 5 km rond de Maarsseveense Plassen, verhard en autovrij; pacers voor 10/15 km. Voorinschrijving t/m zaterdag 21:00 voor de loop. sf2run.nl noemt ook 20 km en halve marathon (niet bij organisator bevestigd).",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "vijfhoekparkloop-2026-11-28",
@@ -2744,7 +2744,7 @@
    "https://www.avzaanland.nl/index.php?page=996&sid=1"
   ],
   "notitie": "Serie van 3 lopen in Vijfhoekpark; tijd, prijs en inschrijving niet gevonden (nextrace niet bereikbaar). Coördinaten = Vijfhoekpark (benadering).",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "spijkenisse-marathon-2026-11-29",
@@ -2829,7 +2829,7 @@
    "https://www.quovadisbunschoten.nl/evenementen/sint-nicolaasloop"
   ],
   "notitie": "Start/finish atletiekbaan Quo Vadis (Sportpark De Vinken). Clubsite noemt voorinschrijving t/m 4 dec, inschrijfformulier t/m 3 dec. Prijs niet vermeld.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "282ste-wintercup-lelystad-2026-12-06",
@@ -2866,7 +2866,7 @@
    "https://avspiritlelystad.nl/2026/09/14/wintercup-seizoen-2026-2027-gaat-van-start/"
   ],
   "notitie": "Maandelijkse wintercompetitie (okt-mrt). Start/finish Sportpark Langezand, Sportparkweg 2. Online inschrijving 'tot vrijdag voor elke editie' (sluit = die vrijdag). Coordinaten benaderd.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "houtloop-delft-2026-12-06",
@@ -2903,7 +2903,7 @@
    "https://running.life/en/event/houtloop-delft/2026-10-04"
   ],
   "notitie": "Maandelijkse loop in de Delftse Hout; datum in agenda AV'40, afstand 10 km alleen via running.life; coördinaten Delftse Hout benaderd",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "run2day-vlinderloop-2026-12-12",
@@ -2951,7 +2951,7 @@
    "https://loopgroephouten.nl/vlinderloop-algemene-info/"
   ],
   "notitie": "Maandelijkse loop (seizoen sep-mei); alle afstanden starten 11:30. Start Jaagpad nabij Veerwagenweg. Prijs is voorinschrijving online.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "dsw-bruggenloop-rotterdam-2026-12-13",
@@ -2988,7 +2988,7 @@
    "https://bruggenloop.nl/inschrijven/"
   ],
   "notitie": "Individuele startbewijzen uitverkocht (wachtlijst); start Stadion Feijenoord",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "flevo-fun-run-ronde-2-2026-12-13",
@@ -3027,7 +3027,7 @@
    "https://www.tvz-zeewolde.nl/"
   ],
   "notitie": "ONZEKER: datum alleen bij aggregators (runphy, running.life/finishlijn), nog niet op organisatorsite bevestigd. Start bij RCN camping Zeewolde (coordinaten = plaatscentrum). Vorig seizoen start 5/10 km 10:30. ",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "snertloop-tav-80-2026-12-13",
@@ -3070,7 +3070,7 @@
    "https://tinyurl.com/tav80snertloophardlopen"
   ],
   "notitie": "Sluit do 3 dec 23:59 of eerder bij uitverkocht. Start atletiekbaan Sportcomplex de Kogge. Selectief parcours.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "ter-specke-loop-2026-12-13",
@@ -3157,7 +3157,7 @@
    "https://www.linschotenloop.com/"
   ],
   "notitie": "Inschrijving start 1 oktober (vandaag). Starttijden (10 km 11:45, HM 13:45) en start Hof van Voorvliet 23 volgens finishlijn.nl; organisatorsite weigerde fetch. 47e editie.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "bertusloop-delft-2026-12-20",
@@ -3193,7 +3193,7 @@
    "https://www.dijc-bertus.nl/index.php/trimlopen/bertusloop"
   ],
   "notitie": "Maandelijkse trimloop (3e zondag van de maand); start parkeerplaats naast Onder Ons; ondergrond niet vermeld",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "starke-kerstloop-dronten-2026-12-20",
@@ -3237,7 +3237,7 @@
    "https://inschrijven.nl/form/2026122051751"
   ],
   "notitie": "35e editie. Start/finish Meerpaalplein, De Rede 1. Starttijd halve marathon 11:00 (10 km onbekend). Prijzen niet gevonden.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "kerstloop-amstelveen-2026-12-27",
@@ -3273,7 +3273,7 @@
    "https://kerstloopamstelveen.nl/"
   ],
   "notitie": "Autovrij parcours Amsterdamse Bos; start Vierlingsbeeklaan.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "vechtstreek-in-beweging-vib-lopen-2026-12-27",
@@ -3316,7 +3316,7 @@
    "https://www.viblopen.nl/inschrijven/"
   ],
   "notitie": "Ronden van 5 km rond de Maarsseveense Plassen, verhard en autovrij; pacers voor 10/15 km. Voorinschrijving t/m zaterdag 21:00 voor de loop. sf2run.nl noemt ook 20 km en halve marathon (niet bij organisator bevestigd).",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "de-onderlingen-oliebollenloop-2026-12-31",
@@ -3358,7 +3358,7 @@
    "https://www.avantri.nl/wedstrijden/wedstrijden-avantri/oliebollenloop/"
   ],
   "notitie": "42e editie; inschrijving sluit 30 min voor start; start Opweg",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "sport-2000-bart-langedijk-oudejaarsloop-2026-12-31",
@@ -3391,10 +3391,11 @@
   "maxDeelnemers": 1000,
   "organisator": "SV Noordkop Atletiek",
   "bronnen": [
-   "https://www.noordkopatletiek.nl/event/sport-2000-bart-langedijk-oudejaarsloop-copy/"
+   "https://www.noordkopatletiek.nl/event/sport-2000-bart-langedijk-oudejaarsloop-copy/",
+   "https://www.noordkopatletiek.nl/"
   ],
   "notitie": "Door duinen en over strand; start FC Den Helder, Bremstraat 2d. Max 1000 deelnemers totaal. Status 'open' niet expliciet.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "florijn-winterloop-2027-01-02",
@@ -3437,7 +3438,7 @@
    "https://inschrijven.nl/form/2027010200682-nl"
   ],
   "notitie": "38e editie, door Den Treek / Utrechtse Heuvelrug. Prijzen/starttijden niet vermeld. Geen restitutie.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "283ste-wintercup-lelystad-2027-01-03",
@@ -3474,7 +3475,7 @@
    "https://avspiritlelystad.nl/2026/09/14/wintercup-seizoen-2026-2027-gaat-van-start/"
   ],
   "notitie": "Maandelijkse wintercompetitie (okt-mrt). Start/finish Sportpark Langezand, Sportparkweg 2. Online inschrijving 'tot vrijdag voor elke editie' (sluit = die vrijdag). Coordinaten benaderd.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "de-nieuwjaarsloop-leiden-2027-01-03",
@@ -3554,7 +3555,7 @@
    "https://inschrijven.nl/form/2027010906239-nl"
   ],
   "notitie": "25e editie; 10 km KNAU-gecertificeerd; telt mee voor STARDGRL Grote Rivieren Loopcircuit",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "run2day-vlinderloop-2027-01-09",
@@ -3602,7 +3603,7 @@
    "https://loopgroephouten.nl/vlinderloop-algemene-info/"
   ],
   "notitie": "Maandelijkse loop (seizoen sep-mei); alle afstanden starten 11:30. Start Jaagpad nabij Veerwagenweg. Prijs is voorinschrijving online.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "egmond-halve-marathon-2027-01-10",
@@ -3645,7 +3646,7 @@
    "https://www.egmondhalvemarathon.nl/inschrijven"
   ],
   "notitie": "Halve marathon uitverkocht, kwart marathon nog open. Strand en duinen.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "flevo-fun-run-ronde-3-2027-01-10",
@@ -3728,10 +3729,11 @@
   "maxDeelnemers": null,
   "organisator": "AAV'36",
   "bronnen": [
-   "https://runphy.nl/events/de-knikker-zegerplasloop/2026-11-15"
+   "https://runphy.nl/events/de-knikker-zegerplasloop/2026-11-15",
+   "https://www.aav36.nl/zegerplasloop"
   ],
   "notitie": "Organisatorsite blokkeert fetch (robots.txt); datum/afstanden alleen via runphy.nl/running.life; winterserie Zegerplas",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "goedhart-drechtloop-2027-01-17",
@@ -3774,7 +3776,7 @@
    "https://runphy.nl/events/goedhart-drechtloop/2027-01-17"
   ],
   "notitie": "Organisator: 'op de 3e zondag van januari' (= 17 jan 2027); exacte 2027-datum en afstanden via runphy.nl",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "moore-drv-halve-van-maassluis-2027-01-17",
@@ -3803,7 +3805,7 @@
    }
   ],
   "inschrijving": {
-   "status": "nog niet open",
+   "status": "open",
    "opent": "2026-10-31",
    "sluit": "2027-01-15",
    "platform": null,
@@ -3816,7 +3818,7 @@
    "https://www.avwaterweg.nl/index.php?page=Halve_van_Maassluis&sid=9"
   ],
   "notitie": "Voorinschrijving opent 31 okt 12:00, t/m 15 jan of tot 1200 deelnemers; start/finish atletiekbaan AVW, Albert Schweitzerdreef 471",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "halve-marathon-zoetermeer-2027-01-24",
@@ -7181,7 +7183,7 @@
    }
   ],
   "inschrijving": {
-   "status": "onbekend",
+   "status": "open",
    "opent": null,
    "sluit": null,
    "platform": null,
@@ -7194,7 +7196,7 @@
    "https://vondelparkloop.nl/"
   ],
   "notitie": "Organisator: volgende editie zondag 17 januari 2027. Inschrijving nog niet geopend/onbekend; 10 km volgens bedrijvenloop-vermelding, niet nader geverifieerd.",
-  "gecontroleerd": "2026-10-01"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "nobel-run-2027-05",
@@ -7585,7 +7587,7 @@
    "https://my.raceresult.com/377778/"
   ],
   "notitie": "Organisator: 'De volgende Snertloop is gepland op 3 januari 2027.' Afstanden en starttijden zijn van de editie 14 februari 2026 (uitgesteld van januari): 21,1 km 11:00, 10 km 11:15; afstanden 2027 nog niet bevestigd. Prijs niet gevonden.",
-  "gecontroleerd": "2026-11-16"
+  "gecontroleerd": "2026-11-23"
  },
  {
   "id": "meerhorstloop-stompwijk-2027-01",
