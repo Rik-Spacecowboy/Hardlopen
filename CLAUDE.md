@@ -17,6 +17,9 @@ Noord-Holland, Zuid-Holland, Utrecht en Flevoland, de komende 12 maanden. Alleen
   "Bronpagina's ophalen" zet elke zondag 18:47 UTC de tekst van de bronpagina's van lopen in de komende 8 weken
   op branch `bronpaginas` (`<id>.txt` + `overzicht.tsv`); lees die met `git fetch origin bronpaginas`. Direct
   starten: `gh workflow run bronpaginas.yml -R Rik-Spacecowboy/Hardlopen` (of wijzig `bronpaginas-nu.txt` op main). Pagina's zonder bruikbare tekst: loop ongewijzigd laten en melden.
+- Bewaking: de Action "Bewaking weekcontrole" (ma 11:23 en di 06:23 UTC) opent een issue met label `bewaking` voor Rik
+  als het nieuwste `gecontroleerd` ouder is dan de maandag van die week, en sluit het weer na een geslaagde controle.
+  Zet `gecontroleerd` dus altijd bij, anders gaat er een vals alarm af.
 - Datum "vóór 13 dec" wordt `2026-12-12` (laatste dag die zeker nog telt).
 
 ## Live zetten
