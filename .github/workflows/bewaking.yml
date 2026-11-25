@@ -1,0 +1,53 @@
+name: Bewaking weekcontrole
+
+# Waarschuwt Rik als de wekelijkse controle (Claude, maandag 09:00 Amsterdam) is uitgebleven.
+# Draait los van Claude, zodat een vastgelopen of niet gestarte sessie toch opvalt.
+# Gemist: opent een issue toegewezen aan Rik (GitHub stuurt een melding). Weer gedraaid: sluit het issue.
+on:
+  schedule:
+    - cron: "23 11 * * 1"  # maandag 11:23 UTC; GitHub start soms uren later, dat is hier geen probleem
+    - cron: "23 6 * * 2"   # dinsdag 06:23 UTC, voor als de maandagrun van deze bewaking zelf uitbleef
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  bewaak:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: check
+        run: python3 scripts/bewaak_weekcontrole.py
+      - name: Issue openen of sluiten
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STATUS: ${{ steps.check.outputs.status }}
+          MAANDAG: ${{ steps.check.outputs.maandag }}
+          LAATSTE: ${{ steps.check.outputs.laatste }}
+        run: |
+          gh label create bewaking --color d93f0b --description "Gemiste wekelijkse controle" --force
+          open=$(gh issue list --label bewaking --state open --json number --jq '.[].number')
+          if [ "$STATUS" = "gemist" ]; then
+            if [ -n "$open" ]; then
+              echo "Er staat al een bewakingsissue open (#$open)."
+              exit 0
+            fi
+            bron=$(gh api repos/${{ github.repository }}/branches/bronpaginas --jq .commit.commit.committer.date 2>/dev/null || echo onbekend)
+            body="@Rik-Spacecowboy De wekelijkse controle van maandag $MAANDAG is niet gedraaid: de nieuwste controle in de data is van $LAATSTE.
+
+          Bronpagina's laatst opgehaald: $bron (UTC).
+
+          Wat te doen: open in Claude de thread van de hardloopsite en vraag om de weekcontrole opnieuw te draaien. Dit issue sluit vanzelf zodra er een geslaagde controle is."
+            gh issue create --title "Weekcontrole van $MAANDAG is uitgebleven" --label bewaking \
+              --assignee Rik-Spacecowboy --body "$body"
+          else
+            for n in $open; do
+              gh issue close "$n" --comment "De weekcontrole heeft weer gedraaid (nieuwste controle: $LAATSTE). Automatisch gesloten."
+            done
+            echo "Weekcontrole van $MAANDAG is gedraaid (nieuwste controle: $LAATSTE)."
+          fi
